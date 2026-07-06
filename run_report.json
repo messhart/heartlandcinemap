@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-06T15:59:11+00:00",
+  "run_at": "2026-07-06T16:33:11+00:00",
   "dropped_records": 0,
   "venues": [
     {
@@ -8,14 +8,6 @@
       "showtimes": 37,
       "duration_s": 0.8,
       "error": null,
-      "scraped_at": "2026-07-06T13:00:21+00:00"
-    },
-    {
-      "venue_id": "gene-siskel-film-center-chicago",
-      "status": "skipped",
-      "showtimes": 0,
-      "duration_s": 0.0,
-      "error": "no adapter for 'unknown'",
       "scraped_at": "2026-07-06T13:00:21+00:00"
     },
     {
@@ -35,36 +27,12 @@
       "scraped_at": "2026-07-06T13:00:21+00:00"
     },
     {
-      "venue_id": "trylon-minneapolis",
-      "status": "skipped",
-      "showtimes": 0,
-      "duration_s": 0.0,
-      "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T13:00:21+00:00"
-    },
-    {
       "venue_id": "gateway-film-center-columbus",
       "status": "ok",
       "showtimes": 203,
       "duration_s": 1.4,
       "error": null,
       "scraped_at": "2026-07-06T15:07:44+00:00"
-    },
-    {
-      "venue_id": "the-neon-dayton",
-      "status": "skipped",
-      "showtimes": 0,
-      "duration_s": 0.0,
-      "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T13:00:21+00:00"
-    },
-    {
-      "venue_id": "cia-cinematheque-cleveland",
-      "status": "skipped",
-      "showtimes": 0,
-      "duration_s": 0.0,
-      "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T13:00:21+00:00"
     },
     {
       "venue_id": "oriental-theatre-milwaukee",
@@ -97,6 +65,38 @@
       "duration_s": 136.3,
       "error": null,
       "scraped_at": "2026-07-06T15:59:11+00:00"
+    },
+    {
+      "venue_id": "cia-cinematheque-cleveland",
+      "status": "ok",
+      "showtimes": 80,
+      "duration_s": 2.5,
+      "error": null,
+      "scraped_at": "2026-07-06T16:31:28+00:00"
+    },
+    {
+      "venue_id": "trylon-minneapolis",
+      "status": "ok",
+      "showtimes": 60,
+      "duration_s": 1.5,
+      "error": null,
+      "scraped_at": "2026-07-06T16:31:32+00:00"
+    },
+    {
+      "venue_id": "gene-siskel-film-center-chicago",
+      "status": "ok",
+      "showtimes": 66,
+      "duration_s": 26.6,
+      "error": null,
+      "scraped_at": "2026-07-06T16:31:34+00:00"
+    },
+    {
+      "venue_id": "the-neon-dayton",
+      "status": "skipped",
+      "showtimes": 0,
+      "duration_s": 0.0,
+      "error": "no adapter for 'unknown'",
+      "scraped_at": "2026-07-06T16:33:11+00:00"
     }
   ]
 }

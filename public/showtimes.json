@@ -432,6 +432,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-06T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Disclosure Day",
     "start": "2026-07-06T18:00:00-05:00",
@@ -439,6 +451,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Lubar Cinema (West)",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Peter Asher: Everywhere Man",
+    "start": "2026-07-06T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/peter-asher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -560,6 +584,18 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Vanishing Point",
+    "start": "2026-07-06T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/vanishing-point/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -702,6 +738,42 @@
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5274289/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Trouble Every Day",
+    "start": "2026-07-06T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/trouble-every-day",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-06T20:45:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Vanishing Point",
+    "start": "2026-07-06T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/vanishing-point/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -936,6 +1008,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-07T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Disclosure Day",
     "start": "2026-07-07T18:00:00-05:00",
@@ -943,6 +1027,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Lubar Cinema (West)",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Wild Party",
+    "start": "2026-07-07T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/wild-party",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1929,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -1064,6 +1160,18 @@
     "film_year": 2001,
     "screen": null,
     "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Vanishing Point",
+    "start": "2026-07-07T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/vanishing-point/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -1200,12 +1308,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-07T20:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Leviticus",
     "start": "2026-07-07T20:15:00-04:00",
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5274315/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Peter Asher: Everywhere Man",
+    "start": "2026-07-07T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/peter-asher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -1220,6 +1352,18 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Vanishing Point",
+    "start": "2026-07-07T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/vanishing-point/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -1512,6 +1656,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Puddysticks",
+    "start": "2026-07-08T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/puddysticks",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Disclosure Day",
     "start": "2026-07-08T18:00:00-05:00",
@@ -1519,6 +1675,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Lubar Cinema (West)",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-08T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -1608,6 +1776,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Stranger Than Paradise",
+    "start": "2026-07-08T19:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223304/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1984,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Girls Like Girls",
     "start": "2026-07-08T19:00:00-04:00",
@@ -1642,6 +1822,18 @@
     "format": "35mm",
     "series": null,
     "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "I Want Your Sex",
+    "start": "2026-07-08T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/i-want-your-sex/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": true
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -1758,6 +1950,30 @@
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5274331/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Peter Asher: Everywhere Man",
+    "start": "2026-07-08T20:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/peter-asher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-08T20:45:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
     "screen": null,
     "format": null,
     "series": null,
@@ -2088,6 +2304,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Peter Asher: Everywhere Man",
+    "start": "2026-07-09T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/peter-asher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Invite",
     "start": "2026-07-09T18:15:00-05:00",
@@ -2095,6 +2323,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "I Shot Andy Warhol",
+    "start": "2026-07-09T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223305/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1996,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -2216,6 +2456,18 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Domino",
+    "start": "2026-07-09T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/domino/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -2352,12 +2604,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Inferno",
+    "start": "2026-07-09T20:35:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223306/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1980,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Obsession",
     "start": "2026-07-09T20:45:00-04:00",
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5290453/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-09T20:45:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/maddies-secret",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
     "screen": null,
     "format": null,
     "series": null,
@@ -2760,6 +3036,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Promised Sky",
+    "start": "2026-07-10T18:45:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223307/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-10T18:45:00-04:00",
@@ -2804,6 +3092,18 @@
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-10T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false
   },
@@ -2880,6 +3180,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Headless Woman",
+    "start": "2026-07-10T20:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/headless-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2008,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-10T20:40:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223308/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Obsession",
     "start": "2026-07-10T20:45:00-04:00",
@@ -2900,6 +3224,18 @@
     "film_year": 2026,
     "screen": null,
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-10T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false
   },
@@ -3060,6 +3396,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Watermelon Woman",
+    "start": "2026-07-11T11:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/watermelon-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1996,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-11T11:15:00-04:00",
@@ -3120,6 +3468,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Headless Woman",
+    "start": "2026-07-11T12:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/headless-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2008,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "A Tale of Summer",
     "start": "2026-07-11T12:30:00-05:00",
@@ -3151,6 +3511,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2003,
     "screen": "Main Theater & Spectator Lounge",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Monster",
+    "start": "2026-07-11T13:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/monster",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2023,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -3252,6 +3624,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Macho Dancer",
+    "start": "2026-07-11T14:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/macho-dancer",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1988,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Invite",
     "start": "2026-07-11T14:50:00-04:00",
@@ -3307,6 +3691,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
     "screen": "Downer Theatre - South Cinema",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "My Father's Shadow",
+    "start": "2026-07-11T16:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/myfathersshadow",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -3408,6 +3804,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Promised Sky",
+    "start": "2026-07-11T17:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223311/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Invite",
     "start": "2026-07-11T17:00:00-04:00",
@@ -3504,6 +3912,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-11T18:55:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223312/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "The Invite",
     "start": "2026-07-11T19:00:00-04:00",
@@ -3548,6 +3968,18 @@
     "film_year": 1994,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-11T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false
   },
@@ -3672,6 +4104,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "I Shot Andy Warhol",
+    "start": "2026-07-11T21:10:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223317/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1996,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-11T21:15:00-04:00",
@@ -3692,6 +4136,18 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-11T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false
   },
@@ -3840,6 +4296,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Macho Dancer",
+    "start": "2026-07-12T12:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/macho-dancer",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1988,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Ocean's Eleven",
     "start": "2026-07-12T12:00:00-05:00",
@@ -3864,6 +4332,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Royal Tenenbaums",
+    "start": "2026-07-12T12:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/theroyaltenenbaums",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Black Narcissus",
     "start": "2026-07-12T12:30:00-05:00",
@@ -3884,6 +4364,18 @@
     "film_year": 2026,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-12T12:30:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false
   },
@@ -4044,6 +4536,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-12T14:45:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Invite",
     "start": "2026-07-12T14:50:00-04:00",
@@ -4062,6 +4566,18 @@
     "ticket_url": "https://hipointetheatre.org/purchase/535183/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": 2024,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Innocent Sorcerers",
+    "start": "2026-07-12T15:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223322/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1960,
     "screen": null,
     "format": null,
     "series": null,
@@ -4112,6 +4628,18 @@
     "film_year": 2026,
     "screen": "Downer Theatre - South Cinema",
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Fly",
+    "start": "2026-07-12T16:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/thefly",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1986,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -4212,12 +4740,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-12T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Invite",
     "start": "2026-07-12T17:10:00-04:00",
     "ticket_url": "https://kankanindy.com/events/theinvite/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Love at Twenty",
+    "start": "2026-07-12T17:15:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223323/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1962,
     "screen": null,
     "format": null,
     "series": null,
@@ -4256,6 +4808,18 @@
     "film_year": 2026,
     "screen": "Downer Theatre - South Cinema",
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Lurker",
+    "start": "2026-07-12T18:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/lurker",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -4320,6 +4884,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-12T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "downer-theatre-milwaukee",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-12T19:15:00-05:00",
@@ -4364,6 +4940,18 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "For a Few Dollars More",
+    "start": "2026-07-12T19:35:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223327/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1965,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -4464,6 +5052,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Headless Woman",
+    "start": "2026-07-13T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/headless-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2008,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Maddie's Secret",
     "start": "2026-07-13T19:00:00-04:00",
@@ -4484,6 +5084,18 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-13T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -4560,6 +5172,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-13T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Maddie's Secret",
     "start": "2026-07-14T16:30:00-04:00",
@@ -4620,6 +5244,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Watermelon Woman",
+    "start": "2026-07-14T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/watermelon-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1996,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Chicago Maternity Center Story",
     "start": "2026-07-14T18:30:00-05:00",
@@ -4664,6 +5300,18 @@
     "film_year": 1985,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-14T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -4724,6 +5372,18 @@
     "film_year": 2001,
     "screen": null,
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-14T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -4800,6 +5460,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Headless Woman",
+    "start": "2026-07-15T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/headless-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2008,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Rrr",
     "start": "2026-07-15T18:00:00-05:00",
@@ -4807,6 +5479,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2022,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Watermelon Woman",
+    "start": "2026-07-15T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/watermelon-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1996,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -4856,6 +5540,18 @@
     "film_year": 2023,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Survive Style 5+",
+    "start": "2026-07-15T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/survive-style-5/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -4992,6 +5688,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Macho Dancer",
+    "start": "2026-07-16T17:45:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/macho-dancer",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1988,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Love Letter",
+    "start": "2026-07-16T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223329/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1995,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-16T18:30:00-04:00",
@@ -5064,6 +5784,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Slap the Monster on Page One",
+    "start": "2026-07-16T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/slap-the-monster-on-page-one/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-16T19:15:00-04:00",
@@ -5124,12 +5856,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Watermelon Woman",
+    "start": "2026-07-16T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/watermelon-woman",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1996,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-16T20:45:00-04:00",
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5182962/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Tenebre",
+    "start": "2026-07-16T20:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223330/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1982,
     "screen": null,
     "format": null,
     "series": null,
@@ -5364,6 +6120,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Romería",
+    "start": "2026-07-17T18:45:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223331/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Romería",
     "start": "2026-07-17T19:00:00-04:00",
@@ -5383,6 +6151,18 @@
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-17T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false
@@ -5424,12 +6204,48 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Taste of Cherry",
+    "start": "2026-07-17T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/taste-cherry",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1997,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Desperate Living",
+    "start": "2026-07-17T20:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/desperate-living",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1977,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-17T20:45:00-04:00",
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5182971/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Phantom Lady",
+    "start": "2026-07-17T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223333/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1944,
     "screen": null,
     "format": null,
     "series": null,
@@ -5444,6 +6260,18 @@
     "film_year": null,
     "screen": null,
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Midnight",
+    "start": "2026-07-17T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/midnight-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false
   },
@@ -5501,6 +6329,18 @@
     "start": "2026-07-18T11:00:00-04:00",
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5277135/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "National Theatre Live: Les Liaisons Dangereuses",
+    "start": "2026-07-18T11:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/les-liaisons-dangereuses",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
     "film_year": 2026,
     "screen": null,
     "format": null,
@@ -5664,6 +6504,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Meetings of Anna",
+    "start": "2026-07-18T15:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/meetings-anna",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1978,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "The Invite",
     "start": "2026-07-18T15:45:00-04:00",
@@ -5712,6 +6564,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Romería",
+    "start": "2026-07-18T17:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223334/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-18T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-18T17:15:00-04:00",
@@ -5730,6 +6606,18 @@
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5277137/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Desperate Living",
+    "start": "2026-07-18T18:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/desperate-living",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1977,
     "screen": null,
     "format": null,
     "series": null,
@@ -5784,6 +6672,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Midnight",
+    "start": "2026-07-18T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/midnight-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Phantom Lady",
+    "start": "2026-07-18T19:15:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223338/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1944,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "The Odyssey",
     "start": "2026-07-18T19:45:00-04:00",
@@ -5832,6 +6744,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Taste of Cherry",
+    "start": "2026-07-18T20:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/taste-cherry",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1997,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-18T20:45:00-04:00",
@@ -5862,6 +6786,30 @@
     "ticket_url": "https://kankanindy.com/events/theodyssey/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-18T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Love Letter",
+    "start": "2026-07-18T21:05:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223339/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1995,
     "screen": null,
     "format": null,
     "series": null,
@@ -5916,6 +6864,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Meetings of Anna",
+    "start": "2026-07-19T12:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/meetings-anna",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1978,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-19T12:15:00-04:00",
@@ -5940,12 +6900,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-19T13:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "From Book to Film 2026: The Iron Giant",
     "start": "2026-07-19T13:30:00-04:00",
     "ticket_url": "https://gatewayfilmcenter.org/purchase/5108634/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 1999,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "National Theatre Live: Les Liaisons Dangereuses",
+    "start": "2026-07-19T13:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/les-liaisons-dangereuses",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2026,
     "screen": null,
     "format": null,
     "series": null,
@@ -5988,6 +6972,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Midnight",
+    "start": "2026-07-19T15:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/midnight-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Beirut Phantom",
+    "start": "2026-07-19T15:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223667/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1998,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-19T16:00:00-04:00",
@@ -6024,12 +7032,48 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Chicago Film Society Presents: THE QUEEN",
+    "start": "2026-07-19T17:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/queen",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1968,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "St. Louis Filmmakers Showcase 2026",
     "start": "2026-07-19T17:00:00-05:00",
     "ticket_url": "https://festivals.cinemastlouis.org/showcase2026/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-19T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Walker",
+    "start": "2026-07-19T17:45:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223359/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1987,
     "screen": null,
     "format": null,
     "series": null,
@@ -6080,6 +7124,30 @@
     "film_year": 2026,
     "screen": null,
     "format": "70mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-19T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Promised Land",
+    "start": "2026-07-19T19:40:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223357/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -6156,12 +7224,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Taste of Cherry",
+    "start": "2026-07-20T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/taste-cherry",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1997,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Tie Me Up! Tie Me Down!",
     "start": "2026-07-20T19:00:00-04:00",
     "ticket_url": "https://kankanindy.com/events/tiemeuptiemedown1989/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 1989,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-20T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -6216,6 +7308,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-20T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-21T15:45:00-05:00",
@@ -6246,6 +7350,30 @@
     "ticket_url": "https://hipointetheatre.org/purchase/536071/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Taste of Cherry",
+    "start": "2026-07-21T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/taste-cherry",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1997,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-21T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -6300,6 +7428,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Desperate Living",
+    "start": "2026-07-21T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/desperate-living",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1977,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-21T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-22T15:45:00-05:00",
@@ -6324,6 +7476,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Phantom Beirut",
+    "start": "2026-07-22T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/phantom-beirut/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-22T19:30:00-05:00",
@@ -6332,6 +7496,30 @@
     "film_year": 2026,
     "screen": null,
     "format": "70mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Meetings of Anna",
+    "start": "2026-07-22T20:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/meetings-anna",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1978,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Taste of Cherry",
+    "start": "2026-07-22T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/taste-cherry",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1997,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -6356,6 +7544,30 @@
     "film_year": 2026,
     "screen": null,
     "format": "70mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "All About Lily Chou-Chou",
+    "start": "2026-07-23T18:15:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223361/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Desperate Living",
+    "start": "2026-07-23T18:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/desperate-living",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1977,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -6408,6 +7620,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Phenomena",
+    "start": "2026-07-23T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223364/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1985,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-24T15:30:00-05:00",
@@ -6429,6 +7653,18 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Orlando",
+    "start": "2026-07-24T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/orlando",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1992,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -6456,12 +7692,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Blue Heron",
+    "start": "2026-07-24T19:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223365/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Ponyo",
     "start": "2026-07-24T19:00:00-04:00",
     "ticket_url": "https://kankanindy.com/events/ponyo2008/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2008,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Me and My Brother",
+    "start": "2026-07-24T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/me-and-my-brother/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -6480,6 +7740,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Piano Teacher",
+    "start": "2026-07-24T20:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/piano-teacher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Third Man",
+    "start": "2026-07-24T20:55:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223366/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1949,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Legend of the Sacred Stone",
     "start": "2026-07-24T21:00:00-05:00",
@@ -6488,6 +7772,18 @@
     "film_year": 2026,
     "screen": null,
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-24T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -6501,6 +7797,18 @@
     "screen": null,
     "format": "DCP",
     "series": "Super-Horror-Rama!",
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Orlando",
+    "start": "2026-07-25T11:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/orlando",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1992,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -6564,6 +7872,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Amores Perros",
+    "start": "2026-07-25T14:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/amores-perros",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2000,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "All About My Mother",
+    "start": "2026-07-25T15:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/all-about-my-mother",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1998,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-25T15:30:00-05:00",
@@ -6585,6 +7917,54 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Blue Heron",
+    "start": "2026-07-25T17:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223367/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Me and My Brother",
+    "start": "2026-07-25T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/me-and-my-brother/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Piano Teacher",
+    "start": "2026-07-25T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/piano-teacher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Third Man",
+    "start": "2026-07-25T18:55:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223368/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1949,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -6612,6 +7992,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-25T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-25T19:00:00-05:00",
@@ -6620,6 +8012,42 @@
     "film_year": 2026,
     "screen": null,
     "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Amores Perros",
+    "start": "2026-07-25T19:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/amores-perros",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2000,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "All About Lily Chou-Chou",
+    "start": "2026-07-25T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223370/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-25T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false
   },
@@ -6660,6 +8088,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Me and My Brother",
+    "start": "2026-07-26T13:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/me-and-my-brother/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "From Book to Film 2026: Labyrinth",
     "start": "2026-07-26T13:30:00-04:00",
@@ -6696,6 +8136,42 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Piano Teacher",
+    "start": "2026-07-26T14:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/piano-teacher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Man of Marble",
+    "start": "2026-07-26T15:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223371/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1977,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-26T15:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-26T15:30:00-05:00",
@@ -6720,6 +8196,42 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-26T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "All About My Mother",
+    "start": "2026-07-26T17:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/all-about-my-mother",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1998,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Dead Souls",
+    "start": "2026-07-26T17:55:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223688/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Claire's Knee",
     "start": "2026-07-26T18:30:00-05:00",
@@ -6732,12 +8244,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-26T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-26T19:00:00-05:00",
     "ticket_url": "https://varsitydesmoines.com/purchase/1175350/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Without Anesthesia",
+    "start": "2026-07-26T19:45:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223372/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1978,
     "screen": null,
     "format": null,
     "series": null,
@@ -6780,6 +8316,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Off Center: Ten Skies",
+    "start": "2026-07-27T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/ten-skies",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2004,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "My Night at Maud's",
     "start": "2026-07-27T18:30:00-05:00",
@@ -6800,6 +8348,18 @@
     "film_year": null,
     "screen": null,
     "format": "Q&A",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-27T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -6828,6 +8388,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Piano Teacher",
+    "start": "2026-07-27T20:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/piano-teacher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Love in the Afternoon",
     "start": "2026-07-27T21:00:00-05:00",
@@ -6837,6 +8409,18 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-27T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -6864,6 +8448,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Orlando",
+    "start": "2026-07-28T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/orlando",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1992,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Love in the Afternoon",
     "start": "2026-07-28T18:30:00-05:00",
@@ -6888,6 +8484,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-28T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "All About My Mother",
+    "start": "2026-07-28T20:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/all-about-my-mother",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1998,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Suzanne’s Career + The Bakery Girl of Monceau",
     "start": "2026-07-28T21:00:00-05:00",
@@ -6897,6 +8517,18 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-28T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -6912,6 +8544,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "The Piano Teacher",
+    "start": "2026-07-29T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/piano-teacher",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "All About My Mother",
+    "start": "2026-07-29T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/all-about-my-mother",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1998,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Claire's Knee",
     "start": "2026-07-29T18:30:00-05:00",
@@ -6921,6 +8577,18 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Powwow Highway",
+    "start": "2026-07-29T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/powwow-highway/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -6948,6 +8616,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Powwow Highway",
+    "start": "2026-07-29T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/powwow-highway/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Love in the Afternoon",
     "start": "2026-07-30T16:15:00-05:00",
@@ -6968,6 +8648,30 @@
     "film_year": null,
     "screen": null,
     "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Network",
+    "start": "2026-07-30T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223691/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1976,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Orlando",
+    "start": "2026-07-30T18:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/orlando",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1992,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -7008,6 +8712,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Opera",
+    "start": "2026-07-30T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223692/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "La Collectionneuse",
     "start": "2026-07-30T21:00:00-05:00",
@@ -7017,6 +8733,30 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "M",
+    "start": "2026-07-31T18:15:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/m",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1931,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Bashu, the Little Stranger",
+    "start": "2026-07-31T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223693/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1989,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -7032,12 +8772,60 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-07-31T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Bullitt",
+    "start": "2026-07-31T20:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/bullitt",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1968,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "I Want Your Sex",
     "start": "2026-07-31T20:30:00-05:00",
     "ticket_url": "https://hipointetheatre.org/purchase/531652/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Hole",
+    "start": "2026-07-31T20:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223696/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1999,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Youngblood",
+    "start": "2026-07-31T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/youngblood/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -7080,12 +8868,60 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Gun Crazy",
+    "start": "2026-08-01T13:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/gun-crazy",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1949,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "M",
+    "start": "2026-08-01T16:30:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/m",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1931,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Golub & Viva La Causa",
     "start": "2026-08-01T16:30:00-05:00",
     "ticket_url": "https://hipointetheatre.org/purchase/551113/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": 1988,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Bashu, the Little Stranger",
+    "start": "2026-08-01T17:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223697/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1989,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-08-01T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -7104,12 +8940,48 @@
     "sold_out": false
   },
   {
+    "venue_id": "gene-siskel-film-center-chicago",
+    "film_title": "Bullitt",
+    "start": "2026-08-01T18:00:00-05:00",
+    "ticket_url": "https://www.siskelfilmcenter.org/bullitt",
+    "source_scraped_at": "2026-07-06T16:31:34+00:00",
+    "film_year": 1968,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "I Want Your Sex",
     "start": "2026-08-01T18:30:00-05:00",
     "ticket_url": "https://hipointetheatre.org/purchase/531659/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Youngblood",
+    "start": "2026-08-01T19:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/youngblood/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Hole",
+    "start": "2026-08-01T19:20:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223698/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1999,
     "screen": null,
     "format": null,
     "series": null,
@@ -7128,6 +9000,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Easy Rider",
+    "start": "2026-08-01T21:15:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223702/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1969,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-08-01T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Hercules",
     "start": "2026-08-02T11:00:00-05:00",
@@ -7137,6 +9033,18 @@
     "screen": null,
     "format": "DCP",
     "series": "Indoor Kids: Family-Friendly Matinees",
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-02T13:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
     "sold_out": false
   },
   {
@@ -7164,6 +9072,30 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Man of Iron",
+    "start": "2026-08-02T15:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223709/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1981,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-02T15:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Sherman's March (4K Restoration)",
     "start": "2026-08-02T15:45:00-05:00",
@@ -7176,12 +9108,60 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Youngblood",
+    "start": "2026-08-02T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/youngblood/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Easy Rider",
+    "start": "2026-08-02T17:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223714/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1969,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "I Want Your Sex",
     "start": "2026-08-02T19:00:00-05:00",
     "ticket_url": "https://hipointetheatre.org/purchase/542896/",
     "source_scraped_at": "2026-07-06T15:31:15+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-08-02T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Danton",
+    "start": "2026-08-02T19:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223710/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1983,
     "screen": null,
     "format": null,
     "series": null,
@@ -7212,6 +9192,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-03T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Girl",
     "start": "2026-08-03T20:00:00-04:00",
@@ -7221,6 +9213,18 @@
     "screen": null,
     "format": null,
     "series": "A/V Club",
+    "sold_out": false
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-03T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-06T16:31:32+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
     "sold_out": false
   },
   {
@@ -7272,6 +9276,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Westhampton",
+    "start": "2026-08-06T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223721/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Music Box Bingo",
     "start": "2026-08-06T19:00:00-05:00",
@@ -7308,6 +9324,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Manhunter",
+    "start": "2026-08-06T20:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223722/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1986,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Strange and Found",
     "start": "2026-08-06T21:15:00-05:00",
@@ -7326,6 +9354,30 @@
     "ticket_url": "https://gatewayfilmcenter.org/purchase/4931131/",
     "source_scraped_at": "2026-07-06T15:07:44+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Union County",
+    "start": "2026-08-07T18:45:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/233294/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Manhunter",
+    "start": "2026-08-07T21:10:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223726/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1986,
     "screen": null,
     "format": null,
     "series": null,
@@ -7380,6 +9432,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Silent Movie",
+    "start": "2026-08-08T17:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/235144/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1976,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Straight Story",
     "start": "2026-08-08T17:30:00-04:00",
@@ -7389,6 +9453,30 @@
     "screen": null,
     "format": null,
     "series": "David Lynch Directs",
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Five Easy Pieces",
+    "start": "2026-08-08T19:10:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223728/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Barrio Triste",
+    "start": "2026-08-08T21:10:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223729/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false
   },
   {
@@ -7452,12 +9540,48 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Possessed",
+    "start": "2026-08-09T15:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223731/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1988,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Breakfast at Tiffany’s",
     "start": "2026-08-09T16:00:00-04:00",
     "ticket_url": "https://kankanindy.com/events/breakfastattiffanys1961/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Korczak",
+    "start": "2026-08-09T17:20:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223732/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1990,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Five Easy Pieces",
+    "start": "2026-08-09T19:40:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223733/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1970,
     "screen": null,
     "format": null,
     "series": null,
@@ -7500,6 +9624,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Aloïse",
+    "start": "2026-08-13T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223734/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Wallace & Gromit: The Classic Shorts",
     "start": "2026-08-13T19:00:00-04:00",
@@ -7518,6 +9654,42 @@
     "ticket_url": "https://kankanindy.com/events/montereypop1968/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 1968,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Man Who Fell to Earth",
+    "start": "2026-08-13T20:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223735/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1976,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Aloïse",
+    "start": "2026-08-14T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223744/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Train to Busan",
+    "start": "2026-08-14T20:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223745/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2016,
     "screen": null,
     "format": null,
     "series": null,
@@ -7572,6 +9744,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Two-Lane Blacktop",
+    "start": "2026-08-15T16:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223761/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1971,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Sandlot",
     "start": "2026-08-15T17:30:00-04:00",
@@ -7582,6 +9766,30 @@
     "format": null,
     "series": null,
     "sold_out": true
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Center Stage",
+    "start": "2026-08-15T18:05:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223746/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1991,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Man Who Fell to Earth",
+    "start": "2026-08-15T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223751/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1976,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -7656,12 +9864,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The House In the Woods",
+    "start": "2026-08-16T14:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223762/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Waiting for Guffman",
     "start": "2026-08-16T19:00:00-04:00",
     "ticket_url": "https://kankanindy.com/events/waitingforguffman1996/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Two-Lane Blacktop",
+    "start": "2026-08-16T20:40:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223765/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1971,
     "screen": null,
     "format": null,
     "series": null,
@@ -7692,6 +9924,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Welcome Space Brothers",
+    "start": "2026-08-20T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223766/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2023,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "The Trials of Muhammad Ali Screening",
     "start": "2026-08-20T19:00:00-05:00",
@@ -7710,6 +9954,18 @@
     "ticket_url": "https://kankanindy.com/events/mammamiaherewegoagain2018/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": 2018,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "No Picnic",
+    "start": "2026-08-20T21:15:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223767/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1986,
     "screen": null,
     "format": null,
     "series": null,
@@ -7738,6 +9994,30 @@
     "format": null,
     "series": null,
     "sold_out": true
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Franz",
+    "start": "2026-08-21T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223768/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Samurai and the Prisoner",
+    "start": "2026-08-21T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223769/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -7776,6 +10056,42 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Franz",
+    "start": "2026-08-22T16:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223771/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "The Samurai and the Prisoner",
+    "start": "2026-08-22T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223773/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Vanishing Point",
+    "start": "2026-08-22T21:20:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223774/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1971,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Rocky Horror Picture Show",
     "start": "2026-08-22T23:59:00-05:00",
@@ -7796,6 +10112,42 @@
     "film_year": 1995,
     "screen": null,
     "format": "4K",
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Vanishing Point",
+    "start": "2026-08-23T16:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223775/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1971,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Do You Love Me",
+    "start": "2026-08-23T18:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223777/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "No Picnic",
+    "start": "2026-08-23T19:35:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223778/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1986,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false
   },
@@ -7836,6 +10188,54 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "This is Pike County",
+    "start": "2026-08-27T18:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223789/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2025,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Gandahar",
+    "start": "2026-08-27T20:50:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223790/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "American Doctor",
+    "start": "2026-08-28T19:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223793/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Thelma & Louise",
+    "start": "2026-08-28T20:55:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223795/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1991,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Secret World of Arrietty",
     "start": "2026-08-29T11:00:00-05:00",
@@ -7860,12 +10260,48 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Samba Traoré",
+    "start": "2026-08-29T16:30:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223797/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1993,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Thelma & Louise",
+    "start": "2026-08-29T18:20:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223798/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1991,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Piggy Duster",
     "start": "2026-08-29T19:00:00-04:00",
     "ticket_url": "https://kankanindy.com/events/piggydusterindianapolispremiere/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "A Page of Madness",
+    "start": "2026-08-29T21:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223802/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1926,
     "screen": null,
     "format": null,
     "series": null,
@@ -7896,6 +10332,18 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Samba Traoré",
+    "start": "2026-08-30T15:00:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223810/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1993,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Piggy Duster",
     "start": "2026-08-30T15:00:00-04:00",
@@ -7908,12 +10356,36 @@
     "sold_out": false
   },
   {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "American Doctor",
+    "start": "2026-08-30T16:45:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223805/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Edge",
     "start": "2026-08-30T17:00:00-04:00",
     "ticket_url": "https://kankanindy.com/events/theedgescreening/",
     "source_scraped_at": "2026-07-06T05:50:04+00:00",
     "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false
+  },
+  {
+    "venue_id": "cia-cinematheque-cleveland",
+    "film_title": "Gandahar",
+    "start": "2026-08-30T18:40:00-04:00",
+    "ticket_url": "https://cinematheque.cia.edu/purchase/223806/",
+    "source_scraped_at": "2026-07-06T16:31:28+00:00",
+    "film_year": 1987,
     "screen": null,
     "format": null,
     "series": null,

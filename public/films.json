@@ -1722,5 +1722,705 @@
  "wallace & gromit: the classic shorts|2026": {
   "miss": true,
   "checked": "2026-07-06"
+ },
+ "all about lily chou-chou|2001": {
+  "title": "All About Lily Chou-Chou",
+  "year": 2001,
+  "overview": "Charts the troubled teenage years of students Yūichi Hasumi and Shūsuke Hoshino, exploring the shifting and complex power dynamics of their relationship against the backdrop of Yūichi's love for the dreamy and abstract music of pop star Lily Chou-Chou.",
+  "runtime": 146,
+  "poster_path": "/mR2Znr5WAzL0lI0YEcBtHnqTeUB.jpg",
+  "url": "https://www.themoviedb.org/movie/16664"
+ },
+ "all about my mother|1998": {
+  "title": "All About My Mother",
+  "year": 1999,
+  "overview": "Following the tragic death of her teenage son, Manuela travels from Madrid to Barcelona in an attempt to contact the long-estranged father the boy never knew. She reunites with an old friend, an outspoken transgender sex worker, and befriends a troubled actress and a pregnant, HIV-positive nun.",
+  "runtime": 101,
+  "poster_path": "/hjQhzhkGYXPNM96k0mOgob6HMmn.jpg",
+  "url": "https://www.themoviedb.org/movie/99"
+ },
+ "aloïse|1975": {
+  "title": "Aloïse",
+  "year": 1975,
+  "overview": "Aloise creates a series of haunting drawings while she is incarcerated in an institution for the insane in turn-of-the-century Switzerland. She endures torments as a musically gifted girl and later as a young woman; her developing madness and the barbaric treatments of the time are shown.",
+  "runtime": 115,
+  "poster_path": "/movxM9hPjTq71G7M3EUUxPIFfnG.jpg",
+  "url": "https://www.themoviedb.org/movie/64096"
+ },
+ "american doctor|2026": {
+  "title": "American Doctor",
+  "year": 2026,
+  "overview": "When three American doctors — Palestinian, Jewish, and Zoroastrian — enter Gaza to save lives, they find themselves caught between medicine and politics, risking everything to expose the truth.",
+  "runtime": 93,
+  "poster_path": "/ppWCP53YgLvh6OApT1T88En2Phz.jpg",
+  "url": "https://www.themoviedb.org/movie/1596332"
+ },
+ "amores perros|2000": {
+  "title": "Amores Perros",
+  "year": 2000,
+  "overview": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man.",
+  "runtime": 154,
+  "poster_path": "/A4lH22nlFF7MdalGfcvSrlC1ttt.jpg",
+  "url": "https://www.themoviedb.org/movie/55"
+ },
+ "barrio triste|2026": {
+  "title": "Barrio Triste",
+  "year": 2026,
+  "overview": "On the outskirts of Medellín, Colombia in the late 1980s, local residents report strange lights descending from the sky. When a reporter arrives to investigate, a ragtag group of teens from a lawless neighbourhood storm the scene and steal his camera. In the hands of its new owners, the device records a mesmerising plunge into their frantic existence.",
+  "runtime": 84,
+  "poster_path": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+  "url": "https://www.themoviedb.org/movie/1310573"
+ },
+ "bashu, the little stranger|1989": {
+  "title": "Bashu, the Little Stranger",
+  "year": 1989,
+  "overview": "During the Iran-Iraq War, Bashu, a young boy loses his house and all his family. Scared, he sneaks into a truck that is leaving the area. He gets off the truck in the Northern part of the country, where everything from landscape to language is different. He meets Naii, who is trying to raise her two young children on a farm, while her husband is away. Despite cultural differences, and the fact that they do not speak the same language, Bashu and Naii slowly form a strong bond.",
+  "runtime": 120,
+  "poster_path": "/rRUWwpVRtc7vyXUV1Bj64wFZJaV.jpg",
+  "url": "https://www.themoviedb.org/movie/43980"
+ },
+ "beirut phantom|1998": {
+  "title": "Beirut Phantom",
+  "year": 1998,
+  "overview": "Late in the 1980s it seems like the Lebanese conflict will never end. Khalil returns to Beirut after many years. Ten years earlier, during a battle, he took advantage of the confusion and pretended he was dead.",
+  "runtime": 117,
+  "poster_path": "/t3Als0ITZfWeVRTc9tfYb5mKzF1.jpg",
+  "url": "https://www.themoviedb.org/movie/327874"
+ },
+ "blue heron|2026": {
+  "title": "Blue Heron",
+  "year": 2026,
+  "overview": "In the late 1990s, a family of six settles into their new home on Vancouver Island, as internal dynamics are slowly revealed through the experiences of the youngest child, Sasha. Their fresh start is interrupted by the increasingly dangerous behavior of Jeremy, the family's oldest child.",
+  "runtime": 91,
+  "poster_path": "/4hfMbVbYc2gsMnSE1K8Oc9LQH4j.jpg",
+  "url": "https://www.themoviedb.org/movie/1184941"
+ },
+ "bullitt|1968": {
+  "title": "Bullitt",
+  "year": 1968,
+  "overview": "Senator Walter Chalmers is aiming to take down mob boss Pete Ross with the help of testimony from the criminal's hothead brother Johnny, who is in protective custody in San Francisco under the watch of police lieutenant Frank Bullitt. When a pair of mob hitmen enter the scene, Bullitt follows their trail through a maze of complications and double-crosses. This thriller includes one of the most famous car chases ever filmed.",
+  "runtime": 113,
+  "poster_path": "/2ffzF1WmeXtH420fSUoCrecFvDA.jpg",
+  "url": "https://www.themoviedb.org/movie/916"
+ },
+ "center stage|1991": {
+  "title": "Center Stage",
+  "year": 1991,
+  "overview": "Based on the tragic true story of China's first prima donna of the silver screen, Ruan Lingyu, chronicling her rise to fame as a movie actress in Shanghai during the 1930s.",
+  "runtime": 155,
+  "poster_path": "/oxeiEVNJDLwSGByC70gQULpXiKk.jpg",
+  "url": "https://www.themoviedb.org/movie/68004"
+ },
+ "chicago film society presents: the queen|1968": {
+  "title": "The Queen",
+  "year": 1968,
+  "overview": "In 1967, New York City is host to the Miss All-American Camp Beauty Pageant. This documentary takes a look behind the scenes, transporting the viewer into rehearsals and dressing rooms as the drag queen subculture prepares for this big national beauty contest. Jack/Sabrina is the mistress of ceremonies, and their protégé, Miss Harlow, is in the competition. But, as the pageant approaches, the glamorous contestants veer from camaraderie to tension.",
+  "runtime": 68,
+  "poster_path": "/enAf3MycnyeWFhgz8TOos9NvH4s.jpg",
+  "url": "https://www.themoviedb.org/movie/42649"
+ },
+ "cooley high|": {
+  "title": "Cooley High",
+  "year": 1975,
+  "overview": "In the mid-1960s, a group of high school friends who live on the Near North Side of Chicago enjoy life to the fullest...parties, hanging out, meeting new friends. Then life changes for two of the guys when they are falsely arrested in connection with stealing a Cadillac. We follow their lives through to the dramatic end of high school.",
+  "runtime": 107,
+  "poster_path": "/pObzSME61i5IszazNQm3cqLMAGZ.jpg",
+  "url": "https://www.themoviedb.org/movie/35711"
+ },
+ "danton|1983": {
+  "title": "Danton",
+  "year": 1983,
+  "overview": "Danton and Robespierre were close friends and fought together in the French Revolution, but by 1793 Robespierre was France's ruler, determined to wipe out opposition with a series of mass executions that became known as the Reign of Terror. Danton, well known as a spokesman of the people, had been living in relative solitude in the French countryside, but he returned to Paris to challenge Robespierre's violent rule and call for the people to demand their rights. Robespierre, however, could not accept such a challenge, even from a friend and colleague, and he blocked out a plan for the capture and execution of Danton and his allies.",
+  "runtime": 136,
+  "poster_path": "/az5XParmpea0fxAjwEgHpUrXzw0.jpg",
+  "url": "https://www.themoviedb.org/movie/4202"
+ },
+ "dead souls|2025": {
+  "title": "Dead Souls",
+  "year": 2025,
+  "overview": "In 1890, the year of the U.S. census, chaos erupts when a stranger named Strindler arrives in a small town in Arizona and requests money for providing the names of dead Mexican laborers. Adapted from the novel by Nikolai Gogol.",
+  "runtime": 88,
+  "poster_path": "/cxKQJQhU5jAWa8Q5W1jJlNpWaqD.jpg",
+  "url": "https://www.themoviedb.org/movie/1495629"
+ },
+ "desperate living|1977": {
+  "title": "Desperate Living",
+  "year": 1977,
+  "overview": "After killing her husband, Peggy Gravel and her murderous maid Grizelda wind up in the crazy town of Mortville, where Queen Carlotta presides over a sleazy collection of misfits.",
+  "runtime": 91,
+  "poster_path": "/kqEZ1CbxtrXtpAT1jeYfo52um3s.jpg",
+  "url": "https://www.themoviedb.org/movie/14262"
+ },
+ "do you love me|2026": {
+  "title": "Do You Love Me",
+  "year": 2026,
+  "overview": "A playful and personal journey through Lebanon’s audiovisual memory, composed entirely of archival footage. It is a love letter to Beirut, spanning 70 years of film, TV, home videos, and photography, exploring the Lebanese collective psyche – marked by joy and intimacy, destruction and loss. Through the eyes of citizens, filmmakers and artists, the film reconstructs a fragmented history in a country without a national archive, celebrating creative expression as both resistance, renewal and a way to preserve memory.",
+  "runtime": 75,
+  "poster_path": "/2UT8AJCRJx9luYAqk82paKP7DY8.jpg",
+  "url": "https://www.themoviedb.org/movie/1518801"
+ },
+ "domino|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "easy rider|1969": {
+  "title": "Easy Rider",
+  "year": 1969,
+  "overview": "Wyatt and Billy, two Harley-riding hippies, complete a drug deal in Southern California and decide to travel cross-country in search of spiritual truth.",
+  "runtime": 96,
+  "poster_path": "/3H3vwPGX6EbBRffIVHp3eHHcjka.jpg",
+  "url": "https://www.themoviedb.org/movie/624"
+ },
+ "f for fake|": {
+  "title": "F for Fake",
+  "year": 1973,
+  "overview": "Documents the lives of infamous fakers Elmyr de Hory and Clifford Irving. De Hory, who later committed suicide to avoid more prison time, made his name by selling forged works of art by painters like Picasso and Matisse. Irving was infamous for writing a fake autobiography of Howard Hughes. Welles moves between documentary and fiction as he examines the fundamental elements of fraud and the people who commit fraud at the expense of others.",
+  "runtime": 89,
+  "poster_path": "/fVeIDxS73CrosoeVOaefQuCUGZg.jpg",
+  "url": "https://www.themoviedb.org/movie/43003"
+ },
+ "five easy pieces|1970": {
+  "title": "Five Easy Pieces",
+  "year": 1970,
+  "overview": "Robert Dupea spends his days doing various odd jobs, drinking and womanizing until an encounter with his sister makes him revisit his past.",
+  "runtime": 98,
+  "poster_path": "/sUEzamvvoTIhPIVhfZw3pUEo6bY.jpg",
+  "url": "https://www.themoviedb.org/movie/26617"
+ },
+ "for a few dollars more|1965": {
+  "title": "For a Few Dollars More",
+  "year": 1965,
+  "overview": "Two bounty hunters both pursue the brutal and sadistic bandit, El Indio, who has a large bounty on his head.",
+  "runtime": 132,
+  "poster_path": "/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg",
+  "url": "https://www.themoviedb.org/movie/938"
+ },
+ "franz|2025": {
+  "title": "Franz",
+  "year": 2025,
+  "overview": "Conceived as a kaleidoscopic mosaic, the film follows the imprint Franz Kafka left on the world from his birth in 19th-century Prague to his death in post-WW1 Vienna.",
+  "runtime": 127,
+  "poster_path": "/cCRBkb1U9eKz1DYa4UMGZBSkcjC.jpg",
+  "url": "https://www.themoviedb.org/movie/1157322"
+ },
+ "gandahar|1987": {
+  "title": "Gandahar",
+  "year": 1987,
+  "overview": "On the planet Gandahar where peace reigns and poverty is unknown, this utopian lifestyle is upset by reports of people at the outlying frontiers being turned to stone. Sylvain is sent to investigate this mysterious threat.",
+  "runtime": 83,
+  "poster_path": "/lDM8fxNsu8oYRmM66kZrLQnPNyw.jpg",
+  "url": "https://www.themoviedb.org/movie/22500"
+ },
+ "gun crazy|1949": {
+  "title": "Gun Crazy",
+  "year": 1950,
+  "overview": "Bart Tare is an ex-Army man who has a lifelong fixation with guns, he meets a kindred spirit in sharpshooter Annie Starr and goes to work at a carnival. After upsetting the carnival owner who lusts after Starr, they both get fired. Soon, on Starr's behest, they embark on a crime spree for cash.",
+  "runtime": 87,
+  "poster_path": "/kC1IIitCJTZLwZyuQnKw4zaOaXc.jpg",
+  "url": "https://www.themoviedb.org/movie/18671"
+ },
+ "i shot andy warhol|1996": {
+  "title": "I Shot Andy Warhol",
+  "year": 1996,
+  "overview": "The story of Valerie Solanas, a '60s radical who preached misandry in her \"SCUM\" manifesto. She wrote a screenplay for a film that she wanted Andy Warhol to produce, but he repeatedly ignored her. So she shot him.",
+  "runtime": 103,
+  "poster_path": "/8BLETXcQDxooKo8NubmmJ1psIhb.jpg",
+  "url": "https://www.themoviedb.org/movie/26890"
+ },
+ "i want your sex|": {
+  "title": "I Want Your Sex",
+  "year": 2026,
+  "overview": "When fresh-faced Elliot lands an exciting job for renowned artist, icon and provocateur Erika Tracy, his fantasies come true as Erika taps him to become her sexual muse. But Elliot soon finds himself out of his depth as Erika takes him on a journey more profound than he ever could have imagined, into a world of sex, obsession, power, betrayal and murder.",
+  "runtime": 90,
+  "poster_path": "/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
+  "url": "https://www.themoviedb.org/movie/1288059"
+ },
+ "inferno|1980": {
+  "title": "Inferno",
+  "year": 1980,
+  "overview": "A young man returns from Rome to his sister's satanic New York apartment house.",
+  "runtime": 107,
+  "poster_path": "/A92SmwJ4w2GSF6Mp2m8xE9GbG39.jpg",
+  "url": "https://www.themoviedb.org/movie/16395"
+ },
+ "innocent sorcerers|1960": {
+  "title": "Innocent Sorcerers",
+  "year": 1960,
+  "overview": "A young doctor is tired of being sought by women. One night he meets a young girl who all but forces herself into his room where they talk of morals and love.",
+  "runtime": 83,
+  "poster_path": "/t8fadEnUuIczqDZVcWaVQECUVRh.jpg",
+  "url": "https://www.themoviedb.org/movie/80324"
+ },
+ "korczak|1990": {
+  "title": "Korczak",
+  "year": 1990,
+  "overview": "The story of Polish pedagogue Janusz Korczak and his dedication to protecting Jewish orphans during the war.",
+  "runtime": 115,
+  "poster_path": "/vP0UUZ7AUP711WRSkj3uGM3r2hp.jpg",
+  "url": "https://www.themoviedb.org/movie/47430"
+ },
+ "love at twenty|1962": {
+  "title": "Love at Twenty",
+  "year": 1962,
+  "overview": "Love at Twenty unites five directors from five different countries to present their different perspectives on what love really is at the age of 20. The episodes are united with the score of Georges Delerue and still photos of Henri Cartier-Bresson.",
+  "runtime": 120,
+  "poster_path": "/aup2QCYCsyEeQfpboXy0f4uj8aE.jpg",
+  "url": "https://www.themoviedb.org/movie/8773"
+ },
+ "love letter|1995": {
+  "title": "Love Letter",
+  "year": 1995,
+  "overview": "Hiroko attends the memorial service of her fiancé, Itsuki Fujii, who died in a mountain-climbing incident. Although Itsuki's mother says that their old house is gone, Hiroko records the address listed under his name in his yearbook and sends him a letter. Surprisingly, she receives a reply, and discovers it came from his old classmate, a girl who also happens to be called Itsuki Fujii.",
+  "runtime": 117,
+  "poster_path": "/9iAgQSkt9z34DTYQfpG0M69SyiL.jpg",
+  "url": "https://www.themoviedb.org/movie/47002"
+ },
+ "lurker|2025": {
+  "title": "Lurker",
+  "year": 2025,
+  "overview": "When a twenty-something retail clerk encounters a rising pop star, he takes the opportunity to edge his way into the in-crowd. But as the line between friend and fan blurs beyond recognition, access and proximity become a matter of life and death.",
+  "runtime": 100,
+  "poster_path": "/3rbY3fjXQpt4sQLQvKD7CT6oJsS.jpg",
+  "url": "https://www.themoviedb.org/movie/1264573"
+ },
+ "macho dancer|1988": {
+  "title": "Macho Dancer",
+  "year": 1989,
+  "overview": "Pol moves to Manila for better opportunities after his American lover leaves. However, he gets drawn into the gritty world of gay prostitution and sexual slavery.",
+  "runtime": 136,
+  "poster_path": "/tWzOX9t5WuKz9Fe3sqOoHemFJAN.jpg",
+  "url": "https://www.themoviedb.org/movie/170924"
+ },
+ "man of iron|1981": {
+  "title": "Man of Iron",
+  "year": 1981,
+  "overview": "In Warsaw in 1980, the Communist Party sends disgruntled radio reporter Winkel to Gdańsk to dig up dirt on the shipyard strikers - particularly on Maciek Tomczyk, an independent labour union leader whose father was killed in the December 1970 protests. Posing as sympathetic, Winkel interviews the people surrounding Tomczyk, including his detained wife, Agnieszka.",
+  "runtime": 147,
+  "poster_path": "/22wNUqKyz2m6wzAt31f26H8Y433.jpg",
+  "url": "https://www.themoviedb.org/movie/225"
+ },
+ "man of marble|1977": {
+  "title": "Man of Marble",
+  "year": 1977,
+  "overview": "A young Polish filmmaker sets out to find out what happened to Mateusz Birkut, a bricklayer who became a propaganda hero in the 1950s but later fell out of favor and disappeared.",
+  "runtime": 153,
+  "poster_path": "/dQWfBHQmdQbcUAeyr0VS1j19uto.jpg",
+  "url": "https://www.themoviedb.org/movie/224"
+ },
+ "manhunter|1986": {
+  "title": "Manhunter",
+  "year": 1986,
+  "overview": "FBI Agent Will Graham, who retired after catching Hannibal Lecter, returns to duty to engage in a risky cat-and-mouse game with Lecter to capture a new killer.",
+  "runtime": 120,
+  "poster_path": "/6rb24x39vV8n5301IelC8rCPJTH.jpg",
+  "url": "https://www.themoviedb.org/movie/11454"
+ },
+ "me and my brother|": {
+  "title": "Me and My Brother",
+  "year": 1969,
+  "overview": "Julius Orlovsky, after spending years in a New York mental hospital, emerges catatonic and must rely on his brother Peter, who lives with poet Allen Ginsberg. When Julius wanders off in the middle of filming, Frank hires and actor (Joseph Chaikin) to play the character and begins a fictional version of his psychological portrait. Then, as suddenly as he vanished, Julius turns up in an institution where he and Peter must face their relationship.",
+  "runtime": 91,
+  "poster_path": "/5JwYHW8ktd0wGpIQUM0VkASZyVT.jpg",
+  "url": "https://www.themoviedb.org/movie/122178"
+ },
+ "midnight|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "monster|2023": {
+  "title": "Monster",
+  "year": 2023,
+  "overview": "After an outburst at school involving her son, a concerned single mother demands answers, triggering a sequence of deepening suspicion and turmoil.",
+  "runtime": 125,
+  "poster_path": "/kvUJUyUGOhEoiWWNH04IXoExPE2.jpg",
+  "url": "https://www.themoviedb.org/movie/1050035"
+ },
+ "my father's shadow|2025": {
+  "title": "My Father's Shadow",
+  "year": 2025,
+  "overview": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+  "runtime": 93,
+  "poster_path": "/aF8AFFh3LJpF8An0KUM8SdTwfVt.jpg",
+  "url": "https://www.themoviedb.org/movie/1432605"
+ },
+ "m|1931": {
+  "title": "M",
+  "year": 1931,
+  "overview": "In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert's heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and criminals in pursuit, the murderer soon realizes that people are on his trail, sending him into a tense, panicked attempt to escape justice.",
+  "runtime": 110,
+  "poster_path": "/bTdZk3q2DWpBRnLiaaItKFWOVhI.jpg",
+  "url": "https://www.themoviedb.org/movie/832"
+ },
+ "network|1976": {
+  "title": "Network",
+  "year": 1976,
+  "overview": "When veteran anchorman Howard Beale is forced to retire his 25-year post because of his age, he announces to viewers that he will kill himself during his farewell broadcast. Network executives rethink their decision when his fanatical tirade results in a spike in ratings.",
+  "runtime": 122,
+  "poster_path": "/qZomlHsaALUtkFeMDwdYmwS2Pbo.jpg",
+  "url": "https://www.themoviedb.org/movie/10774"
+ },
+ "no picnic|1986": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "off center: ten skies|2004": {
+  "title": "Ten Skies",
+  "year": 2004,
+  "overview": "An experimental film portraying different skies in very long takes.",
+  "runtime": 101,
+  "poster_path": "/SZjuHV9YFTy48OW5nYoTjbE2I9.jpg",
+  "url": "https://www.themoviedb.org/movie/126238"
+ },
+ "opera|1987": {
+  "title": "Opera",
+  "year": 1987,
+  "overview": "A young opera singer is stalked by a deranged fan bent on killing the people associated with her to claim her for himself.",
+  "runtime": 107,
+  "poster_path": "/v5VBvSVu2sWLAmyQhKQwBV5aPJA.jpg",
+  "url": "https://www.themoviedb.org/movie/20115"
+ },
+ "orlando|1992": {
+  "title": "Orlando",
+  "year": 1992,
+  "overview": "England, 1600. Queen Elizabeth I promises Orlando, a young nobleman obsessed with poetry, that she will grant him land and fortune if he agrees to satisfy a very particular request.",
+  "runtime": 94,
+  "poster_path": "/seRawEs8eQ8rWfkBm6QC39EQEAU.jpg",
+  "url": "https://www.themoviedb.org/movie/9300"
+ },
+ "peter asher: everywhere man|": {
+  "title": "Peter Asher: Everywhere Man",
+  "year": 2026,
+  "overview": "Peter Asher’s extraordinary life has intersected with some of the greatest artists and musical moments of the last six decades. A child actor who became a pop star and then a manager and producer to the likes of James Taylor and Linda Ronstadt, he is a Zelig-like figure who remains a vital creative force to this day. Featuring interviews with Paul McCartney, Carole King, and many more.",
+  "runtime": 118,
+  "poster_path": "/qht4Q1qkda8s8urkMuUoWxSvCGo.jpg",
+  "url": "https://www.themoviedb.org/movie/1537635"
+ },
+ "phantom beirut|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "phantom lady|1944": {
+  "title": "Phantom Lady",
+  "year": 1944,
+  "overview": "A devoted secretary embarks on a dangerous mission to try to find the elusive woman who may prove her boss didn't murder his wife.",
+  "runtime": 87,
+  "poster_path": "/pSPH9NlSVbXIfBA8DLRRET3YBBc.jpg",
+  "url": "https://www.themoviedb.org/movie/37992"
+ },
+ "phenomena|1985": {
+  "title": "Phenomena",
+  "year": 1985,
+  "overview": "A young girl, with an amazing ability to communicate with insects, is transferred to an exclusive Swiss boarding school, where her unusual capability might help solve a string of murders.",
+  "runtime": 110,
+  "poster_path": "/dhk14s8ogQkbf6re3HLKV2UBHjx.jpg",
+  "url": "https://www.themoviedb.org/movie/29161"
+ },
+ "powwow highway|": {
+  "title": "Powwow Highway",
+  "year": 1989,
+  "overview": "Two Northern Cheyenne men take a road trip from Montana to New Mexico to bail out the sister of one of them who has been framed and arrested in Santa Fe. On the way, they begin to reconnect to their spiritual heritage.",
+  "runtime": 91,
+  "poster_path": "/Ah1le8MVItngtlLpASzkGsWFXW4.jpg",
+  "url": "https://www.themoviedb.org/movie/63587"
+ },
+ "promised sky|2026": {
+  "title": "Promised Sky",
+  "year": 2026,
+  "overview": "Marie, Naney, and Jolie live together in Tunis, sheltering Kenza, a shipwreck survivor. As this unorthodox family forms, crises make each woman reconsider her place.",
+  "runtime": 92,
+  "poster_path": "/gJCOjtz4rCxhrPfHH26lOb89reX.jpg",
+  "url": "https://www.themoviedb.org/movie/1218412"
+ },
+ "puddysticks|2025": {
+  "title": "Puddysticks",
+  "year": 2026,
+  "overview": "Burned-out video game designer Liz joins a society of traumatized adults that meet in secret and play like they are little kids. Led by the alluring Sylvester Cromwell, each member has a dark past, a deep-rooted shame that drew them to the group, and when they feel it is their time, they share their secret and accept Sylvester's promise of healing through play.",
+  "runtime": 93,
+  "poster_path": "/4fVwWjiMo5iHNd4lugSt9o0tiln.jpg",
+  "url": "https://www.themoviedb.org/movie/1056726"
+ },
+ "samba traoré|1993": {
+  "title": "Samba Traoré",
+  "year": 1993,
+  "overview": "During a robbery at a petrol station in town, one of the accomplices is shot dead. The other, Samba Traoré, flees with the loot: a suitcase full of banknotes. After years away, he returns to his native village. Life has gone on as usual, and Saratou is as beautiful as he remembers her. Director Idrissa Ouedraogo paints a portrait of a man haunted by his past, trying to rebuild his life and start afresh. But past mistakes never stay buried for long.",
+  "runtime": 85,
+  "poster_path": "/x1SKlt2cljUUedqtV1jNLCp8ALI.jpg",
+  "url": "https://www.themoviedb.org/movie/241172"
+ },
+ "silent movie|1976": {
+  "title": "Silent Movie",
+  "year": 1976,
+  "overview": "Aspiring filmmakers Mel Funn, Marty Eggs and Dom Bell go to a financially troubled studio with an idea for a silent movie. In an effort to make the movie more marketable, they attempt to recruit a number of big name stars to appear, while the studio's creditors attempt to thwart them.",
+  "runtime": 87,
+  "poster_path": "/AeaoOSqEU3elkpDAlKbIWcdKLJ8.jpg",
+  "url": "https://www.themoviedb.org/movie/10970"
+ },
+ "slap the monster on page one|": {
+  "title": "Slap the Monster on Page One",
+  "year": 1972,
+  "overview": "Days before the general election, after a girl from a rich family is murdered in an attempted rape, the editor-in-chief of a conservative tabloid tries to derail the police investigation in order to help the right-wing candidates supported by his bosses.",
+  "runtime": 87,
+  "poster_path": "/lpbmcbPcL7Bj8VTimnSt5uuG6C3.jpg",
+  "url": "https://www.themoviedb.org/movie/68053"
+ },
+ "stranger than paradise|1984": {
+  "title": "Stranger Than Paradise",
+  "year": 1984,
+  "overview": "New York layabout Willie forms an unexpected bond with his young Hungarian cousin Eva when she pays him a surprise visit. Later, Eva moves in with their aunt in Cleveland, and Willie takes his best friend Eddie to see her—a visit that culminates in a strange, eventful trip to Florida.",
+  "runtime": 90,
+  "poster_path": "/Q9wdlNjBOti4JhAjAQXphzShw3.jpg",
+  "url": "https://www.themoviedb.org/movie/469"
+ },
+ "survive style 5+|": {
+  "title": "Survive Style 5+",
+  "year": 2004,
+  "overview": "Five bizarre stories with no apparent connection to one another eventually become intertwined, resulting in surreal circumstances.",
+  "runtime": 120,
+  "poster_path": "/plk0CXzSH9SeWCnbj2hoQEJJmy4.jpg",
+  "url": "https://www.themoviedb.org/movie/16133"
+ },
+ "taste of cherry|1997": {
+  "title": "Taste of Cherry",
+  "year": 1997,
+  "overview": "A middle-aged Tehranian man, Mr. Badii is intent on killing himself and seeks someone to bury him after his demise. Driving around the city, the seemingly well-to-do Badii meets with numerous people, including a Muslim student, asking them to take on the job, but initially he has little luck. Eventually, Badii finds a man who is up for the task because he needs the money, but his new associate soon tries to talk him out of committing suicide.",
+  "runtime": 99,
+  "poster_path": "/vgPwjgbSdbYWrS1ty8TIZtmi6Tn.jpg",
+  "url": "https://www.themoviedb.org/movie/30020"
+ },
+ "tenebre|1982": {
+  "title": "Tenebre",
+  "year": 1982,
+  "overview": "A razor-wielding serial killer is on the loose, murdering those around Peter Neal, an American mystery author in Italy to promote his newest novel.",
+  "runtime": 101,
+  "poster_path": "/uWNCyUX9sjtnhleqyw2W5ECijlP.jpg",
+  "url": "https://www.themoviedb.org/movie/29702"
+ },
+ "the fly|1986": {
+  "title": "The Fly",
+  "year": 1986,
+  "overview": "When brilliant, eccentric scientist Seth Brundle makes a huge technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+  "runtime": 96,
+  "poster_path": "/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
+  "url": "https://www.themoviedb.org/movie/9426"
+ },
+ "the headless woman|2008": {
+  "title": "The Headless Woman",
+  "year": 2008,
+  "overview": "After running into something with her car, Vero experiences a particular psychological state. She realizes she might have killed someone.",
+  "runtime": 87,
+  "poster_path": "/qzDfJLfKQZY9D6zpaadFiugtphK.jpg",
+  "url": "https://www.themoviedb.org/movie/8898"
+ },
+ "the hole|1999": {
+  "title": "The Hole",
+  "year": 1999,
+  "overview": "In the final days of the year 1999, almost everyone in Taiwan has died from a strange plague that ravished the island. As rain pours down relentlessly, a single man is stuck with an unfinished plumbing job and a hole in his floor. This results in a very odd relationship with the woman who lives below him.",
+  "runtime": 95,
+  "poster_path": "/lsuvfxyCxlnkzc49hGMUmPDibCk.jpg",
+  "url": "https://www.themoviedb.org/movie/47060"
+ },
+ "the house in the woods|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "the man who fell to earth|1976": {
+  "title": "The Man Who Fell to Earth",
+  "year": 1976,
+  "overview": "Thomas Jerome Newton is an alien who has come to Earth in search of water to save his home planet. Aided by lawyer Oliver Farnsworth, Thomas uses his knowledge of advanced technology to create profitable inventions. While developing a method to transport water, Thomas meets Mary-Lou, a quiet hotel clerk, and begins to fall in love with her. Just as he is ready to leave Earth, Thomas is intercepted by the U.S. government, and his entire plan is threatened.",
+  "runtime": 139,
+  "poster_path": "/gwmPVphE5DMFFGXGMhfEFyxOOYj.jpg",
+  "url": "https://www.themoviedb.org/movie/991"
+ },
+ "the meetings of anna|1978": {
+  "title": "The Meetings of Anna",
+  "year": 1978,
+  "overview": "Detached filmmaker Anna Silver arrives in Germany to show her latest film; over the course of some days, she encounters a variety of new and old faces, some of whom make personal revelations to her to little affect.",
+  "runtime": 128,
+  "poster_path": "/MPiBENxJgTb89YjCjgiulGjIOK.jpg",
+  "url": "https://www.themoviedb.org/movie/93669"
+ },
+ "the muppet movie|": {
+  "title": "The Muppet Movie",
+  "year": 1979,
+  "overview": "The Muppets gather to watch their newly-finished big-budget rich-and-famous feature film: a talent agent persuades Kermit the Frog to leave the swamp to pursue a career in Hollywood. On his way there, he meets a bear, a pig, a whatever (his future muppet crew), and some special celebrity guest stars, while being chased by the desperate owner of a frog-leg restaurant!",
+  "runtime": 95,
+  "poster_path": "/mfj8yR2vO5BMkaTMu1wvKQLUTsL.jpg",
+  "url": "https://www.themoviedb.org/movie/11176"
+ },
+ "the palm beach story|": {
+  "title": "The Palm Beach Story",
+  "year": 1942,
+  "overview": "A New York inventor, Tom Jeffers, needs cash to develop his big idea, so his adoring wife, Gerry, decides to raise it by divorcing him and marrying an eccentric Florida millionaire, J. D. Hackensacker III.",
+  "runtime": 88,
+  "poster_path": "/vl3MVnrUsCa0wRsFTVU0ohbtWy6.jpg",
+  "url": "https://www.themoviedb.org/movie/32255"
+ },
+ "the possessed|1988": {
+  "title": "The Possessed",
+  "year": 1988,
+  "overview": "Russia, 1870. A group of young anarchist revolutionaries set out to overthrow the Czarist regime through violence. Their attacks create a climate of psychosis and mutual distrust among the population, but in reality, both revolutionaries and repressors are being manipulated by a diabolical individual.",
+  "runtime": 116,
+  "poster_path": "/ibRevx5qttquBPXA5mIvT8GEOs3.jpg",
+  "url": "https://www.themoviedb.org/movie/169247"
+ },
+ "the promised land|1975": {
+  "title": "The Promised Land",
+  "year": 1975,
+  "overview": "In nineteenth-century Łódź, Poland, three friends want to make a lot of money by building and investing in a textile factory. An exceptional portrait of rapid industrial expansion is shown through the eyes of one Polish town.",
+  "runtime": 179,
+  "poster_path": "/pjk8K5MpQJX0XczTC2KOVWNj0lC.jpg",
+  "url": "https://www.themoviedb.org/movie/511"
+ },
+ "the red spectacles|": {
+  "title": "The Red Spectacles",
+  "year": 1987,
+  "overview": "Summer 1995. With the arrival of the \"Age of Cats\", the former Kerberos police unit is now disbanded. However one member remains, a stray dog who returns to his old roost after a three-years exile. This wild dog no longer has a master, but now the \"Young Lady of Fate\" will guide him on his journey.",
+  "runtime": 116,
+  "poster_path": "/1iRCLYw9holoSCR8wyCoRzU3DUM.jpg",
+  "url": "https://www.themoviedb.org/movie/30198"
+ },
+ "the royal tenenbaums|2001": {
+  "title": "The Royal Tenenbaums",
+  "year": 2001,
+  "overview": "Royal Tenenbaum and his wife Etheline had three children and then they separated. All three children are extraordinary --- all geniuses. Virtually all memory of the brilliance of the young Tenenbaums was subsequently erased by two decades of betrayal, failure, and disaster. Most of this was generally considered to be their father's fault. \"The Royal Tenenbaums\" is the story of the family's sudden, unexpected reunion one recent winter.",
+  "runtime": 110,
+  "poster_path": "/nG7hZJn7wQTSDCQT39Gy3s3tbrp.jpg",
+  "url": "https://www.themoviedb.org/movie/9428"
+ },
+ "the samurai and the prisoner|2026": {
+  "title": "The Samurai and the Prisoner",
+  "year": 2026,
+  "overview": "When Lord Murashige rises up against the tyrannical Oda, he finds himself besieged within the walls of his own castle. Isolated, he is confronted with a series of mysterious crimes that shatter the fragile order of his court, plunging the fortress into fear and suspicion. With Oda's army closing in and a traitor hiding among his ranks, Murashige is forced into an uneasy alliance with Kanbei, a brilliant and dangerous strategist held prisoner in the dungeon, as he must outwit his enemies and uncover the truth before time runs out.",
+  "runtime": 147,
+  "poster_path": "/1GWVlPM1v6k84LsmDkfDzLlGf0O.jpg",
+  "url": "https://www.themoviedb.org/movie/1620313"
+ },
+ "the third man|1949": {
+  "title": "The Third Man",
+  "year": 1949,
+  "overview": "In postwar Vienna, Austria, Holly Martins, a writer of pulp Westerns, arrives penniless as a guest of his childhood chum Harry Lime, only to learn he has died. Martins develops a conspiracy theory after learning of a \"third man\" present at the time of Harry's death, running into interference from British officer Major Calloway, and falling head-over-heels for Harry's grief-stricken lover, Anna.",
+  "runtime": 105,
+  "poster_path": "/rO2Fq0AZZx9obs52KJdx4mRE8p5.jpg",
+  "url": "https://www.themoviedb.org/movie/1092"
+ },
+ "the watermelon woman|1996": {
+  "title": "The Watermelon Woman",
+  "year": 1997,
+  "overview": "A young black lesbian filmmaker probes into the life of The Watermelon Woman, a 1930s black actress who played 'mammy' archetypes.",
+  "runtime": 85,
+  "poster_path": "/mBBqKfkvzSk6Rk7bfRXU9kR916N.jpg",
+  "url": "https://www.themoviedb.org/movie/44479"
+ },
+ "the wild party|1929": {
+  "title": "The Wild Party",
+  "year": 1929,
+  "overview": "Wild girls at a college pay more attention to parties than their classes. But when one party girl, Stella Ames, goes too far at a local bar and gets in trouble, her professor has to rescue her. Gossip linking the two escalates until Stella proves she is decent by shielding an innocent girl and winning the professor's respect.",
+  "runtime": 77,
+  "poster_path": "/tjTWSA1z5djZMfDBtR4EZ2sELaT.jpg",
+  "url": "https://www.themoviedb.org/movie/80168"
+ },
+ "thelma & louise|1991": {
+  "title": "Thelma & Louise",
+  "year": 1991,
+  "overview": "Taking a break from their dreary lives, close friends Thelma and Louise embark on a short weekend trip that ends in unforeseen incriminating circumstances. As fugitives, both women rediscover the strength of their bond and their newfound resilience.",
+  "runtime": 130,
+  "poster_path": "/vbRAGLzbC75QfiKD1lKjmnQGuph.jpg",
+  "url": "https://www.themoviedb.org/movie/1541"
+ },
+ "this is pike county|2025": {
+  "title": "This is Pike County",
+  "year": 2025,
+  "overview": "Mounting pressures – including an unsolved family murder – test a close-knit rural community. Between the temptation to give up and the urge to hold on, the film lingers on what it means to come of age in a place left behind.",
+  "runtime": 78,
+  "poster_path": "/uyP25XQdkUV9YrtinY6SYumqXIw.jpg",
+  "url": "https://www.themoviedb.org/movie/1553362"
+ },
+ "train to busan|2016": {
+  "title": "Train to Busan",
+  "year": 2016,
+  "overview": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
+  "runtime": 118,
+  "poster_path": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+  "url": "https://www.themoviedb.org/movie/396535"
+ },
+ "trouble every day|2001": {
+  "title": "Trouble Every Day",
+  "year": 2001,
+  "overview": "Newlyweds Shane and June arrive in Paris for their honeymoon. In the process of trying to find a cure for his strange, bloodthirsty disease, Shane stumbles upon the story of a doctor and his flesh eating wife.",
+  "runtime": 101,
+  "poster_path": "/jn4799m6uB5P6ZUarlnxvZEZDFp.jpg",
+  "url": "https://www.themoviedb.org/movie/40723"
+ },
+ "two-lane blacktop|1971": {
+  "title": "Two-Lane Blacktop",
+  "year": 1971,
+  "overview": "A driver and mechanic drag racing for money cross paths with a female hitchhiker and a drifter who challenges them to a cross-country race.",
+  "runtime": 102,
+  "poster_path": "/8GSjw941Maq4oDvbYqbyc6UM8WH.jpg",
+  "url": "https://www.themoviedb.org/movie/27236"
+ },
+ "union county|2026": {
+  "title": "Union County",
+  "year": 2026,
+  "overview": "Assigned to a county-mandated drug court program, Cody Parsons embarks on the tenuous journey toward recovery amid the opioid epidemic in rural Ohio.",
+  "runtime": 97,
+  "poster_path": "/nAvcHFSzlTQdRrcA7dvSTngXTuf.jpg",
+  "url": "https://www.themoviedb.org/movie/1482938"
+ },
+ "vanishing point|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "vanishing point|1971": {
+  "title": "Vanishing Point",
+  "year": 1971,
+  "overview": "Kowalski works for a car delivery service, and takes delivery of a 1970 Dodge Challenger to drive from Colorado to San Francisco. Shortly after pickup, he takes a bet to get the car there in less than 15 hours.",
+  "runtime": 99,
+  "poster_path": "/1ThnpFx2G2HPhecvODGFEQxfOpO.jpg",
+  "url": "https://www.themoviedb.org/movie/11951"
+ },
+ "walker|1987": {
+  "title": "Walker",
+  "year": 1987,
+  "overview": "William Walker and his mercenary corps enter Nicaragua in the middle of the 19th century in order to install a new government by a coup d'etat.",
+  "runtime": 95,
+  "poster_path": "/1C0oYAeNjIBLuj7CVWz3HTIUdeP.jpg",
+  "url": "https://www.themoviedb.org/movie/28448"
+ },
+ "wanda|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "westhampton|2026": {
+  "title": "Westhampton",
+  "year": 2026,
+  "overview": "Haunted by an accident he caused in high school, a damaged filmmaker is forced to go back to the scene of the tragedy and face the friends whose lives he ruined and a town that disdains him. Jumping between the present and an indie film he made about the accident reveals how the true events played out far differently than depicted in his movie.",
+  "runtime": 94,
+  "poster_path": "/3YvIAVjzPr24xqY95gG2ygwI6V4.jpg",
+  "url": "https://www.themoviedb.org/movie/1253786"
+ },
+ "wild strawberries|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "without anesthesia|1978": {
+  "title": "Without Anesthesia",
+  "year": 1978,
+  "overview": "A famous Polish journalist presents a problem for the powers-that-be when he displays his full political skill and knowledge on a television show featuring questions and answers on a world conference by a panel of journalists. His enemies take away his privileges when he is away. The shock of being \"unwanted\" parallels a deeper disappointment in his private life: his wife has an affair with a jealous young rival, and after 15 years of marriage and two daughters wants a divorce. She offers no explanations as he tries to untie these problems himself. All the moves he makes are the wrong ones. He takes on drinking heavily with students eager to attend his seminar after discovering the class has been canceled. The journalist, once suave and commanding, is reduced to silence.",
+  "runtime": 131,
+  "poster_path": "/bxS0z1Ji4VVWZthMZpooi0Fcviu.jpg",
+  "url": "https://www.themoviedb.org/movie/42199"
+ },
+ "y tu mamá también|": {
+  "title": "Y Tu Mamá También",
+  "year": 2001,
+  "overview": "In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or two about life, friendship, sex, and each other.",
+  "runtime": 106,
+  "poster_path": "/aj3rqjab8jfc2fWmcS3H3c5qbur.jpg",
+  "url": "https://www.themoviedb.org/movie/1391"
+ },
+ "youngblood|": {
+  "miss": true,
+  "checked": "2026-07-06"
  }
 }

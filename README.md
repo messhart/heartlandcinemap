@@ -5,11 +5,12 @@ repertory, and nonprofit cinemas across the US Midwest. Enter a ZIP code, pick
 a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
-**Live at <https://messhart.github.io/heartlandcinemap/>** — early days:
-nine cinemas across six states so far (Indianapolis, Chicago, Fort Wayne,
-Milwaukee ×2, Columbus, Des Moines, St. Louis, and more coming). Film
+**Live at <https://messhart.github.io/heartlandcinemap/>** — eleven cinemas
+across seven states (Chicago ×2, Indianapolis, Fort Wayne, Milwaukee ×2,
+Columbus, Cleveland, Dayton*, Des Moines, Minneapolis, St. Louis). Film
 descriptions courtesy of the TMDB API (the site is not endorsed or
-certified by TMDB).
+certified by TMDB). *The Neon is registered but not scraped — their
+robots.txt disallows their showtimes API, so we're asking first.
 
 ## How it works (and why it costs ~nothing)
 
@@ -59,16 +60,20 @@ Rules of the road:
 - [x] Milestone 1: normalize + Kan-Kan (Elevent/WordPress) adapter, live run
 - [x] Music Box adapter (Playwright headless past the Sucuri JS challenge)
 - [x] Eventive platform adapter (Cinema Center, Hi-Pointe, Oriental, Downer)
-- [x] Filmbot platform adapter (Gateway, Varsity; Neon + Cleveland
-      Cinematheque need follow-up — see venues/oh.yaml notes)
+- [x] Filmbot platform adapter (Gateway, Varsity, Hi-Pointe, Cleveland
+      Cinematheque)
+- [x] Gene Siskel (Drupal calendar), Trylon (WordPress) adapters
+- [x] Neon GraphQL adapter written — held back until the venue OKs it
+      (their robots.txt disallows /graphql)
 - [x] Local scrape-health dashboard (dashboard.html, read-only)
 - [x] Static frontend: ZIP + radius filter, sort by time/distance/title
 - [x] GitHub Actions cron: scrape → commit JSON → deploy (GitHub Pages)
 - [ ] Printable calendar poster view (letter, B/W or color)
 - [x] TMDb enrichment (synopsis + runtime; posters cached for later)
 - [ ] Map view (MapLibre GL + Protomaps static tiles)
-- [ ] Expand venue registry across the Midwest (next: Neon GraphQL +
-      Cinematheque, then Siskel/Agile, Trylon/MSP WordPress, FilmScene)
+- [ ] Expand venue registry across the Midwest (next candidates: MSP Film
+      / The Main, Facets Chicago, FilmScene Iowa City, Film Streams Omaha,
+      The Ross Lincoln, Detroit Film Theatre, Michigan/State Ann Arbor)
 - [ ] Venue-updater tool (approval-gated) + local scrape dashboard
 
 ## License

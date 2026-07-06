@@ -56,13 +56,19 @@ class PoliteSession:
             self._robots[origin] = rp
         return self._robots[origin]
 
-    def get(self, url: str) -> requests.Response:
+    def _throttled(self, method: str, url: str, **kwargs) -> requests.Response:
         if not self._robots_for(url).can_fetch(USER_AGENT, url):
             raise RobotsDisallowed(f"robots.txt disallows {url}")
         wait = MIN_DELAY_S - (time.monotonic() - self._last_request)
         if wait > 0:
             time.sleep(wait)
         self._last_request = time.monotonic()
-        resp = self._session.get(url, timeout=TIMEOUT_S)
+        resp = self._session.request(method, url, timeout=TIMEOUT_S, **kwargs)
         resp.raise_for_status()
         return resp
+
+    def get(self, url: str) -> requests.Response:
+        return self._throttled("GET", url)
+
+    def post(self, url: str, json: dict, headers: dict | None = None) -> requests.Response:
+        return self._throttled("POST", url, json=json, headers=headers)

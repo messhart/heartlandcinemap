@@ -5,19 +5,28 @@ venues:
     name: Trylon Cinema
     city: Minneapolis
     state: MN
-    address: ""
-    zip: ""
-    lat: null
-    lng: null
+    address: 2820 E. 33rd St.
+    zip: "55406"
+    lat: 44.9459
+    lng: -93.2325
+    coords: approx
     tz: America/Chicago
     website: https://www.trylon.org
-    listings_url: ""
-    platform: unknown
-    fetch_method: unknown
-    adapter: unknown
+    listings_url: https://www.trylon.org/
+    platform: wordpress_custom
+    fetch_method: static_html
+    adapter: trylon_wordpress
     nonprofit: true
     screens: 1
-    programming: [repertory, microcinema, classic]
-    status: needs_verification
-    source_urls: []
-    notes: Nonprofit microcinema. Verify all fields.
+    programming: [repertory, microcinema, classic, cult]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://www.trylon.org/
+    notes: >-
+      Nonprofit repertory microcinema, on-site WordPress cart. Homepage
+      "upcoming by date" widget server-renders ~29 days (date buttons 1:1
+      with day lists; no year on dates — adapter rolls the year forward).
+      Titles carry "in 4K/35mm" suffixes and "*Sold Out*" markers. No film
+      year on site — enrichment leans on the ambiguity guard + overrides.
+      Coords approx — verify.

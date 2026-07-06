@@ -40,21 +40,27 @@ venues:
     name: Gene Siskel Film Center
     city: Chicago
     state: IL
-    address: ""
-    zip: ""
-    lat: null
-    lng: null
+    address: 164 N. State St.
+    zip: "60601"
+    lat: 41.8853
+    lng: -87.6279
+    coords: approx
     tz: America/Chicago
     website: https://www.siskelfilmcenter.org
-    listings_url: ""
-    platform: unknown
-    fetch_method: unknown
-    adapter: unknown
+    listings_url: https://www.siskelfilmcenter.org/playing-this-month
+    platform: agile
+    fetch_method: static_html
+    adapter: drupal_calendar
     nonprofit: true
-    screens: null
+    screens: 2
     programming: [arthouse, foreign, repertory, documentary]
-    status: needs_verification
-    source_urls: []
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://www.siskelfilmcenter.org/playing-this-month
     notes: >-
-      Nonprofit, part of the School of the Art Institute of Chicago. Verify
-      address (State St.), listings_url, and ticketing platform.
+      Nonprofit, public program of the School of the Art Institute of
+      Chicago; Agile ticketing, but showtimes are server-rendered Drupal
+      Calendar View — one month at a time (grid overflow covers the first
+      days of the next month; the cron keeps coverage rolling). Detail
+      pages give "year, director, country, mins". Coords approx — verify.

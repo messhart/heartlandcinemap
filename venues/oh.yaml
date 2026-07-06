@@ -44,19 +44,23 @@ venues:
     listings_url: https://www.neonmovies.com/
     platform: filmbot
     fetch_method: api
-    adapter: unknown
+    adapter: unknown # deliberately unset — see notes (robots.txt)
+    graphql_site_id: 75
+    graphql_circuit_id: 55
     nonprofit: true
     screens: 2
     programming: [arthouse, foreign, documentary, first-run-indie]
-    status: needs_verification
+    status: verified
+    last_verified: 2026-07-06
     source_urls:
       - https://neonmovies.com
     notes: >-
-      Dayton's premier arthouse (nonprofit). PROBED 2026-07-06: runs Filmbot's
-      NEWER hosted product — a React SPA making GraphQL POSTs to
-      www.neonmovies.com/graphql (NOT the WP plugin REST route Gateway and
-      Varsity use). Needs a filmbot_graphql adapter: capture the SPA's
-      showtimes query payload (Playwright network log) and replay it.
+      Dayton's premier arthouse (nonprofit). Filmbot's NEWER hosted product:
+      React SPA + GraphQL at /graphql. The filmbot_graphql adapter works
+      (verified 2026-07-06, tenant ids above), BUT their robots.txt
+      explicitly disallows /graphql — so per our ground rules we DO NOT
+      scrape it. Next step per the brief: email the venue and ask; flip
+      adapter to filmbot_graphql if they say yes.
 
   - id: cia-cinematheque-cleveland
     name: Cleveland Institute of Art Cinematheque
@@ -68,20 +72,21 @@ venues:
     lng: -81.6021
     coords: approx
     tz: America/New_York
-    website: https://www.cia.edu/cinematheque
-    listings_url: ""
+    website: https://cinematheque.cia.edu
+    listings_url: https://cinematheque.cia.edu/
     platform: filmbot
-    fetch_method: unknown
-    adapter: unknown
+    fetch_method: api
+    adapter: filmbot
     nonprofit: true
     screens: 1
     programming: [repertory, classic, foreign, university]
-    status: needs_verification
+    status: verified
+    last_verified: 2026-07-06
     source_urls:
-      - https://www.cia.edu/cinematheque
+      - https://cinematheque.cia.edu/
     notes: >-
       "One of the country's best repertory movie theaters" (NYT); program of
-      the Cleveland Institute of Art; Filmbot checkout per research report.
-      PROBED 2026-07-06: cia.edu answers every request with a 307 challenge
-      loop for non-browser clients — needs a headless probe to find where
-      the Filmbot listings actually live (possibly a subdomain).
+      the Cleveland Institute of Art. www.cia.edu sits behind a 307 bot
+      challenge, but the cinematheque lives on its own WordPress at
+      cinematheque.cia.edu with the standard Filmbot REST route (theater_id
+      348) — same adapter as Gateway/Varsity/Hi-Pointe.

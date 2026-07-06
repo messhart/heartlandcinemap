@@ -69,27 +69,31 @@
     "name": "Gene Siskel Film Center",
     "city": "Chicago",
     "state": "IL",
-    "address": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
+    "address": "164 N. State St.",
+    "zip": "60601",
+    "lat": 41.8853,
+    "lng": -87.6279,
+    "coords": "approx",
     "tz": "America/Chicago",
     "website": "https://www.siskelfilmcenter.org",
-    "listings_url": "",
-    "platform": "unknown",
-    "fetch_method": "unknown",
-    "adapter": "unknown",
+    "listings_url": "https://www.siskelfilmcenter.org/playing-this-month",
+    "platform": "agile",
+    "fetch_method": "static_html",
+    "adapter": "drupal_calendar",
     "nonprofit": true,
-    "screens": null,
+    "screens": 2,
     "programming": [
       "arthouse",
       "foreign",
       "repertory",
       "documentary"
     ],
-    "status": "needs_verification",
-    "source_urls": [],
-    "notes": "Nonprofit, part of the School of the Art Institute of Chicago. Verify address (State St.), listings_url, and ticketing platform."
+    "status": "verified",
+    "last_verified": "2026-07-06",
+    "source_urls": [
+      "https://www.siskelfilmcenter.org/playing-this-month"
+    ],
+    "notes": "Nonprofit, public program of the School of the Art Institute of Chicago; Agile ticketing, but showtimes are server-rendered Drupal Calendar View — one month at a time (grid overflow covers the first days of the next month; the cron keeps coverage rolling). Detail pages give \"year, director, country, mins\". Coords approx — verify."
   },
   {
     "id": "kan-kan-indianapolis",
@@ -162,26 +166,31 @@
     "name": "Trylon Cinema",
     "city": "Minneapolis",
     "state": "MN",
-    "address": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
+    "address": "2820 E. 33rd St.",
+    "zip": "55406",
+    "lat": 44.9459,
+    "lng": -93.2325,
+    "coords": "approx",
     "tz": "America/Chicago",
     "website": "https://www.trylon.org",
-    "listings_url": "",
-    "platform": "unknown",
-    "fetch_method": "unknown",
-    "adapter": "unknown",
+    "listings_url": "https://www.trylon.org/",
+    "platform": "wordpress_custom",
+    "fetch_method": "static_html",
+    "adapter": "trylon_wordpress",
     "nonprofit": true,
     "screens": 1,
     "programming": [
       "repertory",
       "microcinema",
-      "classic"
+      "classic",
+      "cult"
     ],
-    "status": "needs_verification",
-    "source_urls": [],
-    "notes": "Nonprofit microcinema. Verify all fields."
+    "status": "verified",
+    "last_verified": "2026-07-06",
+    "source_urls": [
+      "https://www.trylon.org/"
+    ],
+    "notes": "Nonprofit repertory microcinema, on-site WordPress cart. Homepage \"upcoming by date\" widget server-renders ~29 days (date buttons 1:1 with day lists; no year on dates — adapter rolls the year forward). Titles carry \"in 4K/35mm\" suffixes and \"*Sold Out*\" markers. No film year on site — enrichment leans on the ambiguity guard + overrides. Coords approx — verify."
   },
   {
     "id": "hi-pointe-theatre-st-louis",
@@ -263,6 +272,8 @@
     "platform": "filmbot",
     "fetch_method": "api",
     "adapter": "unknown",
+    "graphql_site_id": 75,
+    "graphql_circuit_id": 55,
     "nonprofit": true,
     "screens": 2,
     "programming": [
@@ -271,11 +282,12 @@
       "documentary",
       "first-run-indie"
     ],
-    "status": "needs_verification",
+    "status": "verified",
+    "last_verified": "2026-07-06",
     "source_urls": [
       "https://neonmovies.com"
     ],
-    "notes": "Dayton's premier arthouse (nonprofit). PROBED 2026-07-06: runs Filmbot's NEWER hosted product — a React SPA making GraphQL POSTs to www.neonmovies.com/graphql (NOT the WP plugin REST route Gateway and Varsity use). Needs a filmbot_graphql adapter: capture the SPA's showtimes query payload (Playwright network log) and replay it."
+    "notes": "Dayton's premier arthouse (nonprofit). Filmbot's NEWER hosted product: React SPA + GraphQL at /graphql. The filmbot_graphql adapter works (verified 2026-07-06, tenant ids above), BUT their robots.txt explicitly disallows /graphql — so per our ground rules we DO NOT scrape it. Next step per the brief: email the venue and ask; flip adapter to filmbot_graphql if they say yes."
   },
   {
     "id": "cia-cinematheque-cleveland",
@@ -288,11 +300,11 @@
     "lng": -81.6021,
     "coords": "approx",
     "tz": "America/New_York",
-    "website": "https://www.cia.edu/cinematheque",
-    "listings_url": "",
+    "website": "https://cinematheque.cia.edu",
+    "listings_url": "https://cinematheque.cia.edu/",
     "platform": "filmbot",
-    "fetch_method": "unknown",
-    "adapter": "unknown",
+    "fetch_method": "api",
+    "adapter": "filmbot",
     "nonprofit": true,
     "screens": 1,
     "programming": [
@@ -301,11 +313,12 @@
       "foreign",
       "university"
     ],
-    "status": "needs_verification",
+    "status": "verified",
+    "last_verified": "2026-07-06",
     "source_urls": [
-      "https://www.cia.edu/cinematheque"
+      "https://cinematheque.cia.edu/"
     ],
-    "notes": "\"One of the country's best repertory movie theaters\" (NYT); program of the Cleveland Institute of Art; Filmbot checkout per research report. PROBED 2026-07-06: cia.edu answers every request with a 307 challenge loop for non-browser clients — needs a headless probe to find where the Filmbot listings actually live (possibly a subdomain)."
+    "notes": "\"One of the country's best repertory movie theaters\" (NYT); program of the Cleveland Institute of Art. www.cia.edu sits behind a 307 bot challenge, but the cinematheque lives on its own WordPress at cinematheque.cia.edu with the standard Filmbot REST route (theater_id 348) — same adapter as Gateway/Varsity/Hi-Pointe."
   },
   {
     "id": "oriental-theatre-milwaukee",
