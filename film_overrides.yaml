@@ -1,0 +1,13 @@
+# Hand-maintained TMDb overrides — the human escape hatch for films the
+# conservative matcher can't safely resolve (usually: venue gives no year
+# and several films share the title).
+#
+# Key:   the film key exactly as it appears in public/films.json
+#        (lowercased title + "|" + year-or-empty)
+# Value: the TMDb movie id (the number in themoviedb.org/movie/<id>-slug)
+#
+# enrich.py fetches these ids directly, overriding any cached miss.
+# Only add entries you've personally confirmed against the venue's page.
+
+"network|": 10774 # Network (1976) — Kan-Kan's 4K restoration, title has no year
+"a tale of summer|1996": 37563 # Rohmer's Conte d'été — TMDb calls it "A Summer's Tale"

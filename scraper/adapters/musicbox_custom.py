@@ -13,9 +13,11 @@ parses the rendered month-grid calendar:
                                     when not purchasable (past OR sold out —
                                     we flag sold_out only for future shows)
 
-We fetch the current month and the next (/calendar/{month}/{year}?view=grid)
-— two page loads per run. The calendar shows no film year; enrichment must
-match by title alone, so it stays conservative (see enrich.py).
+We fetch the current month and the next (/calendar/{month}/{year}?view=grid),
+then visit each distinct film's detail page once — those state "Production
+Year YYYY" and "Part of: <series>", which the calendar grid doesn't. The
+year is what lets enrichment disambiguate repertory remakes (their Ocean's
+Eleven is 2001, not 1960). ~35 rate-limited page loads per run.
 """
 
 from __future__ import annotations
@@ -32,6 +34,8 @@ from fetch import USER_AGENT
 from normalize import localize
 
 TIME_RE = re.compile(r"(\d{1,2}):(\d{2})\s*(am|pm)", re.I)
+PRODUCTION_YEAR_RE = re.compile(r"Production Year\s+((?:19|20)\d{2})")
+PART_OF_RE = re.compile(r"Part of:\s*([^\n]+)")
 MONTHS = ["january", "february", "march", "april", "may", "june", "july",
           "august", "september", "october", "november", "december"]
 
@@ -106,5 +110,27 @@ def scrape(venue: dict, session, scraped_at: str) -> list[dict]:
             page.goto(url, wait_until="networkidle", timeout=60000)
             records.extend(_parse_calendar(page.content(), base, venue, scraped_at, now))
             time.sleep(1)  # politeness gap between month loads
+
+        # per-film detail pages: year (disambiguates repertory remakes) + series
+        details: dict[str, tuple] = {}
+        for url in sorted({r["ticket_url"] for r in records}):
+            try:
+                page.goto(url, wait_until="networkidle", timeout=60000)
+                text = page.inner_text("body")
+            except Exception:
+                details[url] = (None, None)  # detail page is best-effort only
+                continue
+            y = PRODUCTION_YEAR_RE.search(text)
+            s = PART_OF_RE.search(text)
+            details[url] = (
+                int(y.group(1)) if y else None,
+                s.group(1).strip() if s else None,
+            )
+            time.sleep(1)
         browser.close()
+
+    for r in records:
+        year, series = details.get(r["ticket_url"], (None, None))
+        r["film_year"] = r["film_year"] or year
+        r["series"] = r["series"] or series
     return records

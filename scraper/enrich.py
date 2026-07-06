@@ -8,11 +8,16 @@ zero to a handful of calls.
 
 Matching is deliberately conservative — a wrong synopsis is worse than none:
 - normalized title must equal the TMDb title or original title, and
-- if we know the film year, the release year must be within 1.
+- if we know the film year, the release year must be within 2 (venues cite
+  production years, TMDb cites releases — Music Box says Female Trouble is
+  1974, TMDb says 1976; true remakes are decades apart, so ±2 stays safe).
 Non-film events (trivia nights etc.) simply never match.
 
 Requires TMDB_API_KEY in the environment (GitHub Actions secret / local env).
 Misses are cached too and retried after RETRY_DAYS.
+
+film_overrides.yaml (repo root, hand-maintained) pins film keys to TMDb ids
+for the cases no safe rule can decide; overrides beat cached misses.
 """
 
 from __future__ import annotations
@@ -30,6 +35,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SHOWTIMES = ROOT / "public" / "showtimes.json"
 FILMS = ROOT / "public" / "films.json"
+OVERRIDES = ROOT / "film_overrides.yaml"
 
 API = "https://api.themoviedb.org/3"
 RETRY_DAYS = 30
@@ -128,7 +134,7 @@ def _search_one(title: str, year, screen_year=None) -> dict | None:
         if norm(r.get("title", "")) != want and norm(r.get("original_title", "")) != want:
             continue
         r_year = int(r["release_date"][:4]) if r.get("release_date") else None
-        if year and (r_year is None or abs(r_year - year) > 1):
+        if year and (r_year is None or abs(r_year - year) > 2):
             continue
         exact.append((r, r_year))
     if year and exact:
@@ -164,6 +170,17 @@ def _search_one(title: str, year, screen_year=None) -> dict | None:
     return None
 
 
+def _film_entry(detail: dict) -> dict:
+    return {
+        "title": detail.get("title"),
+        "year": int(detail["release_date"][:4]) if detail.get("release_date") else None,
+        "overview": detail.get("overview") or None,
+        "runtime": detail.get("runtime") or None,
+        "poster_path": detail.get("poster_path"),  # for future poster use
+        "url": f"https://www.themoviedb.org/movie/{detail['id']}",
+    }
+
+
 def main() -> None:
     if not os.environ.get("TMDB_API_KEY"):
         sys.exit("TMDB_API_KEY not set — skipping enrichment would leave films.json stale; failing loudly instead.")
@@ -179,10 +196,22 @@ def main() -> None:
             screen_year = min(screen_year, wanted[key][2])
         wanted[key] = (s["film_title"], s.get("film_year"), screen_year)
 
+    overrides = {}
+    if OVERRIDES.exists():
+        import yaml
+        overrides = yaml.safe_load(OVERRIDES.read_text(encoding="utf-8")) or {}
+
     retry_before = (date.today() - timedelta(days=RETRY_DAYS)).isoformat()
     new = misses = 0
     for key, (title, year, screen_year) in sorted(wanted.items()):
         cached = films.get(key)
+        if key in overrides:
+            if cached and not cached.get("miss"):
+                continue  # already resolved (by an earlier override run)
+            detail = tmdb(f"/movie/{overrides[key]}")
+            films[key] = _film_entry(detail)
+            new += 1
+            continue
         if cached and not (cached.get("miss") and cached.get("checked", "") < retry_before):
             continue
         match = best_match(title, year, screen_year)
@@ -190,15 +219,7 @@ def main() -> None:
             films[key] = {"miss": True, "checked": date.today().isoformat()}
             misses += 1
             continue
-        detail = tmdb(f"/movie/{match['id']}")
-        films[key] = {
-            "title": detail.get("title"),
-            "year": int(detail["release_date"][:4]) if detail.get("release_date") else None,
-            "overview": detail.get("overview") or None,
-            "runtime": detail.get("runtime") or None,
-            "poster_path": detail.get("poster_path"),  # for future poster use
-            "url": f"https://www.themoviedb.org/movie/{detail['id']}",
-        }
+        films[key] = _film_entry(tmdb(f"/movie/{match['id']}"))
         new += 1
 
     FILMS.write_text(json.dumps(films, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
