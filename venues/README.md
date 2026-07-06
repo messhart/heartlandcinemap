@@ -25,6 +25,7 @@ across *all* state files (they're the join key for showtimes).
 | `address`      |     | street only (no city/state). |
 | `zip`          |     | 5-digit, quoted string. |
 | `lat`,`lng`    | ✓*  | decimal degrees. *Required for the distance filter — the point of the site. Mark `coords: approx` if guessed. |
+| `tz`           | ✓   | IANA timezone (e.g. `America/Chicago`, `America/Indiana/Indianapolis`). The scraper localizes naive showtimes with this — Midwest spans Central/Eastern, and Indiana is its own adventure. |
 | `website`      |     | official homepage. |
 | `listings_url` |     | page the scraper actually hits for showtimes (often calendar/now-showing, not homepage). |
 | `platform`     |     | ticketing/CMS backend → drives adapter choice. One of: `elevent` `veezi` `agile` `eventive` `filmbot` `audienceview` `etix` `wordpress_custom` `custom_js` `unknown`. |

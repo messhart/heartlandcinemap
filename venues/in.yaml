@@ -9,6 +9,7 @@ venues:
     zip: "46201"
     lat: 39.7848285
     lng: -86.1295101
+    tz: America/Indiana/Indianapolis
     website: https://kankanindy.com
     listings_url: https://kankanindy.com/all-upcoming-films/
     platform: elevent

@@ -10,6 +10,7 @@ venues:
     lat: 41.9503
     lng: -87.6639
     coords: approx
+    tz: America/Chicago
     website: https://musicboxtheatre.com
     listings_url: https://musicboxtheatre.com/now-showing
     platform: custom_js
@@ -24,11 +25,15 @@ venues:
       - https://www.musicboxtheatre.com/
       - https://musicboxtheatre.com/now-showing
     notes: >-
-      Independent, operating since 1929. JS-RENDERED SPA — a raw GET returns a
-      "JavaScript required" wall with NO showtime data. HARD archetype: first
-      discover the JSON/XHR endpoint the page calls (devtools Network tab on
-      /now-showing and /calendar) and target that; only fall back to Playwright
-      if none exists. /calendar (month view) may parse more easily. Coords are
+      Independent, operating since 1929. PROBED 2026-07-05: the "JavaScript
+      required" wall is a Sucuri Cloudproxy bot challenge (HTTP 307 + obfuscated
+      cookie-setting JS) in front of the ENTIRE site, not an SPA quirk — so no
+      JSON/XHR endpoint is reachable without the challenge cookie either.
+      Underlying CMS is Drupal (stock robots.txt, which allows crawling).
+      /rss.xml bypasses the challenge but is EMPTY; /events/feed and /films.json
+      are 404. Conclusion: use Playwright (fetch_method: headless) — a real
+      browser passes the challenge like any visitor; keep our honest bot UA, run
+      at low frequency (~daily), and try /calendar month view first. Coords are
       approximate — confirm before relying on the distance filter.
 
   - id: gene-siskel-film-center-chicago
@@ -39,6 +44,7 @@ venues:
     zip: ""
     lat: null
     lng: null
+    tz: America/Chicago
     website: https://www.siskelfilmcenter.org
     listings_url: ""
     platform: unknown

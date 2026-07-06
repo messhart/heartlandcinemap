@@ -53,8 +53,9 @@ Rules of the road:
 ## Roadmap
 
 - [x] Venue registry format + seed venues (IL, IN, MN)
-- [ ] Milestone 1: normalize + Kan-Kan (Elevent/WordPress) adapter, live run
-- [ ] Music Box adapter (JSON endpoint or headless fallback)
+- [x] Milestone 1: normalize + Kan-Kan (Elevent/WordPress) adapter, live run
+- [ ] Music Box adapter (needs headless — site sits behind a Sucuri JS
+      challenge; probe notes in venues/il.yaml)
 - [ ] Static frontend: ZIP + radius filter, sort by time/distance/title
 - [ ] GitHub Actions cron: scrape → commit JSON → deploy
 - [ ] Printable calendar poster view (letter, B/W or color)

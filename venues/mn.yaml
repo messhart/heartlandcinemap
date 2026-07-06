@@ -9,6 +9,7 @@ venues:
     zip: ""
     lat: null
     lng: null
+    tz: America/Chicago
     website: https://www.trylon.org
     listings_url: ""
     platform: unknown
