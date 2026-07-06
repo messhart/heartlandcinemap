@@ -130,15 +130,23 @@ def _search_one(title: str, year, screen_year=None) -> dict | None:
 
     want = norm(title)
     exact = []
+    undated = []  # exact-title results with no release_date (unreleased indies)
     for r in results:
         if norm(r.get("title", "")) != want and norm(r.get("original_title", "")) != want:
             continue
         r_year = int(r["release_date"][:4]) if r.get("release_date") else None
-        if year and (r_year is None or abs(r_year - year) > 2):
+        if year and r_year is None:
+            undated.append(r)
+            continue
+        if year and abs(r_year - year) > 2:
             continue
         exact.append((r, r_year))
     if year and exact:
         return exact[0][0]
+    if year and len(undated) == 1:
+        # sole exact-title match has a blank TMDb release date ("American
+        # Agitators" pre-release) — accept rather than punish TMDb's gap
+        return undated[0]
     if exact:
         # No year to disambiguate: only match when all same-titled candidates
         # are the same film (repertory houses screen remade titles — a wrong

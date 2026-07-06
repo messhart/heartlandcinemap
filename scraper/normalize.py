@@ -13,9 +13,13 @@ Records that fail validation are dropped and reported, never emitted.
 
 from __future__ import annotations
 
+import json
 import re
 from datetime import datetime
+from pathlib import Path
 from zoneinfo import ZoneInfo
+
+PREVIOUS_SHOWTIMES = Path(__file__).resolve().parent.parent / "public" / "showtimes.json"
 
 REQUIRED_FIELDS = ("venue_id", "film_title", "start", "ticket_url", "source_scraped_at")
 
@@ -63,11 +67,33 @@ OPTIONAL_DEFAULTS = {
     "format": None,
     "series": None,
     "sold_out": False,
+    "detail_url": None,  # film intro page on the venue's own site, when it
+                         # differs from ticket_url (which may be a checkout)
 }
 
 
 class ValidationError(ValueError):
     pass
+
+
+def previous_facts(venue_id: str, fields: tuple = ("film_year", "series")) -> dict:
+    """ticket_url -> {field: value} from the previous run's showtimes.json.
+
+    Detail-page fetches can flake (CDNs are rough on CI datacenter IPs), but
+    film facts don't change — adapters use this to backfill gaps so every
+    run is at least as informed as the last one.
+    """
+    try:
+        old = json.loads(PREVIOUS_SHOWTIMES.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    facts: dict = {}
+    for r in old:
+        if r.get("venue_id") == venue_id:
+            vals = {f: r.get(f) for f in fields if r.get(f)}
+            if vals:
+                facts[r["ticket_url"]] = vals
+    return facts
 
 
 def localize(naive: datetime, tz_name: str) -> datetime:

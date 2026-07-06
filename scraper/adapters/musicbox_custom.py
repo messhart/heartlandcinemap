@@ -31,7 +31,7 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 from fetch import USER_AGENT
-from normalize import localize
+from normalize import localize, previous_facts
 
 TIME_RE = re.compile(r"(\d{1,2}):(\d{2})\s*(am|pm)", re.I)
 PRODUCTION_YEAR_RE = re.compile(r"Production Year\s+((?:19|20)\d{2})")
@@ -129,8 +129,12 @@ def scrape(venue: dict, session, scraped_at: str) -> list[dict]:
             time.sleep(1)
         browser.close()
 
+    # detail fetches flake on CI (Sucuri is rough on datacenter IPs) — film
+    # facts don't change, so backfill gaps from the previous run's records
+    previous = previous_facts(venue["id"])
     for r in records:
         year, series = details.get(r["ticket_url"], (None, None))
-        r["film_year"] = r["film_year"] or year
-        r["series"] = r["series"] or series
+        prev = previous.get(r["ticket_url"], {})
+        r["film_year"] = r["film_year"] or year or prev.get("film_year")
+        r["series"] = r["series"] or series or prev.get("series")
     return records

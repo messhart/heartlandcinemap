@@ -38,9 +38,24 @@
   </tr></thead>
   <tbody></tbody>
 </table>
+<h1 style="margin-top:2.5rem">Films without TMDb matches</h1>
+<p id="films-summary" style="color:var(--muted)">Loading…</p>
+<table id="films-tbl" hidden>
+  <thead><tr>
+    <th>Title as scraped</th><th>Year</th><th>Playing at</th><th>Next showing</th>
+    <th>film_overrides.yaml line (paste + fill the TMDb id)</th>
+  </tr></thead>
+  <tbody></tbody>
+</table>
+<p style="color:var(--muted);font-size:0.85rem">To fix one: find the film on
+themoviedb.org, copy the number from its URL, paste the line into
+<code>film_overrides.yaml</code> with that id, then run
+<code>python scraper/enrich.py</code>. Misses also retry automatically after 30 days.</p>
+
 <footer>Serve from the repo root: <code>python -m http.server</code> →
 <a href="http://localhost:8000/dashboard.html">localhost:8000/dashboard.html</a>.
-Reads <code>run_report.json</code> + <code>public/venues.json</code>.</footer>
+Reads <code>run_report.json</code>, <code>public/venues.json</code>,
+<code>public/films.json</code>, <code>public/showtimes.json</code>.</footer>
 
 <script>
 "use strict";
@@ -91,6 +106,52 @@ Promise.all([
 }).catch((e) => {
   document.getElementById("summary").textContent =
     "Couldn't load run_report.json — run the scraper first (" + e + ")";
+});
+
+// ---- films without TMDb matches ----
+Promise.all([
+  fetch("./public/films.json").then((r) => r.json()),
+  fetch("./public/showtimes.json").then((r) => r.json()),
+  fetch("./public/venues.json").then((r) => r.json()),
+]).then(([films, showtimes, venues]) => {
+  const vname = {};
+  for (const v of venues) vname[v.id] = v.name;
+  const key = (s) => s.film_title.replace(/\s+/g, " ").trim().toLowerCase() +
+    "|" + (s.film_year || "");
+
+  // misses that are actually still on a schedule somewhere
+  const byKey = {};
+  for (const s of showtimes) {
+    const k = key(s);
+    if (!(films[k] || {}).miss) continue;
+    if (!byKey[k]) byKey[k] = { title: s.film_title, year: s.film_year, venues: new Set(), first: s.start };
+    byKey[k].venues.add(vname[s.venue_id] || s.venue_id);
+    if (s.start < byKey[k].first) byKey[k].first = s.start;
+  }
+
+  const rows = Object.entries(byKey).sort((a, b) => a[1].first.localeCompare(b[1].first));
+  const tbody = document.querySelector("#films-tbl tbody");
+  for (const [k, f] of rows) {
+    const tr = document.createElement("tr");
+    const cells = [
+      f.title, f.year || "—", [...f.venues].join(", "), f.first.slice(0, 10),
+      `"${k.replace(/"/g, '\\"')}": TMDB_ID_HERE`,
+    ];
+    cells.forEach((text, i) => {
+      const td = document.createElement("td");
+      if (i === 4) { const c = document.createElement("code"); c.textContent = text; td.appendChild(c); }
+      else td.textContent = text;
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  }
+  document.getElementById("films-summary").textContent =
+    `${rows.length} scheduled films have no TMDb match (misses retry after 30 days; ` +
+    `most are trivia nights, double features, and local premieres — only add an ` +
+    `override when it's really a film).`;
+  document.getElementById("films-tbl").hidden = rows.length === 0;
+}).catch(() => {
+  document.getElementById("films-summary").textContent = "Couldn't load films/showtimes data.";
 });
 </script>
 </body>

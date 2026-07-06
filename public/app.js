@@ -226,15 +226,25 @@
       body.appendChild(meta);
     }
 
-    if (info && info.overview) {
+    // film intro pages on the venues' own sites (when chips go to checkout)
+    const venuePages = [...new Map(
+      list.filter((s) => s.detail_url).map((s) => [s.detail_url, s.venue.name])
+    ).entries()];
+    if ((info && info.overview) || venuePages.length) {
       const det = el("details", "about");
       det.appendChild(el("summary", null, "about this film"));
-      det.appendChild(el("p", null, truncate(info.overview, 550)));
+      if (info && info.overview) det.appendChild(el("p", null, truncate(info.overview, 550)));
       const m = el("p", "about-meta");
-      const a = el("a", null, "TMDB ↗");
-      a.href = info.url;
-      a.rel = "noopener";
-      m.appendChild(a);
+      const links = [];
+      if (info) links.push([info.url, "TMDB ↗"]);
+      for (const [url, name] of venuePages) links.push([url, `${name} ↗`]);
+      links.forEach(([url, label], i) => {
+        if (i) m.append(" · ");
+        const a = el("a", null, label);
+        a.href = url;
+        a.rel = "noopener";
+        m.appendChild(a);
+      });
       det.appendChild(m);
       body.appendChild(det);
     }

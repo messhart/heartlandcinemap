@@ -13,6 +13,11 @@ Custom WordPress with an on-site cart; the homepage server-renders an
 
 Dates lack a year, so we roll forward from today: the widget starts at the
 current date and ascends; when the month number drops, the year bumps.
+
+Film detail pages (/film/{slug}/) state "(1971, 99m) dir Richard C.
+Sarafian" — fetched once per distinct film for the year, which is what lets
+enrichment tell the 2005 Domino from the 2019 one. Gaps backfill from the
+previous run (film facts don't change).
 """
 
 from __future__ import annotations
@@ -25,7 +30,9 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 from fetch import PoliteSession
+from normalize import previous_facts
 
+YEAR_RUNTIME_RE = re.compile(r"\(((?:19|20)\d{2}),\s*\d+\s*m")
 DATE_RE = re.compile(r"([A-Za-z]{3})\s+(\d{1,2})$")
 MONTHS = {m: i + 1 for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -80,7 +87,7 @@ def scrape(venue: dict, session: PoliteSession, scraped_at: str) -> list[dict]:
                 records.append({
                     "venue_id": venue["id"],
                     "film_title": title,
-                    "film_year": None,
+                    "film_year": None,  # filled from the film page below
                     "start": start,
                     "screen": None,
                     "format": fmt,
@@ -90,4 +97,17 @@ def scrape(venue: dict, session: PoliteSession, scraped_at: str) -> list[dict]:
                     or "inactive" in (span.get("class") or []),
                     "source_scraped_at": scraped_at,
                 })
+
+    # film pages carry the year; backfill any fetch gaps from the last run
+    years: dict[str, int | None] = {}
+    for url in sorted({r["ticket_url"] for r in records}):
+        try:
+            m = YEAR_RUNTIME_RE.search(session.get(url).text)
+            years[url] = int(m.group(1)) if m else None
+        except Exception:
+            years[url] = None
+    previous = previous_facts(venue["id"], ("film_year",))
+    for r in records:
+        r["film_year"] = years.get(r["ticket_url"]) or \
+            previous.get(r["ticket_url"], {}).get("film_year")
     return records
