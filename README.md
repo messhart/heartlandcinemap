@@ -5,7 +5,7 @@ repertory, and nonprofit cinemas across the US Midwest. Enter a ZIP code, pick
 a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
-**Live at <https://moonriver366.github.io/heartlandcinemap/>** — early days:
+**Live at <https://messhart.github.io/heartlandcinemap/>** — early days:
 one venue scraped so far (Kan-Kan, Indianapolis), more adapters coming.
 
 ## How it works (and why it costs ~nothing)

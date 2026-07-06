@@ -15,7 +15,7 @@ import requests
 
 USER_AGENT = (
     "HeartlandCinemapBot/0.1 "
-    "(+https://github.com/moonriver366/heartlandcinemap; contact: dyfttym@protonmail.ch)"
+    "(+https://github.com/messhart/heartlandcinemap; contact: dyfttym@protonmail.ch)"
 )
 
 MIN_DELAY_S = 1.0
