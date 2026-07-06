@@ -13,10 +13,49 @@ Records that fail validation are dropped and reported, never emitted.
 
 from __future__ import annotations
 
+import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
 REQUIRED_FIELDS = ("venue_id", "film_title", "start", "ticket_url", "source_scraped_at")
+
+# words kept lowercase in titles unless first/last or after a colon
+SMALL_WORDS = {"a", "an", "the", "and", "but", "or", "nor", "of", "in", "on",
+               "at", "to", "for", "with", "from", "by", "as", "vs"}
+ROMAN_RE = re.compile(r"^[IVXLCDM]+$")
+
+
+def _cap_word(word: str) -> str:
+    """MADDIE’S -> Maddie’s; II stays II; A/V and SPIDER-MAN cap each part."""
+    core, punct = re.match(r"^(.*?)([:;,!?]*)$", word).groups()
+    for sep in ("-", "/", "."):
+        if sep in core and core != sep:
+            return sep.join(_cap_word(p) for p in core.split(sep)) + punct
+    if ROMAN_RE.match(core):
+        return word  # roman numerals (and single letters) stay uppercase
+    return core[:1].upper() + core[1:].lower() + punct
+
+
+def smart_title(text):
+    """Title-case SHOUTING text; anything already mixed-case passes through.
+
+    Some venues (Kan-Kan) publish everything in ALL CAPS; others use real
+    casing. Only strings with no lowercase letters are touched, so venues
+    that case their titles deliberately are never mangled. Best-effort:
+    acronym titles (RRR) and Mc/Mac names lose their casing — acceptable.
+    """
+    if not text or any(c.islower() for c in text):
+        return text
+    words = text.split(" ")
+    out = []
+    for i, word in enumerate(words):
+        lower = word.lower()
+        prev = words[i - 1] if i else ""
+        if 0 < i < len(words) - 1 and lower in SMALL_WORDS and not prev.endswith(":"):
+            out.append(lower)
+        else:
+            out.append(_cap_word(word))
+    return " ".join(out)
 
 OPTIONAL_DEFAULTS = {
     "film_year": None,
@@ -58,6 +97,8 @@ def validate_record(rec: dict) -> dict:
         raise ValidationError(f"ticket_url is not a URL: {rec['ticket_url']!r}")
 
     out = {**OPTIONAL_DEFAULTS, **rec, "start": start}
+    out["film_title"] = smart_title(out["film_title"])
+    out["series"] = smart_title(out["series"])
     return {k: out[k] for k in (*REQUIRED_FIELDS, *OPTIONAL_DEFAULTS)}
 
 

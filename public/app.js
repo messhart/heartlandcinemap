@@ -6,6 +6,7 @@
 (function () {
   const $zip = document.getElementById("zip");
   const $radius = document.getElementById("radius");
+  const $days = document.getElementById("days");
   const $sort = document.getElementById("sort");
   const $status = document.getElementById("status");
   const $listings = document.getElementById("listings");
@@ -124,6 +125,7 @@
     const p = new URLSearchParams(location.search);
     if (/^\d{5}$/.test(p.get("zip") || "")) $zip.value = p.get("zip");
     if (["50", "100", "200"].includes(p.get("mi"))) $radius.value = p.get("mi");
+    if (["7", "30", "60", "all"].includes(p.get("d"))) $days.value = p.get("d");
     if (["time", "distance", "title"].includes(p.get("sort"))) $sort.value = p.get("sort");
   }
 
@@ -131,6 +133,7 @@
     const p = new URLSearchParams();
     if (/^\d{5}$/.test($zip.value)) p.set("zip", $zip.value);
     if ($radius.value !== "100") p.set("mi", $radius.value);
+    if ($days.value !== "7") p.set("d", $days.value);
     if ($sort.value !== "time") p.set("sort", $sort.value);
     const qs = p.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
@@ -205,16 +208,22 @@
       statusBits.push(`<span class="warn">ZIP ${$zip.value} isn't in our Midwest lookup — showing everything.</span>`);
     }
 
+    // global date-range filter, applied before any arrangement
+    if ($days.value !== "all") {
+      const horizon = new Date(Date.now() + +$days.value * 86400000);
+      visible = shows.filter((s) => new Date(s.start) <= horizon);
+    }
+
     let skippedNoCoords = 0;
     if (origin) {
       const maxMi = +$radius.value;
-      visible = shows.filter((s) => {
+      visible = visible.filter((s) => {
         if (s.venue.lat == null || s.venue.lng == null) { skippedNoCoords++; return false; }
         s.miles = haversineMiles(origin[0], origin[1], s.venue.lat, s.venue.lng);
         return s.miles <= maxMi;
       });
     } else {
-      visible = shows.slice();
+      visible = visible.slice();
       visible.forEach((s) => delete s.miles);
     }
 
@@ -267,6 +276,7 @@
     const nVenues = new Set(visible.map((s) => s.venue_id)).size;
     statusBits.unshift(
       `${visible.length} showtimes at ${nVenues} venue${nVenues === 1 ? "" : "s"}` +
+      ($days.value !== "all" ? ` in the next ${$days.value} days` : "") +
       (origin ? ` within ${$radius.value} mi of ${$zip.value}` : "")
     );
     if (skippedNoCoords) {
@@ -315,6 +325,7 @@
 
   $zip.addEventListener("input", render);
   $radius.addEventListener("change", render);
+  $days.addEventListener("change", render);
   $sort.addEventListener("change", render);
   document.getElementById("controls").addEventListener("submit", (e) => e.preventDefault());
 })();

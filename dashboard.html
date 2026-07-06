@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heartland Cinemap — scrape health (local)</title>
+<style>
+  :root { --bg:#faf9f6; --text:#1f1d1a; --muted:#6b6560; --line:#ddd8d0;
+          --ok:#2e7d32; --warn:#b26a00; --err:#b3261e; --card:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#191817; --text:#ece8e2; --muted:#a39c93; --line:#38352f;
+            --ok:#7cc47f; --warn:#e0a94f; --err:#e08b85; --card:#211f1d; }
+  }
+  body { margin:2rem auto; max-width:56rem; padding:0 1rem; background:var(--bg);
+         color:var(--text); font:15px/1.5 system-ui, sans-serif; }
+  h1 { font-size:1.3rem; } h1 small { color:var(--muted); font-weight:normal; }
+  #summary { color:var(--muted); margin:0.5rem 0 1.5rem; }
+  table { border-collapse:collapse; width:100%; background:var(--card);
+          border:1px solid var(--line); border-radius:8px; }
+  th, td { text-align:left; padding:0.5rem 0.75rem; border-bottom:1px solid var(--line); }
+  th { font-size:0.8rem; color:var(--muted); text-transform:uppercase; }
+  tr:last-child td { border-bottom:none; }
+  .ok    { color:var(--ok); font-weight:600; }
+  .error { color:var(--err); font-weight:600; }
+  .skipped { color:var(--warn); }
+  td.num { font-variant-numeric:tabular-nums; text-align:right; }
+  .err-text { color:var(--muted); font-size:0.85rem; max-width:22rem; }
+  footer { margin-top:1.5rem; color:var(--muted); font-size:0.85rem; }
+</style>
+</head>
+<body>
+<h1>Scrape health <small>— local ops view, never deployed</small></h1>
+<p id="summary">Loading run_report.json…</p>
+<table id="tbl" hidden>
+  <thead><tr>
+    <th>Venue</th><th>Status</th><th style="text-align:right">Showtimes</th>
+    <th style="text-align:right">Duration</th><th>Problem</th>
+  </tr></thead>
+  <tbody></tbody>
+</table>
+<footer>Serve from the repo root: <code>python -m http.server</code> →
+<a href="http://localhost:8000/dashboard.html">localhost:8000/dashboard.html</a>.
+Reads <code>run_report.json</code> + <code>public/venues.json</code>.</footer>
+
+<script>
+"use strict";
+Promise.all([
+  fetch("./run_report.json").then((r) => r.json()),
+  fetch("./public/venues.json").then((r) => r.json()),
+]).then(([report, venues]) => {
+  const names = {};
+  for (const v of venues) names[v.id] = `${v.name} — ${v.city}, ${v.state}`;
+
+  const rows = report.venues.slice().sort((a, b) =>
+    a.status.localeCompare(b.status) || a.venue_id.localeCompare(b.venue_id));
+  const tbody = document.querySelector("#tbl tbody");
+  let total = 0;
+  for (const r of rows) {
+    total += r.showtimes;
+    const tr = document.createElement("tr");
+    const cells = [
+      names[r.venue_id] || r.venue_id,
+      r.status,
+      String(r.showtimes),
+      r.duration_s ? r.duration_s + "s" : "—",
+      r.error || "",
+    ];
+    cells.forEach((text, i) => {
+      const td = document.createElement("td");
+      td.textContent = text;
+      if (i === 1) td.className = r.status;
+      if (i === 2 || i === 3) td.className = "num";
+      if (i === 4) td.className = "err-text";
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  }
+  const counts = { ok: 0, skipped: 0, error: 0 };
+  rows.forEach((r) => counts[r.status] !== undefined && counts[r.status]++);
+  const ageMin = Math.round((Date.now() - new Date(report.run_at)) / 60000);
+  document.getElementById("summary").textContent =
+    `Run ${report.run_at} (${ageMin} min ago) · ${total} showtimes · ` +
+    `${counts.ok} ok / ${counts.skipped} skipped / ${counts.error} error · ` +
+    `${report.dropped_records} records dropped by validation`;
+  document.getElementById("tbl").hidden = false;
+}).catch((e) => {
+  document.getElementById("summary").textContent =
+    "Couldn't load run_report.json — run the scraper first (" + e + ")";
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+# Ohio venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: gateway-film-center-columbus
+    name: Gateway Film Center
+    city: Columbus
+    state: OH
+    address: 1550 N. High St.
+    zip: "43201"
+    lat: 39.9931
+    lng: -83.0053
+    coords: approx
+    tz: America/New_York
+    website: https://gatewayfilmcenter.org
+    listings_url: https://gatewayfilmcenter.org/
+    platform: filmbot
+    fetch_method: api
+    adapter: filmbot
+    nonprofit: true
+    screens: 7
+    programming: [arthouse, foreign, documentary, repertory, first-run-indie, cult]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://gatewayfilmcenter.org
+    notes: >-
+      Nonprofit (Gateway Film Foundation, 501c3), Sundance satellite venue,
+      adjacent to Ohio State. Filmbot WordPress plugin exposes
+      /wp-json/nj/v1/showtime/listings — one JSON call, all upcoming
+      showtimes. Series like "Cult 101" appear inside movie names.
+      Coords approx — verify.
+
+  - id: the-neon-dayton
+    name: The Neon
+    city: Dayton
+    state: OH
+    address: 130 E. 5th St.
+    zip: "45402"
+    lat: 39.7576
+    lng: -84.1902
+    coords: approx
+    tz: America/New_York
+    website: https://neonmovies.com
+    listings_url: https://www.neonmovies.com/
+    platform: filmbot
+    fetch_method: api
+    adapter: unknown
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, foreign, documentary, first-run-indie]
+    status: needs_verification
+    source_urls:
+      - https://neonmovies.com
+    notes: >-
+      Dayton's premier arthouse (nonprofit). PROBED 2026-07-06: runs Filmbot's
+      NEWER hosted product — a React SPA making GraphQL POSTs to
+      www.neonmovies.com/graphql (NOT the WP plugin REST route Gateway and
+      Varsity use). Needs a filmbot_graphql adapter: capture the SPA's
+      showtimes query payload (Playwright network log) and replay it.
+
+  - id: cia-cinematheque-cleveland
+    name: Cleveland Institute of Art Cinematheque
+    city: Cleveland
+    state: OH
+    address: 11610 Euclid Ave.
+    zip: "44106"
+    lat: 41.5090
+    lng: -81.6021
+    coords: approx
+    tz: America/New_York
+    website: https://www.cia.edu/cinematheque
+    listings_url: ""
+    platform: filmbot
+    fetch_method: unknown
+    adapter: unknown
+    nonprofit: true
+    screens: 1
+    programming: [repertory, classic, foreign, university]
+    status: needs_verification
+    source_urls:
+      - https://www.cia.edu/cinematheque
+    notes: >-
+      "One of the country's best repertory movie theaters" (NYT); program of
+      the Cleveland Institute of Art; Filmbot checkout per research report.
+      PROBED 2026-07-06: cia.edu answers every request with a 307 challenge
+      loop for non-browser clients — needs a headless probe to find where
+      the Filmbot listings actually live (possibly a subdomain).

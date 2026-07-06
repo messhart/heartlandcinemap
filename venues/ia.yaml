@@ -1,0 +1,32 @@
+# Iowa venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: varsity-cinema-des-moines
+    name: Varsity Cinema
+    city: Des Moines
+    state: IA
+    address: 1207 25th St.
+    zip: "50311"
+    lat: 41.6011
+    lng: -93.6494
+    coords: approx
+    tz: America/Chicago
+    website: https://varsitydesmoines.com
+    listings_url: https://varsitydesmoines.com/
+    platform: filmbot
+    fetch_method: api
+    adapter: filmbot
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, documentary, classic, first-run-indie]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://varsitydesmoines.com
+    notes: >-
+      Des Moines Film Society (nonprofit); est. 1938, reopened 2022 after
+      restoration. Same Filmbot WordPress REST route as Gateway
+      (/wp-json/nj/v1/showtime/listings). Coords approx — verify.
+
+  # From the research report, second pass: FilmScene (Iowa City,
+  # AudienceView/Vantix), Mindframe Theaters (Dubuque, borderline).

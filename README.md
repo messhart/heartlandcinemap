@@ -6,9 +6,10 @@ a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
 **Live at <https://messhart.github.io/heartlandcinemap/>** — early days:
-seven cinemas across four states so far (Indianapolis, Chicago, Fort Wayne,
-Milwaukee ×2, St. Louis, and more coming). Film descriptions courtesy of
-the TMDB API (the site is not endorsed or certified by TMDB).
+nine cinemas across six states so far (Indianapolis, Chicago, Fort Wayne,
+Milwaukee ×2, Columbus, Des Moines, St. Louis, and more coming). Film
+descriptions courtesy of the TMDB API (the site is not endorsed or
+certified by TMDB).
 
 ## How it works (and why it costs ~nothing)
 
@@ -58,13 +59,16 @@ Rules of the road:
 - [x] Milestone 1: normalize + Kan-Kan (Elevent/WordPress) adapter, live run
 - [x] Music Box adapter (Playwright headless past the Sucuri JS challenge)
 - [x] Eventive platform adapter (Cinema Center, Hi-Pointe, Oriental, Downer)
+- [x] Filmbot platform adapter (Gateway, Varsity; Neon + Cleveland
+      Cinematheque need follow-up — see venues/oh.yaml notes)
+- [x] Local scrape-health dashboard (dashboard.html, read-only)
 - [x] Static frontend: ZIP + radius filter, sort by time/distance/title
 - [x] GitHub Actions cron: scrape → commit JSON → deploy (GitHub Pages)
 - [ ] Printable calendar poster view (letter, B/W or color)
 - [x] TMDb enrichment (synopsis + runtime; posters cached for later)
 - [ ] Map view (MapLibre GL + Protomaps static tiles)
-- [ ] Expand venue registry across the Midwest (Filmbot cluster next:
-      Gateway, Cleveland Cinematheque, The Neon, Varsity Des Moines)
+- [ ] Expand venue registry across the Midwest (next: Neon GraphQL +
+      Cinematheque, then Siskel/Agile, Trylon/MSP WordPress, FilmScene)
 - [ ] Venue-updater tool (approval-gated) + local scrape dashboard
 
 ## License
