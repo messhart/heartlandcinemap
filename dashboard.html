@@ -34,7 +34,7 @@
 <table id="tbl" hidden>
   <thead><tr>
     <th>Venue</th><th>Status</th><th style="text-align:right">Showtimes</th>
-    <th style="text-align:right">Duration</th><th>Problem</th>
+    <th style="text-align:right">Duration</th><th>Scraped</th><th>Problem</th>
   </tr></thead>
   <tbody></tbody>
 </table>
@@ -58,11 +58,16 @@ Promise.all([
   for (const r of rows) {
     total += r.showtimes;
     const tr = document.createElement("tr");
+    const ageMin = Math.round((Date.now() - new Date(r.scraped_at)) / 60000);
+    const age = ageMin < 90 ? `${ageMin} min ago`
+      : ageMin < 36 * 60 ? `${Math.round(ageMin / 60)} h ago`
+      : `${Math.round(ageMin / 1440)} d ago`;
     const cells = [
       names[r.venue_id] || r.venue_id,
       r.status,
       String(r.showtimes),
       r.duration_s ? r.duration_s + "s" : "—",
+      age,
       r.error || "",
     ];
     cells.forEach((text, i) => {
@@ -70,7 +75,7 @@ Promise.all([
       td.textContent = text;
       if (i === 1) td.className = r.status;
       if (i === 2 || i === 3) td.className = "num";
-      if (i === 4) td.className = "err-text";
+      if (i === 5) td.className = "err-text";
       tr.appendChild(td);
     });
     tbody.appendChild(tr);

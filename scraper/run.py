@@ -93,6 +93,13 @@ def main() -> None:
             r for r in json.loads(SHOWTIMES_JSON.read_text(encoding="utf-8"))
             if r["venue_id"] != args.venue
         ]
+    if args.venue and RUN_REPORT.exists():
+        # ... and their previous report entries (each keeps its own scraped_at,
+        # so the dashboard can show per-venue freshness)
+        report = [
+            e for e in json.loads(RUN_REPORT.read_text(encoding="utf-8"))["venues"]
+            if e["venue_id"] != args.venue
+        ]
 
     for venue in venues:
         entry = scrape_venue(venue, session, scraped_at)
