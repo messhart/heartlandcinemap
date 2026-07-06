@@ -96,11 +96,11 @@ def candidate_queries(title: str) -> list[str]:
     return queries
 
 
-def best_match(title: str, year) -> dict | None:
+def best_match(title: str, year, screen_year=None) -> dict | None:
     title, year = clean_query(title, year)
     queries = candidate_queries(title)
     for query in queries:
-        match = _search_one(query, year)
+        match = _search_one(query, year, screen_year)
         if match is not None:
             return match
     # Series screenings often carry the EVENT year, not the film's (Gateway's
@@ -109,13 +109,13 @@ def best_match(title: str, year) -> dict | None:
     # in _search_one still applies, so remade titles stay unmatched.
     if year:
         for query in queries[1:]:
-            match = _search_one(query, None)
+            match = _search_one(query, None, screen_year)
             if match is not None:
                 return match
     return None
 
 
-def _search_one(title: str, year) -> dict | None:
+def _search_one(title: str, year, screen_year=None) -> dict | None:
     results = []
     if year:
         results = tmdb("/search/movie", query=title, primary_release_year=year).get("results", [])
@@ -141,6 +141,18 @@ def _search_one(title: str, year) -> dict | None:
         if len(years) == 1:
             return exact[0][0]
         return None
+    # Annual-edition rule: venues drop the year that IS part of the TMDb
+    # title ("CatVideoFest" at Music Box vs TMDb's "CatVideoFest 2026").
+    # Accept only a title that literally equals venue title + the year the
+    # film is being screened — an exact construction, so ordinary titles
+    # ("Alien") can never drift onto sequels or remakes.
+    if year is None and screen_year:
+        suffixed = [
+            r for r in results
+            if norm(r.get("title", "")) == want + str(screen_year)
+        ]
+        if len(suffixed) == 1:
+            return suffixed[0]
     # Fallback for subtitled TMDb titles ("Summer of Soul (...Or, When the
     # Revolution Could Not Be Televised)"): prefix match, but only with an
     # exact year to keep sequels/remakes out.
@@ -159,17 +171,21 @@ def main() -> None:
     showtimes = json.loads(SHOWTIMES.read_text(encoding="utf-8"))
     films = json.loads(FILMS.read_text(encoding="utf-8")) if FILMS.exists() else {}
 
-    wanted = {}  # key -> (title, year)
+    wanted = {}  # key -> (title, year, earliest screening year)
     for s in showtimes:
-        wanted.setdefault(film_key(s["film_title"], s.get("film_year")), (s["film_title"], s.get("film_year")))
+        key = film_key(s["film_title"], s.get("film_year"))
+        screen_year = int(s["start"][:4])
+        if key in wanted:
+            screen_year = min(screen_year, wanted[key][2])
+        wanted[key] = (s["film_title"], s.get("film_year"), screen_year)
 
     retry_before = (date.today() - timedelta(days=RETRY_DAYS)).isoformat()
     new = misses = 0
-    for key, (title, year) in sorted(wanted.items()):
+    for key, (title, year, screen_year) in sorted(wanted.items()):
         cached = films.get(key)
         if cached and not (cached.get("miss") and cached.get("checked", "") < retry_before):
             continue
-        match = best_match(title, year)
+        match = best_match(title, year, screen_year)
         if match is None:
             films[key] = {"miss": True, "checked": date.today().isoformat()}
             misses += 1

@@ -240,20 +240,32 @@
       }
       groups = [...days].map(([d, list]) => ({ title: fmtDate(d), shows: list }));
     } else if (mode === "title") {
+      // group by TMDb identity when we have it, so venues' variant titles
+      // ("CatVideoFest" vs "CatVideoFest 2026") merge into one film
       const byFilm = new Map();
       for (const s of visible) {
-        const key = s.film_title + " " + (s.film_year || "");
+        const info = films[filmKey(s)];
+        const key = info && !info.miss && info.url
+          ? info.url
+          : s.film_title + " " + (s.film_year || "");
         if (!byFilm.has(key)) byFilm.set(key, []);
         byFilm.get(key).push(s);
       }
-      groups = [...byFilm]
-        .sort((a, b) => a[0].localeCompare(b[0]))
-        .map(([key, list]) => ({
-          title: list[0].film_title + (list[0].film_year ? ` (${list[0].film_year})` : ""),
-          sub: `${list.length} showing${list.length > 1 ? "s" : ""}`,
-          about: aboutBlock(list[0]),
-          shows: list.sort(byStart),
-        }));
+      groups = [...byFilm.values()]
+        .map((list) => {
+          const info = films[filmKey(list[0])];
+          const matched = info && !info.miss;
+          let title = matched ? info.title : list[0].film_title;
+          const year = matched ? info.year : list[0].film_year;
+          if (year && !title.endsWith(String(year))) title += ` (${year})`;
+          return {
+            title,
+            sub: `${list.length} showing${list.length > 1 ? "s" : ""}`,
+            about: aboutBlock(list[0]),
+            shows: list.sort(byStart),
+          };
+        })
+        .sort((a, b) => a.title.localeCompare(b.title));
     } else {
       // distance: group by venue, nearest first (alphabetical without a ZIP)
       const vs = new Map();

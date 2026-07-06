@@ -1151,18 +1151,6 @@
   "poster_path": "/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
   "url": "https://www.themoviedb.org/movie/925"
  },
- "a matter of life and death|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "a tale of summer|1996": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "american agitators|2026": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
  "amores perros (4k restoration)|2000": {
   "title": "Amores Perros",
   "year": 2000,
@@ -1170,10 +1158,6 @@
   "runtime": 154,
   "poster_path": "/A4lH22nlFF7MdalGfcvSrlC1ttt.jpg",
   "url": "https://www.themoviedb.org/movie/55"
- },
- "bar trivia|": {
-  "miss": true,
-  "checked": "2026-07-06"
  },
  "black narcissus|1947": {
   "title": "Black Narcissus",
@@ -1191,10 +1175,6 @@
   "poster_path": "/aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg",
   "url": "https://www.themoviedb.org/movie/142"
  },
- "catvideofest|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
  "challengers|2024": {
   "title": "Challengers",
   "year": 2024,
@@ -1202,18 +1182,6 @@
   "runtime": 132,
   "poster_path": "/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
   "url": "https://www.themoviedb.org/movie/937287"
- },
- "christine|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "christmas in spring|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "contempt|": {
-  "miss": true,
-  "checked": "2026-07-06"
  },
  "double indemnity|1944": {
   "title": "Double Indemnity",
@@ -1279,18 +1247,6 @@
   "poster_path": "/6bvxkcTAXyqxGRwo38mxw92D6Xr.jpg",
   "url": "https://www.themoviedb.org/movie/873"
  },
- "golub & viva la causa|1988": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "hedwig and the angry inch|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "hercules|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
  "i shot andy warhol (4k restoration)|1996": {
   "title": "I Shot Andy Warhol",
   "year": 1996,
@@ -1306,6 +1262,134 @@
   "runtime": 90,
   "poster_path": "/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
   "url": "https://www.themoviedb.org/movie/1288059"
+ },
+ "my best friend's wedding|1997": {
+  "title": "My Best Friend's Wedding",
+  "year": 1997,
+  "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
+  "runtime": 105,
+  "poster_path": "/b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
+  "url": "https://www.themoviedb.org/movie/8874"
+ },
+ "paris, texas|1984": {
+  "title": "Paris, Texas",
+  "year": 1984,
+  "overview": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
+  "runtime": 145,
+  "poster_path": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
+  "url": "https://www.themoviedb.org/movie/655"
+ },
+ "past lives|2023": {
+  "title": "Past Lives",
+  "year": 2023,
+  "overview": "After decades apart, childhood friends Nora and Hae Sung are reunited in New York for one fateful weekend as they confront notions of destiny, love, and the choices that make a life.",
+  "runtime": 106,
+  "poster_path": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
+  "url": "https://www.themoviedb.org/movie/666277"
+ },
+ "pride & prejudice (4k restoration)|2005": {
+  "title": "Pride & Prejudice",
+  "year": 2005,
+  "overview": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
+  "runtime": 128,
+  "poster_path": "/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg",
+  "url": "https://www.themoviedb.org/movie/4348"
+ },
+ "sherman's march (4k restoration)|1985": {
+  "title": "Sherman's March",
+  "year": 1985,
+  "overview": "Ross McElwee sets out to make a documentary about the lingering effects of General Sherman's march of destruction through the South during the Civil War, but is continually sidetracked by women who come and go in his life, his recurring dreams of nuclear holocaust, and Burt Reynolds.",
+  "runtime": 158,
+  "poster_path": "/55YscDYNXdffYwDGMrpveqnsa9d.jpg",
+  "url": "https://www.themoviedb.org/movie/41480"
+ },
+ "sorry to bother you|2018": {
+  "title": "Sorry to Bother You",
+  "year": 2018,
+  "overview": "In an alternate present-day version of Oakland, black telemarketer Cassius Green discovers a magical key to professional success – which propels him into a macabre universe.",
+  "runtime": 112,
+  "poster_path": "/peTl1V04E9ppvhgvNmSX0r2ALqO.jpg",
+  "url": "https://www.themoviedb.org/movie/424781"
+ },
+ "test screening - turn it up! (working title)|": {
+  "title": "Test Screening",
+  "year": 2024,
+  "overview": "Oregon, 1982. Four teens suspect that a mysterious upcoming screening at their local cinema is the finale of the Star Wars trilogy, only to discover something far more sinister is taking place.",
+  "runtime": 92,
+  "poster_path": "/f80xOneOtd0onShRwI3TGfqxenE.jpg",
+  "url": "https://www.themoviedb.org/movie/1234194"
+ },
+ "the abyss (4k restoration - special edition)|1989": {
+  "title": "The Abyss",
+  "year": 1989,
+  "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+  "runtime": 140,
+  "poster_path": "/2dCit3XAtv9KWCJvRKdPkJ0FAkH.jpg",
+  "url": "https://www.themoviedb.org/movie/2756"
+ },
+ "the assassination of jesse james by the coward robert ford (35mm)|2007": {
+  "title": "The Assassination of Jesse James by the Coward Robert Ford",
+  "year": 2007,
+  "overview": "Outlaw Jesse James is rumored to be the 'fastest gun in the West'. An eager recruit into James' notorious gang, Robert Ford eventually grows jealous of the famed outlaw and, when Robert and his brother sense an opportunity to kill James, their murderous action elevates their target to near mythical status.",
+  "runtime": 160,
+  "poster_path": "/2d1S6fJS80fvseg6mJE8eq5o7Kx.jpg",
+  "url": "https://www.themoviedb.org/movie/4512"
+ },
+ "the private life of sherlock holmes|1970": {
+  "title": "The Private Life of Sherlock Holmes",
+  "year": 1970,
+  "overview": "When a bored Sherlock eagerly takes the case of Gabrielle Valladon following an attempt on her life, the search for her missing husband leads to Loch Ness and the legendary monster.",
+  "runtime": 125,
+  "poster_path": "/vQSYu0DXkqTOEfWF21AzaqXxYCZ.jpg",
+  "url": "https://www.themoviedb.org/movie/5185"
+ },
+ "a matter of life and death|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "a tale of summer|1996": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "american agitators|2026": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "bar trivia|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "catvideofest|": {
+  "title": "CatVideoFest 2026",
+  "year": 2026,
+  "overview": "Our fuzzy overlords return to the big screen! Each year, CatVideoFest curates a compilation reel of the latest, best cat videos culled from countless hours of unique submissions and sourced animations, music videos, and, of course, classic internet powerhouses (Keyboard Cat, we’re looking at you).",
+  "runtime": 70,
+  "poster_path": "/nRjejxXF7tV8nZ8RFrHyOswuCle.jpg",
+  "url": "https://www.themoviedb.org/movie/1711224"
+ },
+ "christine|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "christmas in spring|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "contempt|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "golub & viva la causa|1988": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "hedwig and the angry inch|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "hercules|": {
+  "miss": true,
+  "checked": "2026-07-06"
  },
  "iceboy!|": {
   "miss": true,
@@ -1339,14 +1423,6 @@
   "miss": true,
   "checked": "2026-07-06"
  },
- "my best friend's wedding|1997": {
-  "title": "My Best Friend's Wedding",
-  "year": 1997,
-  "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
-  "runtime": 105,
-  "poster_path": "/b5g4bp8gS5ovMyR5439AII6zQ3n.jpg",
-  "url": "https://www.themoviedb.org/movie/8874"
- },
  "necessary allies|": {
   "miss": true,
   "checked": "2026-07-06"
@@ -1359,41 +1435,9 @@
   "miss": true,
   "checked": "2026-07-06"
  },
- "paris, texas|1984": {
-  "title": "Paris, Texas",
-  "year": 1984,
-  "overview": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
-  "runtime": 145,
-  "poster_path": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
-  "url": "https://www.themoviedb.org/movie/655"
- },
- "past lives|2023": {
-  "title": "Past Lives",
-  "year": 2023,
-  "overview": "After decades apart, childhood friends Nora and Hae Sung are reunited in New York for one fateful weekend as they confront notions of destiny, love, and the choices that make a life.",
-  "runtime": 106,
-  "poster_path": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
-  "url": "https://www.themoviedb.org/movie/666277"
- },
- "pride & prejudice (4k restoration)|2005": {
-  "title": "Pride & Prejudice",
-  "year": 2005,
-  "overview": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
-  "runtime": 128,
-  "poster_path": "/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg",
-  "url": "https://www.themoviedb.org/movie/4348"
- },
  "romeo + juliet|": {
   "miss": true,
   "checked": "2026-07-06"
- },
- "sherman's march (4k restoration)|1985": {
-  "title": "Sherman's March",
-  "year": 1985,
-  "overview": "Ross McElwee sets out to make a documentary about the lingering effects of General Sherman's march of destruction through the South during the Civil War, but is continually sidetracked by women who come and go in his life, his recurring dreams of nuclear holocaust, and Burt Reynolds.",
-  "runtime": 158,
-  "poster_path": "/55YscDYNXdffYwDGMrpveqnsa9d.jpg",
-  "url": "https://www.themoviedb.org/movie/41480"
  },
  "sherman's march|": {
   "miss": true,
@@ -1402,14 +1446,6 @@
  "sleepaway camp: the midnight mass experience|": {
   "miss": true,
   "checked": "2026-07-06"
- },
- "sorry to bother you|2018": {
-  "title": "Sorry to Bother You",
-  "year": 2018,
-  "overview": "In an alternate present-day version of Oakland, black telemarketer Cassius Green discovers a magical key to professional success – which propels him into a macabre universe.",
-  "runtime": 112,
-  "poster_path": "/peTl1V04E9ppvhgvNmSX0r2ALqO.jpg",
-  "url": "https://www.themoviedb.org/movie/424781"
  },
  "st. louis filmmakers showcase 2026|": {
   "miss": true,
@@ -1423,30 +1459,6 @@
   "miss": true,
   "checked": "2026-07-06"
  },
- "test screening - turn it up! (working title)|": {
-  "title": "Test Screening",
-  "year": 2024,
-  "overview": "Oregon, 1982. Four teens suspect that a mysterious upcoming screening at their local cinema is the finale of the Star Wars trilogy, only to discover something far more sinister is taking place.",
-  "runtime": 92,
-  "poster_path": "/f80xOneOtd0onShRwI3TGfqxenE.jpg",
-  "url": "https://www.themoviedb.org/movie/1234194"
- },
- "the abyss (4k restoration - special edition)|1989": {
-  "title": "The Abyss",
-  "year": 1989,
-  "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
-  "runtime": 140,
-  "poster_path": "/2dCit3XAtv9KWCJvRKdPkJ0FAkH.jpg",
-  "url": "https://www.themoviedb.org/movie/2756"
- },
- "the assassination of jesse james by the coward robert ford (35mm)|2007": {
-  "title": "The Assassination of Jesse James by the Coward Robert Ford",
-  "year": 2007,
-  "overview": "Outlaw Jesse James is rumored to be the 'fastest gun in the West'. An eager recruit into James' notorious gang, Robert Ford eventually grows jealous of the famed outlaw and, when Robert and his brother sense an opportunity to kill James, their murderous action elevates their target to near mythical status.",
-  "runtime": 160,
-  "poster_path": "/2d1S6fJS80fvseg6mJE8eq5o7Kx.jpg",
-  "url": "https://www.themoviedb.org/movie/4512"
- },
  "the mastermind|": {
   "miss": true,
   "checked": "2026-07-06"
@@ -1454,14 +1466,6 @@
  "the outwaters + tinsman road|": {
   "miss": true,
   "checked": "2026-07-06"
- },
- "the private life of sherlock holmes|1970": {
-  "title": "The Private Life of Sherlock Holmes",
-  "year": 1970,
-  "overview": "When a bored Sherlock eagerly takes the case of Gabrielle Valladon following an attempt on her life, the search for her missing husband leads to Loch Ness and the legendary monster.",
-  "runtime": 125,
-  "poster_path": "/vQSYu0DXkqTOEfWF21AzaqXxYCZ.jpg",
-  "url": "https://www.themoviedb.org/movie/5185"
  },
  "the trials of muhammad ali screening|2012": {
   "miss": true,
@@ -1479,15 +1483,11 @@
   "miss": true,
   "checked": "2026-07-06"
  },
- "wallace &amp; gromit: the classic shorts|2026": {
+ "wallace & gromit: the classic shorts|2026": {
   "miss": true,
   "checked": "2026-07-06"
  },
  "welcome space brothers|": {
-  "miss": true,
-  "checked": "2026-07-06"
- },
- "wallace & gromit: the classic shorts|2026": {
   "miss": true,
   "checked": "2026-07-06"
  }
