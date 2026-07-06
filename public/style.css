@@ -64,31 +64,57 @@ input, select {
 #status { min-height: 1.5em; color: var(--muted); font-size: 0.9rem; }
 #status .warn { color: var(--accent); }
 
-/* listings */
-.group { margin: 1.5rem 0; }
-.group > h2 {
+/* day sections */
+section.day { margin: 1.75rem 0; }
+h2.dayhead {
   font-size: 1.05rem;
-  margin: 0 0 0.4rem;
-  padding-bottom: 0.3rem;
+  margin: 0 0 0.6rem;
+  padding: 0.4rem 0;
   border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 2;
 }
-.group > h2 .sub { color: var(--muted); font-weight: normal; font-size: 0.9rem; }
 
-ul.shows { list-style: none; margin: 0; padding: 0; }
-ul.shows li {
+/* film cards */
+.filmcard {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 0.75rem;
-  align-items: baseline;
-  padding: 0.5rem 0.25rem;
+  gap: 0.9rem;
+  padding: 0.8rem 0.25rem;
   border-bottom: 1px dotted var(--line);
 }
-ul.shows li:last-child { border-bottom: none; }
+.filmcard:last-child { border-bottom: none; }
 
-.when { font-variant-numeric: tabular-nums; white-space: nowrap; min-width: 7.5rem; }
-.film { font-weight: 600; }
-.film .year { font-weight: normal; color: var(--muted); }
-.where { color: var(--muted); font-size: 0.9rem; }
+.poster {
+  flex: 0 0 3.6rem;
+  width: 3.6rem;
+  height: 5.4rem;
+  object-fit: cover;
+  border-radius: 4px;
+  background: var(--badge-bg);
+}
+.poster-blank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.filmcard-body { min-width: 0; flex: 1; }
+.filmcard-body h3 { margin: 0 0 0.15rem; font-size: 1rem; }
+.filmcard-body h3 .year { font-weight: normal; color: var(--muted); }
+.filmmeta {
+  margin: 0 0 0.3rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: baseline;
+}
 
 .badge {
   font-size: 0.72rem;
@@ -98,12 +124,33 @@ ul.shows li:last-child { border-bottom: none; }
   color: var(--muted);
   white-space: nowrap;
 }
-.badge.soldout { color: var(--accent); border: 1px solid var(--accent); background: none; }
 
-li a.tickets { margin-left: auto; white-space: nowrap; font-size: 0.9rem; }
+/* per-venue showtime chip lines */
+.chiplines { display: flex; flex-direction: column; gap: 0.35rem; margin-top: 0.35rem; }
+.chipline { display: flex; flex-wrap: wrap; gap: 0.25rem 0.6rem; align-items: baseline; }
+.chipline-label { color: var(--muted); font-size: 0.85rem; }
+.chips { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; }
+a.chip {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--accent);
+  background: var(--card);
+  white-space: nowrap;
+}
+a.chip:hover { border-color: var(--accent); }
+a.chip.chip-soldout {
+  color: var(--muted);
+  text-decoration: line-through;
+  opacity: 0.7;
+}
 
 /* collapsed film synopsis (TMDb) */
-details.about { flex-basis: 100%; font-size: 0.85rem; color: var(--muted); }
+details.about { font-size: 0.85rem; color: var(--muted); margin: 0.1rem 0 0.2rem; }
 details.about summary {
   cursor: pointer;
   width: fit-content;
@@ -113,7 +160,6 @@ details.about summary {
 details.about summary:hover { opacity: 1; }
 details.about p { margin: 0.3rem 0 0.2rem; max-width: 42rem; }
 details.about .about-meta { margin: 0 0 0.3rem; }
-.group > details.about { margin: 0 0 0.5rem; }
 
 .empty { color: var(--muted); margin: 2rem 0; }
 
@@ -127,6 +173,6 @@ footer {
 footer h2 { font-size: 1rem; color: var(--text); }
 
 @media (max-width: 480px) {
-  li a.tickets { margin-left: 0; }
-  .when { min-width: 0; }
+  .poster { flex-basis: 3rem; width: 3rem; height: 4.5rem; }
+  .filmcard { gap: 0.6rem; }
 }
