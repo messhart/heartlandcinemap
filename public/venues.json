@@ -11,7 +11,7 @@
     "coords": "approx",
     "tz": "America/Chicago",
     "website": "https://musicboxtheatre.com",
-    "listings_url": "https://musicboxtheatre.com/now-showing",
+    "listings_url": "https://musicboxtheatre.com/calendar",
     "platform": "custom_js",
     "fetch_method": "headless",
     "adapter": "musicbox_custom",
@@ -26,12 +26,12 @@
       "first-run-indie"
     ],
     "status": "verified",
-    "last_verified": "2026-07-05",
+    "last_verified": "2026-07-06",
     "source_urls": [
       "https://www.musicboxtheatre.com/",
-      "https://musicboxtheatre.com/now-showing"
+      "https://musicboxtheatre.com/calendar"
     ],
-    "notes": "Independent, operating since 1929. PROBED 2026-07-05: the \"JavaScript required\" wall is a Sucuri Cloudproxy bot challenge (HTTP 307 + obfuscated cookie-setting JS) in front of the ENTIRE site, not an SPA quirk — so no JSON/XHR endpoint is reachable without the challenge cookie either. Underlying CMS is Drupal (stock robots.txt, which allows crawling). /rss.xml bypasses the challenge but is EMPTY; /events/feed and /films.json are 404. Conclusion: use Playwright (fetch_method: headless) — a real browser passes the challenge like any visitor; keep our honest bot UA, run at low frequency (~daily), and try /calendar month view first. Coords are approximate — confirm before relying on the distance filter."
+    "notes": "Independent, operating since 1929. Sucuri Cloudproxy JS challenge fronts the whole site (probed 2026-07-05: no JSON/XHR reachable without the challenge cookie; /rss.xml bypasses it but is empty). Drupal underneath. ADAPTER (2026-07-06): Playwright headless with honest bot UA passes the challenge; parse the /calendar month grid (#dayN cells, .programming- content blocks, .times links; format in .film-format e.g. DCP/35mm). Calendar shows NO film year — TMDb matching is title-only for this venue. Film detail pages (/films-and-events/{slug}) do show year/director; a future improvement could fetch those for year disambiguation. Coords are approximate — confirm before relying on the distance filter."
   },
   {
     "id": "gene-siskel-film-center-chicago",
@@ -95,6 +95,38 @@
     "notes": "Operated by Indianapolis Film Project, Inc. (501c3). WordPress site that SERVER-RENDERS listings — requests + BeautifulSoup works, no headless needed. Events at /events/{slug}/. Checkout hands off to Elevent (goelevent.com/Kan-KanCinemaandBrasserie). EASY archetype; Elevent backs other Midwest venues so this adapter should amortize — check for an Elevent JSON search endpoint before hard-parsing HTML."
   },
   {
+    "id": "cinema-center-fort-wayne",
+    "name": "Cinema Center",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "address": "437 E. Berry St.",
+    "zip": "46802",
+    "lat": 41.0789,
+    "lng": -85.1333,
+    "coords": "approx",
+    "tz": "America/Indiana/Indianapolis",
+    "website": "https://cinemacenter.org",
+    "listings_url": "https://cinemacenter.eventive.org/schedule",
+    "platform": "eventive",
+    "fetch_method": "api",
+    "adapter": "eventive",
+    "nonprofit": true,
+    "screens": 2,
+    "programming": [
+      "arthouse",
+      "foreign",
+      "documentary",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-06",
+    "source_urls": [
+      "https://cinemacenter.org",
+      "https://cinemacenter.eventive.org/schedule"
+    ],
+    "notes": "Nonprofit; one of Indiana's only dedicated arthouses; hosts Hobnobben Film Festival. Eventive tenant (bucket + public api_key discovered from the tenant JS bundle at runtime). Screens show as \"Main Theater\" and \"Spectator Lounge\" in event data. Address/coords from research report — re-verify against their visit page."
+  },
+  {
     "id": "trylon-minneapolis",
     "name": "Trylon Cinema",
     "city": "Minneapolis",
@@ -119,5 +151,105 @@
     "status": "needs_verification",
     "source_urls": [],
     "notes": "Nonprofit microcinema. Verify all fields."
+  },
+  {
+    "id": "hi-pointe-theatre-st-louis",
+    "name": "Hi-Pointe Theatre",
+    "city": "St. Louis",
+    "state": "MO",
+    "address": "1005 McCausland Ave.",
+    "zip": "63117",
+    "lat": 38.6288,
+    "lng": -90.3247,
+    "coords": "approx",
+    "tz": "America/Chicago",
+    "website": "https://hipointetheatre.org",
+    "listings_url": "https://hi-pointe.eventive.org/schedule",
+    "platform": "eventive",
+    "fetch_method": "api",
+    "adapter": "eventive",
+    "nonprofit": true,
+    "screens": 2,
+    "programming": [
+      "arthouse",
+      "classic",
+      "repertory",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-06",
+    "source_urls": [
+      "https://hipointetheatre.org",
+      "https://hi-pointe.eventive.org"
+    ],
+    "notes": "St. Louis' only nonprofit-owned movie theatre (operated by Cinema St. Louis). Historic 1922 single-screen plus micro \"Backlot\" screen. Eventive tenant hi-pointe.eventive.org. Coords approx — verify."
+  },
+  {
+    "id": "oriental-theatre-milwaukee",
+    "name": "Oriental Theatre",
+    "city": "Milwaukee",
+    "state": "WI",
+    "address": "2230 N. Farwell Ave.",
+    "zip": "53202",
+    "lat": 43.0603,
+    "lng": -87.8882,
+    "coords": "approx",
+    "tz": "America/Chicago",
+    "website": "https://mkefilm.org/oriental-theatre",
+    "listings_url": "https://milwaukeefilm-historiccinemas.eventive.org/schedule",
+    "platform": "eventive",
+    "fetch_method": "api",
+    "adapter": "eventive",
+    "venue_match": "oriental",
+    "nonprofit": true,
+    "screens": 3,
+    "programming": [
+      "arthouse",
+      "foreign",
+      "cult",
+      "repertory",
+      "documentary",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-06",
+    "source_urls": [
+      "https://mkefilm.org",
+      "https://milwaukeefilm-historiccinemas.eventive.org/schedule"
+    ],
+    "notes": "Milwaukee Film (nonprofit, est. 2008); historic 1927 movie palace, 35mm/70mm reinstated after renovation; hosts Milwaukee Film Festival. Shares an Eventive bucket with the Downer — venue_match claims only events whose Eventive venue name contains \"oriental\". Coords approx."
+  },
+  {
+    "id": "downer-theatre-milwaukee",
+    "name": "Downer Theatre",
+    "city": "Milwaukee",
+    "state": "WI",
+    "address": "2589 N. Downer Ave.",
+    "zip": "53211",
+    "lat": 43.0682,
+    "lng": -87.8785,
+    "coords": "approx",
+    "tz": "America/Chicago",
+    "website": "https://mkefilm.org/downer-theatre",
+    "listings_url": "https://milwaukeefilm-historiccinemas.eventive.org/schedule",
+    "platform": "eventive",
+    "fetch_method": "api",
+    "adapter": "eventive",
+    "venue_match": "downer",
+    "nonprofit": true,
+    "screens": 2,
+    "programming": [
+      "arthouse",
+      "foreign",
+      "documentary",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-06",
+    "source_urls": [
+      "https://mkefilm.org",
+      "https://milwaukeefilm-historiccinemas.eventive.org/schedule"
+    ],
+    "notes": "Milwaukee Film's second historic cinema (1915, Milwaukee's oldest operating movie house). Same Eventive bucket as the Oriental; venue_match \"downer\". Coords approx."
   }
 ]

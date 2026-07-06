@@ -44,18 +44,32 @@ jobs:
         if: github.event_name != 'push'
         run: pip install -r requirements.txt
 
+      - name: Cache Playwright browser
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Playwright Chromium
+        if: github.event_name != 'push'
+        run: playwright install --with-deps chromium
+
       - name: Scrape showtimes
         if: github.event_name != 'push'
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           python scripts/build_venues.py
           python scraper/run.py
+          python scraper/enrich.py
 
       - name: Commit refreshed data
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/venues.json public/showtimes.json run_report.json
+          git add public/venues.json public/showtimes.json public/films.json run_report.json
           git diff --cached --quiet || {
             git commit -m "Data refresh (scheduled scrape)"
             git push

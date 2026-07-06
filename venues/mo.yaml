@@ -1,0 +1,37 @@
+# Missouri venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: hi-pointe-theatre-st-louis
+    name: Hi-Pointe Theatre
+    city: St. Louis
+    state: MO
+    address: 1005 McCausland Ave.
+    zip: "63117"
+    lat: 38.6288
+    lng: -90.3247
+    coords: approx
+    tz: America/Chicago
+    website: https://hipointetheatre.org
+    listings_url: https://hi-pointe.eventive.org/schedule
+    platform: eventive
+    fetch_method: api
+    adapter: eventive
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, classic, repertory, first-run-indie]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://hipointetheatre.org
+      - https://hi-pointe.eventive.org
+    notes: >-
+      St. Louis' only nonprofit-owned movie theatre (operated by Cinema
+      St. Louis). Historic 1922 single-screen plus micro "Backlot" screen.
+      Eventive tenant hi-pointe.eventive.org. Coords approx — verify.
+      2026-07-06: adapter works but their Eventive schedule is currently
+      EMPTY (their own page says "Nothing scheduled") — they may publish
+      week-by-week or be between platforms; re-check in a few weeks.
+
+  # From the research report, second pass: Arkadin Cinema & Bar (microcinema),
+  # Webster University Film Series, Alamo City Foundry STL (chain),
+  # Screenland Armour + Stray Cat Film Center (Kansas City).

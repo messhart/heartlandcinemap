@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-07-06T03:59:48+00:00",
+  "run_at": "2026-07-06T05:17:52+00:00",
   "dropped_records": 0,
   "venues": [
     {
       "venue_id": "music-box-chicago",
-      "status": "skipped",
-      "showtimes": 0,
-      "duration_s": 0.0,
-      "error": "no adapter for 'musicbox_custom'",
-      "scraped_at": "2026-07-06T03:59:48+00:00"
+      "status": "ok",
+      "showtimes": 133,
+      "duration_s": 6.2,
+      "error": null,
+      "scraped_at": "2026-07-06T05:17:52+00:00"
     },
     {
       "venue_id": "gene-siskel-film-center-chicago",
@@ -16,15 +16,23 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T03:59:48+00:00"
+      "scraped_at": "2026-07-06T05:17:52+00:00"
     },
     {
       "venue_id": "kan-kan-indianapolis",
       "status": "ok",
-      "showtimes": 167,
-      "duration_s": 87.3,
+      "showtimes": 166,
+      "duration_s": 87.7,
       "error": null,
-      "scraped_at": "2026-07-06T03:59:48+00:00"
+      "scraped_at": "2026-07-06T05:17:52+00:00"
+    },
+    {
+      "venue_id": "cinema-center-fort-wayne",
+      "status": "ok",
+      "showtimes": 29,
+      "duration_s": 4.1,
+      "error": null,
+      "scraped_at": "2026-07-06T05:17:52+00:00"
     },
     {
       "venue_id": "trylon-minneapolis",
@@ -32,7 +40,31 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T03:59:48+00:00"
+      "scraped_at": "2026-07-06T05:17:52+00:00"
+    },
+    {
+      "venue_id": "hi-pointe-theatre-st-louis",
+      "status": "ok",
+      "showtimes": 0,
+      "duration_s": 4.0,
+      "error": null,
+      "scraped_at": "2026-07-06T05:17:52+00:00"
+    },
+    {
+      "venue_id": "oriental-theatre-milwaukee",
+      "status": "ok",
+      "showtimes": 53,
+      "duration_s": 4.0,
+      "error": null,
+      "scraped_at": "2026-07-06T05:17:52+00:00"
+    },
+    {
+      "venue_id": "downer-theatre-milwaukee",
+      "status": "ok",
+      "showtimes": 29,
+      "duration_s": 4.0,
+      "error": null,
+      "scraped_at": "2026-07-06T05:17:52+00:00"
     }
   ]
 }

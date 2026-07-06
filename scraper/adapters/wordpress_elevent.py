@@ -37,6 +37,10 @@ from fetch import PoliteSession
 from normalize import localize
 
 YEAR_RE = re.compile(r"\(((?:19|20)\d{2})\)")
+# parenthetical presentation tags that aren't part of the film title
+FORMAT_PAREN_RE = re.compile(
+    r"\((?:[^)]*(?:4K|RESTORATION|35MM|70MM|IMAX|REMASTER|ANNIVERSARY)[^)]*)\)", re.I
+)
 # curly-quoted span; greedy so apostrophes inside (I'LL, TIFFANY'S) stay in
 QUOTED_RE = re.compile("[‘“](.+)[’”]")
 BRACKET_TAG_RE = re.compile(r"\[[^\]]*\]")
@@ -58,7 +62,7 @@ def parse_title(raw: str) -> tuple[str, int | None, str | None, str | None]:
     year_match = YEAR_RE.search(title_src) or YEAR_RE.search(raw)
     year = int(year_match.group(1)) if year_match else None
 
-    title = BRACKET_TAG_RE.sub("", YEAR_RE.sub("", title_src))
+    title = BRACKET_TAG_RE.sub("", FORMAT_PAREN_RE.sub("", YEAR_RE.sub("", title_src)))
     title = re.sub(r"\s+", " ", title).strip(" -–—:")
     if not title:
         title = raw

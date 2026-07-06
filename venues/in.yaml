@@ -31,5 +31,37 @@ venues:
       other Midwest venues so this adapter should amortize — check for an
       Elevent JSON search endpoint before hard-parsing HTML.
 
+  - id: cinema-center-fort-wayne
+    name: Cinema Center
+    city: Fort Wayne
+    state: IN
+    address: 437 E. Berry St.
+    zip: "46802"
+    lat: 41.0789
+    lng: -85.1333
+    coords: approx
+    tz: America/Indiana/Indianapolis
+    website: https://cinemacenter.org
+    listings_url: https://cinemacenter.eventive.org/schedule
+    platform: eventive
+    fetch_method: api
+    adapter: eventive
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, foreign, documentary, first-run-indie]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://cinemacenter.org
+      - https://cinemacenter.eventive.org/schedule
+    notes: >-
+      Nonprofit; one of Indiana's only dedicated arthouses; hosts Hobnobben
+      Film Festival. Eventive tenant (bucket + public api_key discovered from
+      the tenant JS bundle at runtime). Screens show as "Main Theater" and
+      "Spectator Lounge" in event data. Address/coords from research report —
+      re-verify against their visit page.
+
   # Nearby to verify from the research report: Living Room Theaters
-  # (Indianapolis, 745 E 9th St), IU Cinema (Bloomington, university), etc.
+  # (Indianapolis, 745 E 9th St), IU Cinema (Bloomington, university,
+  # Ticketmaster), Landmark Keystone (chain), YES Cinema (Columbus IN),
+  # Browning Cinema (Notre Dame, South Bend).

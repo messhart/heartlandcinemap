@@ -7,8 +7,19 @@ description: How to run and verify the Heartland Cinemap static frontend and scr
 
 ## Frontend (public/)
 
-Serve the static root, then drive it with headless Edge. App state is fully
-URL-addressable, so no clicking is needed — pass `?zip=&mi=&sort=` params.
+Serve the static root, then drive it. **Playwright (in .venv) is the best
+handle** — it can click (e.g. the `details.about` synopsis toggles) and read
+`#status` / DOM counts directly:
+
+```python
+from playwright.sync_api import sync_playwright  # .venv has chromium installed
+# page.goto('http://localhost:8137/?zip=46201&mi=200&sort=distance', wait_until='networkidle')
+# page.inner_text('#status'), page.locator('ul.shows li').count()
+# page.locator('details.about summary').first.click()
+```
+
+Fallback: headless Edge screenshots. App state is fully URL-addressable
+(`?zip=&mi=&sort=`), so most states need no clicking.
 
 ```powershell
 # serve (background)

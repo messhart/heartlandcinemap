@@ -102,6 +102,19 @@ ul.shows li:last-child { border-bottom: none; }
 
 li a.tickets { margin-left: auto; white-space: nowrap; font-size: 0.9rem; }
 
+/* collapsed film synopsis (TMDb) */
+details.about { flex-basis: 100%; font-size: 0.85rem; color: var(--muted); }
+details.about summary {
+  cursor: pointer;
+  width: fit-content;
+  color: var(--accent);
+  opacity: 0.75;
+}
+details.about summary:hover { opacity: 1; }
+details.about p { margin: 0.3rem 0 0.2rem; max-width: 42rem; }
+details.about .about-meta { margin: 0 0 0.3rem; }
+.group > details.about { margin: 0 0 0.5rem; }
+
 .empty { color: var(--muted); margin: 2rem 0; }
 
 footer {

@@ -12,7 +12,7 @@ venues:
     coords: approx
     tz: America/Chicago
     website: https://musicboxtheatre.com
-    listings_url: https://musicboxtheatre.com/now-showing
+    listings_url: https://musicboxtheatre.com/calendar
     platform: custom_js
     fetch_method: headless
     adapter: musicbox_custom
@@ -20,20 +20,20 @@ venues:
     screens: 2
     programming: [arthouse, foreign, cult, classic, repertory, first-run-indie]
     status: verified
-    last_verified: 2026-07-05
+    last_verified: 2026-07-06
     source_urls:
       - https://www.musicboxtheatre.com/
-      - https://musicboxtheatre.com/now-showing
+      - https://musicboxtheatre.com/calendar
     notes: >-
-      Independent, operating since 1929. PROBED 2026-07-05: the "JavaScript
-      required" wall is a Sucuri Cloudproxy bot challenge (HTTP 307 + obfuscated
-      cookie-setting JS) in front of the ENTIRE site, not an SPA quirk — so no
-      JSON/XHR endpoint is reachable without the challenge cookie either.
-      Underlying CMS is Drupal (stock robots.txt, which allows crawling).
-      /rss.xml bypasses the challenge but is EMPTY; /events/feed and /films.json
-      are 404. Conclusion: use Playwright (fetch_method: headless) — a real
-      browser passes the challenge like any visitor; keep our honest bot UA, run
-      at low frequency (~daily), and try /calendar month view first. Coords are
+      Independent, operating since 1929. Sucuri Cloudproxy JS challenge fronts
+      the whole site (probed 2026-07-05: no JSON/XHR reachable without the
+      challenge cookie; /rss.xml bypasses it but is empty). Drupal underneath.
+      ADAPTER (2026-07-06): Playwright headless with honest bot UA passes the
+      challenge; parse the /calendar month grid (#dayN cells, .programming-
+      content blocks, .times links; format in .film-format e.g. DCP/35mm).
+      Calendar shows NO film year — TMDb matching is title-only for this venue.
+      Film detail pages (/films-and-events/{slug}) do show year/director; a
+      future improvement could fetch those for year disambiguation. Coords are
       approximate — confirm before relying on the distance filter.
 
   - id: gene-siskel-film-center-chicago

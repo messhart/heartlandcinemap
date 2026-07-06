@@ -34,13 +34,25 @@ class PoliteSession:
         self._last_request = 0.0
 
     def _robots_for(self, url: str) -> urllib.robotparser.RobotFileParser:
+        # Fetch robots.txt with OUR session (honest UA) instead of rp.read():
+        # robotparser fetches with urllib's default UA, which CDNs like
+        # Cloudflare 403, and it wrongly maps that 403 to "disallow all".
+        # RFC 9309: 4xx (unavailable) -> allowed; 5xx (unreachable) -> disallowed.
         origin = "{0.scheme}://{0.netloc}".format(urlparse(url))
         if origin not in self._robots:
             rp = urllib.robotparser.RobotFileParser(origin + "/robots.txt")
             try:
-                rp.read()
+                resp = self._session.get(origin + "/robots.txt", timeout=TIMEOUT_S)
+                if resp.status_code >= 500:
+                    rp.disallow_all = True
+                elif resp.status_code >= 400:
+                    rp.allow_all = True
+                else:
+                    # SPAs that serve their HTML shell for every path yield no
+                    # valid directives here, which correctly parses to "no rules"
+                    rp.parse(resp.text.splitlines())
             except OSError:
-                rp.allow_all = True  # unreachable robots.txt -> assume allowed
+                rp.disallow_all = True  # network failure: err on the polite side
             self._robots[origin] = rp
         return self._robots[origin]
 

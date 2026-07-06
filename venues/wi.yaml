@@ -1,0 +1,66 @@
+# Wisconsin venues. Schema: see venues/README.md. IDs must be globally unique.
+# Milwaukee Film runs BOTH historic cinemas below on ONE Eventive bucket
+# (milwaukeefilm-historiccinemas.eventive.org); venue_match splits the schedule.
+venues:
+
+  - id: oriental-theatre-milwaukee
+    name: Oriental Theatre
+    city: Milwaukee
+    state: WI
+    address: 2230 N. Farwell Ave.
+    zip: "53202"
+    lat: 43.0603
+    lng: -87.8882
+    coords: approx
+    tz: America/Chicago
+    website: https://mkefilm.org/oriental-theatre
+    listings_url: https://milwaukeefilm-historiccinemas.eventive.org/schedule
+    platform: eventive
+    fetch_method: api
+    adapter: eventive
+    venue_match: oriental
+    nonprofit: true
+    screens: 3
+    programming: [arthouse, foreign, cult, repertory, documentary, first-run-indie]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://mkefilm.org
+      - https://milwaukeefilm-historiccinemas.eventive.org/schedule
+    notes: >-
+      Milwaukee Film (nonprofit, est. 2008); historic 1927 movie palace,
+      35mm/70mm reinstated after renovation; hosts Milwaukee Film Festival.
+      Shares an Eventive bucket with the Downer — venue_match claims only
+      events whose Eventive venue name contains "oriental". Coords approx.
+
+  - id: downer-theatre-milwaukee
+    name: Downer Theatre
+    city: Milwaukee
+    state: WI
+    address: 2589 N. Downer Ave.
+    zip: "53211"
+    lat: 43.0682
+    lng: -87.8785
+    coords: approx
+    tz: America/Chicago
+    website: https://mkefilm.org/downer-theatre
+    listings_url: https://milwaukeefilm-historiccinemas.eventive.org/schedule
+    platform: eventive
+    fetch_method: api
+    adapter: eventive
+    venue_match: downer
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, foreign, documentary, first-run-indie]
+    status: verified
+    last_verified: 2026-07-06
+    source_urls:
+      - https://mkefilm.org
+      - https://milwaukeefilm-historiccinemas.eventive.org/schedule
+    notes: >-
+      Milwaukee Film's second historic cinema (1915, Milwaukee's oldest
+      operating movie house). Same Eventive bucket as the Oriental;
+      venue_match "downer". Coords approx.
+
+  # From the research report, second pass: UWM Union Cinema, Times Cinema,
+  # UW Cinematheque (Madison), MMoCA Spotlight Cinema (Madison).

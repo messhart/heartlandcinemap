@@ -31,6 +31,7 @@ across *all* state files (they're the join key for showtimes).
 | `platform`     |     | ticketing/CMS backend → drives adapter choice. One of: `elevent` `veezi` `agile` `eventive` `filmbot` `audienceview` `etix` `wordpress_custom` `custom_js` `unknown`. |
 | `fetch_method` |     | `static_html` \| `headless` \| `api` \| `ical` \| `jsonld` \| `unknown`. |
 | `adapter`      |     | scraper module that handles it; usually == platform. Group by adapter, not venue. |
+| `venue_match`  |     | eventive only: case-insensitive substring of the event's venue name, for orgs running several cinemas on one Eventive bucket (e.g. Milwaukee Film). Omit to take every event. |
 | `nonprofit`    |     | true/false if known. |
 | `screens`      |     | integer if known. |
 | `programming`  |     | tags: arthouse, repertory, foreign, documentary, first-run-indie, cult, classic, university, microcinema, mixed. |

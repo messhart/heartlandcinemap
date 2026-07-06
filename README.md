@@ -6,7 +6,9 @@ a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
 **Live at <https://messhart.github.io/heartlandcinemap/>** — early days:
-one venue scraped so far (Kan-Kan, Indianapolis), more adapters coming.
+seven cinemas across four states so far (Indianapolis, Chicago, Fort Wayne,
+Milwaukee ×2, St. Louis, and more coming). Film descriptions courtesy of
+the TMDB API (the site is not endorsed or certified by TMDB).
 
 ## How it works (and why it costs ~nothing)
 
@@ -54,14 +56,15 @@ Rules of the road:
 
 - [x] Venue registry format + seed venues (IL, IN, MN)
 - [x] Milestone 1: normalize + Kan-Kan (Elevent/WordPress) adapter, live run
-- [ ] Music Box adapter (needs headless — site sits behind a Sucuri JS
-      challenge; probe notes in venues/il.yaml)
+- [x] Music Box adapter (Playwright headless past the Sucuri JS challenge)
+- [x] Eventive platform adapter (Cinema Center, Hi-Pointe, Oriental, Downer)
 - [x] Static frontend: ZIP + radius filter, sort by time/distance/title
 - [x] GitHub Actions cron: scrape → commit JSON → deploy (GitHub Pages)
 - [ ] Printable calendar poster view (letter, B/W or color)
-- [ ] TMDb enrichment (posters, runtime, synopsis)
+- [x] TMDb enrichment (synopsis + runtime; posters cached for later)
 - [ ] Map view (MapLibre GL + Protomaps static tiles)
-- [ ] Expand venue registry across the Midwest
+- [ ] Expand venue registry across the Midwest (Filmbot cluster next:
+      Gateway, Cleveland Cinematheque, The Neon, Varsity Des Moines)
 - [ ] Venue-updater tool (approval-gated) + local scrape dashboard
 
 ## License
