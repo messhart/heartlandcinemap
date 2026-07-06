@@ -19,6 +19,7 @@ see the venue notes.
 
 from __future__ import annotations
 
+import html
 import json
 import re
 from datetime import datetime, timedelta, timezone
@@ -38,7 +39,7 @@ FORMAT_KEYWORDS = (("35MM", "35mm"), ("70MM", "70mm"), ("16MM", "16mm"),
 
 def _clean_movie(movie: dict) -> tuple[str, int | None, str | None]:
     """'Cult 101: Jaws (1975) 4K Restoration' -> (title, 1975, '4K')."""
-    raw = movie.get("movie_name") or ""
+    raw = html.unescape(movie.get("movie_name") or "")  # WP feeds "&amp;" etc.
     year = None
     m = YEAR_PAREN_RE.search(raw)
     if m:

@@ -11,8 +11,9 @@ A venue failing NEVER crashes the run: it's logged in the report and skipped.
 Usage:
     python scraper/run.py [--venue VENUE_ID]
 
---venue is a debugging aid: it still overwrites public/showtimes.json with
-just that venue's records. The scheduled run always covers all venues.
+--venue rescrapes ONE venue and merges the result into the existing
+public/showtimes.json (other venues' records are kept). The scheduled run
+always covers all venues and rewrites the file from scratch.
 """
 
 from __future__ import annotations
@@ -85,6 +86,13 @@ def main() -> None:
     session = PoliteSession()
     all_records: list[dict] = []
     report = []
+
+    if args.venue and SHOWTIMES_JSON.exists():
+        # single-venue refresh: keep everyone else's existing records
+        all_records = [
+            r for r in json.loads(SHOWTIMES_JSON.read_text(encoding="utf-8"))
+            if r["venue_id"] != args.venue
+        ]
 
     for venue in venues:
         entry = scrape_venue(venue, session, scraped_at)

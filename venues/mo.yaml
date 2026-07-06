@@ -12,10 +12,10 @@ venues:
     coords: approx
     tz: America/Chicago
     website: https://hipointetheatre.org
-    listings_url: https://hi-pointe.eventive.org/schedule
-    platform: eventive
+    listings_url: https://hipointetheatre.org/
+    platform: filmbot
     fetch_method: api
-    adapter: eventive
+    adapter: filmbot
     nonprofit: true
     screens: 2
     programming: [arthouse, classic, repertory, first-run-indie]
@@ -23,14 +23,14 @@ venues:
     last_verified: 2026-07-06
     source_urls:
       - https://hipointetheatre.org
-      - https://hi-pointe.eventive.org
     notes: >-
       St. Louis' only nonprofit-owned movie theatre (operated by Cinema
       St. Louis). Historic 1922 single-screen plus micro "Backlot" screen.
-      Eventive tenant hi-pointe.eventive.org. Coords approx — verify.
-      2026-07-06: adapter works but their Eventive schedule is currently
-      EMPTY (their own page says "Nothing scheduled") — they may publish
-      week-by-week or be between platforms; re-check in a few weeks.
+      MOVED Eventive -> Filmbot (discovered 2026-07-06: the old
+      hi-pointe.eventive.org tenant still exists but serves an empty
+      schedule; hipointetheatre.org is "powered by Filmbot" with the
+      standard WP REST route). The research report's platform info was
+      stale — a good venue-updater test case. Coords approx — verify.
 
   # From the research report, second pass: Arkadin Cinema & Bar (microcinema),
   # Webster University Film Series, Alamo City Foundry STL (chain),

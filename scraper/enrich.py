@@ -78,8 +78,44 @@ def tmdb(path: str, **params) -> dict:
         return json.load(resp)
 
 
+def candidate_queries(title: str) -> list[str]:
+    """The title itself, then colon/dash segments — venues embed series names
+    and edition tags around the real film title ("Cult 101: Jaws", "Backrooms:
+    Everything Must Go Edition w/ Bonus Footage", "From Book to Film 2026:
+    Essential American Voices - Passing"). Segments are only tried when the
+    full title finds nothing, so exact titles containing colons (Twin Peaks:
+    Fire Walk with Me) are never split. Last segment is tried first."""
+    queries = [title]
+    parts = re.split(r":|\s[-–—]\s", title)
+    if len(parts) > 1:
+        for seg in reversed(parts):
+            # drop "w/ guest"-style tails from segments
+            seg = re.split(r"\s+w/\s|\s+with\s+special\s", seg, flags=re.I)[0].strip()
+            if len(seg) > 2 and seg not in queries:
+                queries.append(seg)
+    return queries
+
+
 def best_match(title: str, year) -> dict | None:
     title, year = clean_query(title, year)
+    queries = candidate_queries(title)
+    for query in queries:
+        match = _search_one(query, year)
+        if match is not None:
+            return match
+    # Series screenings often carry the EVENT year, not the film's (Gateway's
+    # "From Book to Film 2026: ... - Passing" says 2026 for a 2021 film). For
+    # segment queries only, retry year-less — the unambiguous-single-film rule
+    # in _search_one still applies, so remade titles stay unmatched.
+    if year:
+        for query in queries[1:]:
+            match = _search_one(query, None)
+            if match is not None:
+                return match
+    return None
+
+
+def _search_one(title: str, year) -> dict | None:
     results = []
     if year:
         results = tmdb("/search/movie", query=title, primary_release_year=year).get("results", [])

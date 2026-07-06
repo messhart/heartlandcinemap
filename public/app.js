@@ -98,7 +98,7 @@
     if (!info || info.miss || !info.overview) return null;
     const det = el("details", "about");
     det.appendChild(el("summary", null, "about this film"));
-    det.appendChild(el("p", null, truncate(info.overview, 300)));
+    det.appendChild(el("p", null, truncate(info.overview, 550)));
     const meta = el("p", "about-meta");
     const bits = [];
     if (info.year) bits.push(String(info.year));
