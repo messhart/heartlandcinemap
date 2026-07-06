@@ -2514,5 +2514,25 @@
   "runtime": 90,
   "poster_path": "/uujzbhtS3jtf2lHVMXf0rZ55rwy.jpg",
   "url": "https://www.themoviedb.org/movie/85651"
+ },
+ "air conditioned improv show|": {
+  "miss": true,
+  "checked": "2026-07-06"
+ },
+ "the lair of the white worm|1988": {
+  "title": "The Lair of the White Worm",
+  "year": 1988,
+  "overview": "When an archaeologist uncovers a strange skull in a foreign land, the residents of a nearby town begin to disappear, leading to further inexplicable occurrences.",
+  "runtime": 93,
+  "poster_path": "/bhL5Z8srwSXJuosfBqei9Dxv41C.jpg",
+  "url": "https://www.themoviedb.org/movie/11347"
+ },
+ "underland|2026": {
+  "title": "Underland",
+  "year": 2026,
+  "overview": "A cinematic voyage beneath the surface of the earth.",
+  "runtime": 79,
+  "poster_path": "/5vUYv6b4NWggG6stIJFRz3AmUCP.jpg",
+  "url": "https://www.themoviedb.org/movie/1465717"
  }
 }

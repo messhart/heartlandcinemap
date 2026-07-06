@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-06T21:07:19+00:00",
+  "run_at": "2026-07-06T22:37:02+00:00",
   "dropped_records": 0,
   "venues": [
     {
@@ -15,14 +15,6 @@
       "status": "ok",
       "showtimes": 164,
       "duration_s": 88.0,
-      "error": null,
-      "scraped_at": "2026-07-06T17:51:00+00:00"
-    },
-    {
-      "venue_id": "cinema-center-fort-wayne",
-      "status": "ok",
-      "showtimes": 29,
-      "duration_s": 4.1,
       "error": null,
       "scraped_at": "2026-07-06T17:51:00+00:00"
     },
@@ -97,6 +89,14 @@
       "duration_s": 8.2,
       "error": null,
       "scraped_at": "2026-07-06T21:07:19+00:00"
+    },
+    {
+      "venue_id": "cinema-center-fort-wayne",
+      "status": "ok",
+      "showtimes": 29,
+      "duration_s": 3.5,
+      "error": null,
+      "scraped_at": "2026-07-06T22:37:02+00:00"
     }
   ]
 }

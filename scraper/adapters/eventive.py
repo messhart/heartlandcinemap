@@ -74,6 +74,12 @@ def scrape(venue: dict, session: PoliteSession, scraped_at: str) -> list[dict]:
             f"{API}/event_buckets/{bucket}/upcoming?date={date_str}&api_key={api_key}"
         ).text)
         films = {f["id"]: f for f in data.get("films", [])}
+        # non-film programming (improv nights etc.) lives in standalone_events,
+        # a dict keyed by the same ids shows_by_day references
+        standalone = data.get("standalone_events") or {}
+        if isinstance(standalone, dict):
+            for sid, ev in standalone.items():
+                films.setdefault(sid, ev)
 
         for by_film in (data.get("shows_by_day") or {}).values():
             for film_id, by_screen in by_film.items():

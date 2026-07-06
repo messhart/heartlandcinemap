@@ -226,28 +226,27 @@
       body.appendChild(meta);
     }
 
-    // film intro pages on the venues' own sites (when chips go to checkout)
+    // film intro page per venue: detail_url when the chips go to checkout,
+    // otherwise the venue's own film/event page (same target as the chips)
     const venuePages = [...new Map(
-      list.filter((s) => s.detail_url).map((s) => [s.detail_url, s.venue.name])
-    ).entries()];
-    if ((info && info.overview) || venuePages.length) {
-      const det = el("details", "about");
-      det.appendChild(el("summary", null, "about this film"));
-      if (info && info.overview) det.appendChild(el("p", null, truncate(info.overview, 550)));
-      const m = el("p", "about-meta");
-      const links = [];
-      if (info) links.push([info.url, "TMDB ↗"]);
-      for (const [url, name] of venuePages) links.push([url, `${name} ↗`]);
-      links.forEach(([url, label], i) => {
-        if (i) m.append(" · ");
-        const a = el("a", null, label);
-        a.href = url;
-        a.rel = "noopener";
-        m.appendChild(a);
-      });
-      det.appendChild(m);
-      body.appendChild(det);
-    }
+      list.map((s) => [s.venue_id, [s.detail_url || s.ticket_url, s.venue.name]])
+    ).values()];
+    const det = el("details", "about");
+    det.appendChild(el("summary", null, "about this film"));
+    if (info && info.overview) det.appendChild(el("p", null, truncate(info.overview, 550)));
+    const m = el("p", "about-meta");
+    const links = [];
+    if (info) links.push([info.url, "TMDB ↗"]);
+    for (const [url, name] of venuePages) links.push([url, `${name} ↗`]);
+    links.forEach(([url, label], i) => {
+      if (i) m.append(" · ");
+      const a = el("a", null, label);
+      a.href = url;
+      a.rel = "noopener";
+      m.appendChild(a);
+    });
+    det.appendChild(m);
+    body.appendChild(det);
 
     if (mode === "day") {
       body.appendChild(chipLines(
