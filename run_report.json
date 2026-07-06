@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-06T01:46:54+00:00",
+  "run_at": "2026-07-06T03:59:48+00:00",
   "dropped_records": 0,
   "venues": [
     {
@@ -8,7 +8,7 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'musicbox_custom'",
-      "scraped_at": "2026-07-06T01:46:54+00:00"
+      "scraped_at": "2026-07-06T03:59:48+00:00"
     },
     {
       "venue_id": "gene-siskel-film-center-chicago",
@@ -16,15 +16,15 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T01:46:54+00:00"
+      "scraped_at": "2026-07-06T03:59:48+00:00"
     },
     {
       "venue_id": "kan-kan-indianapolis",
       "status": "ok",
-      "showtimes": 169,
-      "duration_s": 87.4,
+      "showtimes": 167,
+      "duration_s": 87.3,
       "error": null,
-      "scraped_at": "2026-07-06T01:46:54+00:00"
+      "scraped_at": "2026-07-06T03:59:48+00:00"
     },
     {
       "venue_id": "trylon-minneapolis",
@@ -32,7 +32,7 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-06T01:46:54+00:00"
+      "scraped_at": "2026-07-06T03:59:48+00:00"
     }
   ]
 }
