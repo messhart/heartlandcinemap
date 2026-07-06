@@ -1,0 +1,34 @@
+# Indiana venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: kan-kan-indianapolis
+    name: Kan-Kan Cinema & Bar
+    city: Indianapolis
+    state: IN
+    address: 1258 Windsor St.
+    zip: "46201"
+    lat: 39.7848285
+    lng: -86.1295101
+    website: https://kankanindy.com
+    listings_url: https://kankanindy.com/all-upcoming-films/
+    platform: elevent
+    fetch_method: static_html
+    adapter: wordpress_elevent
+    nonprofit: true
+    screens: 3
+    programming: [arthouse, repertory, foreign, documentary, classic, cult, mixed]
+    status: verified
+    last_verified: 2026-07-05
+    source_urls:
+      - https://kankanindy.com/
+      - https://www.visitindy.com/directory/kan-kan-cinema-bar/
+    notes: >-
+      Operated by Indianapolis Film Project, Inc. (501c3). WordPress site that
+      SERVER-RENDERS listings — requests + BeautifulSoup works, no headless
+      needed. Events at /events/{slug}/. Checkout hands off to Elevent
+      (goelevent.com/Kan-KanCinemaandBrasserie). EASY archetype; Elevent backs
+      other Midwest venues so this adapter should amortize — check for an
+      Elevent JSON search endpoint before hard-parsing HTML.
+
+  # Nearby to verify from the research report: Living Room Theaters
+  # (Indianapolis, 745 E 9th St), IU Cinema (Bloomington, university), etc.

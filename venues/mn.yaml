@@ -1,0 +1,22 @@
+# Minnesota venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: trylon-minneapolis
+    name: Trylon Cinema
+    city: Minneapolis
+    state: MN
+    address: ""
+    zip: ""
+    lat: null
+    lng: null
+    website: https://www.trylon.org
+    listings_url: ""
+    platform: unknown
+    fetch_method: unknown
+    adapter: unknown
+    nonprofit: true
+    screens: 1
+    programming: [repertory, microcinema, classic]
+    status: needs_verification
+    source_urls: []
+    notes: Nonprofit microcinema. Verify all fields.

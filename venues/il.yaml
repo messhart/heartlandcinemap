@@ -1,0 +1,54 @@
+# Illinois venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: music-box-chicago
+    name: Music Box Theatre
+    city: Chicago
+    state: IL
+    address: 3733 N. Southport Ave.
+    zip: "60613"
+    lat: 41.9503
+    lng: -87.6639
+    coords: approx
+    website: https://musicboxtheatre.com
+    listings_url: https://musicboxtheatre.com/now-showing
+    platform: custom_js
+    fetch_method: headless
+    adapter: musicbox_custom
+    nonprofit: false
+    screens: 2
+    programming: [arthouse, foreign, cult, classic, repertory, first-run-indie]
+    status: verified
+    last_verified: 2026-07-05
+    source_urls:
+      - https://www.musicboxtheatre.com/
+      - https://musicboxtheatre.com/now-showing
+    notes: >-
+      Independent, operating since 1929. JS-RENDERED SPA — a raw GET returns a
+      "JavaScript required" wall with NO showtime data. HARD archetype: first
+      discover the JSON/XHR endpoint the page calls (devtools Network tab on
+      /now-showing and /calendar) and target that; only fall back to Playwright
+      if none exists. /calendar (month view) may parse more easily. Coords are
+      approximate — confirm before relying on the distance filter.
+
+  - id: gene-siskel-film-center-chicago
+    name: Gene Siskel Film Center
+    city: Chicago
+    state: IL
+    address: ""
+    zip: ""
+    lat: null
+    lng: null
+    website: https://www.siskelfilmcenter.org
+    listings_url: ""
+    platform: unknown
+    fetch_method: unknown
+    adapter: unknown
+    nonprofit: true
+    screens: null
+    programming: [arthouse, foreign, repertory, documentary]
+    status: needs_verification
+    source_urls: []
+    notes: >-
+      Nonprofit, part of the School of the Art Institute of Chicago. Verify
+      address (State St.), listings_url, and ticketing platform.

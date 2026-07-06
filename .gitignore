@@ -1,0 +1,10 @@
+# Local research material (not published)
+venues_research_report.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local tool settings
+.claude/settings.local.json
