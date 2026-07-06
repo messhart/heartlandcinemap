@@ -5,8 +5,8 @@ repertory, and nonprofit cinemas across the US Midwest. Enter a ZIP code, pick
 a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
-**Status: early development.** The scraper pipeline is being built; the
-frontend does not exist yet.
+**Live at <https://moonriver366.github.io/heartlandcinemap/>** — early days:
+one venue scraped so far (Kan-Kan, Indianapolis), more adapters coming.
 
 ## How it works (and why it costs ~nothing)
 
@@ -56,8 +56,8 @@ Rules of the road:
 - [x] Milestone 1: normalize + Kan-Kan (Elevent/WordPress) adapter, live run
 - [ ] Music Box adapter (needs headless — site sits behind a Sucuri JS
       challenge; probe notes in venues/il.yaml)
-- [ ] Static frontend: ZIP + radius filter, sort by time/distance/title
-- [ ] GitHub Actions cron: scrape → commit JSON → deploy
+- [x] Static frontend: ZIP + radius filter, sort by time/distance/title
+- [x] GitHub Actions cron: scrape → commit JSON → deploy (GitHub Pages)
 - [ ] Printable calendar poster view (letter, B/W or color)
 - [ ] TMDb enrichment (posters, runtime, synopsis)
 - [ ] Map view (MapLibre GL + Protomaps static tiles)

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heartland Cinemap — Midwest arthouse showtimes</title>
+<meta name="description" content="Showtimes at arthouse, independent, and repertory cinemas across the US Midwest. Free and non-commercial — tickets at each cinema's own box office.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+  <h1>Heartland Cinemap</h1>
+  <p class="tagline">Arthouse &amp; repertory showtimes across the Midwest.
+  Tickets are sold by each cinema's own box office — we just point the way.</p>
+</header>
+
+<form id="controls" autocomplete="off" aria-label="Filter showtimes">
+  <div class="field">
+    <label for="zip">ZIP code</label>
+    <input id="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" placeholder="e.g. 46201">
+  </div>
+  <div class="field">
+    <label for="radius">Within</label>
+    <select id="radius">
+      <option value="50">50 miles</option>
+      <option value="100" selected>100 miles</option>
+      <option value="200">200 miles</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="sort">Arrange by</label>
+    <select id="sort">
+      <option value="time" selected>Showtime</option>
+      <option value="distance">Distance</option>
+      <option value="title">Film title</option>
+    </select>
+  </div>
+</form>
+
+<p id="status" role="status"></p>
+
+<main id="listings">
+  <noscript><p>This site needs JavaScript to filter and sort showtimes.
+  The raw data is public: <a href="./showtimes.json">showtimes.json</a> and
+  <a href="./venues.json">venues.json</a>.</p></noscript>
+</main>
+
+<footer>
+  <h2>About</h2>
+  <p>Heartland Cinemap is a free, non-commercial listing of what's screening at
+  independent, arthouse, repertory, and nonprofit cinemas around the Midwest.
+  It exists to send people to these cinemas — every listing links to the
+  venue's own page, which is always the source of truth. We never sell or
+  hold tickets, and showtimes can change: please confirm with the cinema.</p>
+  <p><strong>Run a cinema?</strong> If you'd like your listings corrected or
+  removed, email <a href="mailto:dyfttym@protonmail.ch">dyfttym@protonmail.ch</a>
+  and it will be done, no questions asked.</p>
+  <p><a href="https://github.com/moonriver366/heartlandcinemap">Source code and
+  data on GitHub</a>. ZIP locations from the US Census Bureau (public domain).</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

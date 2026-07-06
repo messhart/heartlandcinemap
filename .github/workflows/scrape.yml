@@ -1,0 +1,74 @@
+# Scheduled scrape + GitHub Pages deploy, in one workflow:
+#
+# - push to main        -> deploy the site as-is (no scrape)
+# - cron / manual run   -> scrape fresh showtimes, commit them, then deploy
+#
+# The scrape steps are skipped on push events. A push made here with the
+# default GITHUB_TOKEN cannot retrigger this workflow, which is exactly what
+# we want (no loops) — that's also why deploy lives in this same workflow.
+
+name: Scrape and deploy
+
+on:
+  schedule:
+    - cron: "17 3,9,15,21 * * *" # every 6 h, off the congested top of hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write # push refreshed data
+  pages: write # deploy to Pages
+  id-token: write # deploy-pages OIDC
+
+concurrency:
+  group: scrape-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: github.event_name != 'push'
+        run: pip install -r requirements.txt
+
+      - name: Scrape showtimes
+        if: github.event_name != 'push'
+        run: |
+          python scripts/build_venues.py
+          python scraper/run.py
+
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/venues.json public/showtimes.json run_report.json
+          git diff --cached --quiet || {
+            git commit -m "Data refresh (scheduled scrape)"
+            git push
+          }
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

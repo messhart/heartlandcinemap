@@ -1,0 +1,119 @@
+:root {
+  --bg: #faf9f6;
+  --text: #1f1d1a;
+  --muted: #6b6560;
+  --accent: #8a3033;
+  --line: #ddd8d0;
+  --card: #ffffff;
+  --badge-bg: #efe9df;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191817;
+    --text: #ece8e2;
+    --muted: #a39c93;
+    --accent: #e0888b;
+    --line: #38352f;
+    --card: #211f1d;
+    --badge-bg: #2e2b26;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+  max-width: 52rem;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+header h1 { margin: 0.5rem 0 0.25rem; font-size: 1.7rem; letter-spacing: -0.01em; }
+.tagline { margin: 0 0 1.25rem; color: var(--muted); max-width: 38rem; }
+
+a { color: var(--accent); }
+a:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* controls */
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card);
+}
+.field { display: flex; flex-direction: column; gap: 0.2rem; }
+.field label { font-size: 0.8rem; color: var(--muted); }
+input, select {
+  font: inherit;
+  color: inherit;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.35rem 0.5rem;
+  min-width: 7.5rem;
+}
+
+#status { min-height: 1.5em; color: var(--muted); font-size: 0.9rem; }
+#status .warn { color: var(--accent); }
+
+/* listings */
+.group { margin: 1.5rem 0; }
+.group > h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--line);
+}
+.group > h2 .sub { color: var(--muted); font-weight: normal; font-size: 0.9rem; }
+
+ul.shows { list-style: none; margin: 0; padding: 0; }
+ul.shows li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  align-items: baseline;
+  padding: 0.5rem 0.25rem;
+  border-bottom: 1px dotted var(--line);
+}
+ul.shows li:last-child { border-bottom: none; }
+
+.when { font-variant-numeric: tabular-nums; white-space: nowrap; min-width: 7.5rem; }
+.film { font-weight: 600; }
+.film .year { font-weight: normal; color: var(--muted); }
+.where { color: var(--muted); font-size: 0.9rem; }
+
+.badge {
+  font-size: 0.72rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 99px;
+  background: var(--badge-bg);
+  color: var(--muted);
+  white-space: nowrap;
+}
+.badge.soldout { color: var(--accent); border: 1px solid var(--accent); background: none; }
+
+li a.tickets { margin-left: auto; white-space: nowrap; font-size: 0.9rem; }
+
+.empty { color: var(--muted); margin: 2rem 0; }
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+footer h2 { font-size: 1rem; color: var(--text); }
+
+@media (max-width: 480px) {
+  li a.tickets { margin-left: 0; }
+  .when { min-width: 0; }
+}
