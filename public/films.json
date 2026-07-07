@@ -2558,5 +2558,45 @@
   "runtime": 80,
   "poster_path": "/k0MGRrDHmJ1RJKwd56f4RHDgF9x.jpg",
   "url": "https://www.themoviedb.org/movie/1397909"
+ },
+ "baseketball|1998": {
+  "title": "BASEketball",
+  "year": 1998,
+  "overview": "Two losers from Milwaukee, Coop and Remer, invent a new game combining basketball with the rules of baseball. When the game becomes a huge success, they, along with a billionaire's help, form the Professional Baseketball League where everyone gets the same pay and no team can change cities. When a rival owner wants to institute major rule changes, Coop and Remer's team is the only one standing in the way.",
+  "runtime": 103,
+  "poster_path": "/oKZdAUV9XSLp091f0GmtQEu0UZy.jpg",
+  "url": "https://www.themoviedb.org/movie/14013"
+ },
+ "fright club live: the lair of the white worm|1988": {
+  "title": "The Lair of the White Worm",
+  "year": 1988,
+  "overview": "When an archaeologist uncovers a strange skull in a foreign land, the residents of a nearby town begin to disappear, leading to further inexplicable occurrences.",
+  "runtime": 93,
+  "poster_path": "/bhL5Z8srwSXJuosfBqei9Dxv41C.jpg",
+  "url": "https://www.themoviedb.org/movie/11347"
+ },
+ "mary oliver: saved by the beauty of the world|2026": {
+  "title": "Mary Oliver: Saved by the Beauty of the World",
+  "year": 2026,
+  "overview": "From a lonely childhood to literary fame, her life was shaped by devotion to nature, paying attention, and the long journey toward learning to love and to be loved.  If poetry had a pop icon, Mary Oliver would be it.",
+  "runtime": 91,
+  "poster_path": "/aAZ7Ih2tU65y55CfE0nIFSaow4n.jpg",
+  "url": "https://www.themoviedb.org/movie/1631822"
+ },
+ "the lion king|1994": {
+  "title": "The Lion King",
+  "year": 1994,
+  "overview": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+  "runtime": 89,
+  "poster_path": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+  "url": "https://www.themoviedb.org/movie/8587"
+ },
+ "the muppet christmas carol|1992": {
+  "title": "The Muppet Christmas Carol",
+  "year": 1992,
+  "overview": "A retelling of the classic Dickens tale of Ebenezer Scrooge, miser extraordinaire. He is held accountable for his dastardly ways during night-time visitations by the Ghosts of Christmas Past, Present and Future.",
+  "runtime": 86,
+  "poster_path": "/ssrV29QSVVJuemBHho0Qx7pFYak.jpg",
+  "url": "https://www.themoviedb.org/movie/10437"
  }
 }
