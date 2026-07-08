@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-08T03:12:39+00:00",
+  "run_at": "2026-07-08T03:41:59+00:00",
   "dropped_records": 0,
   "venues": [
     {
@@ -32,14 +32,6 @@
       "showtimes": 209,
       "duration_s": 90.0,
       "error": null,
-      "scraped_at": "2026-07-07T22:32:35+00:00"
-    },
-    {
-      "venue_id": "trylon-minneapolis",
-      "status": "error",
-      "showtimes": 0,
-      "duration_s": 0.9,
-      "error": "ValueError: date buttons (0) and day lists (0) mismatch",
       "scraped_at": "2026-07-07T22:32:35+00:00"
     },
     {
@@ -97,6 +89,14 @@
       "duration_s": 3.8,
       "error": null,
       "scraped_at": "2026-07-08T03:12:39+00:00"
+    },
+    {
+      "venue_id": "trylon-minneapolis",
+      "status": "ok",
+      "showtimes": 60,
+      "duration_s": 20.0,
+      "error": null,
+      "scraped_at": "2026-07-08T03:41:59+00:00"
     }
   ]
 }

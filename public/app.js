@@ -431,7 +431,12 @@
     const css = document.createElement("link");
     css.rel = "stylesheet";
     css.href = "./vendor/maplibre-gl.css";
-    document.head.appendChild(css);
+    // insert BEFORE our own stylesheet so our popup theming wins the cascade
+    // (equal specificity — otherwise MapLibre's white popup rules, appended
+    // later, would override ours)
+    const site = document.getElementById("sitecss");
+    if (site) site.parentNode.insertBefore(css, site);
+    else document.head.appendChild(css);
     loadScript("./vendor/maplibre-gl.js")
       .then(() => loadScript("./vendor/pmtiles.js"))
       .then(() => loadScript("./map.js"))

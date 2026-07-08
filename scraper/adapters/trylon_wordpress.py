@@ -43,12 +43,20 @@ TIME_RE = re.compile(r"(\d{1,2}):(\d{2})\s*(am|pm)", re.I)
 
 def scrape(venue: dict, session: PoliteSession, scraped_at: str) -> list[dict]:
     base = venue["listings_url"]
-    soup = BeautifulSoup(session.get(base).text, "html.parser")
     tz = ZoneInfo(venue["tz"])
     now = datetime.now(tz)
 
-    buttons = soup.select(".upcoming-by-date-list-nav button")
-    day_lists = soup.select(".upcoming-by-date-list > div")
+    # The homepage server-renders the widget, but a cache-cold hit occasionally
+    # ships the container empty (both selectors return 0). That's transient, so
+    # retry once before treating an empty widget as a real structural break.
+    buttons: list = []
+    day_lists: list = []
+    for attempt in range(2):
+        soup = BeautifulSoup(session.get(base).text, "html.parser")
+        buttons = soup.select(".upcoming-by-date-list-nav button")
+        day_lists = soup.select(".upcoming-by-date-list > div")
+        if buttons and day_lists:
+            break
     if not buttons or len(buttons) != len(day_lists):
         raise ValueError(
             f"date buttons ({len(buttons)}) and day lists ({len(day_lists)}) mismatch"

@@ -312,6 +312,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Vanishing Point",
+    "start": "2026-07-07T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/vanishing-point/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1971,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": true,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Gregg Allman: The Music of My Soul",
     "start": "2026-07-07T19:00:00-05:00",
@@ -504,6 +517,19 @@
     "format": "DCP",
     "series": null,
     "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Vanishing Point",
+    "start": "2026-07-07T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/vanishing-point/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1971,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": true,
     "detail_url": null
   },
   {
@@ -998,6 +1024,19 @@
     "format": "35mm",
     "series": null,
     "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "I Want Your Sex",
+    "start": "2026-07-08T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/i-want-your-sex/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": true,
     "detail_url": null
   },
   {
@@ -1672,6 +1711,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Domino",
+    "start": "2026-07-09T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/domino/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2005,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -2600,6 +2652,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-10T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "The Invite",
     "start": "2026-07-10T19:00:00-05:00",
@@ -2845,6 +2910,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-10T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -4056,6 +4134,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-11T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Maddie's Secret w/ recorded Q&A",
     "start": "2026-07-11T19:00:00-05:00",
@@ -4363,6 +4454,19 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-11T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -4693,6 +4797,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-12T12:30:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Rose of Nevada",
     "start": "2026-07-12T12:40:00-04:00",
@@ -4922,6 +5039,19 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Red Spectacles",
+    "start": "2026-07-12T14:45:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-red-spectacles-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1987,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -5252,6 +5382,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-12T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1957,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Invite",
     "start": "2026-07-12T17:10:00-04:00",
@@ -5481,6 +5624,19 @@
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
     "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-12T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1957,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -6045,6 +6201,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-13T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1957,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Maddie's Secret w/ recorded Q&A",
     "start": "2026-07-13T19:00:00-05:00",
@@ -6235,6 +6404,19 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-13T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1957,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -6643,6 +6825,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-14T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1957,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Maddie's Secret w/ recorded Q&A",
     "start": "2026-07-14T19:00:00-05:00",
@@ -6833,6 +7028,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wild Strawberries",
+    "start": "2026-07-14T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wild-strawberries-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1957,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -7300,6 +7508,19 @@
     "source_scraped_at": "2026-07-07T22:32:35+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Survive Style 5+",
+    "start": "2026-07-15T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/survive-style-5/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2004,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -7956,6 +8177,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Slap the Monster on Page One",
+    "start": "2026-07-16T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/slap-the-monster-on-page-one/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-16T19:15:00-04:00",
@@ -8489,6 +8723,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-17T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1942,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "The Odyssey",
     "start": "2026-07-17T19:15:00-04:00",
@@ -8601,6 +8848,19 @@
     "film_year": 2026,
     "screen": "Downer Theatre - South Cinema",
     "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Midnight",
+    "start": "2026-07-17T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/midnight-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1939,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -8931,6 +9191,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/romer-a-2025/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-18T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1942,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-18T17:15:00-04:00",
@@ -9017,6 +9290,19 @@
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
     "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Midnight",
+    "start": "2026-07-18T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/midnight-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1939,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -9133,6 +9419,19 @@
     "source_scraped_at": "2026-07-07T22:32:35+00:00",
     "film_year": 2026,
     "screen": "Downer Theatre - South Cinema",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-18T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1942,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -9256,6 +9555,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Palm Beach Story",
+    "start": "2026-07-19T13:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-palm-beach-story/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1942,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "From Book to Film 2026: The Iron Giant",
     "start": "2026-07-19T13:30:00-04:00",
@@ -9342,6 +9654,19 @@
     "film_year": 2026,
     "screen": null,
     "format": "70mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Midnight",
+    "start": "2026-07-19T15:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/midnight-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1939,
+    "screen": null,
+    "format": "4K",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -9436,6 +9761,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/st-louis-filmmakers-showcase-2026/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-19T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "cinema-center-fort-wayne",
@@ -9536,6 +9874,19 @@
     "source_scraped_at": "2026-07-07T22:32:35+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-19T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2001,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -9672,6 +10023,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-20T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Forastera",
     "start": "2026-07-20T19:15:00-05:00",
@@ -9724,6 +10088,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-20T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-21T15:45:00-05:00",
@@ -9769,6 +10146,19 @@
     "ticket_url": "https://www.siskelfilmcenter.org/taste-cherry",
     "source_scraped_at": "2026-07-07T22:32:35+00:00",
     "film_year": 1997,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-21T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2001,
     "screen": null,
     "format": null,
     "series": null,
@@ -9841,6 +10231,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Y Tu Mamá También",
+    "start": "2026-07-21T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/y-tu-mama-tambien/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 2001,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-22T15:45:00-05:00",
@@ -9860,6 +10263,19 @@
     "ticket_url": "https://kankanindy.com/events/heat1995/",
     "source_scraped_at": "2026-07-07T22:32:35+00:00",
     "film_year": 1995,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Phantom Beirut",
+    "start": "2026-07-22T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/phantom-beirut/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -10114,6 +10530,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Me and My Brother",
+    "start": "2026-07-24T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/me-and-my-brother/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-24T19:00:00-05:00",
@@ -10161,6 +10590,19 @@
     "film_year": 2026,
     "screen": null,
     "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-24T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1973,
+    "screen": null,
+    "format": "35mm",
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -10322,6 +10764,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/blue-heron/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Me and My Brother",
+    "start": "2026-07-25T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/me-and-my-brother/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "The Piano Teacher",
     "start": "2026-07-25T18:00:00-05:00",
@@ -10374,6 +10829,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-25T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1973,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-25T19:00:00-05:00",
@@ -10413,6 +10881,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/all-about-lily-chou-chou/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-25T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1973,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maximum Overdrive",
     "start": "2026-07-25T23:30:00-05:00",
@@ -10448,6 +10929,19 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Me and My Brother",
+    "start": "2026-07-26T13:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/me-and-my-brother/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -10517,6 +11011,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/man-of-marble/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "F for Fake",
+    "start": "2026-07-26T15:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/f-for-fake-in-35mm/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1973,
+    "screen": null,
+    "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-26T15:30:00-05:00",
@@ -10539,6 +11046,19 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-26T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -10578,6 +11098,19 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-26T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -10686,6 +11219,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-27T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-27T19:00:00-05:00",
@@ -10734,6 +11280,19 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-27T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -10803,6 +11362,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-28T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "All About My Mother",
     "start": "2026-07-28T20:30:00-05:00",
@@ -10825,6 +11397,19 @@
     "screen": null,
     "format": "DCP",
     "series": "Six Moral Tales",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Wanda",
+    "start": "2026-07-28T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/wanda/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1970,
+    "screen": null,
+    "format": null,
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -10881,6 +11466,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Powwow Highway",
+    "start": "2026-07-29T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/powwow-highway/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1989,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Batman & Robin",
     "start": "2026-07-29T20:00:00-04:00",
@@ -10900,6 +11498,19 @@
     "ticket_url": "https://musicboxtheatre.com/films-and-events/legend-of-the-sacred-stone",
     "source_scraped_at": "2026-07-07T22:32:35+00:00",
     "film_year": 2026,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Powwow Highway",
+    "start": "2026-07-29T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/powwow-highway/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1989,
     "screen": null,
     "format": null,
     "series": null,
@@ -11063,6 +11674,19 @@
     "detail_url": "https://hipointetheatre.org/movies/i-want-your-sex/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-07-31T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "Bullitt",
     "start": "2026-07-31T20:00:00-05:00",
@@ -11100,6 +11724,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/the-hole/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Youngblood",
+    "start": "2026-07-31T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/youngblood/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1978,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "music-box-chicago",
@@ -11193,6 +11830,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/bashu-the-little-stranger/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-08-01T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Muppet Treasure Island",
     "start": "2026-08-01T18:00:00-04:00",
@@ -11230,6 +11880,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/i-want-your-sex/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Youngblood",
+    "start": "2026-08-01T19:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/youngblood/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1978,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11271,6 +11934,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/easy-rider/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-08-01T21:15:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Hercules",
     "start": "2026-08-02T11:00:00-05:00",
@@ -11280,6 +11956,19 @@
     "screen": null,
     "format": "DCP",
     "series": "Indoor Kids: Family-Friendly Matinees",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-02T13:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1979,
+    "screen": null,
+    "format": "4K",
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -11323,6 +12012,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/man-of-iron/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-02T15:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1979,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Sherman's March (4K Restoration)",
     "start": "2026-08-02T15:45:00-05:00",
@@ -11334,6 +12036,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/sherman-s-march-4k-restoration-1985/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Youngblood",
+    "start": "2026-08-02T17:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/youngblood/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1978,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11360,6 +12075,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/i-want-your-sex/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "Cooley High",
+    "start": "2026-08-02T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/cooley-high/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1975,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11401,6 +12129,19 @@
     "detail_url": "https://hipointetheatre.org/movies/amores-perros-4k-restoration/"
   },
   {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-03T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1979,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Girl",
     "start": "2026-08-03T20:00:00-04:00",
@@ -11410,6 +12151,19 @@
     "screen": null,
     "format": null,
     "series": "A/V Club",
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-03T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1979,
+    "screen": null,
+    "format": "4K",
+    "series": null,
     "sold_out": false,
     "detail_url": null
   },
@@ -11438,6 +12192,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/i-want-your-sex/"
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-04T19:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1979,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "trylon-minneapolis",
+    "film_title": "The Muppet Movie",
+    "start": "2026-08-04T21:00:00-05:00",
+    "ticket_url": "https://www.trylon.org/film/the-muppet-movie-in-4k/",
+    "source_scraped_at": "2026-07-08T03:41:59+00:00",
+    "film_year": 1979,
+    "screen": null,
+    "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
