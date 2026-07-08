@@ -20,10 +20,13 @@
   const POSTER_BASE = "https://image.tmdb.org/t/p/w154";
 
   let venues = {};
+  let venueList = [];
   let shows = [];
   let films = {};
   let zipTable = null;
   let zipFetch = null;
+  let venueFilter = null; // venue id, set by pin clicks / ?venue=
+  let mapLoaded = false;
 
   // ---------- helpers ----------
 
@@ -138,6 +141,8 @@
     if (["day", "film"].includes(p.get("view"))) $view.value = p.get("view");
     else if (p.get("sort") === "title") $view.value = "film"; // old links
     if (["auto", "venue", "ct", "et"].includes(p.get("tz"))) $tz.value = p.get("tz");
+    if (p.get("venue")) venueFilter = p.get("venue");
+    if (p.get("map") === "1") openMap();
   }
 
   function writeParams() {
@@ -147,6 +152,8 @@
     if ($days.value !== "7") p.set("d", $days.value);
     if ($view.value !== "day") p.set("view", $view.value);
     if ($tz.value !== "auto") p.set("tz", $tz.value);
+    if (venueFilter) p.set("venue", venueFilter);
+    if (mapLoaded && !document.getElementById("map").hidden) p.set("map", "1");
     const qs = p.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
   }
@@ -301,6 +308,14 @@
       visible.forEach((s) => delete s.miles);
     }
 
+    // counts BEFORE the venue filter, so map pins reflect the area, not the pick
+    const counts = {};
+    for (const s of visible) counts[s.venue_id] = (counts[s.venue_id] || 0) + 1;
+
+    if (venueFilter) {
+      visible = visible.filter((s) => s.venue_id === venueFilter);
+    }
+
     // display timezone: auto = nearest venue's zone (with a ZIP) else venue-local
     const mode = $tz.value;
     const fixed = mode === "auto" ? nearestTz : FIXED_TZ[mode] || null;
@@ -356,6 +371,11 @@
       ($days.value !== "all" ? ` in the next ${$days.value} days` : "") +
       (origin ? ` within ${$radius.value} mi of ${$zip.value}` : "")
     );
+    if (venueFilter) {
+      const vn = venues[venueFilter] ? venues[venueFilter].name : venueFilter;
+      statusBits.splice(1, 0,
+        `showing ${vn} only <a href="#" id="clearvenue">show all ✕</a>`);
+    }
     if (fixed) {
       statusBits.push(`times shown in ${tzAbbr(fixed, new Date().toISOString())}`);
     }
@@ -367,7 +387,68 @@
       statusBits.push(`data updated ${timeAgo(newest)}`);
     }
     $status.innerHTML = statusBits.join(" · ");
+    const clear = document.getElementById("clearvenue");
+    if (clear) clear.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.__setVenueFilter(null);
+    });
+
+    // feed the map (initializes from window.__mapData when opened later)
+    window.__mapData = {
+      venues: venueList,
+      counts,
+      venueFilter,
+      origin: origin ? [origin[0], origin[1]] : null,
+      radius: +$radius.value,
+    };
+    if (window.__updateMap) window.__updateMap(window.__mapData);
   }
+
+  // ---------- map panel (lazy) ----------
+
+  window.__setVenueFilter = (id) => {
+    venueFilter = id;
+    render();
+  };
+
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.onload = resolve;
+      s.onerror = reject;
+      document.head.appendChild(s);
+    });
+  }
+
+  function openMap() {
+    const $map = document.getElementById("map");
+    const $toggle = document.getElementById("maptoggle");
+    $map.hidden = false;
+    $toggle.textContent = "Hide map ▴";
+    if (mapLoaded) return;
+    mapLoaded = true;
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "./vendor/maplibre-gl.css";
+    document.head.appendChild(css);
+    loadScript("./vendor/maplibre-gl.js")
+      .then(() => loadScript("./vendor/pmtiles.js"))
+      .then(() => loadScript("./map.js"))
+      .catch(() => {
+        $map.textContent = "Couldn't load the map.";
+      });
+  }
+
+  document.getElementById("maptoggle").addEventListener("click", () => {
+    const $map = document.getElementById("map");
+    if ($map.hidden) openMap();
+    else {
+      $map.hidden = true;
+      document.getElementById("maptoggle").textContent = "Show map ▾";
+    }
+    writeParams();
+  });
 
   // ---------- data loading ----------
 
@@ -390,6 +471,7 @@
   ])
     .then(([vlist, slist, flist]) => {
       films = flist;
+      venueList = vlist;
       for (const v of vlist) venues[v.id] = v;
       const cutoff = new Date(Date.now() - 30 * 60000); // 30-min grace
       shows = slist.filter(

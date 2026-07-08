@@ -74,16 +74,14 @@ def scrape(venue: dict, session: PoliteSession, scraped_at: str) -> list[dict]:
             f"{API}/event_buckets/{bucket}/upcoming?date={date_str}&api_key={api_key}"
         ).text)
         films = {f["id"]: f for f in data.get("films", [])}
-        # non-film programming (improv nights etc.) lives in standalone_events,
-        # a dict keyed by the same ids shows_by_day references
-        standalone = data.get("standalone_events") or {}
-        if isinstance(standalone, dict):
-            for sid, ev in standalone.items():
-                films.setdefault(sid, ev)
+        # ids not in the films map are standalone_events — non-film programming
+        # (improv nights etc.), which is out of scope for a showtimes site
 
         for by_film in (data.get("shows_by_day") or {}).values():
             for film_id, by_screen in by_film.items():
-                film = films.get(film_id) or {}
+                film = films.get(film_id)
+                if film is None:
+                    continue  # standalone (non-film) event
                 details = film.get("details") or {}
                 year = str(details.get("year") or "")
                 for screen, shows in by_screen.items():

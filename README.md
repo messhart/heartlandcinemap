@@ -70,7 +70,10 @@ Rules of the road:
 - [x] GitHub Actions cron: scrape → commit JSON → deploy (GitHub Pages)
 - [ ] Printable calendar poster view (letter, B/W or color)
 - [x] TMDb enrichment (synopsis + runtime; posters cached for later)
-- [ ] Map view (MapLibre GL + Protomaps static tiles)
+- [x] Map view — MapLibre GL + a self-hosted Protomaps extract
+      (public/basemap/midwest.pmtiles, z0-9, ~60 MB, no tile server or API
+      key; rebuild: `pmtiles extract https://build.protomaps.com/<date>.pmtiles
+      public/basemap/midwest.pmtiles --bbox=-104.5,35.5,-79.0,49.5 --maxzoom=9`)
 - [ ] Expand venue registry across the Midwest (next candidates: MSP Film
       / The Main, Facets Chicago, FilmScene Iowa City, Film Streams Omaha,
       The Ross Lincoln, Detroit Film Theatre, Michigan/State Ann Arbor)

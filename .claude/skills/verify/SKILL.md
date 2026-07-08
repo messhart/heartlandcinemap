@@ -22,8 +22,9 @@ Fallback: headless Edge screenshots. App state is fully URL-addressable
 (`?zip=&mi=&sort=`), so most states need no clicking.
 
 ```powershell
-# serve (background)
-C:/Data/heartlandcinemap/.venv/Scripts/python.exe -m http.server 8137  # run from public/
+# serve (background) — RangeHTTPServer, NOT http.server: the map's .pmtiles
+# needs HTTP Range requests, which plain http.server silently ignores
+C:/Data/heartlandcinemap/.venv/Scripts/python.exe -m RangeHTTPServer 8137  # run from public/
 
 # screenshot a state — MUST launch via PowerShell Start-Process; from Git Bash,
 # msedge detaches and --dump-dom/--screenshot silently produce nothing

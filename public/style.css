@@ -63,6 +63,29 @@ input, select {
 
 #status { min-height: 1.5em; color: var(--muted); font-size: 0.9rem; }
 #status .warn { color: var(--accent); }
+#status a { color: var(--accent); }
+
+/* map panel */
+#mapsec { margin: 0.75rem 0 0; }
+#maptoggle {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+}
+#maptoggle:hover { border-color: var(--accent); }
+#map {
+  margin-top: 0.6rem;
+  height: 380px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+@media (max-width: 600px) { #map { height: 280px; } }
 
 /* day sections */
 section.day { margin: 1.75rem 0; }
