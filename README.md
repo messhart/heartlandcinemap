@@ -68,7 +68,9 @@ Rules of the road:
 - [x] Local scrape-health dashboard (dashboard.html, read-only)
 - [x] Static frontend: ZIP + radius filter, sort by time/distance/title
 - [x] GitHub Actions cron: scrape → commit JSON → deploy (GitHub Pages)
-- [ ] Printable calendar poster view (letter, B/W or color)
+- [x] Printable calendar poster view (letter landscape, B/W or color) — a
+      month-grid calendar, one page per month, built from the current filters;
+      dense cells cap to "+N more" so each month fits one sheet
 - [x] TMDb enrichment (synopsis + runtime; posters cached for later)
 - [x] Map view — MapLibre GL + a self-hosted Protomaps extract
       (public/basemap/midwest.pmtiles, z0-9, ~60 MB, no tile server or API
