@@ -208,6 +208,195 @@ details.about .about-meta { margin: 0 0 0.3rem; }
 
 .empty { color: var(--muted); margin: 2rem 0; }
 
+/* ---------- printable calendar poster ---------- */
+
+#postertoggle {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+  margin-left: 0.4rem;
+}
+#postertoggle:hover { border-color: var(--accent); }
+
+#posterwrap {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: auto;
+  background: rgba(20, 18, 16, 0.6);
+  padding: 3.6rem 1rem 2rem;
+}
+body.postering { overflow: hidden; }
+
+#postertools {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1001;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+#postertools button {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+}
+#postertools button:hover { border-color: var(--accent); }
+
+/* the sheet: fixed paper palette — this is ink on paper, never dark-mode */
+.poster-page {
+  --pk: #8a3033;      /* accent (day numbers, venue codes, month) */
+  --ptext: #16130f;
+  --pmut: #6a645d;
+  --pline: #c9c3b8;
+  --pout: #efece6;    /* days outside the covered range */
+  background: #fff;
+  color: var(--ptext);
+  /* on-screen geometry mirrors the print content box so the overflow the
+     fitter sees on screen is exactly what would spill a print page. Height is
+     held under the 7.9in printable area (letter landscape minus @page 0.3in
+     margins): a box filling the *full* printable height plus its forced
+     page-break tips a hairline onto a second sheet, so we leave slack. */
+  width: 10.4in;
+  height: 7.4in;
+  padding: 0.2in 0.28in;
+  margin: 0 auto 1.4rem;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+#poster.bw .poster-page { --pk: #000; }
+
+.pp-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25in;
+  border-bottom: 2.5pt solid var(--ptext);
+  padding-bottom: 5pt;
+}
+.pp-month { font-size: 22pt; font-weight: 700; letter-spacing: -0.02em; color: var(--pk); }
+.pp-brand { font-size: 8.5pt; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; }
+.pp-scope { margin-left: auto; font-size: 7.5pt; color: var(--pmut); text-align: right; max-width: 3.6in; }
+
+.pp-dow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 6.8pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--pmut);
+  padding: 4pt 0 2pt;
+}
+.pp-dow span { padding-left: 3pt; }
+
+.pp-weeks {
+  flex: 1 1 auto;
+  min-height: 0;      /* allow the flex child to shrink so overflow is real */
+  overflow: hidden;   /* the fitter trims until scrollHeight <= clientHeight */
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--pline);
+  border-left: 1px solid var(--pline);
+}
+.pp-week {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  min-height: 0.72in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.pp-cell {
+  border-right: 1px solid var(--pline);
+  border-bottom: 1px solid var(--pline);
+  padding: 2pt 3pt 3pt;
+  min-width: 0;
+}
+.pp-cell.pp-out { background: var(--pout); }
+.pp-daynum { font-size: 8.5pt; font-weight: 700; color: var(--pk); }
+.pp-out .pp-daynum, .pp-empty .pp-daynum { color: var(--pmut); font-weight: 400; }
+
+.pentry { font-size: 6.4pt; line-height: 1.32; margin-top: 2pt; overflow-wrap: break-word; }
+.ptitle { font-weight: 700; }
+.pyear { color: var(--pmut); }
+.pfmt { color: var(--pk); font-weight: 600; font-size: 5.8pt; text-transform: uppercase; letter-spacing: 0.04em; }
+.ptimes { font-variant-numeric: tabular-nums; white-space: normal; }
+.pvcode { color: var(--pk); font-weight: 700; }
+.pmore { color: var(--pmut); font-style: italic; font-weight: 600; }
+
+.pp-foot {
+  border-top: 2.5pt solid var(--ptext);
+  margin-top: 5pt;
+  padding-top: 4pt;
+  font-size: 6.8pt;
+  color: var(--pmut);
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3in;
+  flex-wrap: nowrap;      /* fixed height: legend clips rather than wrapping,
+                             so the footer can't steal rows from the grid and
+                             desync the fit measurement from print layout */
+  align-items: baseline;
+}
+.pp-legend {
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pp-foot > span:last-child { flex: 0 0 auto; white-space: nowrap; }
+.pp-legend b { color: var(--pk); }
+.poster-empty { color: #fff; text-align: center; margin: 4rem 0; font-size: 1rem; }
+
+/* print: only the sheets, landscape letter, one month per page */
+@page cal { size: letter landscape; margin: 0.3in; }
+@media print {
+  body.postering > :not(#posterwrap) { display: none !important; }
+  /* zero every ancestor's box so nothing adds to the page height — leftover
+     body padding/margin is what tips a page onto a trailing blank sheet */
+  body.postering { overflow: visible; background: #fff; margin: 0; padding: 0; }
+  body.postering #posterwrap {
+    position: static;
+    overflow: visible;
+    background: none;
+    margin: 0;
+    padding: 0;
+  }
+  body.postering #poster, body.postering #posterpages { margin: 0; padding: 0; }
+  body.postering #postertools { display: none; }
+  body.postering .poster-page {
+    page: cal;
+    /* keep the exact screen geometry the fitter measured against; just drop the
+       shadow + bottom margin and force one month per sheet */
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+  }
+  body.postering .poster-page:last-child { page-break-after: auto; }
+}
+
 footer {
   margin-top: 3rem;
   padding-top: 1rem;

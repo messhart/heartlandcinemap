@@ -43,6 +43,14 @@ labels), `?zip=60613&mi=50` (empty state — venue in radius but no adapter),
 `?sort=title` (film grouping, sold-out badges), `?zip=99999` (unknown-ZIP
 warning). Verify tz labels: July shows EDT, November EST for Kan-Kan.
 
+**Poster (print calendar):** `?poster=1` opens the preview overlay after the
+first render. Verify the actual print surface with Playwright's
+`page.pdf(prefer_css_page_size=True)` — it uses print media emulation, so it
+exercises the `@media print` + named `@page cal` (letter landscape) rules for
+real; then Read the PDF. Dense multi-venue month: `?zip=60614&d=30` (Music
+Box + Siskel). Single venue (no codes/legend): `?venue=music-box-chicago`.
+Dark-mode map popup checks need `new_page(color_scheme='dark')`.
+
 ## Scraper
 
 ```

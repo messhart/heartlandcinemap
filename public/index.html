@@ -57,6 +57,7 @@
 
 <section id="mapsec">
   <button id="maptoggle" type="button">Show map ▾</button>
+  <button id="postertoggle" type="button">Print calendar</button>
   <div id="map" hidden></div>
 </section>
 
@@ -83,6 +84,16 @@
   Film descriptions and metadata from <a href="https://www.themoviedb.org/">TMDB</a>
   — this site uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </footer>
+
+<div id="posterwrap" hidden>
+  <div id="postertools">
+    <span id="posterinfo"></span>
+    <button id="posterbw" type="button">Switch to B&amp;W</button>
+    <button id="posterprint" type="button">Print / save PDF</button>
+    <button id="posterclose" type="button">Close ✕</button>
+  </div>
+  <div id="poster"><div id="posterpages"></div></div>
+</div>
 
 <script src="./app.js"></script>
 </body>
