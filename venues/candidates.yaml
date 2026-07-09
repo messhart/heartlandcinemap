@@ -1,0 +1,395 @@
+# Candidate venues — the expansion backlog, distilled from
+# venues_research_report.md. NOT scraped and NOT part of public/venues.json;
+# scripts/build_venues.py emits these to public/candidates.json for the
+# dashboard's "Candidate venues" panel so the backlog is visible and triaged.
+#
+# Move a candidate into a state file (venues/<st>.yaml) when it's ready to
+# scrape; delete its entry here at that point.
+#
+# adapter_status:
+#   ready       — a platform we already scrape; mostly a registry entry + verify
+#   new-adapter — needs a new adapter (the `platform`/`note` says which backend)
+#   borderline  — operating status, permanent venue, or scope needs verifying
+#                 before it's worth building
+#
+# platform: the ticketing/showtimes backend per the report (drives the adapter).
+
+candidates:
+
+  # ---------- ILLINOIS ----------
+  - name: Facets
+    city: Chicago
+    state: IL
+    website: https://facets.org
+    platform: wordpress_custom
+    adapter_status: new-adapter
+    note: >-
+      Nonprofit, 40+ yrs. Showtimes on facets.org/calendar/ but JS-rendered
+      (opaque to curl) — needs headless or a JSON-island probe.
+  - name: Landmark Century Centre Cinema
+    city: Chicago
+    state: IL
+    website: https://www.landmarktheatres.com
+    platform: landmark
+    adapter_status: new-adapter
+    note: 7-screen Landmark chain; qualifies on indie/foreign/prestige. Chain.
+  - name: The Logan Theatre
+    city: Chicago
+    state: IL
+    website: https://thelogantheatre.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent historic; repertory/throwback + sub-run. Platform unverified.
+  - name: Alamo Drafthouse Wrigleyville
+    city: Chicago
+    state: IL
+    platform: alamo
+    adapter_status: new-adapter
+    note: Chain; real rep/movie-party programming. Alamo's own ticketing.
+  - name: Wilmette Theatre
+    city: Wilmette
+    state: IL
+    platform: unknown
+    adapter_status: borderline
+    note: Community/independent north suburb; verify scope + platform.
+
+  # ---------- INDIANA ----------
+  - name: Landmark Keystone Art Cinema
+    city: Indianapolis
+    state: IN
+    website: https://www.landmarktheatres.com
+    platform: landmark
+    adapter_status: new-adapter
+    note: 7-screen Landmark; indie/foreign/doc. Chain.
+  - name: Public House Cinema
+    city: Indianapolis
+    state: IN
+    website: https://publichousecinema.com
+    platform: unknown
+    adapter_status: borderline
+    note: Aspirational/early-stage per report — verify it actually operates.
+  - name: IU Cinema
+    city: Bloomington
+    state: IN
+    website: https://cinema.indiana.edu
+    platform: ticketmaster
+    adapter_status: new-adapter
+    note: >-
+      Prestigious university arthouse (FIAF member), ~200 programs/yr. Sells
+      via Ticketmaster (am.ticketmaster.com/iucinema) — one-off backend.
+  - name: Buskirk-Chumley Theater
+    city: Bloomington
+    state: IN
+    platform: unknown
+    adapter_status: borderline
+    note: Historic community venue w/ Ryder Film Series relationship; borderline.
+  - name: YES Cinema & Conference Center
+    city: Columbus
+    state: IN
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit community cinema; indie + community fare. Verify platform.
+  - name: Browning Cinema (DeBartolo PAC, Notre Dame)
+    city: South Bend
+    state: IN
+    website: https://performingarts.nd.edu
+    platform: unknown
+    adapter_status: borderline
+    note: Campus cinematheque, open to public; verify platform + public schedule.
+
+  # ---------- OHIO ----------
+  - name: Wexner Center for the Arts (Film/Video)
+    city: Columbus
+    state: OH
+    website: https://wexarts.org
+    platform: unknown
+    adapter_status: borderline
+    note: OSU contemporary-arts center; curated/experimental. Verify platform.
+  - name: Drexel Theatre
+    city: Columbus
+    state: OH
+    website: https://drexel.net
+    platform: unknown
+    adapter_status: borderline
+    note: CAPA-operated indie/rep; verify platform (Agile? Spektrix?).
+  - name: Studio 35 Cinema & Drafthouse
+    city: Columbus
+    state: OH
+    website: https://studio35.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent single-location; rep/cult/indie + drafthouse. Verify.
+  - name: Cedar Lee Theatre
+    city: Cleveland Heights
+    state: OH
+    website: https://clevelandcinemas.com
+    platform: unknown
+    adapter_status: borderline
+    note: Cleveland Cinemas group arthouse; verify platform.
+  - name: Cincinnati World Cinema (Garfield Theatre)
+    city: Cincinnati
+    state: OH
+    website: https://cincyworldcinema.org
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit, volunteer-run, 163 seats; Sundance Shorts. Verify platform.
+  - name: Mariemont & Esquire Theatres
+    city: Cincinnati
+    state: OH
+    platform: unknown
+    adapter_status: borderline
+    note: Independent local chain (Theatre Management Corp); foreign/indie/prestige.
+  - name: Little Art Theatre
+    city: Yellow Springs
+    state: OH
+    website: https://littleart.com
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit single-screen (est. 1929); first-run indie/foreign/doc.
+
+  # ---------- MICHIGAN ----------
+  # Michigan Theater + State Theatre (Ann Arbor) are already in venues/mi.yaml
+  # (draft, headless_agile) — not repeated here.
+  - name: Detroit Film Theatre (Detroit Institute of Arts)
+    city: Detroit
+    state: MI
+    website: https://dia.org/dft
+    platform: custom
+    adapter_status: new-adapter
+    note: >-
+      Nonprofit (DIA program, est. 1974), 1000-seat auditorium. Self-hosted
+      dia.org/events, no third-party ticketing host visible — custom adapter.
+  - name: Cinema Detroit
+    city: Detroit
+    state: MI
+    website: https://cinemadetroit.org
+    platform: unknown
+    adapter_status: borderline
+    note: >-
+      Nonprofit community arthouse — but lost its fixed venue in 2023 and now
+      pops up nomadically. Verify current home before adding.
+  - name: Redford Theatre
+    city: Detroit
+    state: MI
+    website: https://redfordtheatre.com
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit 1928 palace w/ organ; classic rep + 70mm events. Verify.
+  - name: Main Art Theatre
+    city: Royal Oak
+    state: MI
+    platform: unknown
+    adapter_status: borderline
+    note: Historic arthouse; Landmark exited — verify it still operates.
+  - name: Wealthy Theatre (GRCMC) / GR Film Society
+    city: Grand Rapids
+    state: MI
+    website: https://grcmc.org/theatre
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit 1911 cinema; rep/community/experimental. Verify platform.
+  - name: State Theatre & Bijou by the Bay
+    city: Traverse City
+    state: MI
+    platform: unknown
+    adapter_status: borderline
+    note: TC Film Festival nonprofit venues; classic/indie/foreign. Verify platform.
+
+  # ---------- WISCONSIN ----------
+  - name: UWM Union Cinema
+    city: Milwaukee
+    state: WI
+    website: https://uwm.edu/arts
+    platform: unknown
+    adapter_status: borderline
+    note: University arthouse (academic year); verify public schedule + platform.
+  - name: Times Cinema
+    city: Milwaukee
+    state: WI
+    platform: unknown
+    adapter_status: borderline
+    note: Independent single-screen rep/classics; verify current operating status.
+  - name: UW Cinematheque
+    city: Madison
+    state: WI
+    website: https://cinema.wisc.edu
+    platform: unknown
+    adapter_status: borderline
+    note: >-
+      Madison's premier university rep program (usually free). Verify whether
+      showtimes are machine-readable (may be a static WordPress schedule).
+  - name: MMoCA Cinema
+    city: Madison
+    state: WI
+    website: https://mmoca.org/cinema
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit museum; Rooftop/Spotlight Cinema (free). Verify schedule feed.
+  - name: Barrymore Theatre
+    city: Madison
+    state: WI
+    platform: unknown
+    adapter_status: borderline
+    note: Historic venue w/ occasional rep/event screenings. Borderline scope.
+
+  # ---------- MINNESOTA ----------
+  - name: MSP Film Society / The Main Cinema
+    city: Minneapolis
+    state: MN
+    website: https://mspfilm.org
+    platform: wordpress_custom
+    adapter_status: new-adapter
+    note: >-
+      Nonprofit flagship (5 screens; MSPIFF). Showtimes SPA on mspfilm.org
+      (/showtimes/#/calendar), no third-party host — custom/headless adapter.
+  - name: The Riverview Theater
+    city: Minneapolis
+    state: MN
+    website: https://riverviewtheater.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent second-run/rep single-screen, historic. Verify platform.
+  - name: Parkway Theater
+    city: Minneapolis
+    state: MN
+    website: https://theparkwaytheater.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent; rep/events/music+film. Verify platform + film cadence.
+  - name: The Heights Theater
+    city: Columbia Heights
+    state: MN
+    website: https://heightstheater.com
+    platform: unknown
+    adapter_status: borderline
+    note: Restored 1926 w/ pipe organ; rep/35mm/70mm. Verify platform.
+  - name: Walker Art Center (Film/Video)
+    city: Minneapolis
+    state: MN
+    website: https://walkerart.org
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit museum; experimental/artist/restored/world. Verify schedule.
+  - name: Landmark Lagoon Cinema
+    city: Minneapolis
+    state: MN
+    website: https://www.landmarktheatres.com
+    platform: landmark
+    adapter_status: new-adapter
+    note: Landmark chain; indie/foreign. Same adapter as other Landmarks.
+
+  # ---------- MISSOURI ----------
+  - name: Arkadin Cinema & Bar
+    city: St. Louis
+    state: MO
+    website: https://arkadincinema.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent microcinema+bar; arthouse/cult/silent/rarities. Verify platform.
+  - name: Webster University Film Series
+    city: Webster Groves
+    state: MO
+    website: https://webster.edu/film-series
+    platform: unknown
+    adapter_status: borderline
+    note: University rep/first-run; verify machine-readable schedule.
+  - name: Alamo Drafthouse City Foundry STL
+    city: St. Louis
+    state: MO
+    platform: alamo
+    adapter_status: new-adapter
+    note: Chain; rep + movie parties alongside first-run. Alamo ticketing.
+  - name: Screenland Armour
+    city: North Kansas City
+    state: MO
+    website: https://screenland.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent; indie/cult/rep. Verify platform.
+  - name: Stray Cat Film Center
+    city: Kansas City
+    state: MO
+    website: https://straycatfilmcenter.org
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit microcinema; experimental/cult/underground/local. Verify feed.
+  - name: Tivoli
+    city: Kansas City
+    state: MO
+    platform: unknown
+    adapter_status: borderline
+    note: Longtime Westport Tivoli closed; brand may operate elsewhere. Verify.
+
+  # ---------- KANSAS ----------
+  - name: Liberty Hall
+    city: Lawrence
+    state: KS
+    website: https://liberty-hall.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent indie/rep (also live music); Sundance satellite 2022. Verify.
+  - name: Glenwood Arts (Fine Arts Theatre Group)
+    city: Overland Park
+    state: KS
+    website: https://fineartsgroup.com
+    platform: unknown
+    adapter_status: borderline
+    note: Independent local chain; arthouse/foreign/indie. Verify platform.
+  - name: mama.film / Tallgrass
+    city: Wichita
+    state: KS
+    website: https://mama.film
+    platform: unknown
+    adapter_status: borderline
+    note: Nonprofit collective + Tallgrass Fest; verify permanent screening venue.
+
+  # ---------- NEBRASKA ----------
+  # Film Streams (Ruth Sokolof + Dundee) already added — venues/ne.yaml.
+  - name: Mary Riepma Ross Media Arts Center (The Ross)
+    city: Lincoln
+    state: NE
+    website: https://theross.org
+    platform: centeredge
+    adapter_status: new-adapter
+    note: >-
+      University arthouse (UNL). CenterEdge ticketing
+      (rossmedia.centeredgeonline.com), but theross.org has a server-rendered
+      WordPress /films/ listing — a static-HTML adapter should work.
+
+  # ---------- NORTH DAKOTA ----------
+  - name: Fargo Theatre
+    city: Fargo
+    state: ND
+    website: https://fargotheatre.org
+    platform: etix
+    adapter_status: new-adapter
+    note: >-
+      Nonprofit 1926 Art Deco (100 yrs in 2026), 2 screens. Sells via Etix
+      (only authorized agent) — one-off backend; Etix has iCal/RSS feeds worth
+      probing.
+  - name: Empire Arts Center
+    city: Grand Forks
+    state: ND
+    platform: unknown
+    adapter_status: borderline
+    note: Arts center that screens film; borderline scope. Verify film cadence.
+
+  # ---------- SOUTH DAKOTA ----------
+  - name: State Theatre
+    city: Sioux Falls
+    state: SD
+    website: https://siouxfallsstatetheatre.org
+    platform: unknown
+    adapter_status: borderline
+    note: >-
+      Restored nonprofit historic cinema — thinnest arthouse state; verify the
+      regularity of indie/rep programming before adding.
+
+  # ---------- IOWA ----------
+  # FilmScene (Iowa City) and Varsity (Des Moines) already added.
+  - name: Mindframe Theaters
+    city: Dubuque
+    state: IA
+    platform: unknown
+    adapter_status: borderline
+    note: Borderline indie per report; verify scope + platform.

@@ -1,5 +1,7 @@
-# Local research material (not published)
+# Local research material (not published) — the candidate backlog distilled
+# from it lives in venues/candidates.yaml, which IS tracked
 venues_research_report.pdf
+venues_research_report.md
 
 # Python
 __pycache__/

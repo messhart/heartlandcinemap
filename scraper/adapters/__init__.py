@@ -5,8 +5,8 @@ Adapters are written per ticketing platform, not per venue.
 """
 
 from adapters import (drupal_calendar, eventive, filmbot, filmbot_graphql,
-                      filmscene_agile, filmstreams_blackbaud, musicbox_custom,
-                      trylon_wordpress, wordpress_elevent)
+                      filmscene_agile, filmstreams_blackbaud, headless_agile,
+                      musicbox_custom, trylon_wordpress, wordpress_elevent)
 
 ADAPTERS = {
     "wordpress_elevent": wordpress_elevent,
@@ -18,4 +18,5 @@ ADAPTERS = {
     "drupal_calendar": drupal_calendar,
     "filmscene_agile": filmscene_agile,
     "filmstreams_blackbaud": filmstreams_blackbaud,
+    "headless_agile": headless_agile,
 }

@@ -5,15 +5,15 @@ repertory, and nonprofit cinemas across the US Midwest. Enter a ZIP code, pick
 a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
-**Live at <https://messhart.github.io/heartlandcinemap/>** — fourteen cinemas
-scraped across nine states (Chicago ×2, Indianapolis, Fort Wayne, Milwaukee
+**Live at <https://messhart.github.io/heartlandcinemap/>** — sixteen cinemas
+scraped across ten states (Chicago ×2, Indianapolis, Fort Wayne, Milwaukee
 ×2, Columbus, Cleveland, Des Moines, Minneapolis, St. Louis, Iowa City,
-Omaha ×2), plus three more registered but not yet scraped (Dayton and
-Ann Arbor ×2)*. Film descriptions courtesy of the TMDB API (the site is not
-endorsed or certified by TMDB). *The Neon's robots.txt disallows its
-showtimes API (we're asking first); Ann Arbor's Michigan & State Theaters
-need a headless adapter (their schedule is JS-rendered behind bot
-protection) — both show as gray pins on the map until then.
+Omaha ×2, Ann Arbor ×2), plus The Neon (Dayton) registered but not scraped*.
+Film descriptions courtesy of the TMDB API (the site is not endorsed or
+certified by TMDB). *The Neon's robots.txt disallows its showtimes API, so
+we're asking first — it shows as a gray pin on the map until then. A further
+~50-venue expansion backlog, distilled from a research report, lives in
+`venues/candidates.yaml` and surfaces in the local dashboard.
 
 ## How it works (and why it costs ~nothing)
 
@@ -68,6 +68,10 @@ Rules of the road:
 - [x] Gene Siskel (Drupal calendar), Trylon (WordPress) adapters
 - [x] FilmScene Iowa City (Agile-backed WordPress) and Film Streams Omaha
       ×2 (Blackbaud, one site → two buildings via `venue_match`) adapters
+- [x] Ann Arbor's Michigan & State Theaters (Marquee Arts) — headless Agile
+      adapter: Playwright renders the FullCalendar SPA, then filters to films
+      by cross-referencing the server-rendered /all-films archive (which also
+      supplies years) and splits the two buildings via `venue_match`
 - [x] Neon GraphQL adapter written — held back until the venue OKs it
       (their robots.txt disallows /graphql)
 - [x] Local scrape-health dashboard (dashboard.html, read-only)
@@ -88,10 +92,11 @@ Rules of the road:
       calendar picks wear a gold ring. All reverse-geocoding is local against
       the shipped ZIP centroids — still no APIs.
 - [~] Expand venue registry across the Midwest — added FilmScene (Iowa
-      City) and Film Streams (Omaha ×2); registered Ann Arbor's Michigan &
-      State (need a headless Agile adapter). Still to research: MSP Film /
-      The Main (Minneapolis, custom SPA), Facets (Chicago, JS calendar),
-      The Ross (Lincoln, CenterEdge), Detroit Film Theatre (DIA)
+      City), Film Streams (Omaha ×2), and Ann Arbor's Michigan & State. The
+      remaining ~50-venue backlog is triaged in `venues/candidates.yaml`
+      (ready / needs-adapter / borderline) and shown in the dashboard; next
+      adapters would be Facets (Chicago), MSP Film (Minneapolis), The Ross
+      (Lincoln, CenterEdge), Fargo Theatre (Etix), IU Cinema (Ticketmaster)
 - [ ] Venue-updater tool (approval-gated) + local scrape dashboard
 
 ## License

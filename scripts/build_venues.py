@@ -16,12 +16,16 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 VENUES_DIR = ROOT / "venues"
 OUT_PATH = ROOT / "public" / "venues.json"
+CANDIDATES_YAML = VENUES_DIR / "candidates.yaml"
+CANDIDATES_OUT = ROOT / "public" / "candidates.json"
 
 
 def load_venues() -> list[dict]:
     venues: list[dict] = []
     seen_ids: dict[str, str] = {}
     for path in sorted(VENUES_DIR.glob("*.yaml")):
+        # candidates.yaml uses a `candidates:` key (not `venues:`) and is
+        # handled separately; a stray file with neither key is simply skipped
         data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
         for venue in data.get("venues") or []:
             vid = venue.get("id")
@@ -34,6 +38,14 @@ def load_venues() -> list[dict]:
     return venues
 
 
+def load_candidates() -> list[dict]:
+    """The expansion backlog (venues/candidates.yaml), for the dashboard."""
+    if not CANDIDATES_YAML.exists():
+        return []
+    data = yaml.safe_load(CANDIDATES_YAML.read_text(encoding="utf-8")) or {}
+    return data.get("candidates") or []
+
+
 def main() -> None:
     venues = load_venues()
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -42,6 +54,13 @@ def main() -> None:
         encoding="utf-8",
     )
     print(f"wrote {OUT_PATH.relative_to(ROOT)} ({len(venues)} venues)")
+
+    candidates = load_candidates()
+    CANDIDATES_OUT.write_text(
+        json.dumps(candidates, indent=2, ensure_ascii=False, default=str) + "\n",
+        encoding="utf-8",
+    )
+    print(f"wrote {CANDIDATES_OUT.relative_to(ROOT)} ({len(candidates)} candidates)")
 
 
 if __name__ == "__main__":

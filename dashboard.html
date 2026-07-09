@@ -26,6 +26,18 @@
   td.num { font-variant-numeric:tabular-nums; text-align:right; }
   .err-text { color:var(--muted); font-size:0.85rem; max-width:22rem; }
   footer { margin-top:1.5rem; color:var(--muted); font-size:0.85rem; }
+  .cand-group { margin:1.25rem 0; }
+  .cand-group h2 { font-size:1rem; margin:0 0 0.5rem; }
+  .cand-group h2 .pill { font-size:0.7rem; font-weight:600; text-transform:uppercase;
+    letter-spacing:0.04em; padding:0.1rem 0.5rem; border-radius:99px; margin-right:0.5rem;
+    color:#fff; vertical-align:middle; }
+  .pill.ready { background:var(--ok); }
+  .pill.newadapter { background:var(--warn); }
+  .pill.borderline { background:var(--muted); }
+  .cand-group h2 .n { color:var(--muted); font-weight:normal; font-size:0.85rem; }
+  td.plat { font-variant-numeric:tabular-nums; color:var(--muted); font-size:0.85rem;
+    white-space:nowrap; }
+  td.cand-note { color:var(--muted); font-size:0.85rem; }
 </style>
 </head>
 <body>
@@ -52,10 +64,17 @@ themoviedb.org, copy the number from its URL, paste the line into
 <code>film_overrides.yaml</code> with that id, then run
 <code>python scraper/enrich.py</code>. Misses also retry automatically after 30 days.</p>
 
+<h1 style="margin-top:2.5rem">Candidate venues <small>— expansion backlog</small></h1>
+<p id="cand-summary" style="color:var(--muted)">Loading…</p>
+<div id="cand-groups"></div>
+
 <footer>Serve from the repo root: <code>python -m http.server</code> →
 <a href="http://localhost:8000/dashboard.html">localhost:8000/dashboard.html</a>.
 Reads <code>run_report.json</code>, <code>public/venues.json</code>,
-<code>public/films.json</code>, <code>public/showtimes.json</code>.</footer>
+<code>public/films.json</code>, <code>public/showtimes.json</code>,
+<code>public/candidates.json</code>. The candidate backlog is hand-maintained
+in <code>venues/candidates.yaml</code> (distilled from the research report);
+move one into a <code>venues/&lt;st&gt;.yaml</code> when it's ready to scrape.</footer>
 
 <script>
 "use strict";
@@ -152,6 +171,61 @@ Promise.all([
   document.getElementById("films-tbl").hidden = rows.length === 0;
 }).catch(() => {
   document.getElementById("films-summary").textContent = "Couldn't load films/showtimes data.";
+});
+
+// ---- candidate venues (expansion backlog) ----
+fetch("./public/candidates.json").then((r) => r.json()).then((cands) => {
+  const GROUPS = [
+    ["ready", "ready", "Ready — a platform we already scrape"],
+    ["new-adapter", "newadapter", "Needs a new adapter"],
+    ["borderline", "borderline", "Borderline — verify status / scope first"],
+  ];
+  const byStatus = {};
+  for (const c of cands) (byStatus[c.adapter_status] ||= []).push(c);
+
+  const wrap = document.getElementById("cand-groups");
+  for (const [status, cls, label] of GROUPS) {
+    const list = (byStatus[status] || []).sort((a, b) =>
+      a.state.localeCompare(b.state) || a.city.localeCompare(b.city) ||
+      a.name.localeCompare(b.name));
+    if (!list.length) continue;
+    const sec = document.createElement("div");
+    sec.className = "cand-group";
+    const h = document.createElement("h2");
+    h.innerHTML = `<span class="pill ${cls}">${status}</span>` +
+      `${label} <span class="n">(${list.length})</span>`;
+    sec.appendChild(h);
+    const tbl = document.createElement("table");
+    tbl.innerHTML = "<thead><tr><th>Venue</th><th>Where</th>" +
+      "<th>Platform</th><th>Notes</th></tr></thead>";
+    const tb = document.createElement("tbody");
+    for (const c of list) {
+      const tr = document.createElement("tr");
+      const cells = [
+        [c.name, ""], [`${c.city}, ${c.state}`, ""],
+        [c.platform || "?", "plat"], [c.note || "", "cand-note"],
+      ];
+      for (const [text, klass] of cells) {
+        const td = document.createElement("td");
+        td.textContent = text;
+        if (klass) td.className = klass;
+        tr.appendChild(td);
+      }
+      tb.appendChild(tr);
+    }
+    tbl.appendChild(tb);
+    sec.appendChild(tbl);
+    wrap.appendChild(sec);
+  }
+  const n = (s) => (byStatus[s] || []).length;
+  document.getElementById("cand-summary").textContent =
+    `${cands.length} candidates from the research report · ` +
+    `${n("ready")} ready · ${n("new-adapter")} need an adapter · ` +
+    `${n("borderline")} borderline. Edit venues/candidates.yaml, then ` +
+    `run scripts/build_venues.py.`;
+}).catch(() => {
+  document.getElementById("cand-summary").textContent =
+    "Couldn't load candidates.json — run scripts/build_venues.py.";
 });
 </script>
 </body>
