@@ -1,0 +1,71 @@
+# Michigan venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  # Marquee Arts runs both Ann Arbor houses on one Agile Ticketing backend.
+  # Registered but NOT yet scraped: their public schedule injects showtimes
+  # via JavaScript (FullCalendar fed by an Agile widget) from an
+  # Incapsula-protected host — the server-rendered /all-films archive lists
+  # only one showtime per film. Needs a headless (Playwright) adapter like
+  # Music Box; teed up for a later round. Until then these show as registered
+  # (gray) pins on the map, like The Neon.
+
+  - id: michigan-theater-ann-arbor
+    name: Michigan Theater
+    city: Ann Arbor
+    state: MI
+    address: 603 E. Liberty St.
+    zip: "48104"
+    lat: 42.2795
+    lng: -83.7420
+    coords: approx
+    tz: America/New_York
+    website: https://marquee-arts.org
+    listings_url: https://marquee-arts.org/calendar/
+    platform: agile
+    fetch_method: headless
+    adapter: headless_agile  # TODO: not yet implemented — venue not scraped
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, repertory, classic, documentary, first-run-indie]
+    status: draft
+    last_verified: 2026-07-09
+    source_urls:
+      - https://marquee-arts.org/michigan-theater/
+      - https://marquee-arts.org/all-films
+    notes: >-
+      Historic 1928 movie palace (1,600+ seats main auditorium + screening
+      room), operated by the Marquee Arts nonprofit. Sells via Agile Ticketing
+      (org MT_3768, tix.marquee-arts.org). The /calendar/ schedule is a
+      FullCalendar SPA fed by the Agile widget behind Incapsula; the
+      server-rendered /all-films archive exposes only one showtime per film.
+      Needs a headless adapter — draft until then. Coords approx — verify.
+
+  - id: state-theatre-ann-arbor
+    name: State Theatre
+    city: Ann Arbor
+    state: MI
+    address: 233 S. State St.
+    zip: "48104"
+    lat: 42.2790
+    lng: -83.7405
+    coords: approx
+    tz: America/New_York
+    website: https://marquee-arts.org
+    listings_url: https://marquee-arts.org/calendar/
+    platform: agile
+    fetch_method: headless
+    adapter: headless_agile  # TODO: not yet implemented — venue not scraped
+    nonprofit: true
+    screens: 4
+    programming: [arthouse, repertory, first-run-indie, cult, classic]
+    status: draft
+    last_verified: 2026-07-09
+    source_urls:
+      - https://marquee-arts.org/state-theatre/
+      - https://marquee-arts.org/all-films
+    notes: >-
+      Restored 1942 Art Deco house (4 screens), Marquee Arts' second Ann Arbor
+      venue. Same Agile backend (org MT_3768); the per-showtime "theater"
+      field ("State" vs "Michigan") in the /all-films archive distinguishes
+      the two. Same headless requirement as the Michigan — draft until the
+      adapter exists. Coords approx — verify.

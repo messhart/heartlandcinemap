@@ -28,5 +28,36 @@ venues:
       restoration. Same Filmbot WordPress REST route as Gateway
       (/wp-json/nj/v1/showtime/listings). Coords approx — verify.
 
-  # From the research report, second pass: FilmScene (Iowa City,
-  # AudienceView/Vantix), Mindframe Theaters (Dubuque, borderline).
+  - id: filmscene-iowa-city
+    name: FilmScene
+    city: Iowa City
+    state: IA
+    address: 118 E. College St.
+    zip: "52240"
+    lat: 41.6560
+    lng: -91.5330
+    coords: approx
+    tz: America/Chicago
+    website: https://icfilmscene.org
+    listings_url: https://icfilmscene.org/now-playing/
+    platform: agile
+    fetch_method: static_html
+    adapter: filmscene_agile
+    nonprofit: true
+    screens: 4
+    programming: [arthouse, repertory, documentary, foreign, first-run-indie]
+    status: verified
+    last_verified: 2026-07-09
+    source_urls:
+      - https://icfilmscene.org/now-playing/
+    notes: >-
+      Iowa City's nonprofit cinema (501c3); two downtown buildings — The
+      Chauncey (3 screens) and The Ped Mall (1) — plus summer "FilmScene in
+      the Park" outdoor screenings, all folded into one venue here. Sells via
+      Agile Ticketing, but its own WordPress site (film-api-cron plugin)
+      server-renders a clean day-grouped schedule at /now-playing/, so we read
+      that instead of the Incapsula-fronted Agile backend. Dates carry no year
+      (adapter rolls forward); film years come from /film/{slug}/ pages, only
+      when explicitly labelled. Coords approx — verify.
+
+  # Still on the list: Mindframe Theaters (Dubuque, borderline scope).

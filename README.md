@@ -5,12 +5,15 @@ repertory, and nonprofit cinemas across the US Midwest. Enter a ZIP code, pick
 a radius (50 / 100 / 200 mi), and see what's screening nearby — then buy your
 ticket at the cinema's own box office. We never sell or hold tickets.
 
-**Live at <https://messhart.github.io/heartlandcinemap/>** — eleven cinemas
-across seven states (Chicago ×2, Indianapolis, Fort Wayne, Milwaukee ×2,
-Columbus, Cleveland, Dayton*, Des Moines, Minneapolis, St. Louis). Film
-descriptions courtesy of the TMDB API (the site is not endorsed or
-certified by TMDB). *The Neon is registered but not scraped — their
-robots.txt disallows their showtimes API, so we're asking first.
+**Live at <https://messhart.github.io/heartlandcinemap/>** — fourteen cinemas
+scraped across nine states (Chicago ×2, Indianapolis, Fort Wayne, Milwaukee
+×2, Columbus, Cleveland, Des Moines, Minneapolis, St. Louis, Iowa City,
+Omaha ×2), plus three more registered but not yet scraped (Dayton and
+Ann Arbor ×2)*. Film descriptions courtesy of the TMDB API (the site is not
+endorsed or certified by TMDB). *The Neon's robots.txt disallows its
+showtimes API (we're asking first); Ann Arbor's Michigan & State Theaters
+need a headless adapter (their schedule is JS-rendered behind bot
+protection) — both show as gray pins on the map until then.
 
 ## How it works (and why it costs ~nothing)
 
@@ -63,6 +66,8 @@ Rules of the road:
 - [x] Filmbot platform adapter (Gateway, Varsity, Hi-Pointe, Cleveland
       Cinematheque)
 - [x] Gene Siskel (Drupal calendar), Trylon (WordPress) adapters
+- [x] FilmScene Iowa City (Agile-backed WordPress) and Film Streams Omaha
+      ×2 (Blackbaud, one site → two buildings via `venue_match`) adapters
 - [x] Neon GraphQL adapter written — held back until the venue OKs it
       (their robots.txt disallows /graphql)
 - [x] Local scrape-health dashboard (dashboard.html, read-only)
@@ -82,9 +87,11 @@ Rules of the road:
       list); click anywhere else to search from the nearest ZIP; venues with
       calendar picks wear a gold ring. All reverse-geocoding is local against
       the shipped ZIP centroids — still no APIs.
-- [ ] Expand venue registry across the Midwest (next candidates: MSP Film
-      / The Main, Facets Chicago, FilmScene Iowa City, Film Streams Omaha,
-      The Ross Lincoln, Detroit Film Theatre, Michigan/State Ann Arbor)
+- [~] Expand venue registry across the Midwest — added FilmScene (Iowa
+      City) and Film Streams (Omaha ×2); registered Ann Arbor's Michigan &
+      State (need a headless Agile adapter). Still to research: MSP Film /
+      The Main (Minneapolis, custom SPA), Facets (Chicago, JS calendar),
+      The Ross (Lincoln, CenterEdge), Detroit Film Theatre (DIA)
 - [ ] Venue-updater tool (approval-gated) + local scrape dashboard
 
 ## License

@@ -31,6 +31,38 @@
     "notes": "Des Moines Film Society (nonprofit); est. 1938, reopened 2022 after restoration. Same Filmbot WordPress REST route as Gateway (/wp-json/nj/v1/showtime/listings). Coords approx — verify."
   },
   {
+    "id": "filmscene-iowa-city",
+    "name": "FilmScene",
+    "city": "Iowa City",
+    "state": "IA",
+    "address": "118 E. College St.",
+    "zip": "52240",
+    "lat": 41.656,
+    "lng": -91.533,
+    "coords": "approx",
+    "tz": "America/Chicago",
+    "website": "https://icfilmscene.org",
+    "listings_url": "https://icfilmscene.org/now-playing/",
+    "platform": "agile",
+    "fetch_method": "static_html",
+    "adapter": "filmscene_agile",
+    "nonprofit": true,
+    "screens": 4,
+    "programming": [
+      "arthouse",
+      "repertory",
+      "documentary",
+      "foreign",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-09",
+    "source_urls": [
+      "https://icfilmscene.org/now-playing/"
+    ],
+    "notes": "Iowa City's nonprofit cinema (501c3); two downtown buildings — The Chauncey (3 screens) and The Ped Mall (1) — plus summer \"FilmScene in the Park\" outdoor screenings, all folded into one venue here. Sells via Agile Ticketing, but its own WordPress site (film-api-cron plugin) server-renders a clean day-grouped schedule at /now-playing/, so we read that instead of the Incapsula-fronted Agile backend. Dates carry no year (adapter rolls forward); film years come from /film/{slug}/ pages, only when explicitly labelled. Coords approx — verify."
+  },
+  {
     "id": "music-box-chicago",
     "name": "Music Box Theatre",
     "city": "Chicago",
@@ -162,6 +194,72 @@
     "notes": "Nonprofit; one of Indiana's only dedicated arthouses; hosts Hobnobben Film Festival. Eventive tenant (bucket + public api_key discovered from the tenant JS bundle at runtime). Screens show as \"Main Theater\" and \"Spectator Lounge\" in event data. Address/coords from research report — re-verify against their visit page."
   },
   {
+    "id": "michigan-theater-ann-arbor",
+    "name": "Michigan Theater",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "address": "603 E. Liberty St.",
+    "zip": "48104",
+    "lat": 42.2795,
+    "lng": -83.742,
+    "coords": "approx",
+    "tz": "America/New_York",
+    "website": "https://marquee-arts.org",
+    "listings_url": "https://marquee-arts.org/calendar/",
+    "platform": "agile",
+    "fetch_method": "headless",
+    "adapter": "headless_agile",
+    "nonprofit": true,
+    "screens": 2,
+    "programming": [
+      "arthouse",
+      "repertory",
+      "classic",
+      "documentary",
+      "first-run-indie"
+    ],
+    "status": "draft",
+    "last_verified": "2026-07-09",
+    "source_urls": [
+      "https://marquee-arts.org/michigan-theater/",
+      "https://marquee-arts.org/all-films"
+    ],
+    "notes": "Historic 1928 movie palace (1,600+ seats main auditorium + screening room), operated by the Marquee Arts nonprofit. Sells via Agile Ticketing (org MT_3768, tix.marquee-arts.org). The /calendar/ schedule is a FullCalendar SPA fed by the Agile widget behind Incapsula; the server-rendered /all-films archive exposes only one showtime per film. Needs a headless adapter — draft until then. Coords approx — verify."
+  },
+  {
+    "id": "state-theatre-ann-arbor",
+    "name": "State Theatre",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "address": "233 S. State St.",
+    "zip": "48104",
+    "lat": 42.279,
+    "lng": -83.7405,
+    "coords": "approx",
+    "tz": "America/New_York",
+    "website": "https://marquee-arts.org",
+    "listings_url": "https://marquee-arts.org/calendar/",
+    "platform": "agile",
+    "fetch_method": "headless",
+    "adapter": "headless_agile",
+    "nonprofit": true,
+    "screens": 4,
+    "programming": [
+      "arthouse",
+      "repertory",
+      "first-run-indie",
+      "cult",
+      "classic"
+    ],
+    "status": "draft",
+    "last_verified": "2026-07-09",
+    "source_urls": [
+      "https://marquee-arts.org/state-theatre/",
+      "https://marquee-arts.org/all-films"
+    ],
+    "notes": "Restored 1942 Art Deco house (4 screens), Marquee Arts' second Ann Arbor venue. Same Agile backend (org MT_3768); the per-showtime \"theater\" field (\"State\" vs \"Michigan\") in the /all-films archive distinguishes the two. Same headless requirement as the Michigan — draft until the adapter exists. Coords approx — verify."
+  },
+  {
     "id": "trylon-minneapolis",
     "name": "Trylon Cinema",
     "city": "Minneapolis",
@@ -222,6 +320,74 @@
       "https://hipointetheatre.org"
     ],
     "notes": "St. Louis' only nonprofit-owned movie theatre (operated by Cinema St. Louis). Historic 1922 single-screen plus micro \"Backlot\" screen. MOVED Eventive -> Filmbot (discovered 2026-07-06: the old hi-pointe.eventive.org tenant still exists but serves an empty schedule; hipointetheatre.org is \"powered by Filmbot\" with the standard WP REST route). The research report's platform info was stale — a good venue-updater test case. Coords approx — verify."
+  },
+  {
+    "id": "film-streams-ruth-sokolof-omaha",
+    "name": "Film Streams at the Ruth Sokolof Theater",
+    "city": "Omaha",
+    "state": "NE",
+    "address": "1340 Mike Fahey St.",
+    "zip": "68102",
+    "lat": 41.262,
+    "lng": -95.933,
+    "coords": "approx",
+    "tz": "America/Chicago",
+    "website": "https://filmstreams.org",
+    "listings_url": "https://filmstreams.org/films",
+    "platform": "audienceview",
+    "fetch_method": "static_html",
+    "adapter": "filmstreams_blackbaud",
+    "venue_match": "Ruth Sokolof",
+    "nonprofit": true,
+    "screens": 2,
+    "programming": [
+      "arthouse",
+      "repertory",
+      "documentary",
+      "foreign",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-09",
+    "source_urls": [
+      "https://filmstreams.org/films",
+      "https://filmstreams.org/ruth-sokolof-theater"
+    ],
+    "notes": "Omaha's nonprofit cinema (est. 2007). Two buildings share one site and Blackbaud-hosted ticketing; venue_match claims only the Ruth Sokolof's screenings (screens Ruth & Mary). The site server-renders a per-day schedule at /films/date/YYYY-MM-DD with a data-time attribute on every showtime (no year-rollover guessing). Coords approx — verify."
+  },
+  {
+    "id": "film-streams-dundee-omaha",
+    "name": "Film Streams at the Dundee Theater",
+    "city": "Omaha",
+    "state": "NE",
+    "address": "4952 Dodge St.",
+    "zip": "68132",
+    "lat": 41.2575,
+    "lng": -95.9975,
+    "coords": "approx",
+    "tz": "America/Chicago",
+    "website": "https://filmstreams.org",
+    "listings_url": "https://filmstreams.org/films",
+    "platform": "audienceview",
+    "fetch_method": "static_html",
+    "adapter": "filmstreams_blackbaud",
+    "venue_match": "Dundee",
+    "nonprofit": true,
+    "screens": 2,
+    "programming": [
+      "arthouse",
+      "repertory",
+      "documentary",
+      "foreign",
+      "classic"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-09",
+    "source_urls": [
+      "https://filmstreams.org/films",
+      "https://filmstreams.org/dundee-theater"
+    ],
+    "notes": "Film Streams' second building (the historic 1925 Dundee, restored and reopened 2018): the 300-seat Peggy Payne Theater and the 25-seat Linder Microcinema. Same site/adapter as the Ruth Sokolof; venue_match claims only the Dundee's screenings. Coords approx — verify."
   },
   {
     "id": "gateway-film-center-columbus",

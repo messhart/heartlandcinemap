@@ -1,0 +1,63 @@
+# Nebraska venues. Schema: see venues/README.md. IDs must be globally unique.
+venues:
+
+  - id: film-streams-ruth-sokolof-omaha
+    name: Film Streams at the Ruth Sokolof Theater
+    city: Omaha
+    state: NE
+    address: 1340 Mike Fahey St.
+    zip: "68102"
+    lat: 41.2620
+    lng: -95.9330
+    coords: approx
+    tz: America/Chicago
+    website: https://filmstreams.org
+    listings_url: https://filmstreams.org/films
+    platform: audienceview
+    fetch_method: static_html
+    adapter: filmstreams_blackbaud
+    venue_match: Ruth Sokolof
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, repertory, documentary, foreign, first-run-indie]
+    status: verified
+    last_verified: 2026-07-09
+    source_urls:
+      - https://filmstreams.org/films
+      - https://filmstreams.org/ruth-sokolof-theater
+    notes: >-
+      Omaha's nonprofit cinema (est. 2007). Two buildings share one site and
+      Blackbaud-hosted ticketing; venue_match claims only the Ruth Sokolof's
+      screenings (screens Ruth & Mary). The site server-renders a per-day
+      schedule at /films/date/YYYY-MM-DD with a data-time attribute on every
+      showtime (no year-rollover guessing). Coords approx — verify.
+
+  - id: film-streams-dundee-omaha
+    name: Film Streams at the Dundee Theater
+    city: Omaha
+    state: NE
+    address: 4952 Dodge St.
+    zip: "68132"
+    lat: 41.2575
+    lng: -95.9975
+    coords: approx
+    tz: America/Chicago
+    website: https://filmstreams.org
+    listings_url: https://filmstreams.org/films
+    platform: audienceview
+    fetch_method: static_html
+    adapter: filmstreams_blackbaud
+    venue_match: Dundee
+    nonprofit: true
+    screens: 2
+    programming: [arthouse, repertory, documentary, foreign, classic]
+    status: verified
+    last_verified: 2026-07-09
+    source_urls:
+      - https://filmstreams.org/films
+      - https://filmstreams.org/dundee-theater
+    notes: >-
+      Film Streams' second building (the historic 1925 Dundee, restored and
+      reopened 2018): the 300-seat Peggy Payne Theater and the 25-seat Linder
+      Microcinema. Same site/adapter as the Ruth Sokolof; venue_match claims
+      only the Dundee's screenings. Coords approx — verify.

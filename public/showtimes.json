@@ -208,6 +208,84 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Disclosure Day",
+    "start": "2026-07-09T15:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=604430a6-bc18-4c9d-b29f-e628cf8eb5d2",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/disclosure-day"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Disclosure Day",
+    "start": "2026-07-09T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021782~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/disclosure-day/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Supergirl",
+    "start": "2026-07-09T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021738~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/supergirl-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Trainspotting",
+    "start": "2026-07-09T15:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=3498c2f4-3f28-4179-b7c3-86024aabd2e0",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 1996,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "4K Restoration",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/trainspotting"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-09T15:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=8679451c-3ba1-49bd-a1bc-9a1be38e3884",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-09T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021709~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Backrooms: Everything Must Go Edition w/ Bonus Footage",
     "start": "2026-07-09T15:45:00-05:00",
@@ -245,6 +323,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/leviticus-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Jackass: Best and Last",
+    "start": "2026-07-09T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021758~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/jackass-best-and-last/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -323,6 +414,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/girls-like-girls-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-09T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=029961fa-1e0d-45e6-a277-bfc2dc264350",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
   },
   {
     "venue_id": "music-box-chicago",
@@ -442,6 +546,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Disclosure Day",
+    "start": "2026-07-09T18:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=4e7201ee-f3e6-4d3d-816a-b2438d5bc4c1",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/disclosure-day"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "Peter Asher: Everywhere Man",
     "start": "2026-07-09T18:15:00-05:00",
@@ -507,6 +624,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-09T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=90bce794-a14f-49c4-b77a-2f206c43773d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Supergirl",
+    "start": "2026-07-09T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021745~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/supergirl-2026/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Leviticus",
     "start": "2026-07-09T18:30:00-05:00",
@@ -546,6 +689,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-invite-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-09T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021715~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Rose of Nevada",
     "start": "2026-07-09T18:45:00-05:00",
@@ -583,6 +739,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-09T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=5ba2927b-7bcd-43f0-9019-330dc5ff92b5",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-09T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=1e9bd4cd-44e9-4922-bcfc-1b9a4944bba8",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Disclosure Day",
+    "start": "2026-07-09T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021788~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/disclosure-day/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Jackass: Best and Last",
+    "start": "2026-07-09T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021765~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/jackass-best-and-last/"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -819,6 +1027,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-09T21:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=72c138fc-efbc-4643-ac3d-27b60dbfba6b",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Rose of Nevada",
     "start": "2026-07-09T21:00:00-05:00",
@@ -858,6 +1079,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-invite-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Disclosure Day",
+    "start": "2026-07-09T21:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=e9b50830-6e49-41dd-90d7-bc8433394d31",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/disclosure-day"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-09T21:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=bf54df48-d0de-48b5-a1d9-568052ea8a28",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maddie's Secret",
     "start": "2026-07-09T21:15:00-05:00",
@@ -895,6 +1142,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Trainspotting",
+    "start": "2026-07-09T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=49d18453-e431-4efa-aa86-6aab6fbe003a",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 1996,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "4K Restoration",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/trainspotting"
   },
   {
     "venue_id": "oriental-theatre-milwaukee",
@@ -949,6 +1209,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-10T12:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023079~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Maddie’s Secret",
     "start": "2026-07-10T12:40:00-04:00",
@@ -962,6 +1235,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-10T12:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023066~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Invite",
     "start": "2026-07-10T13:00:00-04:00",
@@ -973,6 +1259,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-10T13:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023039~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -1079,6 +1378,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-10T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023082~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Invite",
     "start": "2026-07-10T15:30:00-05:00",
@@ -1090,6 +1402,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-10T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023069~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "cinema-center-fort-wayne",
@@ -1129,6 +1454,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/rose-of-nevada-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-10T16:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=ba14082e-03a1-4c52-a165-8747cb8a1479",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-10T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023042~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "oriental-theatre-milwaukee",
@@ -1196,6 +1547,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/underland-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-10T16:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=bbf41d1d-1558-403e-bd4b-fcf8cf6062c2",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maddie's Secret",
     "start": "2026-07-10T16:15:00-05:00",
@@ -1246,6 +1610,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-10T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=194e7972-175c-46ab-92d0-caaf03992374",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-10T16:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023104~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -1311,6 +1701,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-10T17:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=2456e694-3cfd-4937-b0af-f5e9da730225",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -1430,6 +1833,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-10T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=fef12442-dbf6-4f3f-994c-52b2bbd75229",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-10T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023089~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Teenage Sex and Death at Camp Miasma",
     "start": "2026-07-10T18:30:00-05:00",
@@ -1482,6 +1911,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-10T18:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=16dd15a4-d005-45fd-a0a4-9903c9f911dc",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-10T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023050~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "Once Upon a Time in a Cinema",
     "start": "2026-07-10T19:00:00-04:00",
@@ -1519,6 +1974,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/peter-asher-everywhere-man-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-10T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=3bb0f28a-c893-4c50-8b21-56f179948f66",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-10T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023105~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-10T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023062~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -1597,6 +2091,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-10T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=c56cf01a-39c4-49fd-bde5-d67fc3745db0",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "music-box-chicago",
@@ -1794,6 +2301,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-10T21:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=a2822c38-6e11-416c-9bdf-7e535b92f3ef",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-10T21:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023053~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-10T21:15:00-04:00",
@@ -1805,6 +2338,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-10T21:15:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023112~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -1844,6 +2390,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-10T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=086cc7b1-3a15-4ad4-a167-365f2d076936",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-10T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=d78535b2-b991-4b18-8ea3-c01db251d2b9",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-10T21:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023094~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -1909,6 +2494,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-10T21:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=14202fbe-2ccd-4777-afd1-1c9014d4830f",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-10T21:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023064~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -1989,6 +2600,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Shrek 2",
+    "start": "2026-07-11T10:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=13998833-1278-494b-8c08-16c1db6d82e7",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2004,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/shrek-2"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Looney Tunes on 35mm",
     "start": "2026-07-11T10:00:00-05:00",
@@ -2028,6 +2652,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/leviticus-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-11T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=df9197bd-0d1c-446e-ab63-c5d187268734",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Somewhere",
+    "start": "2026-07-11T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=10287f43-02cc-4593-9018-f8bae98d53fd",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2010,
+    "screen": "Mary",
+    "format": null,
+    "series": "See Change",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/somewhere"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "The Watermelon Woman",
     "start": "2026-07-11T11:00:00-05:00",
@@ -2052,6 +2702,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-11T11:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=086cf808-c6a6-428c-b744-6544926a2b3d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -2197,6 +2860,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-11T12:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=52d7e65b-bc2f-4103-bbb5-e6c0f7162090",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-11T12:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023080~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "The Headless Woman",
     "start": "2026-07-11T12:30:00-05:00",
@@ -2236,6 +2925,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-11T12:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023067~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "Finding Nemo",
     "start": "2026-07-11T13:00:00-04:00",
@@ -2247,6 +2949,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-11T13:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023096~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-11T13:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023040~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -2314,6 +3042,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/from-book-to-film-2026-matilda-1996/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-11T13:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=cc1fee5e-b906-4dff-8f16-ce2e687c22af",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Time and Water",
     "start": "2026-07-11T13:30:00-05:00",
@@ -2340,6 +3081,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-11T13:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=30ff183f-f56d-4842-9fb7-3686d604d15c",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Maddie's Secret",
     "start": "2026-07-11T14:00:00-04:00",
@@ -2364,6 +3118,19 @@
     "series": null,
     "sold_out": true,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-11T14:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=9b059938-32b7-411f-8dba-93a466f4d11b",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "music-box-chicago",
@@ -2522,6 +3289,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-11T15:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=d2f30365-904c-4304-9dea-809338c34050",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-11T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023083~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Invite",
     "start": "2026-07-11T15:30:00-05:00",
@@ -2561,6 +3354,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-11T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023070~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-11T16:00:00-04:00",
@@ -2572,6 +3378,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/evil-dead-burn-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-11T16:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=76562779-e2b0-43c5-88a3-a24497b84bd8",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-11T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023098~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-11T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023043~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -2626,6 +3471,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-11T16:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=bf2c8253-7e4f-40a8-bcd3-485c93793426",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "The Invite",
     "start": "2026-07-11T16:15:00-05:00",
@@ -2676,6 +3534,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-11T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=91db792c-de4a-47bd-9587-06c2d192429b",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "music-box-chicago",
@@ -2938,6 +3809,58 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-11T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=dc6c12b5-6163-4e6d-8ee9-6df81cb2515d",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-11T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=122de9f7-2fcb-4ed4-8bde-d2a29bb3a5fd",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-11T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=dc09b6ec-b590-4722-bbf2-5fc21894430c",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-11T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023090~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-11T18:45:00-04:00",
@@ -2949,6 +3872,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/evil-dead-burn-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-11T18:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=860fa8e1-3d37-4747-913a-67535a7c8f2a",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-11T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023051~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -3001,6 +3950,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-11T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023106~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-11T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023063~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -3263,6 +4238,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Pride & Prejudice",
+    "start": "2026-07-11T20:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1008531~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2005,
+    "screen": "FilmScene in the Park",
+    "format": null,
+    "series": "FilmScene in the Park",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/pride-prejudice-2005/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-11T21:00:00-04:00",
@@ -3287,6 +4275,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-11T21:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=0e89a586-997a-472c-8ad9-8f12e015fb4d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-11T21:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023054~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -3341,6 +4355,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/evil-dead-burn-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-11T21:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=e4425c1e-08d7-4d6c-82bb-88554dd05717",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-11T21:15:00-05:00",
@@ -3391,6 +4418,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-11T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=a9c7e2c6-3147-44d0-b04b-dc7162012e4b",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-11T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=945f6881-2796-4b64-9eda-10d03330b770",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-11T21:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023065~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "oriental-theatre-milwaukee",
@@ -3471,6 +4537,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Shrek 2",
+    "start": "2026-07-12T10:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=d58afb9d-82fa-467b-a4a4-fb1355c0c44d",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2004,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/shrek-2"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Looney Tunes on 35mm",
     "start": "2026-07-12T10:00:00-05:00",
@@ -3510,6 +4589,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/leviticus-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-12T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=5ffb17e7-8836-4063-b955-de53b5f939a6",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Somewhere",
+    "start": "2026-07-12T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=0961c8dd-5512-4222-b5c8-1def63fd0a9d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2010,
+    "screen": "Mary",
+    "format": null,
+    "series": "See Change",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/somewhere"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-12T11:15:00-04:00",
@@ -3534,6 +4639,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/rose-of-nevada-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-12T11:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=7395d276-ce9e-446a-834b-313804196ac8",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -3653,6 +4771,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-12T12:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=e7aaa86f-1e69-4c29-9bfe-f352049e3187",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-12T12:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023081~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "The Royal Tenenbaums",
     "start": "2026-07-12T12:30:00-05:00",
@@ -3718,6 +4862,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-12T12:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023068~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "downer-theatre-milwaukee",
     "film_title": "Disclosure Day",
     "start": "2026-07-12T13:00:00-05:00",
@@ -3729,6 +4886,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-12T13:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023097~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-12T13:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023041~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -3796,6 +4979,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-12T13:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=316d6405-0769-4bfb-9875-da7d50404420",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Time and Water",
     "start": "2026-07-12T13:30:00-05:00",
@@ -3835,6 +5031,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-12T13:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=45d333e7-853a-4750-9fc7-308fcbd3d5cb",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "The Invite",
     "start": "2026-07-12T14:00:00-04:00",
@@ -3859,6 +5068,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-12T14:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=b6b4f965-b2e0-48b2-a9c8-9332777f3d13",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -4030,6 +5252,32 @@
     "detail_url": "https://cinematheque.cia.edu/movies/innocent-sorcerers/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-12T15:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=5f0e6a57-4964-44a2-b02f-9e8e66561c07",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-12T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023084~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Mastermind",
     "start": "2026-07-12T15:30:00-05:00",
@@ -4069,6 +5317,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-12T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023071~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-12T16:00:00-04:00",
@@ -4093,6 +5354,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-12T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023099~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-12T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023044~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -4160,6 +5447,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-12T16:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=8009bf00-d19a-400e-baeb-38e128987808",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Maddie's Secret",
     "start": "2026-07-12T16:30:00-04:00",
@@ -4197,6 +5497,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-12T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=b28871dc-7885-4e93-a597-d635b97d8511",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-12T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=23f0b714-3f50-4479-8c90-b2325727b683",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -4420,6 +5746,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-12T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=48339320-57c7-47e1-9142-1e730e71710a",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-12T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023060~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "Lurker",
     "start": "2026-07-12T18:30:00-05:00",
@@ -4472,6 +5824,45 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/evil-dead-burn-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-12T18:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=7d53b935-4e19-462a-ba42-faa4f0ba77d5",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-12T18:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=af478cc0-7dd0-4e95-a58f-db6f9e3c8df3",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-12T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023092~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Maddie's Secret",
     "start": "2026-07-12T19:00:00-04:00",
@@ -4496,6 +5887,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-12T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=8b382938-1d31-40f1-aea8-b86e961b24e9",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-12T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023107~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-12T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023052~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -4719,6 +6149,45 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Narrative 2026",
+    "start": "2026-07-13T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991182~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-narrative-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Stop-Motion Animation 2026",
+    "start": "2026-07-13T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991112~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-13T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023085~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Rose of Nevada",
     "start": "2026-07-13T15:30:00-05:00",
@@ -4732,6 +6201,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-13T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023072~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Obsession",
     "start": "2026-07-13T16:00:00-04:00",
@@ -4743,6 +6225,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-13T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023100~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-13T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023045~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -5005,6 +6513,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-13T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023049~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-13T18:30:00-05:00",
@@ -5044,6 +6565,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-13T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023078~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maddie's Secret",
     "start": "2026-07-13T18:45:00-05:00",
@@ -5068,6 +6602,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Lake Mungo",
+    "start": "2026-07-13T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022879~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2008,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "FilmScene 101: Cinema Summer School",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/lake-mungo/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-13T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023108~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -5343,6 +6903,71 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Shrek 2",
+    "start": "2026-07-14T12:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=4ae053e4-eec3-482a-88d2-1a0378722588",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2004,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/shrek-2"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-14T14:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=02d66ba0-8510-4e60-b153-c80423113fd2",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-14T14:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=a9b0b344-6988-494f-b53f-90c51fa2a91d",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-14T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023086~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-14T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023073~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Obsession",
     "start": "2026-07-14T16:00:00-04:00",
@@ -5354,6 +6979,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-14T16:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=a5a242cd-0c74-4c53-93d9-7c4d6c3d9e4e",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-14T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023101~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-14T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023046~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -5395,6 +7059,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/underland-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-14T16:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=29346578-617b-47a2-bb03-bf8c8d55d4e8",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-14T16:15:00-05:00",
@@ -5432,6 +7109,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-14T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=b2249e4a-3ece-4ef0-9443-429a8f8f0b08",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -5497,6 +7187,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-14T17:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=dc6e41e5-2f26-405c-8f73-353e672fd498",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -5616,6 +7319,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Hairspray",
+    "start": "2026-07-14T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=84f3bd31-ac62-40e6-b628-ae99a664bb56",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 1988,
+    "screen": "Mary",
+    "format": null,
+    "series": "Reel Talk",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/hairspray"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-14T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023055~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Chicago Maternity Center Story",
     "start": "2026-07-14T18:30:00-05:00",
@@ -5655,6 +7384,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-14T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023061~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maddie's Secret",
     "start": "2026-07-14T18:45:00-05:00",
@@ -5679,6 +7421,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-14T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=66a543c6-f398-46d9-bb34-0ac4dd047f42",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-14T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=55f4b412-5122-4fda-be02-2dd30bcb7f48",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-14T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023109~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Virgin Machine",
+    "start": "2026-07-14T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1019977~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1988,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Pride at FilmScene Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/virgin-machine/"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -5783,6 +7577,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-14T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=2fe495d9-4b35-4086-b2ac-bc189d620987",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -5941,6 +7748,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-14T21:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=a7d992f6-6307-4916-a202-acfd72f3ae2e",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-14T21:15:00-05:00",
@@ -5952,6 +7772,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-14T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=ebf629d8-a15a-49e6-aa91-2e3a1df3dcac",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-14T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=5304bbc4-b72b-415c-aa11-f39c9d079f0f",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-14T21:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=79def813-6d55-4f8a-af93-78a652063826",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Shrek 2",
+    "start": "2026-07-15T12:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=2378b337-5bf3-4e59-8399-9497c4bc177f",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2004,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/shrek-2"
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -5993,6 +7865,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-15T14:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=cedcd345-503e-4eea-b200-d60f2d6176f0",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-15T14:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=4fb048dd-f6a0-4bd5-91bb-9211e7940911",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Invite",
     "start": "2026-07-15T14:50:00-04:00",
@@ -6019,6 +7917,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-15T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023087~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-15T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023074~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Ask E. Jean",
     "start": "2026-07-15T15:50:00-04:00",
@@ -6043,6 +7967,45 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-15T16:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=17018526-d155-4470-a022-2ad340ed5edc",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-15T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023102~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-15T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023047~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -6123,6 +8086,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-15T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=c50fff0a-b113-4b81-98af-e18b81d3a42f",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-15T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=2b7da61d-1853-4f1f-aa4f-81ae2063ee29",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "I Shot Andy Warhol (4K Restoration)",
     "start": "2026-07-15T16:30:00-05:00",
@@ -6173,6 +8162,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/evil-dead-burn-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-15T17:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=39abfe09-a918-423d-a592-9c4b458bdae2",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -6305,6 +8307,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-15T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=8d12409b-c55d-4bad-9d07-630033dc845f",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-15T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023093~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Outwaters + Tinsman Road",
     "start": "2026-07-15T18:30:00-05:00",
@@ -6344,6 +8372,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/obsession-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-15T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023075~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-15T18:45:00-05:00",
@@ -6368,6 +8409,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-15T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=e8b4efba-3563-436e-9a6b-4ca33d18b314",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-15T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=37d1b328-67e1-4dc1-8b2f-74e597cd6a7e",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-15T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023110~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-15T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023048~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -6459,6 +8552,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-15T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=0e0467ab-bf35-4cf8-89f8-edd9c3224760",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -6591,6 +8697,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-15T21:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=c208c750-38ab-47c4-99b4-8eec1967d5a3",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Maddie's Secret",
+    "start": "2026-07-15T21:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=eeae7be2-623a-4bf8-a3df-a34555423f3c",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Rachel",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/maddies-secret"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maddie's Secret",
     "start": "2026-07-15T21:15:00-05:00",
@@ -6604,6 +8736,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-15T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=4f7f949b-8279-48b6-b3a9-5c181bd8ff7c",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-15T21:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023095~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-15T21:30:00-05:00",
@@ -6615,6 +8773,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-15T21:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=09042b58-33dc-41f1-b8f3-754504271308",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-15T21:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023077~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Frankenstein",
+    "start": "2026-07-15T22:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022465~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1931,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Late Shift at the Grindhouse",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/frankenstein-3/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-16T12:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017740~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -6695,6 +8905,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-16T15:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=7272ed3f-66b6-4cf1-ba0b-5785322796e2",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-16T15:00:00-05:00",
@@ -6719,6 +8942,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-16T15:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=949031e6-83e7-4e50-a6da-7ff2e2cfcfd5",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Backrooms: Everything Must Go Edition W/ Bonus Footage",
+    "start": "2026-07-16T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023088~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/backrooms-everything-must-go-edition-w-bonus-footage/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -6747,6 +8996,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-16T15:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017741~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-16T15:45:00-05:00",
@@ -6771,6 +9033,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-16T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023103~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-16T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023059~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -6812,6 +9100,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-16T16:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=08d02a27-366c-4d1c-93bb-1c2a835a6c73",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Evil Dead Burn",
     "start": "2026-07-16T16:45:00-04:00",
@@ -6836,6 +9137,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-16T17:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=b3bab3d7-2d96-42d2-a204-e14b80716e51",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -6914,6 +9228,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-16T18:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=707eaa07-3b8b-44bc-8198-ceffa7e20818",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -7020,6 +9347,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-invite-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Time and Water",
+    "start": "2026-07-16T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023056~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/time-and-water/"
+  },
+  {
     "venue_id": "cinema-center-fort-wayne",
     "film_title": "The Odyssey",
     "start": "2026-07-16T19:00:00-04:00",
@@ -7044,6 +9384,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-16T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=7b112aaf-b87b-4085-a3df-f5f7076f55e9",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-16T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=1ccb270e-4489-4292-9beb-fc30e2cf1840",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Leviticus",
+    "start": "2026-07-16T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023111~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/leviticus/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-16T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017742~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -7111,6 +9503,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-16T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=9f19ec4f-d0dd-4ae1-acf6-daebb7fc9f6d",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-16T19:15:00-05:00",
@@ -7135,6 +9540,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Invite",
+    "start": "2026-07-16T19:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023076~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -7241,6 +9659,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Rose of Nevada",
+    "start": "2026-07-16T20:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=d770a9aa-8212-424d-8f7f-8a9a457bf4fd",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2025,
+    "screen": "Mary",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/rose-of-nevada"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "Romería",
     "start": "2026-07-16T20:30:00-05:00",
@@ -7345,6 +9776,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/maddie-s-secret-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Invite",
+    "start": "2026-07-16T21:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=47f821a3-7456-48fa-8421-e38ebb509c99",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-invite"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-16T21:30:00-05:00",
@@ -7371,6 +9815,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/evil-dead-burn-2026/"
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Gail Daughtry and the Celebrity Sex Pass",
+    "start": "2026-07-16T21:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=7a95c773-6b46-440c-bc3c-13e68b51cd63",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Linder Microcinema",
+    "format": null,
+    "series": "New Release",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/gail-daughtry-and-the-celebrity-sex-pass"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Gail Daughtry and the Celebrity Sex Pass",
     "start": "2026-07-16T22:00:00-04:00",
@@ -7384,6 +9841,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/gail-daughtry-and-the-celebrity-sex-pass-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T11:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017743~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Odyssey",
     "start": "2026-07-17T12:25:00-04:00",
@@ -7395,6 +9865,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T14:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=5e025197-706b-4424-8305-a082f446664d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
   },
   {
     "venue_id": "music-box-chicago",
@@ -7421,6 +9904,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://varsitydesmoines.com/movies/the-odyssey/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T15:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017744~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "oriental-theatre-milwaukee",
@@ -7475,6 +9971,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017760~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Maddie's Secret",
     "start": "2026-07-17T16:00:00-05:00",
@@ -7499,6 +10008,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T18:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=1cd6659a-a8d7-4622-ab72-3fdea7ba5a13",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -7605,6 +10127,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017753~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Odyssey - 70mm",
     "start": "2026-07-17T19:00:00-05:00",
@@ -7668,6 +10203,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T20:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017763~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -7787,6 +10335,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-17T21:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=034e8752-39b4-45b1-9cdb-93f5b8ffdd3d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-17T22:00:00-05:00",
@@ -7798,6 +10359,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Shrek 2",
+    "start": "2026-07-18T10:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=d5630abe-30fb-46c3-a787-3474b0158c4a",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2004,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/shrek-2"
   },
   {
     "venue_id": "music-box-chicago",
@@ -7826,6 +10400,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Somewhere",
+    "start": "2026-07-18T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=383e859d-e950-4fea-bd1c-d7c743fd5246",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2010,
+    "screen": "Mary",
+    "format": null,
+    "series": "See Change",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/somewhere"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Early Man",
+    "start": "2026-07-18T11:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1007265~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2018,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "The Picture Show",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/early-man-2/"
+  },
+  {
     "venue_id": "gene-siskel-film-center-chicago",
     "film_title": "National Theatre Live: Les Liaisons Dangereuses",
     "start": "2026-07-18T11:00:00-05:00",
@@ -7850,6 +10450,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/st-louis-filmmakers-showcase-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T11:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=c8c73104-e61d-41b9-b0e2-989e1c9d3df4",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T12:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017761~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "oriental-theatre-milwaukee",
@@ -7956,6 +10582,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T14:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=6e7f230c-8d70-41dc-b658-aeca080af910",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "The Odyssey",
     "start": "2026-07-18T14:00:00-05:00",
@@ -8019,6 +10658,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T15:40:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017746~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "cinema-center-fort-wayne",
@@ -8112,6 +10764,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T18:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=e8996e15-1e71-4bb0-a5d0-43500db9345d",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-18T18:30:00-04:00",
@@ -8123,6 +10788,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017764~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -8177,6 +10855,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "The Wiz",
+    "start": "2026-07-18T19:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=6c1e4284-8811-47da-b9e7-60d2af41f492",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 1978,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Repertory",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-wiz"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Maddie's Secret",
     "start": "2026-07-18T19:00:00-05:00",
@@ -8214,6 +10905,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/phantom-lady/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T19:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017754~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "cinema-center-fort-wayne",
@@ -8346,6 +11050,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/love-letter/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-18T21:45:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=3662be39-8294-4651-888d-043f06b09b7a",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Things",
     "start": "2026-07-18T22:00:00-05:00",
@@ -8372,6 +11089,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Shrek 2",
+    "start": "2026-07-19T10:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=ca6bb1d1-57b4-4558-843f-88ae0c9795f5",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2004,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/shrek-2"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-19T11:00:00-04:00",
@@ -8385,6 +11115,32 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "Somewhere",
+    "start": "2026-07-19T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=e9801798-632d-45cd-99b5-88f125a7865b",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 2010,
+    "screen": "Mary",
+    "format": null,
+    "series": "See Change",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/somewhere"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Early Man",
+    "start": "2026-07-19T11:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1007266~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2018,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "The Picture Show",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/early-man-2/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-19T11:00:00-05:00",
@@ -8396,6 +11152,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T11:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=a9f0bbf0-4ff9-4ebf-8729-0e23792defab",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T12:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017762~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -8502,6 +11284,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T14:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=922dd5a5-3909-4eb9-b1ae-1c86b6e74630",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "The Odyssey",
     "start": "2026-07-19T14:00:00-05:00",
@@ -8578,6 +11373,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/beirut-phantom/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T15:40:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017747~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -8710,6 +11518,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T18:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=b4376aba-08e4-4e54-8f6d-1df591fd829f",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Odyssey",
     "start": "2026-07-19T18:15:00-04:00",
@@ -8721,6 +11542,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017765~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -8788,6 +11622,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-19T19:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017755~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "The Promised Land",
     "start": "2026-07-19T19:40:00-04:00",
@@ -8838,6 +11685,58 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Demolition Man",
+    "start": "2026-07-19T20:35:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022556~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1993,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "Rooftop",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/demolition-man/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Narrative 2026",
+    "start": "2026-07-20T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991183~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-narrative-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Stop-Motion Animation 2026",
+    "start": "2026-07-20T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991113~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-20T15:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017749~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "music-box-chicago",
@@ -8918,6 +11817,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-20T18:45:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017756~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Tie Me Up! Tie Me Down!",
     "start": "2026-07-20T19:00:00-04:00",
@@ -8929,6 +11841,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Night of the Comet",
+    "start": "2026-07-20T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1018546~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1984,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "FilmScene 101: Cinema Summer School",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/night-of-the-comet/"
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -9009,6 +11934,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-21T15:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=1e453ac3-0c56-4f87-868a-a77b30e7e4e3",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-21T15:15:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017750~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-21T15:45:00-05:00",
@@ -9074,6 +12025,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Bad Faith (2024) Christian Nationalism's War on Democracy",
+    "start": "2026-07-21T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=915d5899-cd1f-4033-a07a-5201236dea3e",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": null,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Reel Talk",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/bad-faith"
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Bitter Tears of Petra von Kant",
     "start": "2026-07-21T18:30:00-05:00",
@@ -9085,6 +12049,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-21T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017758~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -9111,6 +12088,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-21T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=45bc677a-768d-4605-8612-1e58d1e82c4c",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -9178,6 +12168,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-22T14:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017751~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-22T15:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=1d2f5fcd-009f-418f-9ebc-4a9768e7d9fe",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "The Odyssey",
     "start": "2026-07-22T15:45:00-05:00",
@@ -9189,6 +12205,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-22T18:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017757~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -9215,6 +12244,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-22T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=1e9928cc-ac82-48d0-84ab-f5948cb6e747",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
   },
   {
     "venue_id": "music-box-chicago",
@@ -9254,6 +12296,71 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-22T21:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017766~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "One Crazy Summer",
+    "start": "2026-07-22T22:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022467~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1986,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Late Shift at the Grindhouse",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/one-crazy-summer/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-23T15:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017752~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-23T15:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=15e4f692-85a4-4dd1-ac93-853f6be6d1f5",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Early Man",
+    "start": "2026-07-23T15:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1007267~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2018,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "The Picture Show",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/early-man-2/"
   },
   {
     "venue_id": "varsity-cinema-des-moines",
@@ -9308,6 +12415,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Odyssey",
+    "start": "2026-07-23T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017759~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "The Private Life of Sherlock Holmes",
     "start": "2026-07-23T19:00:00-05:00",
@@ -9332,6 +12452,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://varsitydesmoines.com/movies/hadestown-the-musical/"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Odyssey",
+    "start": "2026-07-23T19:15:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=19e83c51-cdd8-45d0-84c4-1d5fe7f80bf7",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": null,
+    "screen": "Mary",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-odyssey"
   },
   {
     "venue_id": "music-box-chicago",
@@ -9553,6 +12686,45 @@
     "series": "Super-Horror-Rama!",
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Friday",
+    "start": "2026-07-24T23:55:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=cd3dfc60-a407-42fb-b35e-6ef9f329d968",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 1995,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "35mm",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/friday"
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Night at the Museum",
+    "start": "2026-07-25T10:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=7954c108-0b57-46f5-9969-0debc23002ea",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2006,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/night-at-the-museum"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Night of the Hunter",
+    "start": "2026-07-25T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=2569b99b-1489-4bbe-9d68-8f09a80a35c3",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 1955,
+    "screen": "Mary",
+    "format": null,
+    "series": "Weekend Essentials",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-night-of-the-hunter"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -9802,6 +12974,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Sandlot",
+    "start": "2026-07-25T20:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021921~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1993,
+    "screen": "FilmScene in the Park",
+    "format": null,
+    "series": "FilmScene in the Park",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-sandlot-2/"
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "All About Lily Chou-Chou",
     "start": "2026-07-25T21:00:00-04:00",
@@ -9839,6 +13024,32 @@
     "series": "Super-Horror-Rama!",
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Night at the Museum",
+    "start": "2026-07-26T10:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=3bd000bc-b021-4a67-b307-82830097c4c6",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2006,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/night-at-the-museum"
+  },
+  {
+    "venue_id": "film-streams-ruth-sokolof-omaha",
+    "film_title": "The Night of the Hunter",
+    "start": "2026-07-26T11:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=6c49d30b-6ded-45cb-ad2d-45fa5e34a7bc",
+    "source_scraped_at": "2026-07-09T17:12:37+00:00",
+    "film_year": 1955,
+    "screen": "Mary",
+    "format": null,
+    "series": "Weekend Essentials",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/the-night-of-the-hunter"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -10088,6 +13299,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Advanced Stop-Motion Animation 2026",
+    "start": "2026-07-27T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991184~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-advanced-stop-motion-animation-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Stop-Motion Animation 2026",
+    "start": "2026-07-27T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991114~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-27T15:30:00-05:00",
@@ -10151,6 +13388,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Punch-Drunk Love",
+    "start": "2026-07-27T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1018550~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2002,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "FilmScene 101: Cinema Summer School",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/punch-drunk-love-2/"
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -10231,6 +13481,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Night at the Museum",
+    "start": "2026-07-28T12:00:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=5bcc210e-9b80-4efb-a24c-5473675d1788",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2006,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/night-at-the-museum"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "La Collectionneuse",
     "start": "2026-07-28T16:15:00-05:00",
@@ -10270,6 +13533,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Mad Max: Fury Road",
+    "start": "2026-07-28T18:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=30707140-7a24-4ce4-98b8-c7c07f66ac83",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2015,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Science on Screen",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/mad-max-fury-road"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Love in the Afternoon",
     "start": "2026-07-28T18:30:00-05:00",
@@ -10294,6 +13570,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Mary Oliver: Saved by the Beauty of the World",
+    "start": "2026-07-28T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1014536~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/mary-oliver-saved-by-the-beauty-of-the-world/"
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -10346,6 +13635,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "film-streams-dundee-omaha",
+    "film_title": "Night at the Museum",
+    "start": "2026-07-29T12:30:00-05:00",
+    "ticket_url": "https://48540.blackbaudhosting.com/48540/tickets?tab=2&txobjid=d411e353-61bc-40f8-8af0-8c760ac04592",
+    "source_scraped_at": "2026-07-09T17:13:08+00:00",
+    "film_year": 2006,
+    "screen": "Peggy Payne",
+    "format": null,
+    "series": "Forever Young",
+    "sold_out": false,
+    "detail_url": "https://filmstreams.org/films/night-at-the-museum"
   },
   {
     "venue_id": "music-box-chicago",
@@ -10452,6 +13754,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Dog Soldiers",
+    "start": "2026-07-29T22:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022469~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2002,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "Late Shift at the Grindhouse Rooftop",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/dog-soldiers/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Love in the Afternoon",
     "start": "2026-07-30T16:15:00-05:00",
@@ -10515,6 +13830,19 @@
     "series": "Six Moral Tales",
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Sugar Island",
+    "start": "2026-07-30T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022682~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2024,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "African Diaspora Art House Theater Day Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/sugar-island/"
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -10723,6 +14051,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Gentlemen Prefer Blondes",
+    "start": "2026-08-01T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021545~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1953,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Marilyn Monroe: It's All Make Believe",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/gentlemen-prefer-blondes-2/"
   },
   {
     "venue_id": "gene-siskel-film-center-chicago",
@@ -11037,6 +14378,45 @@
     "detail_url": "https://cinematheque.cia.edu/movies/danton/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Walk Hard: The Dewey Cox Story",
+    "start": "2026-08-02T20:25:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022557~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2007,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "Rooftop",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/walk-hard-the-dewey-cox-story/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Advanced Stop-Motion Animation 2026",
+    "start": "2026-08-03T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991185~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-advanced-stop-motion-animation-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Stop-Motion Animation 2026",
+    "start": "2026-08-03T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991115~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "I Want Your Sex",
     "start": "2026-08-03T17:00:00-05:00",
@@ -11167,6 +14547,19 @@
     "detail_url": "https://hipointetheatre.org/movies/i-want-your-sex/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Gentlemen Prefer Blondes",
+    "start": "2026-08-05T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021546~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1953,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Marilyn Monroe: It's All Make Believe",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/gentlemen-prefer-blondes-2/"
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Face/Off",
     "start": "2026-08-05T19:00:00-05:00",
@@ -11191,6 +14584,19 @@
     "series": null,
     "sold_out": true,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Blue Summer",
+    "start": "2026-08-05T22:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022473~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1973,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Late Shift at the Grindhouse",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/blue-summer/"
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11310,6 +14716,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/union-county/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Cookie Queens",
+    "start": "2026-08-07T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1023470~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Reel Representation",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/cookie-queens/"
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "Manhunter",
     "start": "2026-08-07T21:10:00-04:00",
@@ -11349,6 +14768,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Catvideofest 2026",
+    "start": "2026-08-08T13:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022683~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Special Event",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/catvideofest-2026/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "CatVideoFest 2026",
     "start": "2026-08-08T14:00:00-04:00",
@@ -11373,6 +14805,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/from-book-to-film-2026-essential-american-voices-the-color-purple-1985/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Prince and the Showgirl",
+    "start": "2026-08-08T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021548~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1957,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Marilyn Monroe: It's All Make Believe",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-prince-and-the-showgirl/"
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11412,6 +14857,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/five-easy-pieces/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Fantastic Mr. Fox",
+    "start": "2026-08-08T20:15:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022108~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2009,
+    "screen": "FilmScene in the Park",
+    "format": null,
+    "series": "FilmScene in the Park",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/fantastic-mr-fox-2/"
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11492,6 +14950,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/from-book-to-film-2026-essential-american-voices-the-color-purple-1985/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Catvideofest 2026",
+    "start": "2026-08-09T13:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022684~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2026,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Special Event",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/catvideofest-2026/"
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "CatVideoFest 2026",
     "start": "2026-08-09T14:00:00-04:00",
@@ -11557,6 +15028,32 @@
     "detail_url": "https://cinematheque.cia.edu/movies/five-easy-pieces/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Advanced Stop-Motion Animation 2026",
+    "start": "2026-08-10T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991186~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-advanced-stop-motion-animation-2026/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Filmcamp: Stop-Motion Animation 2026",
+    "start": "2026-08-10T08:30:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=991116~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": null,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "FilmCamp",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Teenage Gang Debs",
     "start": "2026-08-10T20:00:00-04:00",
@@ -11583,6 +15080,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Maddie's Secret",
+    "start": "2026-08-11T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1019979~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2025,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Pride at FilmScene",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/maddies-secret/"
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Wto/99",
     "start": "2026-08-11T19:00:00-05:00",
@@ -11594,6 +15104,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Prince and the Showgirl",
+    "start": "2026-08-12T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021549~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1957,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Marilyn Monroe: It's All Make Believe",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-prince-and-the-showgirl/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Scarlet Warning 666",
+    "start": "2026-08-12T22:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022475~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1974,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Late Shift at the Grindhouse",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/scarlet-warning-666/"
   },
   {
     "venue_id": "cia-cinematheque-cleveland",
@@ -11739,6 +15275,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/two-lane-blacktop/"
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Seven Year Itch",
+    "start": "2026-08-15T16:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021551~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1955,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Marilyn Monroe: It's All Make Believe",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-seven-year-itch/"
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "The Sandlot",
     "start": "2026-08-15T17:30:00-04:00",
@@ -11882,6 +15431,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "No Country for Old Men",
+    "start": "2026-08-16T20:05:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022560~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2007,
+    "screen": "The Ped Mall",
+    "format": null,
+    "series": "Rooftop",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/no-country-for-old-men/"
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "Two-Lane Blacktop",
     "start": "2026-08-16T20:40:00-04:00",
@@ -11919,6 +15481,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": null
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "The Seven Year Itch",
+    "start": "2026-08-19T19:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021552~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 1955,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Marilyn Monroe: It's All Make Believe",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/the-seven-year-itch/"
+  },
+  {
+    "venue_id": "filmscene-iowa-city",
+    "film_title": "Return to Sleepaway Camp",
+    "start": "2026-08-19T22:00:00-05:00",
+    "ticket_url": "https://tickets.icfilmscene.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1022477~4635cd47-f165-4de0-b43c-56acafd02482&",
+    "source_scraped_at": "2026-07-09T17:11:55+00:00",
+    "film_year": 2008,
+    "screen": "The Chauncey",
+    "format": null,
+    "series": "Late Shift at the Grindhouse",
+    "sold_out": false,
+    "detail_url": "https://icfilmscene.org/film/return-to-sleepaway-camp/"
   },
   {
     "venue_id": "cia-cinematheque-cleveland",

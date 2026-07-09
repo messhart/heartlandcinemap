@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-09T12:16:49+00:00",
+  "run_at": "2026-07-09T17:13:08+00:00",
   "dropped_records": 0,
   "venues": [
     {
@@ -97,6 +97,30 @@
       "duration_s": 3.9,
       "error": null,
       "scraped_at": "2026-07-09T12:16:49+00:00"
+    },
+    {
+      "venue_id": "filmscene-iowa-city",
+      "status": "ok",
+      "showtimes": 145,
+      "duration_s": 33.0,
+      "error": null,
+      "scraped_at": "2026-07-09T17:11:55+00:00"
+    },
+    {
+      "venue_id": "film-streams-ruth-sokolof-omaha",
+      "status": "ok",
+      "showtimes": 67,
+      "duration_s": 30.3,
+      "error": null,
+      "scraped_at": "2026-07-09T17:12:37+00:00"
+    },
+    {
+      "venue_id": "film-streams-dundee-omaha",
+      "status": "ok",
+      "showtimes": 64,
+      "duration_s": 20.6,
+      "error": null,
+      "scraped_at": "2026-07-09T17:13:08+00:00"
     }
   ]
 }
