@@ -33,6 +33,33 @@
   let lastTzFn = null;
   let lastFixed = null;
 
+  // ----- picked showtimes ("my plan") -----
+  // Keys are venue_id|start; picks persist in localStorage and transcend the
+  // ZIP/venue filters (they're resolved against the full shows array).
+  const PLAN_LS = "hcm-plan";
+  const DAY_CAPS = { 7: 5, 30: 3 }; // max distinct films/day the poster holds
+  const plan = new Set();
+  const showByKey = new Map(); // pickKey -> show, built at data load
+
+  function pickKey(s) {
+    return s.venue_id + "|" + s.start;
+  }
+
+  function posterCap() {
+    // 0 = poster (and picking) disabled at this horizon — 60d/all listings
+    // would be printed long before they're stale-proof
+    return DAY_CAPS[$days.value] || 0;
+  }
+
+  function savePlan() {
+    try { localStorage.setItem(PLAN_LS, JSON.stringify([...plan])); } catch (e) {}
+  }
+
+  function planShows() {
+    return [...plan].map((k) => showByKey.get(k)).filter(Boolean)
+      .sort((a, b) => new Date(a.start) - new Date(b.start));
+  }
+
   // ---------- helpers ----------
 
   function el(tag, className, text) {
@@ -178,7 +205,60 @@
     return el("div", "poster poster-blank", (title[0] || "?").toUpperCase());
   }
 
-  // one showtime chip — the chip IS the ticket link
+  // transient note appended to the status line (cap rejections etc.)
+  function flash(msg) {
+    const n = el("span", "warn", " · " + msg);
+    $status.appendChild(n);
+    setTimeout(() => n.remove(), 3500);
+  }
+
+  function updatePlanCount() {
+    const box = document.getElementById("plancount");
+    if (!plan.size || !posterCap()) {
+      box.hidden = true;
+      return;
+    }
+    box.hidden = false;
+    box.innerHTML = `★ ${plan.size} picked · <a href="#" id="clearplan">clear</a>`;
+    box.querySelector("#clearplan").addEventListener("click", (e) => {
+      e.preventDefault();
+      plan.clear();
+      savePlan();
+      render();
+    });
+  }
+
+  function togglePick(s, btn) {
+    const k = pickKey(s);
+    if (plan.has(k)) {
+      plan.delete(k);
+    } else {
+      // cap: distinct films per day (two times of one film count once)
+      const cap = posterCap();
+      const tzFn = lastTzFn || ((x) => x.venue.tz);
+      const day = dayKeyIn(s.start, tzFn(s));
+      const filmsOnDay = new Set();
+      for (const k2 of plan) {
+        const s2 = showByKey.get(k2);
+        if (s2 && dayKeyIn(s2.start, tzFn(s2)) === day) filmsOnDay.add(groupKey(s2));
+      }
+      if (!filmsOnDay.has(groupKey(s)) && filmsOnDay.size >= cap) {
+        flash(`${fmtDayShort(day)} is full — ${cap} films max on the ` +
+          (cap === 5 ? "weekly" : "monthly") + " calendar");
+        return;
+      }
+      plan.add(k);
+    }
+    savePlan();
+    const picked = plan.has(k);
+    btn.textContent = picked ? "★" : "+";
+    btn.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
+    btn.classList.toggle("picked", picked);
+    updatePlanCount();
+  }
+
+  // one showtime chip — the chip IS the ticket link; the sibling toggle
+  // picks the showtime for the printable calendar / .ics export
   function chip(s, tz) {
     const a = el("a", "chip" + (s.sold_out ? " chip-soldout" : ""));
     a.href = s.ticket_url;
@@ -187,7 +267,19 @@
     if (s.format) label += ` · ${s.format}`;
     a.textContent = label;
     if (s.sold_out) a.title = "Sold out";
-    return a;
+    if (!posterCap()) return a; // picking disabled at 60d/all horizons
+    const picked = plan.has(pickKey(s));
+    const wrap = el("span", "chipwrap");
+    wrap.appendChild(a);
+    const b = el("button", "chip-add" + (picked ? " picked" : ""), picked ? "★" : "+");
+    b.type = "button";
+    b.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
+    b.addEventListener("click", (e) => {
+      e.preventDefault();
+      togglePick(s, b);
+    });
+    wrap.appendChild(b);
+    return wrap;
   }
 
   function venueLabel(s) {
@@ -414,6 +506,13 @@
     };
     if (window.__updateMap) window.__updateMap(window.__mapData);
 
+    // poster + picking only exist at 7/30-day horizons
+    document.getElementById("postertoggle").hidden = !posterCap();
+    if (!posterCap() && !document.getElementById("posterwrap").hidden) {
+      closePoster();
+    }
+    updatePlanCount();
+
     if (pendingPoster) { // ?poster=1 — open once the first render has data
       pendingPoster = false;
       openPoster();
@@ -508,15 +607,31 @@
   }
 
   // one film's line in a day cell: Title (Year) FMT  [CODE] 7:00p 9:15p
-  function posterEntry(list, tzFn, codes) {
+  // (with `thumb`, the week strip adds a small TMDb poster; hidden in B&W)
+  function posterEntry(list, tzFn, codes, thumb) {
     const s0 = list[0];
     const info = filmInfo(s0);
-    const div = el("div", "pentry");
-    div.appendChild(el("span", "ptitle", info ? info.title : s0.film_title));
+    const div = el("div", "pentry" + (thumb ? " pentry-t" : ""));
+    let body = div;
+    if (thumb) {
+      const title0 = info ? info.title : s0.film_title;
+      if (info && info.poster_path) {
+        const img = el("img", "pthumb");
+        img.src = POSTER_BASE + info.poster_path; // w154: already cached by cards
+        img.alt = "";
+        div.appendChild(img);
+      } else {
+        div.appendChild(el("span", "pthumb pthumb-blank",
+          (title0[0] || "?").toUpperCase()));
+      }
+      body = el("div", "pentry-txt");
+      div.appendChild(body);
+    }
+    body.appendChild(el("span", "ptitle", info ? info.title : s0.film_title));
     const year = info ? info.year : s0.film_year;
-    if (year) div.appendChild(el("span", "pyear", ` (${year})`));
+    if (year) body.appendChild(el("span", "pyear", ` (${year})`));
     const oneFmt = s0.format && list.every((s) => s.format === s0.format);
-    if (oneFmt) div.appendChild(el("span", "pfmt", ` ${s0.format}`));
+    if (oneFmt) body.appendChild(el("span", "pfmt", ` ${s0.format}`));
     const times = el("span", "ptimes", " ");
     const byVenue = new Map();
     for (const s of list) {
@@ -537,7 +652,7 @@
         times.appendChild(t);
       });
     }
-    div.appendChild(times);
+    body.appendChild(times);
     return div;
   }
 
@@ -551,15 +666,31 @@
   // fitter re-renders overpacked cells with a smaller limit until the month
   // fits one page. Groups/tzFn/codes ride on the cell so we can re-render.
   function fillCell(cell, limit) {
-    const { groups, tzFn, codes } = cell._pdata;
-    while (cell.childNodes.length > 1) cell.removeChild(cell.lastChild); // keep daynum
+    const { groups, tzFn, codes, thumb } = cell._pdata;
+    while (cell.childNodes.length > 1) cell.removeChild(cell.lastChild); // keep daynum/header
     const shown = Math.min(limit, groups.length);
-    for (let i = 0; i < shown; i++) cell.appendChild(posterEntry(groups[i], tzFn, codes));
+    for (let i = 0; i < shown; i++) {
+      cell.appendChild(posterEntry(groups[i], tzFn, codes, thumb));
+    }
     if (shown < groups.length) cell.appendChild(moreLine(groups.length - shown));
     cell._limit = limit;
   }
 
-  function posterCell(mk, d, byDay, tzFn, codes, startKey, endKey) {
+  // sort a day's shows into per-film groups, earliest first
+  function dayGroups(dayShows) {
+    const byFilm = new Map();
+    for (const s of dayShows) {
+      const k = groupKey(s);
+      if (!byFilm.has(k)) byFilm.set(k, []);
+      byFilm.get(k).push(s);
+    }
+    const groups = [...byFilm.values()];
+    for (const g of groups) g.sort((a, b) => new Date(a.start) - new Date(b.start));
+    groups.sort((a, b) => new Date(a[0].start) - new Date(b[0].start));
+    return groups;
+  }
+
+  function posterCell(mk, d, byDay, tzFn, codes, startKey, endKey, cap) {
     const cell = el("div", "pp-cell");
     if (d === null) return cell.classList.add("pp-out"), cell;
     const key = `${mk}-${String(d).padStart(2, "0")}`;
@@ -571,17 +702,8 @@
       cell.classList.add("pp-empty");
       return cell;
     }
-    const byFilm = new Map();
-    for (const s of dayShows) {
-      const k = groupKey(s);
-      if (!byFilm.has(k)) byFilm.set(k, []);
-      byFilm.get(k).push(s);
-    }
-    const groups = [...byFilm.values()];
-    for (const g of groups) g.sort((a, b) => new Date(a.start) - new Date(b.start));
-    groups.sort((a, b) => new Date(a[0].start) - new Date(b[0].start));
-    cell._pdata = { groups, tzFn, codes };
-    fillCell(cell, Infinity);
+    cell._pdata = { groups: dayGroups(dayShows), tzFn, codes };
+    fillCell(cell, cap || Infinity);
     return cell;
   }
 
@@ -598,11 +720,12 @@
     // scrollHeight > clientHeight on .pp-weeks means "this would spill a print
     // page." Trim the tallest cell one film at a time until it no longer does.
     const weeks = art.querySelector(".pp-weeks");
-    // trim to a few px of headroom, not the exact edge: sub-pixel rounding and
-    // tiny screen/print layout deltas can otherwise leave one row spilling the
-    // print sheet even when the screen measurement reads "just fits"
-    const SLACK = 6;
-    const overflowing = () => weeks.scrollHeight > weeks.clientHeight - SLACK;
+    if (!weeks) return; // week-strip pages are capped by construction
+    // NOTE: strict > is the correct test. scrollHeight is floored at
+    // clientHeight, so "scrollHeight > clientHeight - slack" is a tautology
+    // that would floor-trim every cell. When content fits (flex-stretched),
+    // scrollHeight === clientHeight exactly.
+    const overflowing = () => weeks.scrollHeight > weeks.clientHeight;
     const cells = [...art.querySelectorAll(".pp-cell")].filter((c) => c._pdata);
     let guard = 0;
     while (overflowing() && guard++ < 600) {
@@ -621,17 +744,40 @@
     }
   }
 
-  function posterMonth(mk, byDay, tzFn, codes, order, scope, startKey, endKey) {
+  function posterHead(title, scope) {
+    const head = el("header", "pp-head");
+    head.appendChild(el("div", "pp-month", title));
+    head.appendChild(el("div", "pp-brand", "Heartland Cinemap"));
+    head.appendChild(el("div", "pp-scope", scope));
+    return head;
+  }
+
+  function posterFoot(codes, order) {
+    const foot = el("footer", "pp-foot");
+    if (codes) {
+      // names only — cities would clip the single-line legend past ~3 venues
+      const lg = el("span", "pp-legend");
+      order.forEach((v, i) => {
+        if (i) lg.append("  ·  ");
+        lg.appendChild(el("b", null, codes[v.id]));
+        lg.append(` ${v.name}`);
+      });
+      foot.appendChild(lg);
+    }
+    foot.appendChild(el("span", null,
+      "Showtimes change — confirm with the cinema · " +
+      "messhart.github.io/heartlandcinemap · printed " +
+      new Date().toLocaleDateString("en-US",
+        { month: "short", day: "numeric", year: "numeric" })));
+    return foot;
+  }
+
+  function posterMonth(mk, byDay, tzFn, codes, order, scope, startKey, endKey, cap) {
     const [Y, M] = mk.split("-").map(Number);
     const first = new Date(Y, M - 1, 1, 12);
     const art = el("article", "poster-page");
-
-    const head = el("header", "pp-head");
-    head.appendChild(el("div", "pp-month",
-      first.toLocaleDateString("en-US", { month: "long", year: "numeric" })));
-    head.appendChild(el("div", "pp-brand", "Heartland Cinemap"));
-    head.appendChild(el("div", "pp-scope", scope));
-    art.appendChild(head);
+    art.appendChild(posterHead(
+      first.toLocaleDateString("en-US", { month: "long", year: "numeric" }), scope));
 
     const dow = el("div", "pp-dow");
     for (const d of ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
@@ -647,28 +793,51 @@
     for (let w = 0; w < cells.length; w += 7) {
       const week = el("div", "pp-week");
       for (const d of cells.slice(w, w + 7)) {
-        week.appendChild(posterCell(mk, d, byDay, tzFn, codes, startKey, endKey));
+        week.appendChild(posterCell(mk, d, byDay, tzFn, codes, startKey, endKey, cap));
       }
       weeks.appendChild(week);
     }
     art.appendChild(weeks);
+    art.appendChild(posterFoot(codes, order));
+    return art;
+  }
 
-    const foot = el("footer", "pp-foot");
-    if (codes) {
-      const lg = el("span", "pp-legend");
-      order.forEach((v, i) => {
-        if (i) lg.append("  ·  ");
-        lg.appendChild(el("b", null, codes[v.id]));
-        lg.append(` ${v.name}, ${v.city}`);
-      });
-      foot.appendChild(lg);
+  // 7-day layout: one page, one column per date — a "this week" strip.
+  // Thumbs always rendered; B&W mode hides them with CSS.
+  function buildWeekStrip(title, byDay, tzFn, codes, order, scope, startKey, endKey) {
+    const art = el("article", "poster-page pp-week-strip");
+    art.appendChild(posterHead(title, scope));
+
+    const days = [];
+    let d = new Date(startKey + "T12:00:00");
+    const end = new Date(endKey + "T12:00:00");
+    while (d <= end && days.length < 9) {
+      days.push(d.toLocaleDateString("en-CA"));
+      d = new Date(d.getTime() + 86400000);
     }
-    foot.appendChild(el("span", null,
-      "Showtimes change — confirm with the cinema · " +
-      "messhart.github.io/heartlandcinemap · printed " +
-      new Date().toLocaleDateString("en-US",
-        { month: "short", day: "numeric", year: "numeric" })));
-    art.appendChild(foot);
+    // the rolling 168h window can touch an 8th date; only keep it if it has
+    // something to show
+    while (days.length > 7 && !byDay.has(days[days.length - 1])) days.pop();
+
+    const row = el("div", "pp-daycols");
+    row.style.gridTemplateColumns = `repeat(${days.length}, 1fr)`;
+    for (const key of days) {
+      const col = el("div", "pp-daycol");
+      const dt = new Date(key + "T12:00:00");
+      const hd = el("div", "pp-dayhead");
+      hd.appendChild(el("span", "pp-dayhead-dow",
+        dt.toLocaleDateString("en-US", { weekday: "short" }).toUpperCase()));
+      hd.append(" " + dt.toLocaleDateString("en-US", { month: "short", day: "numeric" }));
+      col.appendChild(hd);
+      const dayShows = byDay.get(key);
+      if (dayShows) {
+        col._pdata = { groups: dayGroups(dayShows), tzFn, codes, thumb: true };
+        fillCell(col, 5);
+      }
+      row.appendChild(col);
+    }
+    art.appendChild(row);
+    art.appendChild(posterFoot(codes, order));
     return art;
   }
 
@@ -676,10 +845,18 @@
     const pages = document.getElementById("posterpages");
     const infoEl = document.getElementById("posterinfo");
     pages.textContent = "";
-    const visible = lastVisible;
-    const tzFn = lastTzFn;
+    document.getElementById("postercal").disabled = !plan.size;
+    const cap = posterCap();
+    if (!cap) return; // 60d/all: poster disabled (button hidden anyway)
+    const tzFn = lastTzFn || ((s) => s.venue.tz);
 
-    if (!visible.length) {
+    // picks-only when anything is picked; otherwise auto-fill to the cap
+    const horizon = new Date(Date.now() + +$days.value * 86400000);
+    const picked = planShows().filter((s) => new Date(s.start) <= horizon);
+    const usePicks = picked.length > 0;
+    const source = usePicks ? picked : lastVisible;
+
+    if (!source.length) {
       pages.appendChild(el("p", "poster-empty",
         "Nothing to print — the current filters match no showtimes."));
       infoEl.textContent = "Calendar poster · 0 pages";
@@ -687,52 +864,65 @@
     }
 
     const byDay = new Map();
-    for (const s of visible) {
+    for (const s of source) {
       const k = dayKeyIn(s.start, tzFn(s));
       if (!byDay.has(k)) byDay.set(k, []);
       byDay.get(k).push(s);
     }
 
-    const venueIds = [...new Set(visible.map((s) => s.venue_id))];
+    const venueIds = [...new Set(source.map((s) => s.venue_id))];
     const multi = venueIds.length > 1;
     const { codes, order } = venueCodes(venueIds);
 
-    // covered window: today through the "When" horizon (data max on "all")
+    // covered window: today through the "When" horizon
     const localKey = (d) => d.toLocaleDateString("en-CA");
-    const dayKeys = [...byDay.keys()].sort();
     const startKey = localKey(new Date());
-    const endKey = $days.value === "all"
-      ? dayKeys[dayKeys.length - 1]
-      : localKey(new Date(Date.now() + +$days.value * 86400000));
+    const endKey = localKey(horizon);
 
     const fmtMD = (k) => new Date(k + "T12:00:00")
       .toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    const range = `${fmtMD(startKey)} – ${fmtMD(endKey)}`;
     const scopeBits = [];
     if (!multi) {
       const v = venues[venueIds[0]];
       scopeBits.push(`${v.name}, ${v.city}`);
     }
-    scopeBits.push(`${fmtMD(startKey)} – ${fmtMD(endKey)}`);
-    if (/^\d{5}$/.test($zip.value) && zipTable && zipTable[$zip.value]) {
+    if (usePicks) {
+      scopeBits.push("my picks");
+    } else if (/^\d{5}$/.test($zip.value) && zipTable && zipTable[$zip.value]) {
       scopeBits.push(`within ${$radius.value} mi of ${$zip.value}`);
     }
     scopeBits.push(lastFixed
       ? `times in ${tzAbbr(lastFixed, new Date().toISOString())}`
       : "venue local times");
-    const scope = scopeBits.join(" · ");
 
-    const months = [...new Set(dayKeys.map((k) => k.slice(0, 7)))].sort();
-    for (const mk of months) {
-      const art = posterMonth(mk, byDay, tzFn,
-        multi ? codes : null, order, scope, startKey, endKey);
-      pages.appendChild(art); // attach first — fitMonth measures live DOM
-      fitMonth(art);          // cap dense cells so this month fits one page
+    let nPages;
+    if ($days.value === "7") {
+      // week strip: the title carries the date range, scope carries the rest
+      pages.appendChild(buildWeekStrip(range, byDay, tzFn,
+        multi ? codes : null, order, scopeBits.join(" · "), startKey, endKey));
+      nPages = 1;
+    } else {
+      const scope = [range, ...scopeBits].join(" · ");
+      const dayKeys = [...byDay.keys()].sort();
+      const months = [...new Set(dayKeys.map((k) => k.slice(0, 7)))].sort();
+      for (const mk of months) {
+        const art = posterMonth(mk, byDay, tzFn,
+          multi ? codes : null, order, scope, startKey, endKey, cap);
+        pages.appendChild(art); // attach first — fitMonth measures live DOM
+        fitMonth(art);          // safety net if a capped month still overflows
+      }
+      nPages = months.length;
     }
-    infoEl.textContent =
-      `Calendar poster · ${months.length} page${months.length === 1 ? "" : "s"} · letter landscape`;
+    infoEl.textContent = "Calendar poster · " +
+      (usePicks
+        ? `your ${picked.length} pick${picked.length === 1 ? "" : "s"}`
+        : "auto-filled — pick showtimes with + to make your own") +
+      ` · ${nPages} page${nPages === 1 ? "" : "s"}`;
   }
 
   function openPoster() {
+    if (!posterCap()) return; // 60d/all horizons: no poster
     // unhide BEFORE building: fitMonth measures rendered heights, and a
     // hidden container reports zero, so trimming must happen while visible
     document.getElementById("posterwrap").hidden = false;
@@ -746,6 +936,71 @@
     document.body.classList.remove("postering");
     writeParams();
   }
+
+  // ----- .ics export: hand people their picks in Apple Calendar / Outlook /
+  // Google Calendar. All times in UTC (avoids shipping VTIMEZONE blocks);
+  // the calendar app renders them in the user's zone.
+  function icsEscape(t) {
+    return String(t).replace(/\\/g, "\\\\").replace(/;/g, "\\;")
+      .replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+  }
+
+  function icsDate(iso) {
+    return new Date(iso).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  }
+
+  function icsFold(line) {
+    // RFC 5545: content lines fold at 75 octets; continuation starts with a space
+    const out = [];
+    while (line.length > 73) {
+      out.push(line.slice(0, 73));
+      line = " " + line.slice(73);
+    }
+    out.push(line);
+    return out.join("\r\n");
+  }
+
+  function buildICS(list) {
+    const L = ["BEGIN:VCALENDAR", "VERSION:2.0",
+      "PRODID:-//Heartland Cinemap//heartlandcinemap//EN",
+      "CALSCALE:GREGORIAN", "METHOD:PUBLISH"];
+    const stamp = icsDate(new Date().toISOString());
+    for (const s of list) {
+      const info = filmInfo(s);
+      const v = s.venue;
+      const run = (info && info.runtime) || 120; // unknown runtime: block 2h
+      const end = new Date(new Date(s.start).getTime() + run * 60000).toISOString();
+      const title = (info ? info.title : s.film_title) +
+        (s.format ? ` (${s.format})` : "");
+      L.push("BEGIN:VEVENT",
+        `UID:${s.venue_id}-${Date.parse(s.start)}@heartlandcinemap`,
+        `DTSTAMP:${stamp}`,
+        `DTSTART:${icsDate(s.start)}`,
+        `DTEND:${icsDate(end)}`,
+        icsFold(`SUMMARY:${icsEscape(title + " — " + v.name)}`),
+        icsFold("LOCATION:" + icsEscape(
+          [v.name, v.address, v.city, v.state + (v.zip ? " " + v.zip : "")]
+            .filter(Boolean).join(", "))),
+        icsFold(`DESCRIPTION:${icsEscape("Tickets: " + s.ticket_url + "\nvia Heartland Cinemap")}`),
+        icsFold(`URL:${icsEscape(s.ticket_url)}`),
+        "END:VEVENT");
+    }
+    L.push("END:VCALENDAR");
+    return L.join("\r\n") + "\r\n";
+  }
+
+  document.getElementById("postercal").addEventListener("click", () => {
+    const list = planShows();
+    if (!list.length) return;
+    const blob = new Blob([buildICS(list)], { type: "text/calendar" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "heartland-cinemap.ics";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  });
 
   document.getElementById("postertoggle").addEventListener("click", openPoster);
   document.getElementById("posterclose").addEventListener("click", closePoster);
@@ -789,6 +1044,14 @@
         (s) => venues[s.venue_id] && new Date(s.start) >= cutoff
       );
       shows.forEach((s) => (s.venue = venues[s.venue_id]));
+      // resolve saved picks; prune ones whose showtime left the data
+      for (const s of shows) showByKey.set(pickKey(s), s);
+      try {
+        for (const k of JSON.parse(localStorage.getItem(PLAN_LS) || "[]")) {
+          if (showByKey.has(k)) plan.add(k);
+        }
+      } catch (e) { /* corrupt storage: start fresh */ }
+      savePlan();
       readParams();
       render();
     })

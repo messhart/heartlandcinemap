@@ -47,9 +47,20 @@ warning). Verify tz labels: July shows EDT, November EST for Kan-Kan.
 first render. Verify the actual print surface with Playwright's
 `page.pdf(prefer_css_page_size=True)` — it uses print media emulation, so it
 exercises the `@media print` + named `@page cal` (letter landscape) rules for
-real; then Read the PDF. Dense multi-venue month: `?zip=60614&d=30` (Music
-Box + Siskel). Single venue (no codes/legend): `?venue=music-box-chicago`.
-Dark-mode map popup checks need `new_page(color_scheme='dark')`.
+real; then Read the PDF (count `/Type /Page` — pages must equal poster-page
+count). Dense multi-venue month: `?zip=60614&d=30` (Music Box + Siskel).
+Single venue (no codes/legend): `?venue=music-box-chicago`. 7-day horizon
+renders the week strip (thumbs, 5/day); 30-day the month grid (3/day);
+60/all hides the feature. Picks: click `.chip-add` toggles, state in
+localStorage `hcm-plan`; clear it between test states. The .ics download is
+testable via `pg.expect_download()`. Dark-mode map popup checks need
+`new_page(color_scheme='dark')`.
+
+Print-fit gotchas (hard-won): the fitter's overflow test must be strict
+`scrollHeight > clientHeight` — scrollHeight is floored at clientHeight, so
+any "- slack" makes it a tautology that floor-trims every cell. And any
+body/ancestor padding left unzeroed in `@media print` tips each sheet onto
+a trailing blank page.
 
 ## Scraper
 

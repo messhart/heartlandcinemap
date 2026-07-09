@@ -194,6 +194,27 @@ a.chip.chip-soldout {
   opacity: 0.7;
 }
 
+/* pick-for-calendar toggle joined to the right edge of a chip */
+.chipwrap { display: inline-flex; align-items: stretch; }
+.chipwrap a.chip { border-radius: 6px 0 0 6px; }
+.chip-add {
+  font: inherit;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid var(--line);
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  background: var(--card);
+  color: var(--muted);
+  cursor: pointer;
+}
+.chip-add:hover { color: var(--accent); border-color: var(--accent); }
+.chip-add.picked { color: var(--accent); font-weight: 700; }
+
+#plancount { font-size: 0.85rem; color: var(--muted); margin-left: 0.6rem; }
+#plancount a { color: var(--accent); }
+
 /* collapsed film synopsis (TMDb) */
 details.about { font-size: 0.85rem; color: var(--muted); margin: 0.1rem 0 0.2rem; }
 details.about summary {
@@ -336,6 +357,53 @@ body.postering { overflow: hidden; }
 .pp-cell.pp-out { background: var(--pout); }
 .pp-daynum { font-size: 8.5pt; font-weight: 700; color: var(--pk); }
 .pp-out .pp-daynum, .pp-empty .pp-daynum { color: var(--pmut); font-weight: 400; }
+
+/* week strip (7-day poster): one full-height column per date */
+.pp-daycols {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;      /* same clip contract as .pp-weeks */
+  display: grid;         /* columns set inline: repeat(n, 1fr) */
+  border-top: 1px solid var(--pline);
+  border-left: 1px solid var(--pline);
+  margin-top: 4pt;
+}
+.pp-daycol {
+  border-right: 1px solid var(--pline);
+  border-bottom: 1px solid var(--pline);
+  padding: 3pt 4pt;
+  min-width: 0;
+}
+.pp-dayhead {
+  font-size: 8pt;
+  color: var(--pmut);
+  border-bottom: 1px solid var(--pline);
+  padding-bottom: 2pt;
+  margin-bottom: 2pt;
+}
+.pp-dayhead-dow { font-weight: 700; color: var(--pk); letter-spacing: 0.05em; }
+.pp-week-strip .pentry { font-size: 7pt; margin-top: 4pt; }
+
+/* TMDb thumb beside a week-strip entry — color mode only */
+.pentry-t { display: flex; gap: 4pt; align-items: flex-start; }
+.pentry-txt { min-width: 0; }
+.pthumb {
+  flex: 0 0 auto;
+  width: 0.48in;
+  height: 0.72in;
+  object-fit: cover;
+  border-radius: 2pt;
+  background: var(--pout);
+}
+span.pthumb-blank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--pmut);
+  font-size: 11pt;
+  font-weight: 700;
+}
+#poster.bw .pthumb { display: none; }
 
 .pentry { font-size: 6.4pt; line-height: 1.32; margin-top: 2pt; overflow-wrap: break-word; }
 .ptitle { font-weight: 700; }
