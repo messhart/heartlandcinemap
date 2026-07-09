@@ -77,7 +77,11 @@ Rules of the road:
 - [x] Map view — MapLibre GL + a self-hosted Protomaps extract
       (public/basemap/midwest.pmtiles, z0-9, ~60 MB, no tile server or API
       key; rebuild: `pmtiles extract https://build.protomaps.com/<date>.pmtiles
-      public/basemap/midwest.pmtiles --bbox=-104.5,35.5,-79.0,49.5 --maxzoom=9`)
+      public/basemap/midwest.pmtiles --bbox=-104.5,35.5,-79.0,49.5 --maxzoom=9`).
+      Click a venue for a popup of its next screenings (and to filter the
+      list); click anywhere else to search from the nearest ZIP; venues with
+      calendar picks wear a gold ring. All reverse-geocoding is local against
+      the shipped ZIP centroids — still no APIs.
 - [ ] Expand venue registry across the Midwest (next candidates: MSP Film
       / The Main, Facets Chicago, FilmScene Iowa City, Film Streams Omaha,
       The Ross Lincoln, Detroit Film Theatre, Michigan/State Ann Arbor)

@@ -11,12 +11,12 @@
     earth: "#211f1d", water: "#141d24", green: "#232620",
     road: "#38342e", highway: "#4a443a", boundary: "#4a443a",
     label: "#a39c93", halo: "#191817",
-    pin: "#e0888b", pinRing: "#191817", pinOff: "#6b6560",
+    pin: "#e0888b", pinRing: "#191817", pinOff: "#6b6560", pick: "#d4b04a",
   } : {
     earth: "#f2efe7", water: "#c3d5e2", green: "#e6eadb",
     road: "#ded7ca", highway: "#c9bfae", boundary: "#b5aa99",
     label: "#6b6560", halo: "#faf9f6",
-    pin: "#8a3033", pinRing: "#faf9f6", pinOff: "#8f8a82",
+    pin: "#8a3033", pinRing: "#faf9f6", pinOff: "#8f8a82", pick: "#a8842c",
   };
 
   const style = {
@@ -58,6 +58,42 @@
         paint: { "text-color": C.label, "text-halo-color": C.halo, "text-halo-width": 1.2 } },
     ],
   };
+
+  function elem(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  // popup body for a venue pin: name, city + count, the next few screenings,
+  // and a pick flag. next/picks are read from lastData (the source of truth),
+  // not from the feature's flattened GeoJSON properties.
+  function venuePopup(p) {
+    const wrap = elem("div", "vpop");
+    wrap.appendChild(elem("strong", "vpop-name", p.name));
+    const count = +p.count;
+    wrap.appendChild(elem("div", "vpop-sub",
+      `${p.city} · ${count} showtime${count === 1 ? "" : "s"}`));
+    const npick = lastData && lastData.picks ? (lastData.picks[p.id] || 0) : 0;
+    if (npick) {
+      wrap.appendChild(elem("div", "vpop-pick", `★ ${npick} picked`));
+    }
+    const next = lastData && lastData.next ? lastData.next[p.id] : null;
+    if (next && next.length) {
+      const list = elem("div", "vpop-next");
+      for (const s of next) {
+        const row = elem("div", "vpop-row");
+        row.appendChild(elem("span", "vpop-when", `${s.d} ${s.t}`));
+        row.appendChild(elem("span", "vpop-title", s.title));
+        list.appendChild(row);
+      }
+      wrap.appendChild(list);
+    } else if (!count) {
+      wrap.appendChild(elem("div", "vpop-sub", "No showtimes in this window."));
+    }
+    return wrap;
+  }
 
   const protocol = new pmtiles.Protocol();
   maplibregl.addProtocol("pmtiles", protocol.tile);
@@ -103,6 +139,8 @@
           count: data.counts[v.id] || 0,
           active: (data.counts[v.id] || 0) > 0,
           selected: v.id === data.venueFilter,
+          picks: (data.picks && data.picks[v.id]) || 0,
+          haspick: !!(data.picks && data.picks[v.id]),
         },
       }));
     map.getSource("venues").setData({ type: "FeatureCollection", features: feats });
@@ -140,8 +178,11 @@
       paint: {
         "circle-radius": ["case", ["get", "selected"], 9, 7],
         "circle-color": ["case", ["get", "active"], C.pin, C.pinOff],
-        "circle-stroke-width": ["case", ["get", "selected"], 3, 1.5],
-        "circle-stroke-color": C.pinRing,
+        // a gold ring flags venues where you have calendar picks
+        "circle-stroke-width": [
+          "case", ["get", "haspick"], 3.5, ["get", "selected"], 3, 1.5,
+        ],
+        "circle-stroke-color": ["case", ["get", "haspick"], C.pick, C.pinRing],
       },
     });
     map.addLayer({
@@ -160,13 +201,20 @@
       const p = f.properties;
       window.__setVenueFilter(p.selected === true || p.selected === "true" ? null : p.id);
       if (popup) popup.remove();
-      popup = new maplibregl.Popup({ offset: 12, closeButton: false })
+      popup = new maplibregl.Popup({ offset: 12, closeButton: false, maxWidth: "300px" })
         .setLngLat(f.geometry.coordinates)
-        .setText(`${p.name} — ${p.city} · ${p.count} showtime${p.count === "1" ? "" : "s"}`)
+        .setDOMContent(venuePopup(p))
         .addTo(map);
     });
     map.on("mouseenter", "venue-pins", () => { map.getCanvas().style.cursor = "pointer"; });
     map.on("mouseleave", "venue-pins", () => { map.getCanvas().style.cursor = ""; });
+
+    // click on empty ground -> app.js searches from the nearest ZIP centroid
+    map.on("click", (e) => {
+      const hit = map.queryRenderedFeatures(e.point, { layers: ["venue-pins"] });
+      if (hit.length) return; // the pin handler owns pin clicks
+      if (window.__setOrigin) window.__setOrigin(e.lngLat.lat, e.lngLat.lng);
+    });
 
     if (window.__mapData) apply(window.__mapData);
   });

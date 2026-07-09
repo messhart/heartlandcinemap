@@ -255,6 +255,21 @@
     btn.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
     btn.classList.toggle("picked", picked);
     updatePlanCount();
+    syncMapPicks();
+  }
+
+  // repaint the map's pick rings without a full re-render (keeps scroll pos).
+  // Always refresh __mapData.picks (so it's correct when the map opens later);
+  // only push to the live map if it's actually loaded.
+  function syncMapPicks() {
+    if (!window.__mapData) return;
+    const picks = {};
+    for (const k of plan) {
+      const s = showByKey.get(k);
+      if (s) picks[s.venue_id] = (picks[s.venue_id] || 0) + 1;
+    }
+    window.__mapData.picks = picks;
+    if (window.__updateMap) window.__updateMap(window.__mapData);
   }
 
   // one showtime chip — the chip IS the ticket link; the sibling toggle
@@ -409,7 +424,11 @@
 
     // counts BEFORE the venue filter, so map pins reflect the area, not the pick
     const counts = {};
-    for (const s of visible) counts[s.venue_id] = (counts[s.venue_id] || 0) + 1;
+    const nextByVenue = {}; // venue_id -> soonest shows, for the pin popup
+    for (const s of visible) {
+      counts[s.venue_id] = (counts[s.venue_id] || 0) + 1;
+      (nextByVenue[s.venue_id] = nextByVenue[s.venue_id] || []).push(s);
+    }
 
     if (venueFilter) {
       visible = visible.filter((s) => s.venue_id === venueFilter);
@@ -496,10 +515,36 @@
       window.__setVenueFilter(null);
     });
 
+    // next few screenings per venue (soonest first) for the pin popup, and
+    // a per-venue count of calendar picks so pins can flag "you have plans here"
+    const next = {};
+    for (const vid in nextByVenue) {
+      next[vid] = nextByVenue[vid]
+        .sort((a, b) => new Date(a.start) - new Date(b.start))
+        .slice(0, 3)
+        .map((s) => {
+          const info = filmInfo(s);
+          return {
+            // "Wed Jul 8" — full short date; a bare weekday is ambiguous
+            // across a 7-day (or wider) window
+            d: fmtDayShort(dayKeyIn(s.start, tzFn(s))).replace(",", ""),
+            t: compactTime(s.start, tzFn(s)),
+            title: info ? info.title : s.film_title,
+          };
+        });
+    }
+    const picks = {};
+    for (const k of plan) {
+      const s = showByKey.get(k);
+      if (s) picks[s.venue_id] = (picks[s.venue_id] || 0) + 1;
+    }
+
     // feed the map (initializes from window.__mapData when opened later)
     window.__mapData = {
       venues: venueList,
       counts,
+      next,
+      picks,
       venueFilter,
       origin: origin ? [origin[0], origin[1]] : null,
       radius: +$radius.value,
@@ -526,6 +571,36 @@
     render();
   };
 
+  let pendingOrigin = null; // click landed before zips.json finished loading
+
+  // nearest ZIP centroid to an arbitrary point (linear scan; ~14k rows is
+  // instant, and snapping to the centroid keeps the search model consistent
+  // with the radius circle, which is drawn from the ZIP centroid)
+  function nearestZip(lat, lng) {
+    let best = null;
+    let bestMi = Infinity;
+    for (const zip in zipTable) {
+      const c = zipTable[zip];
+      const mi = haversineMiles(lat, lng, c[0], c[1]);
+      if (mi < bestMi) { bestMi = mi; best = zip; }
+    }
+    return best;
+  }
+
+  // map click on empty ground -> search from the nearest ZIP centroid
+  window.__setOrigin = (lat, lng) => {
+    if (!zipTable) { // zips still loading: resolve once they arrive
+      pendingOrigin = [lat, lng];
+      loadZips();
+      return;
+    }
+    const zip = nearestZip(lat, lng);
+    if (zip) {
+      $zip.value = zip;
+      render();
+    }
+  };
+
   function loadScript(src) {
     return new Promise((resolve, reject) => {
       const s = document.createElement("script");
@@ -541,6 +616,8 @@
     const $toggle = document.getElementById("maptoggle");
     $map.hidden = false;
     $toggle.textContent = "Hide map ▴";
+    document.getElementById("maphint").hidden = false;
+    loadZips(); // prefetch centroids so click-to-search is instant
     if (mapLoaded) return;
     mapLoaded = true;
     const css = document.createElement("link");
@@ -565,6 +642,7 @@
     if ($map.hidden) openMap();
     else {
       $map.hidden = true;
+      document.getElementById("maphint").hidden = true;
       document.getElementById("maptoggle").textContent = "Show map ▾";
     }
     writeParams();
@@ -1023,7 +1101,16 @@
     $status.textContent = "Loading ZIP locations…";
     zipFetch = fetch("./zips.json")
       .then((r) => r.json())
-      .then((t) => { zipTable = t; render(); })
+      .then((t) => {
+        zipTable = t;
+        if (pendingOrigin) { // a map click is waiting on the centroids
+          const [lat, lng] = pendingOrigin;
+          pendingOrigin = null;
+          const zip = nearestZip(lat, lng);
+          if (zip) $zip.value = zip;
+        }
+        render();
+      })
       .catch(() => {
         zipFetch = null;
         $status.innerHTML = '<span class="warn">Couldn\'t load ZIP data — distance filtering unavailable.</span>';
