@@ -3190,5 +3190,21 @@
  "remake|2025": {
   "miss": true,
   "checked": "2026-07-10"
+ },
+ "dark days|2000": {
+  "title": "Dark Days",
+  "year": 2000,
+  "overview": "A cinematic portrait of the homeless population who live permanently in the underground tunnels of New York City.",
+  "runtime": 82,
+  "poster_path": "/vBUU6cphXFQqGq9fgk1VZ4dfnZX.jpg",
+  "url": "https://www.themoviedb.org/movie/14273"
+ },
+ "streetwise|1984": {
+  "title": "Streetwise",
+  "year": 1984,
+  "overview": "This documentary about teenagers living on the streets in Seattle began as a magazine article. The film follows nine teenagers who discuss how they live by panhandling, prostitution, and petty theft.",
+  "runtime": 91,
+  "poster_path": "/fW9z3HXWYTKzlqE3CYMMxaXyyy2.jpg",
+  "url": "https://www.themoviedb.org/movie/42098"
  }
 }
