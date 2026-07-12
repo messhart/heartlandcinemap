@@ -6,17 +6,20 @@
 "use strict";
 
 (function () {
+  // Strict black & white basemap (matches the locked site design). Two
+  // grayscale ramps — dark keeps the map a lit paper-ish canvas inverted to
+  // charcoal; pins are solid ink (near-white on dark), pick ring a mid-gray.
   const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const C = dark ? {
-    earth: "#211f1d", water: "#141d24", green: "#232620",
-    road: "#38342e", highway: "#4a443a", boundary: "#4a443a",
-    label: "#a39c93", halo: "#191817",
-    pin: "#e0888b", pinRing: "#191817", pinOff: "#6b6560", pick: "#d4b04a",
+    earth: "#1a1815", water: "#26231f", green: "#221f1b",
+    road: "#4a453d", highway: "#5f594f", boundary: "#413c34",
+    label: "#cfc9bf", halo: "#141210",
+    pin: "#f2efe7", pinRing: "#141210", pinOff: "#6b665e", pick: "#b8b2a6",
   } : {
-    earth: "#f2efe7", water: "#c3d5e2", green: "#e6eadb",
-    road: "#ded7ca", highway: "#c9bfae", boundary: "#b5aa99",
-    label: "#6b6560", halo: "#faf9f6",
-    pin: "#8a3033", pinRing: "#faf9f6", pinOff: "#8f8a82", pick: "#a8842c",
+    earth: "#f3f1ea", water: "#d9d6cf", green: "#ebe9e2",
+    road: "#cbc7bf", highway: "#a7a29a", boundary: "#b3aea6",
+    label: "#1b1813", halo: "#f7f5ef",
+    pin: "#141210", pinRing: "#f7f5ef", pinOff: "#9a958d", pick: "#6f6a62",
   };
 
   const style = {

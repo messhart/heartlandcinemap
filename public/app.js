@@ -94,6 +94,20 @@
     return dtf(tz, { hour: "numeric", minute: "2-digit" }, "t").format(new Date(iso));
   }
 
+  // split a showtime into the marquee's big-hour / raised-minutes parts:
+  //   { h: "7", m: "00PM" }  (minutes + meridiem glued, uppercased, no space)
+  function fmtTimeParts(iso, tz) {
+    const parts = dtf(tz, { hour: "numeric", minute: "2-digit" }, "t")
+      .formatToParts(new Date(iso));
+    let h = "", m = "", ap = "";
+    for (const p of parts) {
+      if (p.type === "hour") h = p.value;
+      else if (p.type === "minute") m = p.value;
+      else if (p.type === "dayPeriod") ap = p.value;
+    }
+    return { h, m: (m + ap).replace(/\s+/g, "").toUpperCase() };
+  }
+
   function dayKeyIn(iso, tz) {
     // en-CA locale renders YYYY-MM-DD, which sorts correctly
     const k = tz + "d";
@@ -251,7 +265,7 @@
     }
     savePlan();
     const picked = plan.has(k);
-    btn.textContent = picked ? "★" : "+";
+    btn.textContent = picked ? "★" : "☆";
     btn.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
     btn.classList.toggle("picked", picked);
     updatePlanCount();
@@ -272,21 +286,55 @@
     if (window.__updateMap) window.__updateMap(window.__mapData);
   }
 
-  // one showtime chip — the chip IS the ticket link; the sibling toggle
-  // picks the showtime for the printable calendar / .ics export
+  // the lightbox header's rolling rows: up to 3 SHORT currently-listed titles
+  // (a real cinema sign only fits short ones), soonest first, deduped by film,
+  // rendered "JUL 12 · VERTIGO · MUSIC BOX IL".
+  function fillMarquee(visible, tzFn) {
+    const box = document.getElementById("marquee-titles");
+    if (!box) return;
+    box.textContent = "";
+    const seen = new Set();
+    const picks = [];
+    for (const s of [...visible].sort((a, b) => a.start.localeCompare(b.start))) {
+      const info = filmInfo(s);
+      const title = (info ? info.title : s.film_title) || "";
+      if (title.length > 18) continue;              // signs fit short titles
+      const gk = groupKey(s);
+      if (seen.has(gk)) continue;
+      seen.add(gk);
+      picks.push({
+        date: fmtDayShort(dayKeyIn(s.start, tzFn(s))).replace(",", "").split(" ").slice(1).join(" "),
+        title,
+        venue: `${s.venue.name} ${s.venue.state}`,
+      });
+      if (picks.length >= 3) break;
+    }
+    for (const p of picks) {
+      const row = el("div", "mq-title");
+      row.appendChild(el("span", "mq-date", p.date.toUpperCase()));
+      row.appendChild(el("span", "mq-film", p.title));
+      row.appendChild(el("span", "mq-venue", p.venue.toUpperCase()));
+      box.appendChild(row);
+    }
+  }
+
+  // one showtime — the marquee time IS the ticket link (big hour + raised
+  // minutes + format, underlined). The sibling ☆/★ toggle picks it for the
+  // printable calendar / .ics export.
   function chip(s, tz) {
     const a = el("a", "chip" + (s.sold_out ? " chip-soldout" : ""));
     a.href = s.ticket_url;
     a.rel = "noopener";
-    let label = fmtTime(s.start, tz);
-    if (s.format) label += ` · ${s.format}`;
-    a.textContent = label;
-    if (s.sold_out) a.title = "Sold out";
+    const { h, m } = fmtTimeParts(s.start, tz);
+    a.appendChild(el("span", "h", h));
+    a.appendChild(el("span", "m", m));
+    if (s.format) a.appendChild(el("span", "fmt", s.format));
+    a.title = s.sold_out ? "Sold out" : fmtTime(s.start, tz);
     if (!posterCap()) return a; // picking disabled at 60d/all horizons
     const picked = plan.has(pickKey(s));
     const wrap = el("span", "chipwrap");
     wrap.appendChild(a);
-    const b = el("button", "chip-add" + (picked ? " picked" : ""), picked ? "★" : "+");
+    const b = el("button", "chip-add" + (picked ? " picked" : ""), picked ? "★" : "☆");
     b.type = "button";
     b.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
     b.addEventListener("click", (e) => {
@@ -486,6 +534,8 @@
       $listings.appendChild(el("p", "empty",
         "Nothing found. Try a wider radius — or no ZIP at all to see every venue we cover."));
     }
+
+    fillMarquee(visible, tzFn);
 
     const nVenues = new Set(visible.map((s) => s.venue_id)).size;
     statusBits.unshift(

@@ -1,8 +1,21 @@
+/* ---------- self-hosted fonts (OFL) ----------
+   Ostrich Sans = the site voice (box-office / cinema sign); the Bold cut is
+   the inline/hollow brand face. DM Serif / Spectral / JetBrains Mono are the
+   printable calendar's newsprint voice only. All under public/fonts/. */
+@font-face { font-family: 'Ostrich Sans'; font-weight: bold; font-style: normal; font-display: swap; src: url("./fonts/OstrichSans-Bold.otf") format("opentype"); }
+@font-face { font-family: 'Ostrich Sans Heavy'; font-weight: 900; font-style: normal; font-display: swap; src: url("./fonts/OstrichSans-Heavy.otf") format("opentype"); }
+@font-face { font-family: 'Ostrich Sans Black'; font-weight: 900; font-style: normal; font-display: swap; src: url("./fonts/OstrichSans-Black.otf") format("opentype"); }
+@font-face { font-family: 'DM Serif Display'; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/DMSerifDisplay.woff2") format("woff2"); }
+@font-face { font-family: 'Spectral'; font-weight: 400; font-style: normal; font-display: swap; src: url("./fonts/Spectral.woff2") format("woff2"); }
+@font-face { font-family: 'JetBrains Mono'; font-weight: 500; font-style: normal; font-display: swap; src: url("./fonts/JetBrainsMono.woff2") format("woff2"); }
+
 :root {
   --bg: #faf9f6;
   --text: #1f1d1a;
   --muted: #6b6560;
-  --accent: #8a3033;
+  /* strict B&W: accent reads as ink (was oxblood #8a3033). Links get an
+     underline affordance since color no longer distinguishes them. */
+  --accent: #1f1d1a;
   --line: #ddd8d0;
   --card: #ffffff;
   --badge-bg: #efe9df;
@@ -12,7 +25,7 @@
     --bg: #191817;
     --text: #ece8e2;
     --muted: #a39c93;
-    --accent: #e0888b;
+    --accent: #ece8e2;   /* strict B&W: ink = the light text color in dark mode */
     --line: #38352f;
     --card: #211f1d;
     --badge-bg: #2e2b26;
@@ -27,38 +40,101 @@ body {
   max-width: 52rem;
   background: var(--bg);
   color: var(--text);
-  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font: 16px/1.5 'Ostrich Sans Black', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-header h1 { margin: 0.5rem 0 0.25rem; font-size: 1.7rem; letter-spacing: -0.01em; }
-.tagline { margin: 0 0 1.25rem; color: var(--muted); max-width: 38rem; }
-
-a { color: var(--accent); }
+a { color: var(--accent); text-underline-offset: 2px; }
 a:focus-visible, input:focus-visible, select:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
-/* controls */
+/* ---------- header: the lightbox marquee ----------
+   A white illuminated sign panel. Thick left/right borders, thin top/bottom,
+   1px track lines between rows. Stays white/lit in BOTH themes (it's a
+   lightbox) — so it uses fixed ink-on-white, not the theme tokens. */
+header {
+  background: #fbfaf7;
+  color: #14130f;
+  border-top: 3px solid #14130f; border-bottom: 3px solid #14130f;
+  border-left: 9px solid #14130f; border-right: 9px solid #14130f;
+  margin: 0 0 1.25rem;
+  overflow: hidden;
+}
+header h1 {
+  margin: 0;
+  padding: 0.35rem 1rem 0.2rem;
+  text-align: center;
+  font-family: 'Ostrich Sans', sans-serif;   /* the inline/hollow brand cut */
+  font-weight: bold;
+  font-size: clamp(1.9rem, 6vw, 3rem);
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #14130f;
+  border-bottom: 1px solid #bdb6a3;
+}
+/* short live titles injected by app.js into #marquee-titles */
+#marquee-titles { display: block; }
+.mq-title {
+  display: flex; align-items: baseline; justify-content: center;
+  gap: clamp(0.9rem, 4vw, 2.4rem);
+  padding: 0.28rem 1rem;
+  border-bottom: 1px solid #bdb6a3;
+  font-family: 'Ostrich Sans Heavy', sans-serif;
+  font-weight: 900;
+  font-size: clamp(0.9rem, 2.6vw, 1.3rem);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #14130f;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.mq-title:last-child { border-bottom: none; }
+.mq-title .mq-date { color: #14130f; }
+.mq-title .mq-venue { color: #4a463d; }
+/* the tagline moves BELOW the lightbox, in the normal page voice */
+.tagline {
+  margin: 0.9rem 0 1.25rem; color: var(--muted); max-width: 38rem;
+  font-family: system-ui, -apple-system, sans-serif; font-size: 0.95rem;
+}
+
+/* controls — the "chips" filter bar: each field is a notched ticket-chip
+   (perforated ends via -webkit-mask), Ostrich labels, mono inputs. */
 #controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  padding: 0.9rem;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--card);
+  align-items: flex-end;
+  gap: 0.7rem;
+  padding: 0.4rem 0;
+  border: none;
+  background: transparent;
 }
-.field { display: flex; flex-direction: column; gap: 0.2rem; }
-.field label { font-size: 0.8rem; color: var(--muted); }
+.field {
+  display: flex; flex-direction: column; gap: 0.15rem;
+  background: var(--card);
+  border: 1px solid var(--text);
+  padding: 0.35rem 0.7rem;
+  -webkit-mask: radial-gradient(circle 4px at 0 50%, transparent 98%, #000) left/51% 100% no-repeat,
+                radial-gradient(circle 4px at 100% 50%, transparent 98%, #000) right/51% 100% no-repeat;
+          mask: radial-gradient(circle 4px at 0 50%, transparent 98%, #000) left/51% 100% no-repeat,
+                radial-gradient(circle 4px at 100% 50%, transparent 98%, #000) right/51% 100% no-repeat;
+}
+.field label {
+  font-family: 'Ostrich Sans Black', sans-serif;
+  font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--muted);
+}
 input, select {
   font: inherit;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
   color: inherit;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 0.35rem 0.5rem;
-  min-width: 7.5rem;
+  background: transparent;
+  border: none;
+  padding: 0.1rem 0.1rem;
+  min-width: 6rem;
 }
 
 #status { min-height: 1.5em; color: var(--muted); font-size: 0.9rem; }
@@ -132,122 +208,167 @@ input, select {
 .vpop-when { color: var(--accent); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .vpop-title { color: var(--text); }
 
-/* day sections */
+/* day sections — the centered ink day bar (paper text; inverts in dark) */
 section.day { margin: 1.75rem 0; }
 h2.dayhead {
-  font-size: 1.05rem;
-  margin: 0 0 0.6rem;
-  padding: 0.4rem 0;
-  border-bottom: 1px solid var(--line);
+  font-family: 'Ostrich Sans Heavy', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.35rem;
+  text-align: center;
+  margin: 0 0 1.1rem;
+  padding: 0.32rem 0.7rem;
+  background: var(--text);
+  color: var(--bg);
+  border-bottom: none;
   position: sticky;
   top: 0;
-  background: var(--bg);
   z-index: 2;
 }
 
-/* film cards */
+/* film cards — poster | body row, ink-on-paper.
+   Separator lightens with the type scale on narrow screens. */
 .filmcard {
-  display: flex;
-  gap: 0.9rem;
-  padding: 0.8rem 0.25rem;
-  border-bottom: 1px dotted var(--line);
+  display: grid;
+  grid-template-columns: 5.4rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 0 0 1.4rem;
+  margin-bottom: 1.4rem;
+  border-bottom: 3px double var(--text);
 }
-.filmcard:last-child { border-bottom: none; }
+.filmcard:last-child { border-bottom: none; margin-bottom: 0; }
 
 .poster {
-  flex: 0 0 3.6rem;
-  width: 3.6rem;
-  height: 5.4rem;
+  width: 5.4rem;
+  height: 8.1rem;              /* 2:3 vertical poster, COLOR */
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 2px;
   background: var(--badge-bg);
+  align-self: start;
 }
 .poster-blank {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--muted);
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-family: 'Ostrich Sans Heavy', sans-serif;
+  font-size: 2rem;
 }
 
-.filmcard-body { min-width: 0; flex: 1; }
-.filmcard-body h3 { margin: 0 0 0.15rem; font-size: 1rem; }
-.filmcard-body h3 .year { font-weight: normal; color: var(--muted); }
+.filmcard-body { min-width: 0; }
+.filmcard-body h3 {
+  margin: 0;
+  font-family: 'Ostrich Sans Heavy', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-size: 1.5rem;
+  line-height: 1.02;
+}
+.filmcard-body h3 .year { font-weight: 900; color: var(--muted); }
+
+/* runtime + series tags line (was .filmmeta). Tags sit level with the text. */
 .filmmeta {
-  margin: 0 0 0.3rem;
+  margin: 0.2rem 0 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-family: 'Ostrich Sans Black', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  align-items: baseline;
+  gap: 0.45rem 0.7rem;
+  align-items: center;
 }
-
 .badge {
-  font-size: 0.72rem;
-  padding: 0.05rem 0.45rem;
-  border-radius: 99px;
-  background: var(--badge-bg);
-  color: var(--muted);
-  white-space: nowrap;
-}
-
-/* per-venue showtime chip lines */
-.chiplines { display: flex; flex-direction: column; gap: 0.35rem; margin-top: 0.35rem; }
-.chipline { display: flex; flex-wrap: wrap; gap: 0.25rem 0.6rem; align-items: baseline; }
-.chipline-label { color: var(--muted); font-size: 0.85rem; }
-.chips { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; }
-a.chip {
-  display: inline-block;
-  font-size: 0.85rem;
-  font-variant-numeric: tabular-nums;
-  padding: 0.15rem 0.6rem;
+  font-family: 'Ostrich Sans Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  padding: 0.2rem 0.5rem;
   border: 1px solid var(--line);
-  border-radius: 6px;
-  text-decoration: none;
-  color: var(--accent);
-  background: var(--card);
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
   white-space: nowrap;
 }
-a.chip:hover { border-color: var(--accent); }
+
+/* per-venue showtime lines — the marquee times.
+   .chiplines holds one .chipline per venue: a .chipline-label (venue) and a
+   .chips row of marquee times. More air above so a single line doesn't float
+   above the poster's bottom edge (grows a touch on wider screens). */
+.chiplines { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1.6rem; }
+@media (min-width: 620px) { .chiplines { margin-top: 2.2rem; } }
+.chipline { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; align-items: baseline; }
+.chipline-label {
+  font-family: 'Ostrich Sans Black', sans-serif;
+  font-weight: 900; text-transform: uppercase;
+  font-size: 1rem; letter-spacing: 0.02em; color: var(--text); white-space: nowrap;
+}
+.chips { display: inline-flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; }
+
+/* the pick toggle joins the marquee time; wrap keeps them together */
+.chipwrap { display: inline-flex; align-items: baseline; gap: 0.15rem; }
+
+/* the signature marquee time: big hour + raised minutes + format, the whole
+   time underlined = the buy link. Sold-out = one continuous strike. */
+a.chip {
+  font-family: 'Ostrich Sans Black', sans-serif; font-weight: 900;
+  color: var(--text); white-space: nowrap; text-decoration: none;
+  display: inline-flex; align-items: baseline; gap: 0.28rem;
+  border-bottom: 1.5px solid var(--text);
+  padding-bottom: 0.02em;
+}
+a.chip .h { font-size: 1.25rem; letter-spacing: 0.02em; line-height: 0.95; }
+a.chip .m { font-size: 1.02rem; position: relative; top: -0.1em; letter-spacing: 0.01em; }
+a.chip .fmt { font-size: 1.02rem; letter-spacing: 0.02em; }
+a.chip:hover { color: var(--muted); border-bottom-color: var(--muted); }
 a.chip.chip-soldout {
-  color: var(--muted);
-  text-decoration: line-through;
-  opacity: 0.7;
+  color: var(--muted); pointer-events: none;
+  border-bottom: none; position: relative;
+}
+a.chip.chip-soldout::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 50%;
+  height: 1.5px; background: currentColor;
 }
 
-/* pick-for-calendar toggle joined to the right edge of a chip */
-.chipwrap { display: inline-flex; align-items: stretch; }
-.chipwrap a.chip { border-radius: 6px 0 0 6px; }
+/* the ☆/★ calendar-pick toggle */
 .chip-add {
   font: inherit;
-  font-size: 0.8rem;
-  line-height: 1;
-  padding: 0.15rem 0.45rem;
-  border: 1px solid var(--line);
-  border-left: none;
-  border-radius: 0 6px 6px 0;
-  background: var(--card);
+  font-family: 'Segoe UI Symbol', 'Symbola', sans-serif;
+  font-size: 1.2rem; line-height: 1;
+  padding: 0.1rem 0.15rem;
+  border: none; background: none;
   color: var(--muted);
   cursor: pointer;
 }
-.chip-add:hover { color: var(--accent); border-color: var(--accent); }
-.chip-add.picked { color: var(--accent); font-weight: 700; }
+.chip-add:hover { color: var(--text); }
+.chip-add.picked { color: var(--text); }
 
 #plancount { font-size: 0.85rem; color: var(--muted); margin-left: 0.6rem; }
 #plancount a { color: var(--accent); }
 
-/* collapsed film synopsis (TMDb) */
-details.about { font-size: 0.85rem; color: var(--muted); margin: 0.1rem 0 0.2rem; }
+/* collapsed film synopsis (TMDb) — "ABOUT THIS FILM" toggle in the Ostrich
+   label voice, tucked tight under the runtime/tags line. */
+details.about { margin: 0.15rem 0 0; color: var(--muted); }
 details.about summary {
   cursor: pointer;
   width: fit-content;
-  color: var(--accent);
-  opacity: 0.75;
+  list-style: none;
+  font-family: 'Ostrich Sans Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1rem;
+  color: var(--muted);
 }
-details.about summary:hover { opacity: 1; }
-details.about p { margin: 0.3rem 0 0.2rem; max-width: 42rem; }
+details.about summary::-webkit-details-marker { display: none; }
+details.about[open] summary { color: var(--text); }
+details.about p {
+  margin: 0.4rem 0 0.2rem; max-width: 42rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.85rem; text-transform: none; letter-spacing: 0;
+}
 details.about .about-meta { margin: 0 0 0.3rem; }
 
 .empty { color: var(--muted); margin: 2rem 0; }
@@ -304,15 +425,18 @@ body.postering { overflow: hidden; }
 }
 #postertools button:hover { border-color: var(--accent); }
 
-/* the sheet: fixed paper palette — this is ink on paper, never dark-mode */
+/* the sheet: fixed paper palette — this is ink on paper, never dark-mode.
+   Newsprint programme voice (serif display + small-caps + mono times). Strict
+   B&W: the accent (--pk) is ink, not oxblood. */
 .poster-page {
-  --pk: #8a3033;      /* accent (day numbers, venue codes, month) */
+  --pk: #16130f;      /* accent (day numbers, venue codes, month) — now ink */
   --ptext: #16130f;
   --pmut: #6a645d;
   --pline: #c9c3b8;
   --pout: #efece6;    /* days outside the covered range */
   background: #fff;
   color: var(--ptext);
+  font-family: 'Spectral', Georgia, 'Times New Roman', serif;
   /* on-screen geometry mirrors the print content box so the overflow the
      fitter sees on screen is exactly what would spill a print page. Height is
      held under the 7.9in printable area (letter landscape minus @page 0.3in
@@ -338,17 +462,18 @@ body.postering { overflow: hidden; }
   border-bottom: 2.5pt solid var(--ptext);
   padding-bottom: 5pt;
 }
-.pp-month { font-size: 22pt; font-weight: 700; letter-spacing: -0.02em; color: var(--pk); }
-.pp-brand { font-size: 8.5pt; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; }
-.pp-scope { margin-left: auto; font-size: 7.5pt; color: var(--pmut); text-align: right; max-width: 3.6in; }
+.pp-month { font-family: 'DM Serif Display', Georgia, serif; font-size: 24pt; font-weight: 400; letter-spacing: -0.01em; color: var(--pk); }
+.pp-brand { font-family: 'Spectral', serif; font-variant: small-caps; font-size: 9pt; font-weight: 600; letter-spacing: 0.12em; }
+.pp-scope { margin-left: auto; font-family: 'Spectral', serif; font-size: 7.5pt; color: var(--pmut); text-align: right; max-width: 3.6in; }
 
 .pp-dow {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  font-size: 6.8pt;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
+  font-family: 'Spectral', serif;
+  font-variant: small-caps;
+  font-size: 7.2pt;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   color: var(--pmut);
   padding: 4pt 0 2pt;
 }
@@ -378,8 +503,8 @@ body.postering { overflow: hidden; }
   min-width: 0;
 }
 .pp-cell.pp-out { background: var(--pout); }
-.pp-daynum { font-size: 8.5pt; font-weight: 700; color: var(--pk); }
-.pp-out .pp-daynum, .pp-empty .pp-daynum { color: var(--pmut); font-weight: 400; }
+.pp-daynum { font-family: 'DM Serif Display', Georgia, serif; font-size: 9.5pt; font-weight: 400; color: var(--pk); }
+.pp-out .pp-daynum, .pp-empty .pp-daynum { color: var(--pmut); }
 
 /* week strip (7-day poster): one full-height column per date */
 .pp-daycols {
@@ -398,13 +523,14 @@ body.postering { overflow: hidden; }
   min-width: 0;
 }
 .pp-dayhead {
+  font-family: 'Spectral', serif;
   font-size: 8pt;
   color: var(--pmut);
   border-bottom: 1px solid var(--pline);
   padding-bottom: 2pt;
   margin-bottom: 2pt;
 }
-.pp-dayhead-dow { font-weight: 700; color: var(--pk); letter-spacing: 0.05em; }
+.pp-dayhead-dow { font-variant: small-caps; font-weight: 700; color: var(--pk); letter-spacing: 0.06em; }
 .pp-week-strip .pentry { font-size: 7pt; margin-top: 4pt; }
 
 /* TMDb thumb beside a week-strip entry — color mode only */
@@ -428,11 +554,11 @@ span.pthumb-blank {
 }
 #poster.bw .pthumb { display: none; }
 
-.pentry { font-size: 6.4pt; line-height: 1.32; margin-top: 2pt; overflow-wrap: break-word; }
+.pentry { font-family: 'Spectral', serif; font-size: 6.6pt; line-height: 1.3; margin-top: 2pt; overflow-wrap: break-word; }
 .ptitle { font-weight: 700; }
-.pyear { color: var(--pmut); }
+.pyear { color: var(--pmut); font-style: italic; }
 .pfmt { color: var(--pk); font-weight: 600; font-size: 5.8pt; text-transform: uppercase; letter-spacing: 0.04em; }
-.ptimes { font-variant-numeric: tabular-nums; white-space: normal; }
+.ptimes { font-family: 'JetBrains Mono', monospace; font-size: 5.8pt; white-space: normal; }
 .pvcode { color: var(--pk); font-weight: 700; }
 .pmore { color: var(--pmut); font-style: italic; font-weight: 600; }
 
@@ -440,7 +566,10 @@ span.pthumb-blank {
   border-top: 2.5pt solid var(--ptext);
   margin-top: 5pt;
   padding-top: 4pt;
-  font-size: 6.8pt;
+  font-family: 'Spectral', serif;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  font-size: 7pt;
   color: var(--pmut);
   display: flex;
   justify-content: space-between;
@@ -494,10 +623,26 @@ footer {
   border-top: 1px solid var(--line);
   font-size: 0.9rem;
   color: var(--muted);
+  font-family: system-ui, -apple-system, sans-serif;   /* body copy stays legible */
 }
-footer h2 { font-size: 1rem; color: var(--text); }
+footer h2 {
+  font-family: 'Ostrich Sans Heavy', sans-serif; font-weight: 900;
+  text-transform: uppercase; letter-spacing: 0.03em;
+  font-size: 1.15rem; color: var(--text);
+}
 
+/* responsive film rows: separators + type lighten with the viewport, so the
+   double rule doesn't feel heavy on a phone (mirrors the locked playground). */
+@media (max-width: 620px) {
+  .filmcard { grid-template-columns: 4.5rem minmax(0, 1fr); gap: 0.9rem;
+    padding-bottom: 1rem; margin-bottom: 1rem; border-bottom-width: 2px; }
+  .poster { width: 4.5rem; height: 6.75rem; }
+  .filmcard-body h3 { font-size: 1.3rem; }
+  .chipline { flex-direction: column; gap: 0.2rem; }
+}
 @media (max-width: 480px) {
-  .poster { flex-basis: 3rem; width: 3rem; height: 4.5rem; }
-  .filmcard { gap: 0.6rem; }
+  .filmcard { grid-template-columns: 3.6rem minmax(0, 1fr); gap: 0.7rem;
+    padding-bottom: 0.8rem; margin-bottom: 0.8rem; border-bottom: 1px solid var(--text); }
+  .poster { width: 3.6rem; height: 5.4rem; }
+  .filmcard-body h3 { font-size: 1.15rem; }
 }
