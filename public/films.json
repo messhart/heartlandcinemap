@@ -3282,5 +3282,41 @@
   "runtime": 124,
   "poster_path": "/rkIkyPhT5oetT463HxpdIuct30l.jpg",
   "url": "https://www.themoviedb.org/movie/11536"
+ },
+ "allegro non troppo|1976": {
+  "title": "Allegro non troppo",
+  "year": 1976,
+  "overview": "An enterprising producer believes he has hit upon a winning concept: a program of original animated shorts set to classical music. Undeterred by warnings that this has already been done by an American named 'Prisney,' he rallies an orchestra of geriatric women, a bullish conductor, and an animator that he keeps locked in the dungeon. What could go wrong?",
+  "runtime": 85,
+  "poster_path": "/xRAnD7yd6Qx8NYXfoW5GN6K5jiC.jpg",
+  "url": "https://www.themoviedb.org/movie/22561"
+ },
+ "barrio triste|2025": {
+  "title": "Barrio Triste",
+  "year": 2026,
+  "overview": "On the outskirts of Medellín, Colombia in the late 1980s, local residents report strange lights descending from the sky. When a reporter arrives to investigate, a ragtag group of teens from a lawless neighbourhood storm the scene and steal his camera. In the hands of its new owners, the device records a mesmerising plunge into their frantic existence.",
+  "runtime": 84,
+  "poster_path": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+  "url": "https://www.themoviedb.org/movie/1310573"
+ },
+ "our hero balthazar|2026": {
+  "title": "Our Hero, Balthazar",
+  "year": 2026,
+  "overview": "Eager to impress his activist crush, a wealthy New York teenager follows an online connection to Texas, where he's convinced he can stop an act of extreme violence.",
+  "runtime": 96,
+  "poster_path": "/mxVTarvl5OLoU9YWIYygby6R0KI.jpg",
+  "url": "https://www.themoviedb.org/movie/1465557"
+ },
+ "remake|2026": {
+  "title": "Remake",
+  "year": 2026,
+  "overview": "The death of his son causes McElwee, an autobiographical filmmaker, to look back on his life’s work. He eventually turns to his archive of home movies. To what extent did his camera affect their relationship when Adrian was alive? To what extent does it define that relationship now that he is gone? Meanwhile, an effort to adapt McElwee’s first feature, Sherman’s March, into a work of fiction lurches along, giving the filmmaker another perspective from which to meditate on movie making and mortality.",
+  "runtime": 114,
+  "poster_path": "/zcN0Sv43IKkp5jrr0kNgqSkkpOk.jpg",
+  "url": "https://www.themoviedb.org/movie/1329909"
+ },
+ "sherman's march|2026": {
+  "miss": true,
+  "checked": "2026-07-13"
  }
 }
