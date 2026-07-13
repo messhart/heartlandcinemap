@@ -3254,5 +3254,33 @@
   "runtime": 101,
   "poster_path": "/ddYCa91iDXfJCxaqSYzwi2fjfnl.jpg",
   "url": "https://www.themoviedb.org/movie/34584"
+ },
+ "stand by me|1986": {
+  "title": "Stand by Me",
+  "year": 1986,
+  "overview": "After learning that a boy their age has been accidentally killed near their rural homes, four boys decide to go see the body. Gordie, Vern, Chris, and Teddy encounter a mean junk man and a marsh full of leeches, but they also learn more about one another and their very different home lives. Just a lark at first, the boys' adventure evolves into a defining event in their lives.",
+  "runtime": 89,
+  "poster_path": "/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+  "url": "https://www.themoviedb.org/movie/235"
+ },
+ "stories of community summer 2026|2026": {
+  "miss": true,
+  "checked": "2026-07-13"
+ },
+ "the lost boys|1987": {
+  "title": "The Lost Boys",
+  "year": 1987,
+  "overview": "When an unsuspecting town newcomer is drawn to local blood fiends, the Frog brothers and other unlikely heroes gear up to rescue him.",
+  "runtime": 97,
+  "poster_path": "/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg",
+  "url": "https://www.themoviedb.org/movie/1547"
+ },
+ "the misfits|1961": {
+  "title": "The Misfits",
+  "year": 1961,
+  "overview": "While filing for a divorce, beautiful ex-stripper Roslyn Taber ends up meeting aging cowboy-turned-gambler Gay Langland and former World War II aviator Guido Racanelli. The two men instantly become infatuated with Roslyn and, on a whim, the three decide to move into Guido's half-finished desert home together. When grizzled ex-rodeo rider Perce Howland arrives, the unlikely foursome strike up a business capturing wild horses.",
+  "runtime": 124,
+  "poster_path": "/rkIkyPhT5oetT463HxpdIuct30l.jpg",
+  "url": "https://www.themoviedb.org/movie/11536"
  }
 }
