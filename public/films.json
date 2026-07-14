@@ -3318,5 +3318,21 @@
  "sherman's march|2026": {
   "miss": true,
   "checked": "2026-07-13"
+ },
+ "contagion|2011": {
+  "title": "Contagion",
+  "year": 2011,
+  "overview": "As an epidemic of a lethal airborne virus - that kills within days - rapidly grows, the worldwide medical community races to find a cure and control the panic that spreads faster than the virus itself.",
+  "runtime": 106,
+  "poster_path": "/qL0IooP0bjXy0KXl9KEyPo22ll0.jpg",
+  "url": "https://www.themoviedb.org/movie/39538"
+ },
+ "the kidnapping of arabella|2025": {
+  "title": "The Kidnapping of Arabella",
+  "year": 2025,
+  "overview": "Holly spends days at her dead-end job fantasizing about holes in the space-time continuum and wondering where her life went wrong. When she meets Arabella, an eight-year-old rebel hoping to run away from her self-absorbed author father, Holly becomes convinced their meeting is a cosmic sign, and that Arabella is, in fact, her past self sent back for a second chance. The two embark on an unconventional road trip between two lost souls who might be exactly what the other needs.",
+  "runtime": 107,
+  "poster_path": "/hrGz0eGnGAn6q3zeafUn1DwREuI.jpg",
+  "url": "https://www.themoviedb.org/movie/1339666"
  }
 }
