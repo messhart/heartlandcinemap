@@ -3426,5 +3426,21 @@
   "runtime": 79,
   "poster_path": "/jUWFSBxTOiCinPdTOh3IDUXVemZ.jpg",
   "url": "https://www.themoviedb.org/movie/929204"
+ },
+ "brunello: the gracious visionary|2025": {
+  "title": "Brunello: The Gracious Visionary",
+  "year": 2025,
+  "overview": "A farmer's son transforms into a fashion mogul, building a billion-dollar luxury empire while staying true to his humanistic values and commitment to ethical business practices and fine craftsmanship.",
+  "runtime": 121,
+  "poster_path": "/t78agH4Zki9OpIGe44oBgXafqk.jpg",
+  "url": "https://www.themoviedb.org/movie/1498729"
+ },
+ "cult 101: cannibal holocaust|1980": {
+  "title": "Cannibal Holocaust",
+  "year": 1980,
+  "overview": "A New York University professor returns from a rescue mission to the Amazon rainforest with the footage shot by a lost team of documentarians who were making a film about the area's local cannibal tribes.",
+  "runtime": 95,
+  "poster_path": "/otxZzMh53TsN7yYFqSZ3rwH1yMd.jpg",
+  "url": "https://www.themoviedb.org/movie/8689"
  }
 }
