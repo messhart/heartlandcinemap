@@ -3450,5 +3450,21 @@
  "music box movie trivia|": {
   "miss": true,
   "checked": "2026-07-15"
+ },
+ "shine on sweet starlet|1998": {
+  "title": "Shine On Sweet Starlet",
+  "year": 1998,
+  "overview": "JMM and his friendly elitist entourage shot super-8 stag footage of starlets and collected music from bands who played with The Sore Losers!",
+  "runtime": 60,
+  "poster_path": "/rTWYA4DkQI4UNfRoNgkwZ5IvQw6.jpg",
+  "url": "https://www.themoviedb.org/movie/661189"
+ },
+ "sunset boulevard (35mm)|1950": {
+  "title": "Sunset Boulevard",
+  "year": 1950,
+  "overview": "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
+  "runtime": 110,
+  "poster_path": "/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+  "url": "https://www.themoviedb.org/movie/599"
  }
 }
