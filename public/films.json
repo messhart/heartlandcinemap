@@ -3466,5 +3466,33 @@
   "runtime": 110,
   "poster_path": "/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
   "url": "https://www.themoviedb.org/movie/599"
+ },
+ "catvideofest 2026|": {
+  "title": "CatVideoFest 2026",
+  "year": 2026,
+  "overview": "Our fuzzy overlords return to the big screen! Each year, CatVideoFest curates a compilation reel of the latest, best cat videos culled from countless hours of unique submissions and sourced animations, music videos, and, of course, classic internet powerhouses (Keyboard Cat, we’re looking at you).",
+  "runtime": 70,
+  "poster_path": "/nRjejxXF7tV8nZ8RFrHyOswuCle.jpg",
+  "url": "https://www.themoviedb.org/movie/1711224"
+ },
+ "the hi-pointe theatre is temporarily closed for repairs|": {
+  "miss": true,
+  "checked": "2026-07-17"
+ },
+ "the hole|1998": {
+  "title": "The Hole",
+  "year": 1998,
+  "overview": "A short directed by Brian Challis.",
+  "runtime": 12,
+  "poster_path": null,
+  "url": "https://www.themoviedb.org/movie/253906"
+ },
+ "the odyssey - dcp|2026": {
+  "title": "The Odyssey",
+  "year": 2026,
+  "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+  "runtime": 173,
+  "poster_path": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+  "url": "https://www.themoviedb.org/movie/1368337"
  }
 }
