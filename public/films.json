@@ -3598,5 +3598,33 @@
  "secret mall apartment presented with aia iowa and cias|2025": {
   "miss": true,
   "checked": "2026-07-20"
+ },
+ "crazy rich asians|": {
+  "miss": true,
+  "checked": "2026-07-20"
+ },
+ "fast color|": {
+  "title": "Fast Color",
+  "year": 2019,
+  "overview": "A woman is forced to go on the run when her superhuman abilities are discovered. Years after having abandoned her family, the only place she has left to hide is home.",
+  "runtime": 102,
+  "poster_path": "/1zZaZGMo23NsOGoGF5HRCPWwWN7.jpg",
+  "url": "https://www.themoviedb.org/movie/450487"
+ },
+ "manhunter: the final cut|1986": {
+  "title": "Manhunter",
+  "year": 1986,
+  "overview": "FBI Agent Will Graham, retired after catching notorious cannibal Hannibal Lecter, returns to duty to engage in a risky cat-and-mouse game with Lecter to capture a new killer.",
+  "runtime": 120,
+  "poster_path": "/6rb24x39vV8n5301IelC8rCPJTH.jpg",
+  "url": "https://www.themoviedb.org/movie/11454"
+ },
+ "mary oliver: saved by the beauty of the world|": {
+  "title": "Mary Oliver: Saved by the Beauty of the World",
+  "year": 2026,
+  "overview": "From a lonely childhood to literary fame, her life was shaped by devotion to nature, paying attention, and the long journey toward learning to love and to be loved.  If poetry had a pop icon, Mary Oliver would be it.",
+  "runtime": 91,
+  "poster_path": "/aAZ7Ih2tU65y55CfE0nIFSaow4n.jpg",
+  "url": "https://www.themoviedb.org/movie/1631822"
  }
 }
