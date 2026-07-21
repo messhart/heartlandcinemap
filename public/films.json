@@ -3630,5 +3630,85 @@
  "the video store mpls kickstarter kickoff|": {
   "miss": true,
   "checked": "2026-07-21"
+ },
+ "blade runner: the final cut (35mm)|1982": {
+  "title": "Blade Runner",
+  "year": 1982,
+  "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+  "runtime": 118,
+  "poster_path": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+  "url": "https://www.themoviedb.org/movie/78"
+ },
+ "inception|2010": {
+  "title": "Inception",
+  "year": 2010,
+  "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+  "runtime": 148,
+  "poster_path": "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+  "url": "https://www.themoviedb.org/movie/27205"
+ },
+ "king kong (35mm)|1933": {
+  "title": "King Kong",
+  "year": 1933,
+  "overview": "Adventurous filmmaker Carl Denham sets out to produce a motion picture unlike anything the world has seen before. Alongside his leading lady Ann Darrow and his first mate Jack Driscoll, they arrive on an island and discover a legendary creature said to be neither beast nor man. Denham captures the monster to be displayed on Broadway as King Kong, the eighth wonder of the world.",
+  "runtime": 100,
+  "poster_path": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+  "url": "https://www.themoviedb.org/movie/244"
+ },
+ "mysterious skin (4k restoration)|2005": {
+  "title": "Mysterious Skin",
+  "year": 2005,
+  "overview": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
+  "runtime": 105,
+  "poster_path": "/wgSwDqhl6Rt3cuSCwt5sNpPna3x.jpg",
+  "url": "https://www.themoviedb.org/movie/11171"
+ },
+ "remake|2024": {
+  "miss": true,
+  "checked": "2026-07-21"
+ },
+ "sabrina|1954": {
+  "title": "Sabrina",
+  "year": 1954,
+  "overview": "After two years in Paris, chauffeur's daughter Sabrina returns home elegantly transformed and immediately catches the attention of David, the playboy son of her father's rich employers. David woos and wins Sabrina, who has always been in love with him, however their romance is threatened by David's serious older brother Linus, who runs the family business and is relying on David to marry an heiress in order for a crucial merger to take place.",
+  "runtime": 114,
+  "poster_path": "/e1Po9NDrH7IJZhv89467gJH5FS0.jpg",
+  "url": "https://www.themoviedb.org/movie/6620"
+ },
+ "sheep in the box|2026": {
+  "title": "Sheep in the Box",
+  "year": 2026,
+  "overview": "Set in the near future, Otone Komoto works as an architect. She is married to Kensuke Komoto, who runs a construction company. The married couple decide to welcome a humanoid robot into their home as their son.",
+  "runtime": 126,
+  "poster_path": "/9rOCIYYT8Q76FHgl3Nm5ofuc6TQ.jpg",
+  "url": "https://www.themoviedb.org/movie/1553969"
+ },
+ "silent movie day: battleship potemkin featuring a new score by pet shop boys|1925": {
+  "miss": true,
+  "checked": "2026-07-21"
+ },
+ "the piano (4k restoration)|1993": {
+  "title": "The Piano",
+  "year": 1993,
+  "overview": "When an arranged marriage brings Ada and her spirited daughter to the wilderness of nineteenth-century New Zealand, she finds herself locked in a battle of wills with both her controlling husband and a rugged frontiersman to whom she develops a forbidden attraction.",
+  "runtime": 120,
+  "poster_path": "/rx8RKXn8OtuS6lqloYsjyrGOUp4.jpg",
+  "url": "https://www.themoviedb.org/movie/713"
+ },
+ "the trials of muhammad ali|2012": {
+  "title": "The Trials of Muhammad Ali",
+  "year": 2013,
+  "overview": "Brash boxer Cassius Clay burst into the American consciousness in the early 1960s, just ahead of the Civil Rights movement. His transformation into the spiritually enlightened heavyweight champion Muhammad Ali is legendary, but this religious awakening also led to a bitter legal battle with the U.S. government after he refused to serve in the Vietnam War. This film reveals the perfect storm of race, religion and politics that shaped one of the most recognizable figures in sports history.",
+  "runtime": 86,
+  "poster_path": "/cTwIWk5RpPgBz35J3sWBxSgo6uP.jpg",
+  "url": "https://www.themoviedb.org/movie/174688"
+ },
+ "train to busan - 10th anniversary remastered & revived|2016": {
+  "title": "Train to Busan",
+  "year": 2016,
+  "overview": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
+  "runtime": 118,
+  "poster_path": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+  "url": "https://www.themoviedb.org/movie/396535"
  }
 }
