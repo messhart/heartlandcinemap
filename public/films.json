@@ -3730,5 +3730,21 @@
   "runtime": 4,
   "poster_path": null,
   "url": "https://www.themoviedb.org/movie/1498568"
+ },
+ "a sad and beautiful world|2025": {
+  "title": "A Sad and Beautiful World",
+  "year": 2025,
+  "overview": "In this sweeping love story that spans three decades of passion, heartbreak, and hope, Nino and Yasmina find themselves drawn together by a magnetic relationship. As they face an impossible choice between love and survival, they must decide if they want to build a family and chart a path to happiness in Lebanon, despite the tragedies ravaging the country.",
+  "runtime": 110,
+  "poster_path": "/cOJkkfI9SzXxqoPjc3MttsqGsxr.jpg",
+  "url": "https://www.themoviedb.org/movie/1376838"
+ },
+ "batman|1989": {
+  "title": "Batman",
+  "year": 1989,
+  "overview": "Having witnessed his parents' brutal murder as a child, millionaire philanthropist Bruce Wayne fights crime in Gotham City disguised as Batman, a costumed hero who strikes fear into the hearts of villains. But when a deformed madman known as 'The Joker' seizes control of Gotham's criminal underworld, Batman must face his most ruthless nemesis ever while protecting both his identity and his love interest, reporter Vicki Vale.",
+  "runtime": 126,
+  "poster_path": "/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+  "url": "https://www.themoviedb.org/movie/268"
  }
 }
