@@ -3710,5 +3710,25 @@
   "runtime": 118,
   "poster_path": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
   "url": "https://www.themoviedb.org/movie/396535"
+ },
+ "reel rock 19|2025": {
+  "title": "Reel Rock 19",
+  "year": 2025,
+  "overview": "Reel Rock 19 showcases three world-premiere climbing films spanning disciplines, characters, and continents: a heartfelt story of second chances in love and climbing on Squamish’s legendary Cobra Crack; an outrageous 18-day big wall epic on Patagonia’s towering Torre Central; and the pursuit of a lifelong dream—a 5.15 first ascent—made possible by an unlikely partnership.",
+  "runtime": 138,
+  "poster_path": "/uianSDWR8pIplhyti8FafLXoHDd.jpg",
+  "url": "https://www.themoviedb.org/movie/1451675"
+ },
+ "symbol|": {
+  "miss": true,
+  "checked": "2026-07-22"
+ },
+ "the arrival|2026": {
+  "title": "The Arrival",
+  "year": 2025,
+  "overview": "The Arrival explores how profound the immigrant experience can be by delving into the emotions associated with being uprooted from one world and transplanted into another.  Drawing from Masoomah's journey of culture shock, bewilderment and fascination upon arriving in Australia from her family farm in Afghanistan, feelings are evoked through a rich tapestry of ethnic motifs.",
+  "runtime": 4,
+  "poster_path": null,
+  "url": "https://www.themoviedb.org/movie/1498568"
  }
 }
