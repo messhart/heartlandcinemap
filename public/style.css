@@ -111,30 +111,16 @@ header h1 {
   border: none;
   background: transparent;
 }
+/* clean bordered chip — a plain, fully-closed box (the -webkit-mask ticket
+   notches rendered inconsistently across browsers/GPUs, dropping the right
+   edge for some users, so the perforation is retired here in favor of a
+   border that always draws on all four sides) */
 .field {
-  position: relative;
   display: flex; flex-direction: column; gap: 0.15rem;
-  background: transparent;   /* the ::before layer carries the fill + border */
-  padding: 0.35rem 0.7rem;
-}
-/* the ticket look: a bordered layer with perforated (notched) ends. Drawn as
-   a masked pseudo-element so the notches only cut the BORDER+FILL layer and
-   never shave the field's real edges (which the earlier full-element mask did,
-   dropping the right edge). */
-.field::before {
-  content: "";
-  position: absolute; inset: 0;
-  border: 1px solid var(--text);
   background: var(--card);
-  z-index: -1;
-  /* smaller, shallower ticket notches so the side edges still read as a
-     continuous box (the deep 4px cut looked like a broken right edge) */
-  -webkit-mask:
-    radial-gradient(circle 3px at 0 50%, transparent 97%, #000 99%) left center / 50.5% 100% no-repeat,
-    radial-gradient(circle 3px at 100% 50%, transparent 97%, #000 99%) right center / 50.5% 100% no-repeat;
-          mask:
-    radial-gradient(circle 3px at 0 50%, transparent 97%, #000 99%) left center / 50.5% 100% no-repeat,
-    radial-gradient(circle 3px at 100% 50%, transparent 97%, #000 99%) right center / 50.5% 100% no-repeat;
+  border: 1px solid var(--text);
+  border-radius: 2px;
+  padding: 0.35rem 0.7rem;
 }
 .field label {
   font-family: 'Ostrich Sans Black', sans-serif;
@@ -533,9 +519,15 @@ body.postering { overflow: hidden; }
   border-bottom: 2.5pt solid var(--ptext);
   padding-bottom: 5pt;
 }
-.pp-month { font-family: 'DM Serif Display', Georgia, serif; font-size: 24pt; font-weight: 400; letter-spacing: -0.01em; color: var(--pk); }
-.pp-brand { font-family: 'Spectral', serif; font-variant: small-caps; font-size: 9pt; font-weight: 600; letter-spacing: 0.12em; }
-.pp-scope { margin-left: auto; font-family: 'Spectral', serif; font-size: 7.5pt; color: var(--pmut); text-align: right; max-width: 3.6in; }
+.pp-month { font-family: 'DM Serif Display', Georgia, serif; font-size: 24pt; font-weight: 400; letter-spacing: -0.01em; color: var(--pk); flex: 0 0 auto; }
+.pp-brand { font-family: 'Spectral', serif; font-variant: small-caps; font-size: 9pt; font-weight: 600; letter-spacing: 0.12em; flex: 0 0 auto; }
+/* scope: right-aligned, but allowed to wrap to a second line so a long
+   "within N mi of ZIP · times in TZ" never runs to the sheet's right edge */
+.pp-scope {
+  margin-left: auto; flex: 0 1 auto; min-width: 0;
+  font-family: 'Spectral', serif; font-size: 7.5pt; color: var(--pmut);
+  text-align: right; line-height: 1.3; max-width: 3in;
+}
 
 .pp-dow {
   display: grid;
