@@ -277,7 +277,7 @@
     const ready = plan.size > 0 || !!venueFilter;
     $pt.disabled = !ready;
     $pt.title = ready ? "" :
-      "Pick showtimes with + — or select one venue — to build a calendar";
+      "Pick showtimes with + or select a venue in the map to build calendar";
     if (!ready && !document.getElementById("posterwrap").hidden) closePoster();
   }
 
@@ -298,31 +298,41 @@
   // the lightbox header's rolling rows: up to 3 SHORT currently-listed titles
   // (a real cinema sign only fits short ones), soonest first, deduped by film,
   // rendered "JUL 12 · VERTIGO · MUSIC BOX IL".
-  function fillMarquee(visible, tzFn) {
+  // The lightbox header shows 3 SHORT titles picked at RANDOM from everything
+  // screening across the whole site — independent of the current filter/venue,
+  // like a real marquee that just advertises what's on. Built once at boot.
+  function fillMarquee() {
     const box = document.getElementById("marquee-titles");
     if (!box) return;
     box.textContent = "";
-    const seen = new Set();
-    const picks = [];
-    for (const s of [...visible].sort((a, b) => a.start.localeCompare(b.start))) {
+    // one candidate per distinct film (soonest upcoming showing), short titles
+    const now = Date.now();
+    const byFilm = new Map();
+    for (const s of shows) {
+      if (new Date(s.start).getTime() < now) continue;   // upcoming only
       const info = filmInfo(s);
       const title = (info ? info.title : s.film_title) || "";
-      if (title.length > 18) continue;              // signs fit short titles
+      if (title.length > 18) continue;                   // signs fit short titles
       const gk = groupKey(s);
-      if (seen.has(gk)) continue;
-      seen.add(gk);
-      picks.push({
-        date: fmtDayShort(dayKeyIn(s.start, tzFn(s))).replace(",", "").split(" ").slice(1).join(" "),
-        title,
-        venue: `${s.venue.name} ${s.venue.state}`,
-      });
-      if (picks.length >= 3) break;
+      const prev = byFilm.get(gk);
+      if (!prev || s.start < prev.start) {
+        byFilm.set(gk, { title, start: s.start, venue: s.venue });
+      }
     }
-    for (const p of picks) {
+    const pool = [...byFilm.values()];
+    // shuffle (Fisher–Yates) and take 3
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    for (const p of pool.slice(0, 3)) {
+      const tz = p.venue.tz;
+      const date = fmtDayShort(dayKeyIn(p.start, tz)).replace(",", "")
+        .split(" ").slice(1).join(" ");
       const row = el("div", "mq-title");
-      row.appendChild(el("span", "mq-date", p.date.toUpperCase()));
+      row.appendChild(el("span", "mq-date", date.toUpperCase()));
       row.appendChild(el("span", "mq-film", p.title));
-      row.appendChild(el("span", "mq-venue", p.venue.toUpperCase()));
+      row.appendChild(el("span", "mq-venue", `${p.venue.name} ${p.venue.state}`.toUpperCase()));
       box.appendChild(row);
     }
   }
@@ -550,8 +560,6 @@
       $listings.appendChild(el("p", "empty",
         "Nothing found. Try a wider radius — or no ZIP at all to see every venue we cover."));
     }
-
-    fillMarquee(visible, tzFn);
 
     const nVenues = new Set(visible.map((s) => s.venue_id)).size;
     statusBits.unshift(
@@ -1211,6 +1219,7 @@
         }
       } catch (e) { /* corrupt storage: start fresh */ }
       savePlan();
+      fillMarquee();   // once, from the whole dataset — not filter-dependent
       readParams();
       render();
     })

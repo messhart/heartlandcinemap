@@ -567,19 +567,37 @@ body.postering { overflow: hidden; }
 .pp-daycol {
   border-right: 1px solid var(--pline);
   border-bottom: 1px solid var(--pline);
-  padding: 3pt 4pt;
+  padding: 3pt 5pt 5pt;
   min-width: 0;
+  /* a flex column so the (max 5) entries space out evenly down the day
+     instead of all crowding at the top — more air now that days are capped */
+  display: flex;
+  flex-direction: column;
 }
 .pp-dayhead {
   font-family: 'Spectral', serif;
   font-size: 8pt;
   color: var(--pmut);
-  border-bottom: 1px solid var(--pline);
-  padding-bottom: 2pt;
-  margin-bottom: 2pt;
+  border-bottom: 1.2pt solid var(--pk);
+  padding-bottom: 3pt;
+  margin-bottom: 3pt;
+  flex: 0 0 auto;
 }
 .pp-dayhead-dow { font-variant: small-caps; font-weight: 700; color: var(--pk); letter-spacing: 0.06em; }
-.pp-week-strip .pentry { font-size: 7pt; margin-top: 4pt; }
+
+/* week-strip entries: evenly distributed, each with a little more room and a
+   hairline rule between them for a cleaner grid feel */
+.pp-week-strip .pp-daycol .pentry {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 7pt;
+  margin-top: 0;
+  padding: 4pt 0;
+  border-top: 1px dotted var(--pline);
+}
+.pp-week-strip .pp-daycol .pentry:first-of-type { border-top: none; padding-top: 2pt; }
 
 /* TMDb backdrop strip above a week-strip entry — a horizontal B&W still,
    like the playground calendar. Hidden by the ink-saver B&W toggle. */
@@ -587,12 +605,12 @@ body.postering { overflow: hidden; }
 .pthumb {
   display: block;
   width: 100%;
-  height: 0.38in;
+  height: 0.5in;
   object-fit: cover;
   border-radius: 0;
   background: var(--pout);
   filter: grayscale(1) contrast(1.02);
-  margin-bottom: 2pt;
+  margin-bottom: 3pt;
 }
 /* no-backdrop placeholder: a letter tile filling the same strip */
 span.pthumb-blank {
@@ -601,7 +619,7 @@ span.pthumb-blank {
   justify-content: center;
   color: var(--pmut);
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 16pt;
+  font-size: 18pt;
   filter: none;
 }
 #poster.bw .pthumb { display: none; }
