@@ -68,3 +68,33 @@ venues:
       Restored 1942 Art Deco house (4 screens), Marquee Arts' second Ann Arbor
       venue. Same Agile backend and site as the Michigan; venue_match "State
       Theatre" claims only its screenings. Coords approx — verify.
+
+  - id: redford-theatre-detroit
+    name: Redford Theatre
+    city: Detroit
+    state: MI
+    address: 17360 Lahser Rd.
+    zip: "48219"
+    lat: 42.4173796
+    lng: -83.2572587
+    coords: geocoded
+    tz: America/Detroit
+    website: https://redfordtheatre.com
+    listings_url: https://ticketing.useast.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0
+    platform: veezi
+    fetch_method: static_html
+    adapter: veezi
+    nonprofit: true
+    screens: 1
+    programming: [repertory, classic]
+    status: verified
+    last_verified: 2026-07-24
+    source_urls:
+      - https://redfordtheatre.com/
+      - https://ticketing.useast.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0
+    notes: >-
+      Historic 1928 atmospheric theatre run by the Motor City Theatre Organ
+      Society; classic-film repertory with a Barton pipe organ. Veezi ticketing;
+      its server-rendered sessions page is the listings source. No film year or
+      format exposed by Veezi, so TMDb matches on title only. Added 2026-07-24
+      via the new veezi adapter — verify the first scrape looks right.

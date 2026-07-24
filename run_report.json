@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-24T11:13:51+00:00",
+  "run_at": "2026-07-24T17:36:04+00:00",
   "dropped_records": 0,
   "venues": [
     {
@@ -137,6 +137,30 @@
       "duration_s": 4.0,
       "error": null,
       "scraped_at": "2026-07-24T11:13:51+00:00"
+    },
+    {
+      "venue_id": "heights-theater-columbia-heights",
+      "status": "ok",
+      "showtimes": 43,
+      "duration_s": 0.5,
+      "error": null,
+      "scraped_at": "2026-07-24T17:32:26+00:00"
+    },
+    {
+      "venue_id": "redford-theatre-detroit",
+      "status": "ok",
+      "showtimes": 11,
+      "duration_s": 0.6,
+      "error": null,
+      "scraped_at": "2026-07-24T17:32:28+00:00"
+    },
+    {
+      "venue_id": "riverview-theater-minneapolis",
+      "status": "ok",
+      "showtimes": 58,
+      "duration_s": 0.7,
+      "error": null,
+      "scraped_at": "2026-07-24T17:36:04+00:00"
     }
   ]
 }

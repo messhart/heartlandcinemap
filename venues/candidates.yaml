@@ -168,13 +168,6 @@ candidates:
     note: >-
       Nonprofit community arthouse — but lost its fixed venue in 2023 and now
       pops up nomadically. Verify current home before adding.
-  - name: Redford Theatre
-    city: Detroit
-    state: MI
-    website: https://redfordtheatre.com
-    platform: unknown
-    adapter_status: borderline
-    note: Nonprofit 1928 palace w/ organ; classic rep + 70mm events. Verify.
   - name: Main Art Theatre
     city: Royal Oak
     state: MI
@@ -242,13 +235,6 @@ candidates:
     note: >-
       Nonprofit flagship (5 screens; MSPIFF). Showtimes SPA on mspfilm.org
       (/showtimes/#/calendar), no third-party host — custom/headless adapter.
-  - name: The Riverview Theater
-    city: Minneapolis
-    state: MN
-    website: https://riverviewtheater.com
-    platform: unknown
-    adapter_status: borderline
-    note: Independent second-run/rep single-screen, historic. Verify platform.
   - name: Parkway Theater
     city: Minneapolis
     state: MN
@@ -256,13 +242,6 @@ candidates:
     platform: unknown
     adapter_status: borderline
     note: Independent; rep/events/music+film. Verify platform + film cadence.
-  - name: The Heights Theater
-    city: Columbia Heights
-    state: MN
-    website: https://heightstheater.com
-    platform: unknown
-    adapter_status: borderline
-    note: Restored 1926 w/ pipe organ; rep/35mm/70mm. Verify platform.
   - name: Walker Art Center (Film/Video)
     city: Minneapolis
     state: MN
