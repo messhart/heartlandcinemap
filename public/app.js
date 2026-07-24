@@ -266,7 +266,19 @@
     btn.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
     btn.classList.toggle("picked", picked);
     updatePlanCount();
+    updateCalReady();   // first pick enables the Print-calendar button
     syncMapPicks();
+  }
+
+  // the calendar needs picks or a selected venue to have a bounded scope;
+  // reflect that on the Print-calendar button (called from render + on pick)
+  function updateCalReady() {
+    const $pt = document.getElementById("postertoggle");
+    const ready = plan.size > 0 || !!venueFilter;
+    $pt.disabled = !ready;
+    $pt.title = ready ? "" :
+      "Pick showtimes with + — or select one venue — to build a calendar";
+    if (!ready && !document.getElementById("posterwrap").hidden) closePoster();
   }
 
   // repaint the map's pick rings without a full re-render (keeps scroll pos).
@@ -605,16 +617,10 @@
     };
     if (window.__updateMap) window.__updateMap(window.__mapData);
 
-    // poster + picking only exist at 7/30-day horizons; and without a ZIP the
-    // calendar would cram every venue in the region, so require one
-    const $pt = document.getElementById("postertoggle");
-    $pt.hidden = !posterCap();
-    $pt.disabled = !origin;
-    $pt.title = origin ? "" :
-      "Enter a ZIP code first — a region-wide calendar is too crowded";
-    if ((!posterCap() || !origin) && !document.getElementById("posterwrap").hidden) {
-      closePoster();
-    }
+    // poster + picking only exist at 7/30-day horizons
+    document.getElementById("postertoggle").hidden = !posterCap();
+    if (!posterCap() && !document.getElementById("posterwrap").hidden) closePoster();
+    updateCalReady(); // and it needs picks or a selected venue for its scope
     updatePlanCount();
 
     if (pendingPoster) { // ?poster=1 — open once the first render has data
@@ -752,11 +758,16 @@
     const div = el("div", "pentry" + (thumb ? " pentry-t" : ""));
     let body = div;
     if (thumb) {
+      const title0 = info ? info.title : s0.film_title;
       if (info && info.backdrop_path) {
         const img = el("img", "pthumb");
         img.src = BACKDROP_BASE + info.backdrop_path;
         img.alt = "";
         div.appendChild(img);
+      } else {
+        // no backdrop art — a letter tile in the same strip, like the poster
+        div.appendChild(el("span", "pthumb pthumb-blank",
+          (title0[0] || "?").toUpperCase()));
       }
       body = el("div", "pentry-txt");
       div.appendChild(body);
@@ -1048,16 +1059,19 @@
       }
       nPages = months.length;
     }
-    infoEl.textContent = "Calendar poster · " +
-      (usePicks
-        ? `your ${picked.length} pick${picked.length === 1 ? "" : "s"}`
-        : "auto-filled — pick showtimes with + to make your own") +
+    const scopeLabel = usePicks
+      ? `your ${picked.length} pick${picked.length === 1 ? "" : "s"}`
+      : (!multi && venues[venueIds[0]])
+        ? `everything at ${venues[venueIds[0]].name}`
+        : "pick showtimes with + to make your own";
+    infoEl.textContent = "Calendar poster · " + scopeLabel +
       ` · ${nPages} page${nPages === 1 ? "" : "s"}`;
   }
 
   function openPoster() {
     if (!posterCap()) return; // 60d/all horizons: no poster
-    // no ZIP -> no poster (region-wide is too crowded); covers ?poster=1 too
+    // needs picks or a selected venue (button is disabled otherwise); this also
+    // makes ?poster=1 a no-op until the scope is defined
     if (document.getElementById("postertoggle").disabled) return;
     // unhide BEFORE building: fitMonth measures rendered heights, and a
     // hidden container reports zero, so trimming must happen while visible

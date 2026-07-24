@@ -154,6 +154,19 @@ input, select {
   cursor: pointer;
 }
 #maptoggle:hover { border-color: var(--accent); }
+/* the About link sits in the toggle row, styled like the toggle buttons */
+#abouttoggle {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.25rem 0.7rem;
+  margin-left: 0.4rem;
+}
+#abouttoggle:hover { border-color: var(--accent); }
 #maphint {
   margin: 0.5rem 0 0;
   font-size: 0.8rem;
@@ -300,8 +313,8 @@ h2.dayhead {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem 0.8rem;
-  margin: 0.15rem 0 0;
+  gap: 0.4rem 0.7rem;
+  margin: 0.02rem 0 0;
 }
 .about-line details.about { margin: 0; }
 .tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
@@ -323,9 +336,9 @@ h2.dayhead {
    .chiplines holds one .chipline per venue: a .chipline-label (venue) and a
    .chips row of marquee times. More air above so a single line doesn't float
    above the poster's bottom edge (grows a touch on wider screens). */
-.chiplines { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1.6rem; }
-@media (min-width: 620px) { .chiplines { margin-top: 2.2rem; } }
-.chipline { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; align-items: baseline; }
+.chiplines { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 1.3rem; }
+@media (min-width: 620px) { .chiplines { margin-top: 1.7rem; } }
+.chipline { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; align-items: baseline; }
 .chipline-label {
   font-family: 'Ostrich Sans Black', sans-serif;
   font-weight: 900; text-transform: uppercase;
@@ -334,7 +347,7 @@ h2.dayhead {
 .chips { display: inline-flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; }
 
 /* the pick toggle joins the marquee time; wrap keeps them together */
-.chipwrap { display: inline-flex; align-items: baseline; gap: 0.15rem; }
+.chipwrap { display: inline-flex; align-items: baseline; }
 
 /* the signature marquee time: big hour + raised minutes + format, the whole
    time underlined = the buy link. Sold-out = one continuous strike. */
@@ -343,7 +356,8 @@ a.chip {
   color: var(--text); white-space: nowrap; text-decoration: none;
   display: inline-flex; align-items: baseline;
   border-bottom: 1.5px solid var(--text);
-  padding-bottom: 0.02em;
+  padding-bottom: 0;   /* underline hugs the digits, per the mockup */
+  line-height: 1;
 }
 /* per the mockup: hour and raised minutes are near-glued; the format gets a
    real word gap */
@@ -360,17 +374,23 @@ a.chip.chip-soldout::after {
   height: 1.5px; background: currentColor;
 }
 
-/* the +/★ calendar-pick toggle (system glyphs, as before the redesign) */
+/* the +/★ calendar-pick toggle (system glyphs, as before the redesign).
+   Fixed-width box, glyph centered, so + and ★ occupy the same space and a
+   pick never nudges the row. Star is set smaller so it doesn't tower. */
 .chip-add {
   font: inherit;
-  font-size: 1.05rem; line-height: 1;
-  padding: 0.1rem 0.2rem;
+  font-size: 0.95rem; line-height: 1;
+  width: 1.4rem;   /* fixed box (rem, not em) so glyph size can't change width */
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.1rem 0;
+  margin-left: 0.15rem;
   border: none; background: none;
   color: var(--muted);
   cursor: pointer;
 }
 .chip-add:hover { color: var(--text); }
-.chip-add.picked { color: var(--text); }
+/* ★ reads larger than + at the same size, so shrink it; also our accent ink */
+.chip-add.picked { font-size: 0.82rem; color: var(--text); }
 
 #plancount { font-size: 0.85rem; color: var(--muted); margin-left: 0.6rem; }
 #plancount a { color: var(--accent); }
@@ -574,6 +594,16 @@ body.postering { overflow: hidden; }
   filter: grayscale(1) contrast(1.02);
   margin-bottom: 2pt;
 }
+/* no-backdrop placeholder: a letter tile filling the same strip */
+span.pthumb-blank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--pmut);
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 16pt;
+  filter: none;
+}
 #poster.bw .pthumb { display: none; }
 
 .pentry { font-family: 'Spectral', serif; font-size: 6.6pt; line-height: 1.3; margin-top: 2pt; overflow-wrap: break-word; }
@@ -652,6 +682,32 @@ footer h2 {
   text-transform: uppercase; letter-spacing: 0.03em;
   font-size: 1.15rem; color: var(--text);
 }
+
+/* ---------- About subpage ---------- */
+.about-page {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  margin-top: 1.5rem;
+}
+.about-page h2 {
+  font-family: 'Ostrich Sans Heavy', sans-serif; font-weight: 900;
+  text-transform: uppercase; letter-spacing: 0.03em;
+  font-size: 1.3rem; margin: 1.6rem 0 0.5rem;
+}
+.about-page p { max-width: 40rem; line-height: 1.6; }
+.about-back {
+  display: inline-block;
+  font-family: 'Ostrich Sans Black', sans-serif;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--accent);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.3rem 0.8rem;
+  margin-top: 1.5rem;
+}
+.about-back:hover { border-color: var(--accent); }
 
 /* responsive film rows: separators + type lighten with the viewport, so the
    double rule doesn't feel heavy on a phone (mirrors the locked playground). */
