@@ -183,10 +183,11 @@ input, select {
 }
 #abouttoggle:hover { border-color: var(--accent); }
 #maphint {
-  margin: 0.5rem 0 0;
+  margin: 0.5rem auto 0;   /* center the 40rem block under the centered controls */
   font-size: 0.75rem;
   color: var(--muted);
   max-width: 40rem;
+  text-align: center;
   font-family: 'JetBrains Mono', monospace;
 }
 #map {
