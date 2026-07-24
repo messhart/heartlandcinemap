@@ -215,10 +215,21 @@ def main() -> None:
     for key, (title, year, screen_year) in sorted(wanted.items()):
         cached = films.get(key)
         if key in overrides:
-            if cached and not cached.get("miss"):
-                continue  # already resolved (by an earlier override run)
-            detail = tmdb(f"/movie/{overrides[key]}")
-            films[key] = _film_entry(detail)
+            ov = overrides[key]
+            # value is either a TMDb id, or {id: N, year: Y} to also pin the
+            # displayed year (venues sometimes cite a different year than TMDb)
+            ov_id = ov["id"] if isinstance(ov, dict) else ov
+            ov_year = ov.get("year") if isinstance(ov, dict) else None
+            want_url = f"https://www.themoviedb.org/movie/{ov_id}"
+            # re-resolve unless the cache already points at the override's id
+            # (so an override can CORRECT a previously wrong auto-match)
+            if cached and not cached.get("miss") and cached.get("url") == want_url \
+                    and (ov_year is None or cached.get("year") == ov_year):
+                continue
+            entry = _film_entry(tmdb(f"/movie/{ov_id}"))
+            if ov_year is not None:
+                entry["year"] = ov_year
+            films[key] = entry
             new += 1
             continue
         if cached and not (cached.get("miss") and cached.get("checked", "") < retry_before):

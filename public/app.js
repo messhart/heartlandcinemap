@@ -821,9 +821,12 @@
   // fitter re-renders overpacked cells with a smaller limit until the month
   // fits one page. Groups/tzFn/codes ride on the cell so we can re-render.
   function fillCell(cell, limit) {
-    const { groups, tzFn, codes, thumb } = cell._pdata;
+    const { groups, tzFn, codes, thumb, slots } = cell._pdata;
     while (cell.childNodes.length > 1) cell.removeChild(cell.lastChild); // keep daynum/header
-    const shown = Math.min(limit, groups.length);
+    // with a fixed slot count (week-strip grid), the "+N more" line occupies a
+    // slot too — so when it's needed, show one fewer film to leave room for it
+    let shown = Math.min(limit, groups.length);
+    if (slots && groups.length > slots) shown = Math.min(shown, slots - 1);
     for (let i = 0; i < shown; i++) {
       cell.appendChild(posterEntry(groups[i], tzFn, codes, thumb));
     }
@@ -986,7 +989,7 @@
       col.appendChild(hd);
       const dayShows = byDay.get(key);
       if (dayShows) {
-        col._pdata = { groups: dayGroups(dayShows), tzFn, codes, thumb: true };
+        col._pdata = { groups: dayGroups(dayShows), tzFn, codes, thumb: true, slots: 5 };
         fillCell(col, 5);
       }
       row.appendChild(col);

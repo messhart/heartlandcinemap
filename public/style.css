@@ -112,14 +112,27 @@ header h1 {
   background: transparent;
 }
 .field {
+  position: relative;
   display: flex; flex-direction: column; gap: 0.15rem;
-  background: var(--card);
-  border: 1px solid var(--text);
+  background: transparent;   /* the ::before layer carries the fill + border */
   padding: 0.35rem 0.7rem;
-  -webkit-mask: radial-gradient(circle 4px at 0 50%, transparent 98%, #000) left/51% 100% no-repeat,
-                radial-gradient(circle 4px at 100% 50%, transparent 98%, #000) right/51% 100% no-repeat;
-          mask: radial-gradient(circle 4px at 0 50%, transparent 98%, #000) left/51% 100% no-repeat,
-                radial-gradient(circle 4px at 100% 50%, transparent 98%, #000) right/51% 100% no-repeat;
+}
+/* the ticket look: a bordered layer with perforated (notched) ends. Drawn as
+   a masked pseudo-element so the notches only cut the BORDER+FILL layer and
+   never shave the field's real edges (which the earlier full-element mask did,
+   dropping the right edge). */
+.field::before {
+  content: "";
+  position: absolute; inset: 0;
+  border: 1px solid var(--text);
+  background: var(--card);
+  z-index: -1;
+  -webkit-mask:
+    radial-gradient(circle 4px at 0 50%, transparent 96%, #000 98%) left center / 50.5% 100% no-repeat,
+    radial-gradient(circle 4px at 100% 50%, transparent 96%, #000 98%) right center / 50.5% 100% no-repeat;
+          mask:
+    radial-gradient(circle 4px at 0 50%, transparent 96%, #000 98%) left center / 50.5% 100% no-repeat,
+    radial-gradient(circle 4px at 100% 50%, transparent 96%, #000 98%) right center / 50.5% 100% no-repeat;
 }
 .field label {
   font-family: 'Ostrich Sans Black', sans-serif;
@@ -499,7 +512,7 @@ body.postering { overflow: hidden; }
      page-break tips a hairline onto a second sheet, so we leave slack. */
   width: 10.4in;
   height: 7.4in;
-  padding: 0.2in 0.28in;
+  padding: 0.28in 0.45in;   /* roomier side margins so the header/foot breathe */
   margin: 0 auto 1.4rem;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -576,10 +589,13 @@ body.postering { overflow: hidden; }
   border-bottom: 1px solid var(--pline);
   padding: 3pt 5pt 5pt;
   min-width: 0;
-  /* a flex column so the (max 5) entries space out evenly down the day
-     instead of all crowding at the top — more air now that days are capped */
-  display: flex;
-  flex-direction: column;
+  /* a fixed 7×5 grid: the day header, then exactly 5 equal row slots so every
+     day's entries line up row-for-row across the week (a 2-film day and a
+     5-film day share the same slot boundaries). When a day has >5 films, the
+     5th slot becomes the "+N more" line (see fillCell's slots handling). */
+  display: grid;
+  grid-template-rows: auto repeat(5, 1fr);
+  row-gap: 3pt;
 }
 .pp-dayhead {
   font-family: 'Spectral', serif;
@@ -587,24 +603,21 @@ body.postering { overflow: hidden; }
   color: var(--pmut);
   border-bottom: 1.2pt solid var(--pk);
   padding-bottom: 3pt;
-  margin-bottom: 3pt;
-  flex: 0 0 auto;
+  margin-bottom: 1pt;
 }
 .pp-dayhead-dow { font-variant: small-caps; font-weight: 700; color: var(--pk); letter-spacing: 0.06em; }
 
-/* week-strip entries: evenly distributed, each with a little more room and a
-   hairline rule between them for a cleaner grid feel */
+/* week-strip entries: one per fixed row slot, top-aligned, no separators
+   (the aligned slots give the grid feel — no extra rules needed) */
 .pp-week-strip .pp-daycol .pentry {
-  flex: 1 1 0;
-  min-height: 0;
+  min-height: 0; min-width: 0;
   display: flex;
   flex-direction: column;
   font-size: 7pt;
-  margin-top: 0;
-  padding: 4pt 0;
-  border-top: 1px dotted var(--pline);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-.pp-week-strip .pp-daycol .pentry:first-of-type { border-top: none; padding-top: 2pt; }
 
 /* TMDb backdrop strip above a week-strip entry — a horizontal B&W still,
    like the playground calendar. Hidden by the ink-saver B&W toggle. */
@@ -755,13 +768,13 @@ footer h2 {
 }
 /* the sign-off logo — black art on light, white art on dark */
 .about-logo {
-  width: 12rem; max-width: 55%;
+  width: 9.5rem; max-width: 48%;
   height: auto;
   display: block;
 }
 .about-logo.dark { display: none; }
 .about-ig { display: inline-flex; line-height: 0; }
-.about-ig svg { width: 1.5rem; height: 1.5rem; display: block; }
+.about-ig svg { width: 1.2rem; height: 1.2rem; display: block; }
 .about-ig .ig-mark { fill: var(--text); transition: opacity 0.15s; }
 .about-ig:hover .ig-mark { opacity: 0.6; }
 @media (prefers-color-scheme: dark) {

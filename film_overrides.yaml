@@ -11,3 +11,6 @@
 
 "network|": 10774 # Network (1976) — Kan-Kan's 4K restoration, title has no year
 "a tale of summer|1996": 37563 # Rohmer's Conte d'été — TMDb calls it "A Summer's Tale"
+# Tsai Ming-liang's The Hole — Gene Siskel dates it 1998 (TMDb says 1999).
+# Pin the id AND the year so it lists as 1998, and correct the wrong auto-match.
+"the hole|1998": { id: 47060, year: 1998 }
