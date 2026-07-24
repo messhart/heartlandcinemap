@@ -25,6 +25,9 @@
   standards), build a film calendar of your own, and enjoy the movies. Please
   note that showtimes and ticket availability may change.</p>
 
+  <p class="about-count" id="about-count" hidden>Including
+    <b id="ac-venues"></b> venues in <b id="ac-states"></b> states, list growing.</p>
+
   <h2>Run a cinema?</h2>
   <p>We greatly appreciate your business. If you'd like your listings added,
   corrected, or removed, please send an email to the address below and we'll
@@ -57,5 +60,16 @@
   <div><a class="about-back" href="./index.html">← Back to showtimes</a></div>
 </main>
 
+<script>
+// fill the live venue/state count from the same data the map uses; the line
+// stays hidden if the fetch fails, so it never shows a broken "0 venues"
+fetch("./venues.json").then((r) => r.json()).then((venues) => {
+  const states = new Set(venues.map((v) => v.state).filter(Boolean));
+  if (!venues.length || !states.size) return;
+  document.getElementById("ac-venues").textContent = venues.length;
+  document.getElementById("ac-states").textContent = states.size;
+  document.getElementById("about-count").hidden = false;
+}).catch(() => {});
+</script>
 </body>
 </html>

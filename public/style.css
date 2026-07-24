@@ -106,6 +106,7 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+  justify-content: center;   /* center the filter chips */
   gap: 0.7rem;
   padding: 0.4rem 0;
   border: none;
@@ -151,12 +152,12 @@ input, select {
   min-width: 6rem;
 }
 
-#status { min-height: 1.5em; color: var(--muted); font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; }
+#status { min-height: 1.5em; color: var(--muted); font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; text-align: center; }
 #status .warn { color: var(--accent); }
 #status a { color: var(--accent); }
 
 /* map panel */
-#mapsec { margin: 0.75rem 0 0; }
+#mapsec { margin: 0.75rem 0 0; text-align: center; }
 #maptoggle {
   font: inherit;
   font-size: 0.85rem;
@@ -763,6 +764,9 @@ footer h2 {
   font-size: 0.82rem;
 }
 .about-page a { color: var(--accent); }
+/* the live "Including N venues in M states" stat line */
+.about-count { margin-top: 1.1rem; color: var(--text); }
+.about-count b { font-weight: 700; }
 
 /* "Brought to you by" — same voice as the ABOUT / CREDITS section headers.
    (selector matches .about-page p specificity so the mono body rule doesn't
