@@ -111,17 +111,30 @@ header h1 {
   border: none;
   background: transparent;
 }
-/* clean bordered chip — a plain, fully-closed box (the -webkit-mask ticket
-   notches rendered inconsistently across browsers/GPUs, dropping the right
-   edge for some users, so the perforation is retired here in favor of a
-   border that always draws on all four sides) */
+/* ticket-chip filter field — a real, always-drawn border, with the ticket
+   perforations "punched" by two background-colored circles overlapping the
+   side borders (pseudo-elements, NOT a mask — a mask shaved the border off
+   for some browsers). The circles sit on top of the border and erase a
+   semicircle from each side, giving the notch without ever dropping an edge. */
 .field {
+  position: relative;
   display: flex; flex-direction: column; gap: 0.15rem;
   background: var(--card);
   border: 1px solid var(--text);
-  border-radius: 2px;
   padding: 0.35rem 0.7rem;
 }
+.field::before, .field::after {
+  content: "";
+  position: absolute; top: 50%;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--bg);   /* page bg — a plain bite out of the box + its border */
+}
+/* a full circle centered exactly on each side border: it overlaps the border
+   line and, being page-colored, erases a semicircle from it — a clean notch,
+   no mask (so the border on the other three sides is never affected) */
+.field::before { left: 0; transform: translate(-50%, -50%); }
+.field::after  { right: 0; transform: translate(50%, -50%); }
 .field label {
   font-family: 'Ostrich Sans Black', sans-serif;
   font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
@@ -501,7 +514,7 @@ body.postering { overflow: hidden; }
      page-break tips a hairline onto a second sheet, so we leave slack. */
   width: 10.4in;
   height: 7.4in;
-  padding: 0.3in 0.6in;   /* generous side margins so header/foot/grid breathe */
+  padding: 0.35in 0.85in;   /* generous side margins so header/foot/grid breathe */
   margin: 0 auto 1.4rem;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.4);
   display: flex;
