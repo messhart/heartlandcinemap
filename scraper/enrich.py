@@ -53,7 +53,9 @@ FORMAT_PAREN_RE = re.compile(
 
 
 FORMAT_SUFFIX_RE = re.compile(
-    r"(\s*[-–—]\s*(?:70\s?mm|35\s?mm|16\s?mm|4k[^,]*|imax)|\s+on\s+(?:70|35|16)\s?mm)\s*$", re.I
+    r"(\s*[-–—]\s*(?:70\s?mm|35\s?mm|16\s?mm|4k[^,]*|imax)"
+    r"|\s+(?:on|in)\s+(?:70|35|16)\s?mm"      # "The Odyssey in 70mm"
+    r"|\s+in\s+4k)\s*$", re.I
 )
 TITLE_YEAR_RE = re.compile(r"\(((?:19|20)\d{2})\)")
 
@@ -148,12 +150,22 @@ def _search_one(title: str, year, screen_year=None) -> dict | None:
         # Agitators" pre-release) — accept rather than punish TMDb's gap
         return undated[0]
     if exact:
-        # No year to disambiguate: only match when all same-titled candidates
-        # are the same film (repertory houses screen remade titles — a wrong
-        # synopsis is worse than none).
+        # No year to disambiguate. If every same-titled candidate is the same
+        # film, take it. Otherwise fall back to "the famous one": the candidate
+        # with by far the most TMDb votes — but only when it clearly dominates,
+        # so a coin-flip between two remakes still declines. vote_count tracks
+        # "the well-known film" far better than popularity (which can spike for
+        # a recent obscure short — e.g. a 2020 "Cocoon" outranks the 1985 one
+        # on popularity but has 48 votes vs 1427).
         years = {ry for _, ry in exact}
         if len(years) == 1:
             return exact[0][0]
+        ranked = sorted(exact, key=lambda rv: rv[0].get("vote_count", 0), reverse=True)
+        top, second = ranked[0][0], ranked[1][0]
+        top_votes = top.get("vote_count", 0)
+        second_votes = second.get("vote_count", 0)
+        if top_votes >= 100 and top_votes >= 5 * max(second_votes, 1):
+            return top
         return None
     # Annual-edition rule: venues drop the year that IS part of the TMDb
     # title ("CatVideoFest" at Music Box vs TMDb's "CatVideoFest 2026").
