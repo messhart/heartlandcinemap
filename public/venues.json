@@ -262,6 +262,36 @@
     "notes": "Restored 1942 Art Deco house (4 screens), Marquee Arts' second Ann Arbor venue. Same Agile backend and site as the Michigan; venue_match \"State Theatre\" claims only its screenings. Coords approx — verify."
   },
   {
+    "id": "redford-theatre-detroit",
+    "name": "Redford Theatre",
+    "city": "Detroit",
+    "state": "MI",
+    "address": "17360 Lahser Rd.",
+    "zip": "48219",
+    "lat": 42.4173796,
+    "lng": -83.2572587,
+    "coords": "geocoded",
+    "tz": "America/Detroit",
+    "website": "https://redfordtheatre.com",
+    "listings_url": "https://ticketing.useast.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "platform": "veezi",
+    "fetch_method": "static_html",
+    "adapter": "veezi",
+    "nonprofit": true,
+    "screens": 1,
+    "programming": [
+      "repertory",
+      "classic"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-24",
+    "source_urls": [
+      "https://redfordtheatre.com/",
+      "https://ticketing.useast.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    ],
+    "notes": "Historic 1928 atmospheric theatre run by the Motor City Theatre Organ Society; classic-film repertory with a Barton pipe organ. Veezi ticketing; its server-rendered sessions page is the listings source. No film year or format exposed by Veezi, so TMDb matches on title only. Added 2026-07-24 via the new veezi adapter — verify the first scrape looks right."
+  },
+  {
     "id": "trylon-minneapolis",
     "name": "Trylon Cinema",
     "city": "Minneapolis",
@@ -291,6 +321,68 @@
       "https://www.trylon.org/"
     ],
     "notes": "Nonprofit repertory microcinema, on-site WordPress cart. Homepage \"upcoming by date\" widget server-renders ~29 days (date buttons 1:1 with day lists; no year on dates — adapter rolls the year forward). Titles carry \"in 4K/35mm\" suffixes and \"*Sold Out*\" markers. No film year on site — enrichment leans on the ambiguity guard + overrides. Coords approx — verify."
+  },
+  {
+    "id": "riverview-theater-minneapolis",
+    "name": "The Riverview Theater",
+    "city": "Minneapolis",
+    "state": "MN",
+    "address": "3800 42nd Ave S",
+    "zip": "55406",
+    "lat": 44.9340406,
+    "lng": -93.2131482,
+    "coords": "geocoded",
+    "tz": "America/Chicago",
+    "website": "https://riverviewtheater.com",
+    "listings_url": "https://ticketing.useast.veezi.com/sessions/?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "platform": "veezi",
+    "fetch_method": "static_html",
+    "adapter": "veezi",
+    "nonprofit": false,
+    "screens": 1,
+    "programming": [
+      "repertory",
+      "classic",
+      "first-run-indie"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-24",
+    "source_urls": [
+      "https://riverviewtheater.com/",
+      "https://ticketing.useast.veezi.com/sessions/?siteToken=3taz3vkks7e11yj7r5dft9pq30"
+    ],
+    "notes": "Historic 1948 single-screen, beloved second-run/repertory house. Veezi ticketing; server-rendered sessions page is the listings source. Title-only TMDb matching (Veezi exposes no year/format). Added 2026-07-24 via the new veezi adapter — verify the first scrape."
+  },
+  {
+    "id": "heights-theater-columbia-heights",
+    "name": "The Heights Theater",
+    "city": "Columbia Heights",
+    "state": "MN",
+    "address": "3951 Central Ave NE",
+    "zip": "55421",
+    "lat": 45.0397271,
+    "lng": -93.2475193,
+    "coords": "geocoded",
+    "tz": "America/Chicago",
+    "website": "https://heightstheater.com",
+    "listings_url": "https://ticketing.useast.veezi.com/sessions/?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "platform": "veezi",
+    "fetch_method": "static_html",
+    "adapter": "veezi",
+    "nonprofit": false,
+    "screens": 1,
+    "programming": [
+      "repertory",
+      "classic",
+      "arthouse"
+    ],
+    "status": "verified",
+    "last_verified": "2026-07-24",
+    "source_urls": [
+      "https://heightstheater.com/",
+      "https://ticketing.useast.veezi.com/sessions/?siteToken=3408r7zh5fyw2jpcrakzvh6mp0"
+    ],
+    "notes": "Restored 1926 single-screen with a Wurlitzer pipe organ; 35mm/70mm repertory and arthouse. Veezi ticketing; server-rendered sessions page is the listings source. Title-only TMDb matching. Added 2026-07-24 via the new veezi adapter — verify the first scrape."
   },
   {
     "id": "hi-pointe-theatre-st-louis",

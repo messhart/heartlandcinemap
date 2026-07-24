@@ -299,6 +299,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-24T15:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6693?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Invite",
     "start": "2026-07-24T15:00:00-05:00",
@@ -514,6 +527,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-24T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7987?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -1014,6 +1040,19 @@
     "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-24T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6694?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maddie's Secret",
     "start": "2026-07-24T19:00:00-05:00",
@@ -1105,6 +1144,19 @@
     "detail_url": "https://filmstreams.org/films/the-odyssey"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-24T19:25:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7993?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Invite",
     "start": "2026-07-24T19:30:00-04:00",
@@ -1151,6 +1203,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 1984,
     "screen": "Parking Lot",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Pirates of the Caribbean: The Curse of the Black P",
+    "start": "2026-07-24T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/65?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -1521,6 +1586,19 @@
     "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Drop Dead Gorgeous",
+    "start": "2026-07-24T22:40:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8002?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Christine",
     "start": "2026-07-24T23:30:00-05:00",
@@ -1558,6 +1636,19 @@
     "series": "Forever Young",
     "sold_out": false,
     "detail_url": "https://filmstreams.org/films/night-at-the-museum"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Drop Dead Gorgeous",
+    "start": "2026-07-25T10:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8004?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "music-box-chicago",
@@ -1807,6 +1898,19 @@
     "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-25T12:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6703?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "Hadestown: The Musical w/ Des Moines Performing Arts",
     "start": "2026-07-25T12:00:00-05:00",
@@ -1866,6 +1970,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-25T12:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7982?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -2026,6 +2143,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/motor-city-2026/"
+  },
+  {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Cocoon",
+    "start": "2026-07-25T14:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/66?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "film-streams-ruth-sokolof-omaha",
@@ -2416,6 +2546,32 @@
     "series": "Programmer's Pick",
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/rose-of-nevada/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-25T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6704?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-25T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7988?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "state-theatre-ann-arbor",
@@ -2977,6 +3133,19 @@
     "detail_url": "https://varsitydesmoines.com/movies/the-odyssey/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-25T19:25:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7994?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "The Invite",
     "start": "2026-07-25T19:30:00-04:00",
@@ -3053,6 +3222,32 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "La La Land",
+    "start": "2026-07-25T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/67?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-25T20:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6705?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "oriental-theatre-milwaukee",
@@ -3380,6 +3575,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Drop Dead Gorgeous",
+    "start": "2026-07-25T22:40:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8003?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Maximum Overdrive",
     "start": "2026-07-25T23:30:00-05:00",
@@ -3575,6 +3783,19 @@
     "detail_url": "https://marquee-arts.org/event-page/?showingId=1025293&eventId=1009358"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-26T11:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6706?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Sherman's March",
     "start": "2026-07-26T11:30:00-05:00",
@@ -3738,6 +3959,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-26T12:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7983?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -4186,6 +4420,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-26T15:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6707?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Hadestown: The Musical",
     "start": "2026-07-26T15:30:00-05:00",
@@ -4323,6 +4570,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-26T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7989?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -4836,6 +5096,19 @@
     "detail_url": "https://varsitydesmoines.com/movies/the-odyssey/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-26T19:25:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7995?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Her Private Hell",
     "start": "2026-07-26T19:30:00-04:00",
@@ -4867,6 +5140,19 @@
     "start": "2026-07-26T19:30:00-04:00",
     "ticket_url": "https://kankanindy.com/events/theodyssey/",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-26T19:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6708?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
     "film_year": null,
     "screen": null,
     "format": null,
@@ -5031,6 +5317,19 @@
     "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-27T12:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7984?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "varsity-cinema-des-moines",
     "film_title": "The Odyssey",
     "start": "2026-07-27T14:00:00-05:00",
@@ -5055,6 +5354,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-27T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6699?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "filmscene-iowa-city",
@@ -5169,6 +5481,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-27T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7990?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -5486,6 +5811,19 @@
     "detail_url": "https://icfilmscene.org/film/rose-of-nevada/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-27T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6695?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Invite",
     "start": "2026-07-27T19:00:00-05:00",
@@ -5559,6 +5897,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-27T19:25:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7996?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -5733,6 +6084,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Secret Life of Pets",
+    "start": "2026-07-28T10:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7999?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "film-streams-dundee-omaha",
     "film_title": "Night at the Museum",
     "start": "2026-07-28T12:00:00-05:00",
@@ -5744,6 +6108,19 @@
     "series": "Forever Young",
     "sold_out": false,
     "detail_url": "https://filmstreams.org/films/night-at-the-museum"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-28T12:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7985?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "filmscene-iowa-city",
@@ -5770,6 +6147,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://varsitydesmoines.com/movies/the-odyssey/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-28T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6700?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "film-streams-dundee-omaha",
@@ -5884,6 +6274,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-28T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7991?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -6344,6 +6747,19 @@
     "detail_url": "https://icfilmscene.org/film/rose-of-nevada/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-28T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6696?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "The Invite",
     "start": "2026-07-28T19:00:00-05:00",
@@ -6430,6 +6846,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-28T19:25:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7997?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -6656,6 +7085,32 @@
     "detail_url": "https://filmstreams.org/films/the-invite"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Secret Life of Pets",
+    "start": "2026-07-29T10:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8000?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-29T12:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7986?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "film-streams-dundee-omaha",
     "film_title": "Night at the Museum",
     "start": "2026-07-29T13:00:00-05:00",
@@ -6747,6 +7202,19 @@
     "detail_url": "https://filmstreams.org/films/remake"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-29T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6701?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "film-streams-ruth-sokolof-omaha",
     "film_title": "The Odyssey",
     "start": "2026-07-29T15:30:00-05:00",
@@ -6833,6 +7301,19 @@
     "film_year": 2025,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-29T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7992?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -7306,6 +7787,19 @@
     "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-29T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6697?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Boogie Nights (4K Restoration)",
     "start": "2026-07-29T19:00:00-05:00",
@@ -7402,6 +7896,19 @@
     "start": "2026-07-29T19:20:00-04:00",
     "ticket_url": "https://kankanindy.com/events/theodyssey/",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-29T19:25:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7998?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
     "film_year": null,
     "screen": null,
     "format": null,
@@ -7644,6 +8151,19 @@
     "detail_url": "https://icfilmscene.org/film/the-odyssey-2026/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Secret Life of Pets",
+    "start": "2026-07-30T11:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8001?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Her Private Hell",
     "start": "2026-07-30T12:10:00-04:00",
@@ -7709,6 +8229,19 @@
     "detail_url": "https://icfilmscene.org/film/mary-oliver-saved-by-the-beauty-of-the-world/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "The Odyssey",
+    "start": "2026-07-30T13:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7870?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Her Private Hell",
     "start": "2026-07-30T14:30:00-04:00",
@@ -7746,6 +8279,19 @@
     "series": "4K Restoration",
     "sold_out": false,
     "detail_url": "https://filmstreams.org/films/shermans-march"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-30T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6702?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -8190,6 +8736,19 @@
     "detail_url": "https://icfilmscene.org/film/the-invite-2026/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Odyssey in 70mm",
+    "start": "2026-07-30T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6698?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Sorry to Bother You",
     "start": "2026-07-30T19:00:00-05:00",
@@ -8210,6 +8769,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2018,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-07-30T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7868?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -8463,6 +9035,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Mad Max: Fury Road",
+    "start": "2026-07-30T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7869?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Our Hero, Balthazar",
     "start": "2026-07-30T22:00:00-05:00",
@@ -8487,6 +9072,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/spider-man-brand-new-day/"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-07-31T12:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7798?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -8561,6 +9159,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2026,
     "screen": "Oriental Theatre - Abele Cinema (Main)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-07-31T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7799?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -8690,6 +9301,19 @@
     "ticket_url": "https://www.siskelfilmcenter.org/m",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 1931,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-07-31T18:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7796?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -8944,6 +9568,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/the-hole/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-07-31T21:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7797?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "gateway-film-center-columbus",
     "film_title": "Spider-Man: Brand New Day",
     "start": "2026-07-31T21:15:00-04:00",
@@ -9027,6 +9664,19 @@
     "start": "2026-07-31T22:30:00-04:00",
     "ticket_url": "https://kankanindy.com/events/iwantyoursex/",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Mad Max: Fury Road",
+    "start": "2026-07-31T23:35:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7800?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
     "film_year": null,
     "screen": null,
     "format": null,
@@ -9120,6 +9770,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2025,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-01T12:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7925?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -9289,6 +9952,19 @@
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 2025,
     "screen": "Oriental Theatre - Herzfeld Cinema (East)",
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-01T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7926?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
     "format": null,
     "series": null,
     "sold_out": false,
@@ -9470,6 +10146,19 @@
     "ticket_url": "https://www.siskelfilmcenter.org/bullitt",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
     "film_year": 1968,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-01T18:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7929?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
     "screen": null,
     "format": null,
     "series": null,
@@ -9672,6 +10361,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-01T21:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7931?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "Easy Rider",
     "start": "2026-08-01T21:15:00-04:00",
@@ -9745,6 +10447,19 @@
     "film_year": 2026,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Mad Max: Fury Road",
+    "start": "2026-08-01T23:35:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7933?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -9839,6 +10554,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/spider-man-brand-new-day/"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-02T12:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7927?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "downer-theatre-milwaukee",
@@ -9979,6 +10707,19 @@
     "film_year": 1979,
     "screen": null,
     "format": "4K",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-02T15:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7928?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -10166,6 +10907,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-02T18:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7930?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "oriental-theatre-milwaukee",
     "film_title": "Spider-Man: Brand New Day",
     "start": "2026-08-02T18:30:00-05:00",
@@ -10309,6 +11063,19 @@
     "detail_url": "https://icfilmscene.org/film/walk-hard-the-dewey-cox-story/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-02T21:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7932?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "I Want Your Sex",
     "start": "2026-08-02T21:30:00-05:00",
@@ -10348,6 +11115,19 @@
     "detail_url": "https://icfilmscene.org/film/filmcamp-stop-motion-animation-2026/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-03T13:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8005?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "filmscene-iowa-city",
     "film_title": "Spider-Man: Brand New Day",
     "start": "2026-08-03T15:30:00-05:00",
@@ -10382,6 +11162,19 @@
     "film_year": 1993,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-03T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8006?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -10463,6 +11256,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/amores-perros-4k-restoration/"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-03T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8011?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -10556,6 +11362,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Minions: The Rise of Gru",
+    "start": "2026-08-04T11:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7883?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-04T13:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7873?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "filmscene-iowa-city",
     "film_title": "Spider-Man: Brand New Day",
     "start": "2026-08-04T15:30:00-05:00",
@@ -10590,6 +11422,19 @@
     "film_year": 1993,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-04T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7874?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -10686,6 +11531,19 @@
     "detail_url": "https://hipointetheatre.org/movies/i-want-your-sex/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-04T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7880?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "trylon-minneapolis",
     "film_title": "The Muppet Movie",
     "start": "2026-08-04T19:00:00-05:00",
@@ -10751,6 +11609,32 @@
     "detail_url": null
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Minions: The Rise of Gru",
+    "start": "2026-08-05T11:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8014?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-05T13:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8007?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "state-theatre-ann-arbor",
     "film_title": "Spider-Man: Brand New Day",
     "start": "2026-08-05T14:00:00-04:00",
@@ -10798,6 +11682,19 @@
     "film_year": 1993,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-05T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8008?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -10879,6 +11776,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/face-off/"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-05T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8012?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "trylon-minneapolis",
@@ -10972,6 +11882,32 @@
     "detail_url": "https://icfilmscene.org/film/blue-summer/"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Minions: The Rise of Gru",
+    "start": "2026-08-06T11:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8015?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-06T13:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8009?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "filmscene-iowa-city",
     "film_title": "Spider-Man: Brand New Day",
     "start": "2026-08-06T15:15:00-05:00",
@@ -11006,6 +11942,19 @@
     "film_year": 1993,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-06T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8010?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -11068,6 +12017,19 @@
     "start": "2026-08-06T19:00:00-05:00",
     "ticket_url": "https://musicboxtheatre.com/films-and-events/music-box-bingo",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Spider-Man: Brand New Day",
+    "start": "2026-08-06T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/8013?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
     "film_year": null,
     "screen": null,
     "format": null,
@@ -11149,6 +12111,19 @@
     "film_year": null,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "Hundreds of Beavers",
+    "start": "2026-08-06T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7886?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -11284,6 +12259,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Teenage Mutant Ninja Turtles",
+    "start": "2026-08-07T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/68?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Rose of Nevada",
     "start": "2026-08-07T20:15:00-05:00",
@@ -11347,6 +12335,19 @@
     "series": "Forever Young",
     "sold_out": false,
     "detail_url": "https://filmstreams.org/films/teenage-mutant-ninja-turtles"
+  },
+  {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "CatVideoFest 2026",
+    "start": "2026-08-08T10:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7966?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "michigan-theater-ann-arbor",
@@ -11414,6 +12415,19 @@
     "detail_url": "https://marquee-arts.org/event-page/?showingId=1025581&eventId=1024597"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "CatVideoFest 2026",
+    "start": "2026-08-08T13:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6684?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "filmscene-iowa-city",
     "film_title": "Catvideofest 2026",
     "start": "2026-08-08T13:30:00-05:00",
@@ -11477,6 +12491,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://marquee-arts.org/event-page/?showingId=1019856&eventId=1019847"
+  },
+  {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Harvey",
+    "start": "2026-08-08T14:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/69?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -11648,6 +12675,19 @@
     "detail_url": "https://hipointetheatre.org/movies/rose-of-nevada/"
   },
   {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "The Help",
+    "start": "2026-08-08T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/70?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "filmscene-iowa-city",
     "film_title": "Fantastic Mr. Fox",
     "start": "2026-08-08T20:15:00-05:00",
@@ -11726,6 +12766,19 @@
     "detail_url": "https://filmstreams.org/films/teenage-mutant-ninja-turtles"
   },
   {
+    "venue_id": "riverview-theater-minneapolis",
+    "film_title": "CatVideoFest 2026",
+    "start": "2026-08-09T10:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/7967?siteToken=3taz3vkks7e11yj7r5dft9pq30",
+    "source_scraped_at": "2026-07-24T17:36:04+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "film-streams-ruth-sokolof-omaha",
     "film_title": "Pierrot le fou",
     "start": "2026-08-09T11:00:00-05:00",
@@ -11760,6 +12813,19 @@
     "film_year": 1963,
     "screen": null,
     "format": "DCP",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "CatVideoFest 2026",
+    "start": "2026-08-09T12:30:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6685?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -12454,6 +13520,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Who's Watching?",
+    "start": "2026-08-13T20:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6709?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "The Man Who Fell to Earth",
     "start": "2026-08-13T20:50:00-04:00",
@@ -12465,6 +13544,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/the-man-who-fell-to-earth/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Piano",
+    "start": "2026-08-14T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6710?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -12491,6 +13583,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/alo-se-1975/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-14T18:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6714?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "gateway-film-center-columbus",
@@ -12553,6 +13658,19 @@
     "film_year": 1998,
     "screen": null,
     "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Society",
+    "start": "2026-08-14T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6686?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -12634,6 +13752,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://gatewayfilmcenter.org/movies/from-book-to-film-2026-essential-american-voices-american-fiction-2023/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Winter Hymns",
+    "start": "2026-08-15T14:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6724?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -12727,6 +13858,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/center-stage/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-15T18:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6715?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "trylon-minneapolis",
     "film_title": "The Hole",
     "start": "2026-08-15T19:00:00-05:00",
@@ -12774,6 +13918,19 @@
     "film_year": 1998,
     "screen": null,
     "format": "35mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Batman (1989) in 70mm",
+    "start": "2026-08-15T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6689?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -12909,6 +14066,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/the-house-in-the-woods/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Batman (1989) in 70mm",
+    "start": "2026-08-16T14:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6690?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Remake",
     "start": "2026-08-16T14:30:00-05:00",
@@ -12940,6 +14110,19 @@
     "start": "2026-08-16T16:00:00-05:00",
     "ticket_url": "https://musicboxtheatre.com/films-and-events/music-box-movie-trivia",
     "source_scraped_at": "2026-07-24T11:13:51+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Piano",
+    "start": "2026-08-16T16:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6713?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
     "film_year": null,
     "screen": null,
     "format": null,
@@ -12984,6 +14167,19 @@
     "format": null,
     "series": null,
     "sold_out": true,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-16T19:15:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6716?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
     "detail_url": null
   },
   {
@@ -13039,6 +14235,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/two-lane-blacktop/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-17T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6717?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Remake",
     "start": "2026-08-17T16:30:00-05:00",
@@ -13050,6 +14259,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/remake/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Batman (1989) in 70mm",
+    "start": "2026-08-17T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6691?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -13117,6 +14339,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-18T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6718?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "The Piano (4K Restoration)",
     "start": "2026-08-18T16:30:00-05:00",
@@ -13128,6 +14363,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/the-piano-4k-restoration/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Dead Media",
+    "start": "2026-08-18T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6677?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -13182,6 +14430,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Piano",
+    "start": "2026-08-19T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6711?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "hi-pointe-theatre-st-louis",
     "film_title": "Remake",
     "start": "2026-08-19T16:30:00-05:00",
@@ -13219,6 +14480,19 @@
     "series": "Marilyn Monroe: It's All Make Believe",
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/the-seven-year-itch/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-19T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6720?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -13284,6 +14558,19 @@
     "series": "The Picture Show",
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/wallace-gromit-vengeance-most-fowl/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Michael Mann's MANHUNTER: THE FINAL CUT - 4K",
+    "start": "2026-08-20T16:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6719?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "hi-pointe-theatre-st-louis",
@@ -13468,6 +14755,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/the-samurai-and-the-prisoner/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "She's the Man",
+    "start": "2026-08-21T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6722?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "kan-kan-indianapolis",
     "film_title": "Sleepaway Camp",
     "start": "2026-08-21T22:10:00-04:00",
@@ -13585,6 +14885,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/the-samurai-and-the-prisoner/"
   },
   {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "ConteXture Dance Detroit Season 13",
+    "start": "2026-08-22T18:30:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/77?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "filmscene-iowa-city",
     "film_title": "The Devil Wears Prada",
     "start": "2026-08-22T20:00:00-05:00",
@@ -13622,6 +14935,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/vanishing-point/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Perfect Blue",
+    "start": "2026-08-22T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6687?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "music-box-chicago",
@@ -13741,6 +15067,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/do-you-love-me/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Welcome Space Brothers",
+    "start": "2026-08-23T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6665?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "No Picnic",
     "start": "2026-08-23T19:35:00-04:00",
@@ -13830,6 +15169,19 @@
     "series": "Special Event",
     "sold_out": false,
     "detail_url": "https://icfilmscene.org/film/shermans-march/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Bitter Rice",
+    "start": "2026-08-26T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6688?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "kan-kan-indianapolis",
@@ -13936,6 +15288,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Stand by Me (1986)",
+    "start": "2026-08-28T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/71?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "Thelma & Louise",
     "start": "2026-08-28T20:55:00-04:00",
@@ -13947,6 +15312,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/thelma-louise/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Signs",
+    "start": "2026-08-28T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6723?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "music-box-chicago",
@@ -14001,6 +15379,19 @@
     "detail_url": "https://gatewayfilmcenter.org/movies/from-book-to-film-2026-essential-american-voices-nickel-boys-2024/"
   },
   {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Willy Wonka & the Chocolate Factory",
+    "start": "2026-08-29T14:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/72?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "Samba Traoré",
     "start": "2026-08-29T16:30:00-04:00",
@@ -14053,6 +15444,19 @@
     "detail_url": null
   },
   {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Catch Me If You Can",
+    "start": "2026-08-29T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/73?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "cia-cinematheque-cleveland",
     "film_title": "A Page of Madness",
     "start": "2026-08-29T21:00:00-04:00",
@@ -14064,6 +15468,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://cinematheque.cia.edu/movies/a-page-of-madness/"
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Killer Condom",
+    "start": "2026-08-29T21:45:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6692?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "filmscene-iowa-city",
@@ -14196,6 +15613,19 @@
     "detail_url": "https://cinematheque.cia.edu/movies/gandahar/"
   },
   {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "The Unknown",
+    "start": "2026-08-30T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6678?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
     "venue_id": "music-box-chicago",
     "film_title": "Batman",
     "start": "2026-08-30T19:15:00-05:00",
@@ -14204,6 +15634,19 @@
     "film_year": 1989,
     "screen": null,
     "format": "70mm",
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
+  },
+  {
+    "venue_id": "heights-theater-columbia-heights",
+    "film_title": "Hundreds of Beavers",
+    "start": "2026-08-31T19:00:00-05:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/6721?siteToken=3408r7zh5fyw2jpcrakzvh6mp0",
+    "source_scraped_at": "2026-07-24T17:32:26+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
     "series": null,
     "sold_out": false,
     "detail_url": null
@@ -14350,6 +15793,19 @@
     "series": null,
     "sold_out": false,
     "detail_url": "https://hipointetheatre.org/movies/route-66-the-main-street-of-america-missouri-state-premiere/"
+  },
+  {
+    "venue_id": "redford-theatre-detroit",
+    "film_title": "Wicked",
+    "start": "2026-09-12T20:00:00-04:00",
+    "ticket_url": "https://ticketing.useast.veezi.com/purchase/76?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+    "source_scraped_at": "2026-07-24T17:32:28+00:00",
+    "film_year": null,
+    "screen": null,
+    "format": null,
+    "series": null,
+    "sold_out": false,
+    "detail_url": null
   },
   {
     "venue_id": "kan-kan-indianapolis",
