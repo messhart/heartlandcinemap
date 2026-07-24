@@ -313,6 +313,8 @@
       const info = filmInfo(s);
       const title = (info ? info.title : s.film_title) || "";
       if (title.length > 18) continue;                   // signs fit short titles
+      // the sign can't wrap, so skip long venue names too (pick another one)
+      if (s.venue.name.length > 20) continue;
       const gk = groupKey(s);
       const prev = byFilm.get(gk);
       if (!prev || s.start < prev.start) {

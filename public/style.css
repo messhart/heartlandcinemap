@@ -315,21 +315,25 @@ h2.dayhead {
   flex-wrap: wrap;
   gap: 0.4rem 0.7rem;
   margin: 0.02rem 0 0;
+  min-width: 0;   /* let the tags column shrink so long badges can wrap */
 }
 .about-line details.about { margin: 0; }
-.tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
+.tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; min-width: 0; }
 .badge {
   font-family: 'Ostrich Sans Black', sans-serif;
   text-transform: uppercase;
   font-size: 0.76rem;
   letter-spacing: 0.06em;
-  line-height: 1;
+  line-height: 1.15;
   padding: 0.2rem 0.5rem;
   border: 1px solid var(--line);
   border-radius: 0;
   background: transparent;
   color: var(--muted);
-  white-space: nowrap;
+  /* long series names (e.g. a full "post-film discussion" title) must wrap
+     inside the tag rather than run off a narrow screen */
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 /* per-venue showtime lines — the marquee times.
@@ -342,7 +346,9 @@ h2.dayhead {
 .chipline-label {
   font-family: 'Ostrich Sans Black', sans-serif;
   font-weight: 900; text-transform: uppercase;
-  font-size: 1rem; letter-spacing: 0.02em; color: var(--text); white-space: nowrap;
+  font-size: 1rem; letter-spacing: 0.02em; color: var(--text);
+  /* long venue names must wrap, not run off a narrow screen */
+  min-width: 0; max-width: 100%; overflow-wrap: break-word;
 }
 .chips { display: inline-flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: baseline; }
 
