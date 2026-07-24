@@ -4436,5 +4436,59 @@
  "yfc 2026 session 3: post production (1 week)|": {
   "miss": true,
   "checked": "2026-07-24"
+ },
+ "cannibal campout|1988": {
+  "title": "Cannibal Campout",
+  "year": 1988,
+  "overview": "Four teenagers on an outing in the woods are attacked by a trio of mutant cannibals.",
+  "runtime": 88,
+  "poster_path": "/3UicAd8gvi5xldmnIlA8luJ4Skl.jpg",
+  "backdrop_path": "/1enQlft0CpnBVwCHqCPr33HV3sR.jpg",
+  "url": "https://www.themoviedb.org/movie/89698"
+ },
+ "michael mann’s manhunter: the final cut|1986": {
+  "title": "The Final Cut",
+  "year": 2004,
+  "overview": "Set in a world with memory implants, Alan Hakman is a 'cutter'—someone with the power of final edit over people's recorded histories—but his latest assignment puts him in great danger.",
+  "runtime": 95,
+  "poster_path": "/btgoWLl4vp6tN8RqYaXhEvV0pU9.jpg",
+  "backdrop_path": "/nGjquGZjmS3tlfXCKTHOrtDJwOe.jpg",
+  "url": "https://www.themoviedb.org/movie/11099"
+ },
+ "the money pit|1986": {
+  "title": "The Money Pit",
+  "year": 1986,
+  "overview": "After being evicted from their Manhattan apartment, a couple buy what looks like the home of their dreams—only to find themselves saddled with a bank-account-draining nightmare. Struggling to keep their relationship together as their rambling mansion falls to pieces around them, the two watch in hilarious horror as everything—including the kitchen sink—disappears into the Money Pit.",
+  "runtime": 91,
+  "poster_path": "/bohhidIi1WWU5NNYF9l5wLQu3Ii.jpg",
+  "backdrop_path": "/2C2kUFxhs5u2G9xeg4KQ0FZvFFA.jpg",
+  "url": "https://www.themoviedb.org/movie/10466"
+ },
+ "the samurai and the prisoner|": {
+  "title": "The Samurai and the Prisoner",
+  "year": 2026,
+  "overview": "When Lord Murashige rises up against the tyrannical Oda, he finds himself besieged within the walls of his own castle. Isolated, he is confronted with a series of mysterious crimes that shatter the fragile order of his court, plunging the fortress into fear and suspicion. With Oda's army closing in and a traitor hiding among his ranks, Murashige is forced into an uneasy alliance with Kanbei, a brilliant and dangerous strategist held prisoner in the dungeon, as he must outwit his enemies and uncover the truth before time runs out.",
+  "runtime": 147,
+  "poster_path": "/1GWVlPM1v6k84LsmDkfDzLlGf0O.jpg",
+  "backdrop_path": "/z5oMoDs6a1GAuK5cNAeBkAr0yk.jpg",
+  "url": "https://www.themoviedb.org/movie/1620313"
+ },
+ "woodchipper massacre|1988": {
+  "title": "Woodchipper Massacre",
+  "year": 1988,
+  "overview": "Jon, Tom, and Denise accidently kill their senile old Aunt while she's looking after them while their father is away on business. Not sure what to do, they decide to dispose of the body in the rented woodchipper in the backyard. But more trouble comes a-knocking when their cousin Kim, their Aunt's son, shows up unexpectedly.",
+  "runtime": 81,
+  "poster_path": "/mXDCdnREil3cLEIioxvPo7dbMRP.jpg",
+  "backdrop_path": "/2umE4Rxcrlp1THru5ksidLYjJUY.jpg",
+  "url": "https://www.themoviedb.org/movie/69852"
+ },
+ "your name.|": {
+  "title": "Your Name.",
+  "year": 2016,
+  "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+  "runtime": 106,
+  "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+  "backdrop_path": "/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+  "url": "https://www.themoviedb.org/movie/372058"
  }
 }
