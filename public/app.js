@@ -18,6 +18,7 @@
 
   const FIXED_TZ = { ct: "America/Chicago", et: "America/New_York" };
   const POSTER_BASE = "https://image.tmdb.org/t/p/w154";
+  const BACKDROP_BASE = "https://image.tmdb.org/t/p/w300"; // calendar strips
 
   let venues = {};
   let venueList = [];
@@ -173,10 +174,6 @@
     return cut.slice(0, Math.max(cut.lastIndexOf(" "), max - 30)) + "…";
   }
 
-  function fmtRuntime(mins) {
-    return mins >= 60 ? `${Math.floor(mins / 60)}h ${mins % 60}m` : `${mins}m`;
-  }
-
   // ---------- URL state ----------
 
   function readParams() {
@@ -265,7 +262,7 @@
     }
     savePlan();
     const picked = plan.has(k);
-    btn.textContent = picked ? "★" : "☆";
+    btn.textContent = picked ? "★" : "+";
     btn.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
     btn.classList.toggle("picked", picked);
     updatePlanCount();
@@ -334,7 +331,7 @@
     const picked = plan.has(pickKey(s));
     const wrap = el("span", "chipwrap");
     wrap.appendChild(a);
-    const b = el("button", "chip-add" + (picked ? " picked" : ""), picked ? "★" : "☆");
+    const b = el("button", "chip-add" + (picked ? " picked" : ""), picked ? "★" : "+");
     b.type = "button";
     b.title = picked ? "Remove from calendar picks" : "Pick for my calendar";
     b.addEventListener("click", (e) => {
@@ -380,20 +377,19 @@
     div.appendChild(posterEl(info, info ? info.title : s0.film_title));
 
     const body = el("div", "filmcard-body");
+    // title + runtime share the first line; runtime pins to the right edge
+    const head = el("div", "film-head");
     const h3 = el("h3", null, info ? info.title : s0.film_title);
     const year = info ? info.year : s0.film_year;
     if (year) h3.appendChild(el("span", "year", ` (${year})`));
     div.classList.toggle("matched", !!info);
-    body.appendChild(h3);
-
-    const metaBits = [];
-    if (info && info.runtime) metaBits.push(fmtRuntime(info.runtime));
-    const series = [...new Set(list.map((s) => s.series).filter(Boolean))];
-    if (metaBits.length || series.length) {
-      const meta = el("p", "filmmeta", metaBits.join(" · "));
-      for (const sr of series) meta.appendChild(el("span", "badge", sr));
-      body.appendChild(meta);
+    head.appendChild(h3);
+    if (info && info.runtime) {
+      head.appendChild(el("div", "film-runtime", `${info.runtime} MIN`));
     }
+    body.appendChild(head);
+
+    const series = [...new Set(list.map((s) => s.series).filter(Boolean))];
 
     // film intro page per venue: detail_url when the chips go to checkout,
     // otherwise the venue's own film/event page (same target as the chips)
@@ -415,7 +411,15 @@
       m.appendChild(a);
     });
     det.appendChild(m);
-    body.appendChild(det);
+    // ABOUT toggle + series tags share one line (the playground about-line)
+    const aboutLine = el("div", "about-line");
+    aboutLine.appendChild(det);
+    if (series.length) {
+      const tags = el("div", "tags");
+      for (const sr of series) tags.appendChild(el("span", "badge", sr));
+      aboutLine.appendChild(tags);
+    }
+    body.appendChild(aboutLine);
 
     if (mode === "day") {
       body.appendChild(chipLines(
@@ -601,9 +605,14 @@
     };
     if (window.__updateMap) window.__updateMap(window.__mapData);
 
-    // poster + picking only exist at 7/30-day horizons
-    document.getElementById("postertoggle").hidden = !posterCap();
-    if (!posterCap() && !document.getElementById("posterwrap").hidden) {
+    // poster + picking only exist at 7/30-day horizons; and without a ZIP the
+    // calendar would cram every venue in the region, so require one
+    const $pt = document.getElementById("postertoggle");
+    $pt.hidden = !posterCap();
+    $pt.disabled = !origin;
+    $pt.title = origin ? "" :
+      "Enter a ZIP code first — a region-wide calendar is too crowded";
+    if ((!posterCap() || !origin) && !document.getElementById("posterwrap").hidden) {
       closePoster();
     }
     updatePlanCount();
@@ -735,22 +744,19 @@
   }
 
   // one film's line in a day cell: Title (Year) FMT  [CODE] 7:00p 9:15p
-  // (with `thumb`, the week strip adds a small TMDb poster; hidden in B&W)
+  // (with `thumb`, the week strip adds a wide B&W backdrop still above the
+  // text — films without a backdrop just show text; hidden by the B&W toggle)
   function posterEntry(list, tzFn, codes, thumb) {
     const s0 = list[0];
     const info = filmInfo(s0);
     const div = el("div", "pentry" + (thumb ? " pentry-t" : ""));
     let body = div;
     if (thumb) {
-      const title0 = info ? info.title : s0.film_title;
-      if (info && info.poster_path) {
+      if (info && info.backdrop_path) {
         const img = el("img", "pthumb");
-        img.src = POSTER_BASE + info.poster_path; // w154: already cached by cards
+        img.src = BACKDROP_BASE + info.backdrop_path;
         img.alt = "";
         div.appendChild(img);
-      } else {
-        div.appendChild(el("span", "pthumb pthumb-blank",
-          (title0[0] || "?").toUpperCase()));
       }
       body = el("div", "pentry-txt");
       div.appendChild(body);
@@ -1051,6 +1057,8 @@
 
   function openPoster() {
     if (!posterCap()) return; // 60d/all horizons: no poster
+    // no ZIP -> no poster (region-wide is too crowded); covers ?poster=1 too
+    if (document.getElementById("postertoggle").disabled) return;
     // unhide BEFORE building: fitMonth measures rendered heights, and a
     // hidden container reports zero, so trimming must happen while visible
     document.getElementById("posterwrap").hidden = false;

@@ -184,7 +184,8 @@ def _film_entry(detail: dict) -> dict:
         "year": int(detail["release_date"][:4]) if detail.get("release_date") else None,
         "overview": detail.get("overview") or None,
         "runtime": detail.get("runtime") or None,
-        "poster_path": detail.get("poster_path"),  # for future poster use
+        "poster_path": detail.get("poster_path"),  # film-card posters
+        "backdrop_path": detail.get("backdrop_path"),  # calendar strips
         "url": f"https://www.themoviedb.org/movie/{detail['id']}",
     }
 

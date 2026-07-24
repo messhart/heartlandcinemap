@@ -193,7 +193,15 @@ input, select {
 
 /* venue popup body */
 .vpop { min-width: 8rem; }
-.vpop-name { display: block; font-size: 0.92rem; }
+.vpop-name {
+  display: block;
+  font-family: 'Ostrich Sans Heavy', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 1.05rem;
+  line-height: 1.05;
+}
 .vpop-sub { color: var(--muted); font-size: 0.8rem; margin-top: 0.05rem; }
 .vpop-pick { color: var(--accent); font-size: 0.8rem; font-weight: 600; margin-top: 0.1rem; }
 .vpop-next {
@@ -268,18 +276,35 @@ h2.dayhead {
 }
 .filmcard-body h3 .year { font-weight: 900; color: var(--muted); }
 
-/* runtime + series tags line (was .filmmeta). Tags sit level with the text. */
-.filmmeta {
-  margin: 0.2rem 0 0;
-  color: var(--muted);
-  font-family: 'Ostrich Sans Black', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.02em;
+/* title + runtime share the first line; runtime pins right and stays on the
+   title's line even when a long title wraps (the playground film-head). */
+.film-head {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem 0.7rem;
-  align-items: center;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.8rem;
 }
+.film-head h3 { min-width: 0; }
+.film-runtime {
+  font-family: 'Ostrich Sans Black', sans-serif;
+  font-weight: 900;
+  font-size: 1.15rem;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  text-align: right;
+  flex: 0 0 auto;
+}
+
+/* the about line carries the series tags, level with the ABOUT text */
+.about-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.8rem;
+  margin: 0.15rem 0 0;
+}
+.about-line details.about { margin: 0; }
+.tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
 .badge {
   font-family: 'Ostrich Sans Black', sans-serif;
   text-transform: uppercase;
@@ -316,13 +341,15 @@ h2.dayhead {
 a.chip {
   font-family: 'Ostrich Sans Black', sans-serif; font-weight: 900;
   color: var(--text); white-space: nowrap; text-decoration: none;
-  display: inline-flex; align-items: baseline; gap: 0.28rem;
+  display: inline-flex; align-items: baseline;
   border-bottom: 1.5px solid var(--text);
   padding-bottom: 0.02em;
 }
+/* per the mockup: hour and raised minutes are near-glued; the format gets a
+   real word gap */
 a.chip .h { font-size: 1.25rem; letter-spacing: 0.02em; line-height: 0.95; }
-a.chip .m { font-size: 1.02rem; position: relative; top: -0.1em; letter-spacing: 0.01em; }
-a.chip .fmt { font-size: 1.02rem; letter-spacing: 0.02em; }
+a.chip .m { font-size: 1.02rem; position: relative; top: -0.1em; letter-spacing: 0.01em; margin-left: 0.05em; }
+a.chip .fmt { font-size: 1.02rem; letter-spacing: 0.02em; margin-left: 0.34rem; }
 a.chip:hover { color: var(--muted); border-bottom-color: var(--muted); }
 a.chip.chip-soldout {
   color: var(--muted); pointer-events: none;
@@ -333,12 +360,11 @@ a.chip.chip-soldout::after {
   height: 1.5px; background: currentColor;
 }
 
-/* the ☆/★ calendar-pick toggle */
+/* the +/★ calendar-pick toggle (system glyphs, as before the redesign) */
 .chip-add {
   font: inherit;
-  font-family: 'Segoe UI Symbol', 'Symbola', sans-serif;
-  font-size: 1.2rem; line-height: 1;
-  padding: 0.1rem 0.15rem;
+  font-size: 1.05rem; line-height: 1;
+  padding: 0.1rem 0.2rem;
   border: none; background: none;
   color: var(--muted);
   cursor: pointer;
@@ -387,6 +413,8 @@ details.about .about-meta { margin: 0 0 0.3rem; }
   margin-left: 0.4rem;
 }
 #postertoggle:hover { border-color: var(--accent); }
+#postertoggle:disabled { opacity: 0.45; cursor: default; }
+#postertoggle:disabled:hover { border-color: var(--line); }
 
 #posterwrap {
   position: fixed;
@@ -533,24 +561,18 @@ body.postering { overflow: hidden; }
 .pp-dayhead-dow { font-variant: small-caps; font-weight: 700; color: var(--pk); letter-spacing: 0.06em; }
 .pp-week-strip .pentry { font-size: 7pt; margin-top: 4pt; }
 
-/* TMDb thumb beside a week-strip entry — color mode only */
-.pentry-t { display: flex; gap: 4pt; align-items: flex-start; }
+/* TMDb backdrop strip above a week-strip entry — a horizontal B&W still,
+   like the playground calendar. Hidden by the ink-saver B&W toggle. */
 .pentry-txt { min-width: 0; }
 .pthumb {
-  flex: 0 0 auto;
-  width: 0.48in;
-  height: 0.72in;
+  display: block;
+  width: 100%;
+  height: 0.38in;
   object-fit: cover;
-  border-radius: 2pt;
+  border-radius: 0;
   background: var(--pout);
-}
-span.pthumb-blank {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--pmut);
-  font-size: 11pt;
-  font-weight: 700;
+  filter: grayscale(1) contrast(1.02);
+  margin-bottom: 2pt;
 }
 #poster.bw .pthumb { display: none; }
 
@@ -638,6 +660,7 @@ footer h2 {
     padding-bottom: 1rem; margin-bottom: 1rem; border-bottom-width: 2px; }
   .poster { width: 4.5rem; height: 6.75rem; }
   .filmcard-body h3 { font-size: 1.3rem; }
+  .film-runtime { font-size: 1rem; }
   .chipline { flex-direction: column; gap: 0.2rem; }
 }
 @media (max-width: 480px) {
@@ -645,4 +668,5 @@ footer h2 {
     padding-bottom: 0.8rem; margin-bottom: 0.8rem; border-bottom: 1px solid var(--text); }
   .poster { width: 3.6rem; height: 5.4rem; }
   .filmcard-body h3 { font-size: 1.15rem; }
+  .film-head { gap: 0.5rem; }
 }
