@@ -514,7 +514,7 @@ body.postering { overflow: hidden; }
      page-break tips a hairline onto a second sheet, so we leave slack. */
   width: 10.4in;
   height: 7.4in;
-  padding: 0.35in 0.85in;   /* generous side margins so header/foot/grid breathe */
+  padding: 0.35in 0.4in;
   margin: 0 auto 1.4rem;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -530,7 +530,7 @@ body.postering { overflow: hidden; }
   align-items: baseline;
   gap: 0.25in;
   border-bottom: 2.5pt solid var(--ptext);
-  padding-bottom: 5pt;
+  padding: 0 5pt 5pt;   /* inset the header content from the frame edges */
 }
 .pp-month { font-family: 'DM Serif Display', Georgia, serif; font-size: 24pt; font-weight: 400; letter-spacing: -0.01em; color: var(--pk); flex: 0 0 auto; }
 .pp-brand { font-family: 'Spectral', serif; font-variant: small-caps; font-size: 9pt; font-weight: 600; letter-spacing: 0.12em; flex: 0 0 auto; }
@@ -672,7 +672,7 @@ span.pthumb-blank {
 .pp-foot {
   border-top: 2.5pt solid var(--ptext);
   margin-top: 5pt;
-  padding-top: 4pt;
+  padding: 4pt 5pt 0;   /* match the header inset */
   font-family: 'Spectral', serif;
   font-variant: small-caps;
   letter-spacing: 0.04em;
