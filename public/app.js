@@ -921,7 +921,7 @@
     }
     foot.appendChild(el("span", null,
       "Showtimes change — confirm with the cinema · " +
-      "messhart.github.io/heartlandcinemap · printed " +
+      "heartlandcinemap.org · printed " +
       new Date().toLocaleDateString("en-US",
         { month: "short", day: "numeric", year: "numeric" })));
     return foot;
