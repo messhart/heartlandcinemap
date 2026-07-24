@@ -127,12 +127,14 @@ header h1 {
   border: 1px solid var(--text);
   background: var(--card);
   z-index: -1;
+  /* smaller, shallower ticket notches so the side edges still read as a
+     continuous box (the deep 4px cut looked like a broken right edge) */
   -webkit-mask:
-    radial-gradient(circle 4px at 0 50%, transparent 96%, #000 98%) left center / 50.5% 100% no-repeat,
-    radial-gradient(circle 4px at 100% 50%, transparent 96%, #000 98%) right center / 50.5% 100% no-repeat;
+    radial-gradient(circle 3px at 0 50%, transparent 97%, #000 99%) left center / 50.5% 100% no-repeat,
+    radial-gradient(circle 3px at 100% 50%, transparent 97%, #000 99%) right center / 50.5% 100% no-repeat;
           mask:
-    radial-gradient(circle 4px at 0 50%, transparent 96%, #000 98%) left center / 50.5% 100% no-repeat,
-    radial-gradient(circle 4px at 100% 50%, transparent 96%, #000 98%) right center / 50.5% 100% no-repeat;
+    radial-gradient(circle 3px at 0 50%, transparent 97%, #000 99%) left center / 50.5% 100% no-repeat,
+    radial-gradient(circle 3px at 100% 50%, transparent 97%, #000 99%) right center / 50.5% 100% no-repeat;
 }
 .field label {
   font-family: 'Ostrich Sans Black', sans-serif;
@@ -416,26 +418,27 @@ a.chip.chip-soldout::after {
 #plancount a { color: var(--accent); }
 
 /* collapsed film synopsis (TMDb) — "ABOUT THIS FILM" toggle in the Ostrich
-   label voice, tucked tight under the runtime/tags line. */
+   label voice, tucked tight under the runtime/tags line. The revealed
+   synopsis + links inside use the mono (typewriter) voice. */
 details.about { margin: 0.15rem 0 0; color: var(--muted); }
 details.about summary {
   cursor: pointer;
   width: fit-content;
   list-style: none;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Ostrich Sans Black', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  font-size: 1rem;
   color: var(--muted);
 }
 details.about summary::-webkit-details-marker { display: none; }
 details.about[open] summary { color: var(--text); }
 details.about p {
   margin: 0.4rem 0 0.2rem; max-width: 42rem;
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 0.85rem; text-transform: none; letter-spacing: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem; line-height: 1.6; text-transform: none; letter-spacing: 0;
 }
-details.about .about-meta { margin: 0 0 0.3rem; }
+details.about .about-meta { margin: 0.3rem 0 0.3rem; }
 
 .empty { color: var(--muted); margin: 2rem 0; }
 
@@ -512,7 +515,7 @@ body.postering { overflow: hidden; }
      page-break tips a hairline onto a second sheet, so we leave slack. */
   width: 10.4in;
   height: 7.4in;
-  padding: 0.28in 0.45in;   /* roomier side margins so the header/foot breathe */
+  padding: 0.3in 0.6in;   /* generous side margins so header/foot/grid breathe */
   margin: 0 auto 1.4rem;
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -589,12 +592,11 @@ body.postering { overflow: hidden; }
   border-bottom: 1px solid var(--pline);
   padding: 3pt 5pt 5pt;
   min-width: 0;
-  /* a fixed 7×5 grid: the day header, then exactly 5 equal row slots so every
-     day's entries line up row-for-row across the week (a 2-film day and a
-     5-film day share the same slot boundaries). When a day has >5 films, the
-     5th slot becomes the "+N more" line (see fillCell's slots handling). */
+  /* a fixed 7×5 grid: the day header, 5 equal film-row slots so every day's
+     entries line up row-for-row across the week, then a short trailing row
+     that holds the "+N more" note (so the note never eats a film slot). */
   display: grid;
-  grid-template-rows: auto repeat(5, 1fr);
+  grid-template-rows: auto repeat(5, 1fr) auto;
   row-gap: 3pt;
 }
 .pp-dayhead {
@@ -652,6 +654,15 @@ span.pthumb-blank {
 .ptimes { font-family: 'JetBrains Mono', monospace; font-size: 5.8pt; white-space: normal; }
 .pvcode { color: var(--pk); font-weight: 700; }
 .pmore { color: var(--pmut); font-style: italic; font-weight: 600; }
+/* week strip: the "+N more" note sits in the trailing row, small, at the very
+   bottom of the day column — not a film slot */
+.pp-week-strip .pp-daycol .pmore {
+  grid-row: -2;                 /* the trailing auto row */
+  align-self: end;
+  font-size: 6pt;
+  padding-top: 2pt;
+  border-top: 1px dotted var(--pline);
+}
 
 .pp-foot {
   border-top: 2.5pt solid var(--ptext);

@@ -413,7 +413,10 @@
     }
     body.appendChild(head);
 
-    const series = [...new Set(list.map((s) => s.series).filter(Boolean))];
+    // series tags, deduped; drop overly long ones (a full "post-film
+    // discussion" title is a paragraph, not a tag)
+    const series = [...new Set(list.map((s) => s.series).filter(Boolean))]
+      .filter((sr) => sr.length <= 25);
 
     // film intro page per venue: detail_url when the chips go to checkout,
     // otherwise the venue's own film/event page (same target as the chips)
@@ -811,25 +814,23 @@
     return div;
   }
 
-  // "+N more — heartlandcinemap" line shown when a cell is capped to fit a page
+  // "+N more" note shown when a cell is capped to fit a page
   function moreLine(n) {
-    return el("div", "pentry pmore",
-      `+${n} more — heartlandcinemap`);
+    return el("div", "pentry pmore", `+${n} more`);
   }
 
   // render a cell's entries capped to `limit` groups (Infinity = all); the
   // fitter re-renders overpacked cells with a smaller limit until the month
   // fits one page. Groups/tzFn/codes ride on the cell so we can re-render.
   function fillCell(cell, limit) {
-    const { groups, tzFn, codes, thumb, slots } = cell._pdata;
+    const { groups, tzFn, codes, thumb } = cell._pdata;
     while (cell.childNodes.length > 1) cell.removeChild(cell.lastChild); // keep daynum/header
-    // with a fixed slot count (week-strip grid), the "+N more" line occupies a
-    // slot too — so when it's needed, show one fewer film to leave room for it
-    let shown = Math.min(limit, groups.length);
-    if (slots && groups.length > slots) shown = Math.min(shown, slots - 1);
+    const shown = Math.min(limit, groups.length);
     for (let i = 0; i < shown; i++) {
       cell.appendChild(posterEntry(groups[i], tzFn, codes, thumb));
     }
+    // the "+N more" note sits in its own trailing row (week strip) / after the
+    // films (month grid); it doesn't consume a film slot
     if (shown < groups.length) cell.appendChild(moreLine(groups.length - shown));
     cell._limit = limit;
   }
