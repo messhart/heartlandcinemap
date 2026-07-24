@@ -735,14 +735,15 @@ footer h2 {
 }
 .about-page a { color: var(--accent); }
 
-/* "Brought to you by" — small-caps credit line before the sign-off logo */
-.about-broughtby {
-  font-family: 'Spectral', Georgia, serif;
-  font-variant: small-caps;
-  letter-spacing: 0.14em;
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin: 3.5rem 0 0.4rem;
+/* "Brought to you by" — same voice as the ABOUT / CREDITS section headers.
+   (selector matches .about-page p specificity so the mono body rule doesn't
+   override the font here) */
+.about-page p.about-broughtby {
+  font-family: 'Ostrich Sans Heavy', sans-serif; font-weight: 900;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  font-size: 1.05rem; color: var(--muted);
+  max-width: none;
+  margin: 3.5rem 0 0.6rem;
 }
 /* the sign-off: incoherent logo + a small IG mark, linked */
 .about-signoff {
