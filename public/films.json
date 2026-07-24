@@ -4235,5 +4235,14 @@
  "the passion of joan of arc with live score by the silent light|1928": {
   "miss": true,
   "checked": "2026-07-23"
+ },
+ "el norte|1983": {
+  "title": "El Norte",
+  "year": 1983,
+  "overview": "Brother and sister Enrique and Rosa flee persecution at home in Guatemala and journey north, through Mexico and on to the United States, with the dream of starting a new life.",
+  "runtime": 141,
+  "poster_path": "/bgpz7gTpWmmBb26CcjVtiPE7Kfo.jpg",
+  "backdrop_path": "/5G54yKy3A6MFfwzQ5Q6rrYyjvrY.jpg",
+  "url": "https://www.themoviedb.org/movie/17435"
  }
 }
