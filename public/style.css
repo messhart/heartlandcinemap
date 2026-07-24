@@ -137,7 +137,7 @@ input, select {
   min-width: 6rem;
 }
 
-#status { min-height: 1.5em; color: var(--muted); font-size: 0.9rem; }
+#status { min-height: 1.5em; color: var(--muted); font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; }
 #status .warn { color: var(--accent); }
 #status a { color: var(--accent); }
 
@@ -169,9 +169,10 @@ input, select {
 #abouttoggle:hover { border-color: var(--accent); }
 #maphint {
   margin: 0.5rem 0 0;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--muted);
   max-width: 40rem;
+  font-family: 'JetBrains Mono', monospace;
 }
 #map {
   margin-top: 0.6rem;
@@ -408,10 +409,10 @@ details.about summary {
   cursor: pointer;
   width: fit-content;
   list-style: none;
-  font-family: 'Ostrich Sans Black', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-size: 0.78rem;
   color: var(--muted);
 }
 details.about summary::-webkit-details-marker { display: none; }
@@ -728,18 +729,40 @@ footer h2 {
 .about-page p {
   max-width: 34rem;
   margin: 0 auto 0.8rem;
-  line-height: 1.7;
+  line-height: 1.75;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
 }
 .about-page a { color: var(--accent); }
 
+/* "Brought to you by" — small-caps credit line before the sign-off logo */
+.about-broughtby {
+  font-family: 'Spectral', Georgia, serif;
+  font-variant: small-caps;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 3.5rem 0 0.4rem;
+}
+/* the sign-off: incoherent logo + a small IG mark, linked */
+.about-signoff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  margin: 0 auto 1rem;
+}
 /* the sign-off logo — black art on light, white art on dark */
 .about-logo {
-  margin: 3.5rem auto 1rem;
-  width: 12rem; max-width: 60%;
+  width: 12rem; max-width: 55%;
   height: auto;
   display: block;
 }
 .about-logo.dark { display: none; }
+.about-ig { display: inline-flex; line-height: 0; }
+.about-ig svg { width: 1.5rem; height: 1.5rem; display: block; }
+.about-ig .ig-mark { fill: var(--text); transition: opacity 0.15s; }
+.about-ig:hover .ig-mark { opacity: 0.6; }
 @media (prefers-color-scheme: dark) {
   .about-logo.light { display: none; }
   .about-logo.dark { display: block; }
