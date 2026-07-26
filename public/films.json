@@ -4512,5 +4512,50 @@
   "poster_path": "/4bx6Wceii1OZf0e3qp4EurUFoK7.jpg",
   "backdrop_path": "/ew7DGhmG3vzqEShmZvS5OcKKoEV.jpg",
   "url": "https://www.themoviedb.org/movie/76636"
+ },
+ "cinema paradiso|1988": {
+  "title": "Cinema Paradiso",
+  "year": 1988,
+  "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+  "runtime": 124,
+  "poster_path": "/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg",
+  "backdrop_path": "/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
+  "url": "https://www.themoviedb.org/movie/11216"
+ },
+ "ichi the killer|2001": {
+  "title": "Ichi the Killer",
+  "year": 2001,
+  "overview": "As sadomasochistic yakuza enforcer Kakihara searches for his missing boss he comes across Ichi, a repressed and psychotic killer who may be able to inflict levels of pain that Kakihara has only dreamed of.",
+  "runtime": 129,
+  "poster_path": "/k8j4YLZlda98dqp9ErymKzjYowG.jpg",
+  "backdrop_path": "/j3P5wkyiigZW8aeogoZoiNIZySL.jpg",
+  "url": "https://www.themoviedb.org/movie/9696"
+ },
+ "jules and jim|1962": {
+  "title": "Jules and Jim",
+  "year": 1962,
+  "overview": "In the carefree days before World War I, introverted Austrian author Jules strikes up a friendship with the exuberant Frenchman Jim and both men fall for the impulsive and beautiful Catherine.",
+  "runtime": 106,
+  "poster_path": "/kuFjZlcZhQFDtIjuI3GQJjsQG03.jpg",
+  "backdrop_path": "/o3GSSYr7AzrdcukNpQrqFEJNOjk.jpg",
+  "url": "https://www.themoviedb.org/movie/1628"
+ },
+ "my own private idaho|1991": {
+  "title": "My Own Private Idaho",
+  "year": 1991,
+  "overview": "In this loose adaptation of Shakespeare's \"Henry IV,\" Mike Waters is a hustler afflicted with narcolepsy. Scott Favor is the rebellious son of a mayor. Together, the two travel from Portland, Oregon to Idaho and finally to the coast of Italy in a quest to find Mike's estranged mother. Along the way they turn tricks for money and drugs, eventually attracting the attention of a wealthy benefactor and sexual deviant.",
+  "runtime": 104,
+  "poster_path": "/p9TF90Pb5yg2MNb2UztzyXktMm4.jpg",
+  "backdrop_path": "/stSaFz5CtMXwIj3r4MDjqxqWRot.jpg",
+  "url": "https://www.themoviedb.org/movie/468"
+ },
+ "the florida project|2017": {
+  "title": "The Florida Project",
+  "year": 2017,
+  "overview": "The story of a precocious six year-old and her ragtag group of friends whose summer break is filled with childhood wonder, possibility and a sense of adventure while the adults around them struggle with hard times.",
+  "runtime": 112,
+  "poster_path": "/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
+  "backdrop_path": "/GOwNU7Z9G3ORjNxdZnURfuIGS6.jpg",
+  "url": "https://www.themoviedb.org/movie/394117"
  }
 }
