@@ -4597,5 +4597,14 @@
  "the lion king|": {
   "miss": true,
   "checked": "2026-07-27"
+ },
+ "white christmas - heights holiday show|": {
+  "title": "White Christmas",
+  "year": 1954,
+  "overview": "Two talented song-and-dance men team up after the war to become one of the hottest acts in show business. In time they befriend and become romantically involved with the beautiful Haynes sisters who comprise a sister act.",
+  "runtime": 120,
+  "poster_path": "/A5kBQsHKbIptxJyELEpHQJROCRj.jpg",
+  "backdrop_path": "/uChOlEWqFwxwJ3eZP9eQj2yqczd.jpg",
+  "url": "https://www.themoviedb.org/movie/13368"
  }
 }
