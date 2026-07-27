@@ -4557,5 +4557,45 @@
   "poster_path": "/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
   "backdrop_path": "/GOwNU7Z9G3ORjNxdZnURfuIGS6.jpg",
   "url": "https://www.themoviedb.org/movie/394117"
+ },
+ "late fame|": {
+  "title": "Late Fame",
+  "year": 2026,
+  "overview": "Legendary New York poet Ed Saxberger's forgotten works captivate an eccentric group of young creatives, reigniting his artistic passion. Their intrigue intertwines with the bewitching presence of actress Gloria.",
+  "runtime": 97,
+  "poster_path": "/bcyXE0p4XmZUlcxvTDbvdG9lgsN.jpg",
+  "backdrop_path": "/tDG3iVhR4gZOTtXoBEtqZgNrD1U.jpg",
+  "url": "https://www.themoviedb.org/movie/1285895"
+ },
+ "matilda|": {
+  "title": "Matilda",
+  "year": 1996,
+  "overview": "Matilda Wormwood is an brilliant and intelligent little girl. Unfortunately, her parents, Harry and Zinnia, fail to see that fact. As time passes, she finally starts school and has a kind teacher, loyal friends, and a terrifying, sadistic headmistress. As she becomes fed up with the constant cruelty, she discovers she has a special gift that she just might be able to use to outwit the unruly adults around her.",
+  "runtime": 98,
+  "poster_path": "/wYoDpWInsBEVSmWStnRH06ddoyk.jpg",
+  "backdrop_path": "/t3HVA7XdVnQneMjI5hYjEhXmHY3.jpg",
+  "url": "https://www.themoviedb.org/movie/10830"
+ },
+ "ratatouille|2007": {
+  "title": "Ratatouille",
+  "year": 2007,
+  "overview": "Remy, a rat, possesses a palate far more refined than that of his fellow comrades. He aspires to become a chef, one who creates rather than scavenges. When fate leads him beneath one of Paris's finest restaurants, he forms an unusual alliance with a young kitchen worker to pursue his culinary ambitions. As his double life unfolds, Remy must navigate the suspicions of the calculating Head Chef Skinner, the disapproval of Remy’s own colony, and the foreboding presence of renowned food critic Anton Ego, whose judgment can make or break a chef's legacy.",
+  "runtime": 111,
+  "poster_path": "/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
+  "backdrop_path": "/jQ6Vuxe1CEPMXTF7d0fZgdIBY8U.jpg",
+  "url": "https://www.themoviedb.org/movie/2062"
+ },
+ "the goonies in 35mm|": {
+  "title": "The Goonies",
+  "year": 1985,
+  "overview": "Young teen Mikey Walsh and his friends set off on a quest to find Pirate One-Eyed Willie's treasure in hopes of saving their homes from demolition. However, on their quest to find the treasure, they run into a family of recently escaped criminals, determined to capture the kids and reach the treasure first.",
+  "runtime": 114,
+  "poster_path": "/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
+  "backdrop_path": "/5qsyqA7FeYRymBmNbPBqBgqWPO4.jpg",
+  "url": "https://www.themoviedb.org/movie/9340"
+ },
+ "the lion king|": {
+  "miss": true,
+  "checked": "2026-07-27"
  }
 }
