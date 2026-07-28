@@ -4783,5 +4783,36 @@
   "poster_path": "/3BvvVKPg9yucChlSvQtJxAbLmj9.jpg",
   "backdrop_path": "/rsI82F7DadIQcrZyPbuwmkhN5ty.jpg",
   "url": "https://www.themoviedb.org/movie/3034"
+ },
+ "despicable me 4|": {
+  "title": "Despicable Me 4",
+  "year": 2024,
+  "overview": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run.",
+  "runtime": 94,
+  "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+  "backdrop_path": "/twsxsfao6ZOVvT8LfudH603MMi6.jpg",
+  "url": "https://www.themoviedb.org/movie/519182"
+ },
+ "hamlet|2026": {
+  "title": "Hamlet",
+  "year": 2026,
+  "overview": "When Hamlet returns for his father’s funeral, he is stunned to discover his uncle Claudius is marrying his newly widowed mother. Visited by his father’s ghost, Hamlet learns his brutal murder was at the hands of Claudius - and spirals into a quest for vengeance that exposes the rot at the heart of the family’s empire and threatens his own sanity.",
+  "runtime": 113,
+  "poster_path": "/7cBh6fWchOJY961A8F1rT98HDdA.jpg",
+  "backdrop_path": "/o94QPGgvZW3gysIfsbhQmysmAYo.jpg",
+  "url": "https://www.themoviedb.org/movie/843342"
+ },
+ "jaws|": {
+  "title": "Jaws",
+  "year": 1975,
+  "overview": "When the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled shark hunter embark on a desperate quest to kill the beast before it strikes again.",
+  "runtime": 124,
+  "poster_path": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+  "backdrop_path": "/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
+  "url": "https://www.themoviedb.org/movie/578"
+ },
+ "the hi-pointe theatre is temporarily closed for repairs|": {
+  "miss": true,
+  "checked": "2026-07-28"
  }
 }
