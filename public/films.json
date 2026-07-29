@@ -4814,5 +4814,99 @@
  "the hi-pointe theatre is temporarily closed for repairs|": {
   "miss": true,
   "checked": "2026-07-28"
+ },
+ "all about eve|": {
+  "title": "All About Eve",
+  "year": 1950,
+  "overview": "From the moment she glimpses her idol at the stage door, Eve Harrington is determined to take the reins of power away from the great actress Margo Channing. Eve maneuvers her way into Margo's Broadway role, becomes a sensation and even causes turmoil in the lives of Margo's director boyfriend, her playwright and his wife. Only the cynical drama critic sees through Eve, admiring her audacity and perfect pattern of deceit.",
+  "runtime": 139,
+  "poster_path": "/blBzZaatPWVuWpXEnPscMA4Xp6m.jpg",
+  "backdrop_path": "/zAL3LOswagN9onjN8DPcNFTqKuD.jpg",
+  "url": "https://www.themoviedb.org/movie/705"
+ },
+ "buffy the vampire slayer|": {
+  "title": "Buffy the Vampire Slayer",
+  "year": 1992,
+  "overview": "Blonde, bouncy Buffy is your typical high school cheerleader. But all that changes when a strange man informs her she's been chosen by fate to kill vampires.",
+  "runtime": 85,
+  "poster_path": "/tcF3S4UdFpuoZEWovMDq5AXazNF.jpg",
+  "backdrop_path": "/qMf1MuY9u6BfBYTscEjWbIlWMrg.jpg",
+  "url": "https://www.themoviedb.org/movie/10206"
+ },
+ "evil dead ii|": {
+  "title": "Evil Dead II",
+  "year": 1987,
+  "overview": "Ash Williams and his girlfriend Linda find a log cabin in the woods with a voice recording from an archeologist who had recorded himself reciting ancient chants from \"The Book of the Dead.\" As they play the recording an evil power is unleashed taking over Linda's body.",
+  "runtime": 84,
+  "poster_path": "/4zqCKJVHUolGs6C5AZwAZqLWixW.jpg",
+  "backdrop_path": "/dOvEJK2u0slAGTfhdZOjnNgCQet.jpg",
+  "url": "https://www.themoviedb.org/movie/765"
+ },
+ "fright night part 2|": {
+  "title": "Fright Night Part 2",
+  "year": 1988,
+  "overview": "After three years of therapy Charley Brewster, now a college student, is convinced that Jerry Dandridge was a serial killer posing as a vampire. But when Regine, a mysterious actress and her entourage move into Peter Vincent's apartment block, the nightmare starts again - and this time it's personal!",
+  "runtime": 104,
+  "poster_path": "/pNJDLond2y2hQLBnEoczkdFrgZJ.jpg",
+  "backdrop_path": "/2KBVvcJvFhRe00VuKfiovcYiKzm.jpg",
+  "url": "https://www.themoviedb.org/movie/18086"
+ },
+ "home for the holidays|": {
+  "title": "Home for the Holidays",
+  "year": 1995,
+  "overview": "After losing her job, making out with her soon-to-be former boss, and finding out that her daughter plans to spend Thanksgiving with her boyfriend, Claudia Larson faces spending the holiday with her unhinged family.",
+  "runtime": 103,
+  "poster_path": "/3zqlKdOttWyExzopVxglz50Vjxq.jpg",
+  "backdrop_path": "/lCugQmmEoUc5Z3U7IlBXNYjrtJi.jpg",
+  "url": "https://www.themoviedb.org/movie/9089"
+ },
+ "it ends|": {
+  "title": "It Ends",
+  "year": 2026,
+  "overview": "A group of recent grads head out on a late night drive for grub, hoping to enjoy one final hangout before their paths diverge. Instead, they accidentally turn onto a never-ending, two-lane hellscape surrounded by untold horrors and cosmic forces beyond their understanding. Cramped together inside a Jeep Cherokee and with the miles stretching infinitely ahead, they face a choice: embrace their new existence or fight to escape it.",
+  "runtime": 89,
+  "poster_path": "/7vnhHylavJEdtXOKBcmJ8JIpSZS.jpg",
+  "backdrop_path": "/9Wf1xwPOycnxvdVnpr6Di381Zf.jpg",
+  "url": "https://www.themoviedb.org/movie/1422011"
+ },
+ "scream|": {
+  "miss": true,
+  "checked": "2026-07-29"
+ },
+ "star wars: episode vi - return of the jedi|": {
+  "title": "Return of the Jedi",
+  "year": 1983,
+  "overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, the Emperor prepares to crush the Rebellion with a more powerful Death Star, and the Rebel fleet mounts a massive attack on the space station. Luke Skywalker confronts Darth Vader in a final climactic duel before the evil Emperor.",
+  "runtime": 132,
+  "poster_path": "/jQYlydvHm3kUix1f8prMucrplhm.jpg",
+  "backdrop_path": "/ziECpBRIyclmBNaFSWlvCfsKbMD.jpg",
+  "url": "https://www.themoviedb.org/movie/1892"
+ },
+ "super troopers 3|2026": {
+  "title": "Super Troopers 3",
+  "year": 2026,
+  "overview": "When Farva’s wildly over-the-top Indian engagement to Thorny’s sister spirals into chaos, the Super Troopers must navigate Thorny’s schemes to break up the relationship, while trying to crack a pernicious new drug ring  — all to save the day and maybe the wedding itself.",
+  "runtime": 104,
+  "poster_path": "/eV2Uhn8A93V4ELySlrBGvBuQJLj.jpg",
+  "backdrop_path": "/oU2H07DQVjGMp2vUgrYzso36v15.jpg",
+  "url": "https://www.themoviedb.org/movie/675871"
+ },
+ "the departed|": {
+  "title": "The Departed",
+  "year": 2006,
+  "overview": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
+  "runtime": 151,
+  "poster_path": "/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+  "backdrop_path": "/6WRrGYalXXveItfpnipYdayFkQB.jpg",
+  "url": "https://www.themoviedb.org/movie/1422"
+ },
+ "water lilies|2007": {
+  "title": "Water Lilies",
+  "year": 2007,
+  "overview": "Set during a sultry summer in a French suburb, Marie is desperate to join the local pool's synchronized swimming team, but is her interest solely for the sake of sport or for a chance to get close to Floriane, the bad girl of the team? Sciamma, and the two leads, capture the uncertainty of teenage sexuality with a sympathetic eye in this delicate drama of the angst of coming-of-age.",
+  "runtime": 85,
+  "poster_path": "/oNrs9disgGDtOORToDt5dIqYFBi.jpg",
+  "backdrop_path": "/zZRbCsecON0xIiJjbMvQvuDCsCY.jpg",
+  "url": "https://www.themoviedb.org/movie/10818"
  }
 }
