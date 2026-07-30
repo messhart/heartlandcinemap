@@ -1,134 +1,134 @@
 {
-  "run_at": "2026-07-29T22:14:39+00:00",
+  "run_at": "2026-07-30T06:00:20+00:00",
   "dropped_records": 0,
   "venues": [
     {
       "venue_id": "varsity-cinema-des-moines",
       "status": "ok",
-      "showtimes": 43,
-      "duration_s": 2.3,
+      "showtimes": 41,
+      "duration_s": 2.6,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "filmscene-iowa-city",
       "status": "ok",
-      "showtimes": 135,
-      "duration_s": 37.5,
+      "showtimes": 126,
+      "duration_s": 36.9,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "music-box-chicago",
       "status": "ok",
-      "showtimes": 144,
-      "duration_s": 113.3,
+      "showtimes": 136,
+      "duration_s": 98.5,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "gene-siskel-film-center-chicago",
       "status": "ok",
       "showtimes": 22,
-      "duration_s": 10.3,
+      "duration_s": 10.5,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "kan-kan-indianapolis",
       "status": "ok",
-      "showtimes": 200,
-      "duration_s": 76.0,
+      "showtimes": 189,
+      "duration_s": 74.4,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "cinema-center-fort-wayne",
       "status": "ok",
-      "showtimes": 31,
-      "duration_s": 4.1,
+      "showtimes": 30,
+      "duration_s": 3.8,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "michigan-theater-ann-arbor",
       "status": "ok",
-      "showtimes": 28,
-      "duration_s": 8.0,
+      "showtimes": 26,
+      "duration_s": 9.5,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "state-theatre-ann-arbor",
       "status": "ok",
-      "showtimes": 36,
-      "duration_s": 6.7,
+      "showtimes": 33,
+      "duration_s": 8.2,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "redford-theatre-detroit",
       "status": "ok",
       "showtimes": 35,
-      "duration_s": 0.4,
+      "duration_s": 1.2,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "trylon-minneapolis",
-      "status": "ok",
-      "showtimes": 58,
-      "duration_s": 17.1,
-      "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "status": "error",
+      "showtimes": 0,
+      "duration_s": 1.6,
+      "error": "ValueError: date buttons (0) and day lists (0) mismatch",
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "riverview-theater-minneapolis",
       "status": "ok",
-      "showtimes": 56,
-      "duration_s": 0.8,
+      "showtimes": 55,
+      "duration_s": 1.5,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "heights-theater-columbia-heights",
       "status": "ok",
-      "showtimes": 90,
-      "duration_s": 1.2,
+      "showtimes": 89,
+      "duration_s": 0.9,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "hi-pointe-theatre-st-louis",
       "status": "ok",
-      "showtimes": 80,
-      "duration_s": 2.9,
+      "showtimes": 79,
+      "duration_s": 2.7,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "film-streams-ruth-sokolof-omaha",
       "status": "ok",
-      "showtimes": 52,
-      "duration_s": 20.9,
+      "showtimes": 47,
+      "duration_s": 21.0,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "film-streams-dundee-omaha",
       "status": "ok",
-      "showtimes": 61,
-      "duration_s": 21.1,
+      "showtimes": 54,
+      "duration_s": 21.0,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "gateway-film-center-columbus",
       "status": "ok",
-      "showtimes": 188,
-      "duration_s": 3.9,
+      "showtimes": 180,
+      "duration_s": 4.0,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "the-neon-dayton",
@@ -136,31 +136,31 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "cia-cinematheque-cleveland",
       "status": "ok",
       "showtimes": 67,
-      "duration_s": 4.0,
+      "duration_s": 3.0,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "oriental-theatre-milwaukee",
       "status": "ok",
-      "showtimes": 55,
-      "duration_s": 4.0,
+      "showtimes": 53,
+      "duration_s": 4.1,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     },
     {
       "venue_id": "downer-theatre-milwaukee",
       "status": "ok",
-      "showtimes": 39,
-      "duration_s": 3.9,
+      "showtimes": 37,
+      "duration_s": 4.2,
       "error": null,
-      "scraped_at": "2026-07-29T22:14:39+00:00"
+      "scraped_at": "2026-07-30T06:00:20+00:00"
     }
   ]
 }
