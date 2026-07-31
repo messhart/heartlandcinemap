@@ -5231,5 +5231,18 @@
  "festival of darkness|": {
   "miss": true,
   "checked": "2026-07-31"
+ },
+ "harry potter marathon|": {
+  "miss": true,
+  "checked": "2026-07-31"
+ },
+ "the arrival|1980": {
+  "title": "The Arrival",
+  "year": 1980,
+  "overview": "Primitive human Zan learns of his past and future lives when he discovers a spaceship.",
+  "runtime": 54,
+  "poster_path": "/hP4lOLSr35kkOsZNkL1v3DFqRI5.jpg",
+  "backdrop_path": "/oZvxWvHMP4yoIPYhRopFqnfZCle.jpg",
+  "url": "https://www.themoviedb.org/movie/286362"
  }
 }
