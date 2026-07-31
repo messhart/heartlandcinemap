@@ -5187,5 +5187,41 @@
   "poster_path": "/gy1dSADR6FdIL8jpUonLNYeCREk.jpg",
   "backdrop_path": "/xHLe09mzO7VcHg9pBCuPFyqN8tM.jpg",
   "url": "https://www.themoviedb.org/movie/1703631"
+ },
+ "dear lara|2026": {
+  "title": "Dear Lara",
+  "year": 2026,
+  "overview": "Unveiling abuse in classical music's elite institutions — violinist Lara St. John fights for justice, exposing complicity and systemic misogyny.",
+  "runtime": 95,
+  "poster_path": "/grpQhtkqXrjMvx0Ay3lN0VniyR.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1562590"
+ },
+ "el fantasma del convento|1934": {
+  "title": "The Phantom of the Monastery",
+  "year": 1934,
+  "overview": "Alfonso, Eduardo and Cristina get lost when visiting a forest. A strange monk finds them and takes them to an ancient convent. There, the three amigos suffer personality changes, specially Cristina who tries to seduce Alfonso in a strange coincidence to a story told by an old monk. After some efforts to escape, Alfonso is trapped inside a jail and more strange and macabre situations happen.",
+  "runtime": 85,
+  "poster_path": "/4ZldhnyaRelI6Y7yuhuq8O9Opsy.jpg",
+  "backdrop_path": "/2peiLehxIXlk36KAtWfl2v53Soc.jpg",
+  "url": "https://www.themoviedb.org/movie/184940"
+ },
+ "las mujeres panteras|1967": {
+  "title": "The Panther Women",
+  "year": 1967,
+  "overview": "The Panther women are worshipers of Satan and perform rituals in their honor and sacrifice.  The fighters will face them up and down the ring.",
+  "runtime": 87,
+  "poster_path": "/wJ2yShK9FYkqi40VyoCjiaB6ruA.jpg",
+  "backdrop_path": "/qmOnKuu0yl74jc7X8e5JZkQT7u8.jpg",
+  "url": "https://www.themoviedb.org/movie/341785"
+ },
+ "sing street|2016": {
+  "title": "Sing Street",
+  "year": 2016,
+  "overview": "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
+  "runtime": 105,
+  "poster_path": "/sUWpVlrvzU2SJbnVZqIeKulPKwk.jpg",
+  "backdrop_path": "/zArKQrtZRb4lqjYXepBMLdegiDz.jpg",
+  "url": "https://www.themoviedb.org/movie/369557"
  }
 }
