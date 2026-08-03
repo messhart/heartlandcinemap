@@ -6306,5 +6306,32 @@
   "poster_path": "/skKRPj1Cdsxqzn8BwKxvNV20rRW.jpg",
   "backdrop_path": "/boct1C0KWZ533T6o5qjFVfaUpSt.jpg",
   "url": "https://www.themoviedb.org/movie/2171"
+ },
+ "angel heart|1987": {
+  "title": "Angel Heart",
+  "year": 1987,
+  "overview": "A down-and-out Brooklyn detective is hired to track down a singer on an odyssey that will take him through the desperate streets of Harlem, the smoke-filled jazz clubs of New Orleans, and the swamps of Louisiana and its seedy underworld of voodoo.",
+  "runtime": 113,
+  "poster_path": "/h5v3wjJQNB7q2RntEnKDLhKtTFE.jpg",
+  "backdrop_path": "/viDonz5uLmengw9RUAh3Rf65dQG.jpg",
+  "url": "https://www.themoviedb.org/movie/635"
+ },
+ "parasomnia|2025": {
+  "title": "Parasomnia",
+  "year": 2025,
+  "overview": "After playing a guided meditation to induce lucid dreaming, the protagonist begin to experience strange phenomena inside his home. As the dream deepens, the boundaries of reality blur, leading him toward a terrifying encounter with an unknown entity.",
+  "runtime": 8,
+  "poster_path": "/fRbXeftJ6DhCUDxzGpBQp7Wuamw.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1512881"
+ },
+ "the sun never sets|2026": {
+  "title": "The Sun Never Sets",
+  "year": 2026,
+  "overview": "Wendy’s life is thrown into chaos when her boyfriend, Jack, who is older and divorced with children, insists they take space to evaluate the relationship. During their break, Wendy runs into her ex, Chuck, forcing them into a volatile triangle.",
+  "runtime": 102,
+  "poster_path": "/hpzzGHyVN4nE0GzqoAu12ko6ER3.jpg",
+  "backdrop_path": "/ckDLzhqHG40CoNUwQWrAvzCYRIe.jpg",
+  "url": "https://www.themoviedb.org/movie/1490214"
  }
 }
