@@ -6350,5 +6350,49 @@
  "tony|": {
   "miss": true,
   "checked": "2026-08-04"
+ },
+ "arsenic and old lace|1944": {
+  "title": "Arsenic and Old Lace",
+  "year": 1944,
+  "overview": "Mortimer Brewster, a newspaper drama critic, playwright, and author known for his diatribes against marriage, suddenly falls in love and gets married;  but when he makes a quick trip home to tell his two maiden aunts, he finds out his aunts' hobby - killing lonely old men and burying them in the cellar!",
+  "runtime": 118,
+  "poster_path": "/xG1GEEQGgExKl0WT5sRo1Arst5D.jpg",
+  "backdrop_path": "/h0jlcOISKcrVG4IE4p5IyZGrMhn.jpg",
+  "url": "https://www.themoviedb.org/movie/212"
+ },
+ "cult 101: manhunter: the final cut|1986": {
+  "title": "Manhunter",
+  "year": 1986,
+  "overview": "FBI Agent Will Graham, retired after catching notorious cannibal Hannibal Lecter, returns to duty to engage in a risky cat-and-mouse game with Lecter to capture a new killer.",
+  "runtime": 120,
+  "poster_path": "/6rb24x39vV8n5301IelC8rCPJTH.jpg",
+  "backdrop_path": "/qBD7UcoXsfvTHPQn3hsrTXf4Swv.jpg",
+  "url": "https://www.themoviedb.org/movie/11454"
+ },
+ "ice cream man|2026": {
+  "title": "Ice Cream Man",
+  "year": 2026,
+  "overview": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+  "runtime": 86,
+  "poster_path": "/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+  "backdrop_path": "/75pK9Dj1CheZFItgld9TVvb2P4x.jpg",
+  "url": "https://www.themoviedb.org/movie/1477712"
+ },
+ "la cocina|2024": {
+  "title": "La Cocina",
+  "year": 2024,
+  "overview": "In the sweltering back kitchen of a Times Square restaurant, undocumented cook Pedro is caught between mounting pressures at work and a complicated romance with waitress Julia. When money goes missing, suspicion spreads, igniting tensions that threaten to upend the fragile hopes of the staff.",
+  "runtime": 139,
+  "poster_path": "/5Hnlt0KY7OtYRLIDPaR4oDS3Ajo.jpg",
+  "backdrop_path": "/2yvzBVtMGCtw1Em9a7W1fxuTzIU.jpg",
+  "url": "https://www.themoviedb.org/movie/966238"
+ },
+ "midwest fear fest|": {
+  "miss": true,
+  "checked": "2026-08-04"
+ },
+ "wild inside|": {
+  "miss": true,
+  "checked": "2026-08-04"
  }
 }
