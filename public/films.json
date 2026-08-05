@@ -6547,5 +6547,41 @@
   "poster_path": "/bCj4EfuehAlgBwVd3diyWyhuuau.jpg",
   "backdrop_path": "/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
   "url": "https://www.themoviedb.org/movie/37257"
+ },
+ "jigoku|1960": {
+  "title": "Jigoku",
+  "year": 1960,
+  "overview": "A group of sinners involved in interconnected tales of murder, revenge, deceit and adultery all meet at the Gates of Hell.",
+  "runtime": 99,
+  "poster_path": "/ehiMOuKE7i9WHgvs7dSIZelsHwA.jpg",
+  "backdrop_path": "/4ZVAAGCGDYncbZhjEgnfU1v2iQD.jpg",
+  "url": "https://www.themoviedb.org/movie/50173"
+ },
+ "lady|2026": {
+  "title": "Lady",
+  "year": 2026,
+  "overview": "A lonely, narcissistic aristocrat dupes a struggling, opportunistic director into filming her every move. Her obsession with the spotlight takes a surreal turn when she starts becoming... invisible.",
+  "runtime": 95,
+  "poster_path": "/fXsTO5Wa11VtIyVMdoQOpeioSVx.jpg",
+  "backdrop_path": "/lZscBPMnr1AYAUKWpngNtWaaxS0.jpg",
+  "url": "https://www.themoviedb.org/movie/1479333"
+ },
+ "mothra vs. godzilla|1964": {
+  "title": "Mothra vs. Godzilla",
+  "year": 1964,
+  "overview": "Journalists Ichiro Sakai and Junko cover the wreckage of a typhoon when an enormous egg is found and claimed by greedy entrepreneurs. Mothra's fairies arrive and are aided by the journalists in a plea for its return. As their requests are denied, Godzilla arises near Nagoya and the people of Infant Island must decide if they are willing to answer Japan's own pleas for help.",
+  "runtime": 89,
+  "poster_path": "/y49vvM03gpuyhpyMc1f55VrNkP3.jpg",
+  "backdrop_path": "/dKMpMwJB9Aq1fflGAcVfagfG0R5.jpg",
+  "url": "https://www.themoviedb.org/movie/1682"
+ },
+ "the devil's eye|1960": {
+  "title": "The Devil's Eye",
+  "year": 1960,
+  "overview": "Don Juan is sent from Hell to Earth with a mission: to seduce a virgin in order to spoil her pure wedding. The mission becomes frantic when Don Juan falls in love for the first time in centuries.",
+  "runtime": 88,
+  "poster_path": "/njgS53DDdtsj5DXaGcEwglwq8z3.jpg",
+  "backdrop_path": "/qmxkOVsMiSubQ152TFIElQa6Vca.jpg",
+  "url": "https://www.themoviedb.org/movie/48145"
  }
 }
