@@ -6394,5 +6394,158 @@
  "wild inside|": {
   "miss": true,
   "checked": "2026-08-04"
+ },
+ "a streetcar named desire (35mm)|1951": {
+  "title": "A Streetcar Named Desire",
+  "year": 1951,
+  "overview": "A disturbed, aging Southern belle moves in with her sister for solace — but being face-to-face with her brutish brother-in-law accelerates her downward spiral.",
+  "runtime": 122,
+  "poster_path": "/aicdlO5vt7z2ARm279eGzJeYCLQ.jpg",
+  "backdrop_path": "/or90vNrOVnYwi07fYYpQ3pbnjxP.jpg",
+  "url": "https://www.themoviedb.org/movie/702"
+ },
+ "ace in the hole (35mm)|1951": {
+  "title": "Ace in the Hole",
+  "year": 1951,
+  "overview": "An arrogant reporter exploits a story about a man trapped in a cave to revitalize his career.",
+  "runtime": 112,
+  "poster_path": "/gPVPzHEsJBX02HtBtIQgYnfeqNQ.jpg",
+  "backdrop_path": "/zVJWPKbyv8ZPIbO6qcjE19dTgyn.jpg",
+  "url": "https://www.themoviedb.org/movie/25364"
+ },
+ "anchors aweigh|1945": {
+  "title": "Anchors Aweigh",
+  "year": 1945,
+  "overview": "Two sailors on shore leave head out for four days of partying – only to become involved in the affairs of an aspiring singer and her precocious nephew.",
+  "runtime": 143,
+  "poster_path": "/fPa79qA8qaikB0wiloKnfSm9NiJ.jpg",
+  "backdrop_path": "/oRw716yj4jgshktF03s2is7HGun.jpg",
+  "url": "https://www.themoviedb.org/movie/17889"
+ },
+ "bataan|1943": {
+  "title": "Bataan",
+  "year": 1943,
+  "overview": "During Japan's invasion of the Philippines in 1942, Capt. Henry Lassiter, Sgt. Bill Dane and a diverse group of American soldiers are ordered to destroy and hold a strategic bridge in order to delay the Japanese forces and allow Gen. MacArthur time to secure Bataan. When the Japanese soldiers begin to rebuild the bridge and advance, the group struggles with not only hunger, sickness and gunfire, but also the knowledge that there is likely no relief on the way.",
+  "runtime": 114,
+  "poster_path": "/gDJ6uGQqDkg45QeyGmHRpkZ8HVS.jpg",
+  "backdrop_path": "/i4Uhyno5HzkIfoHTN3sMdU6BtNn.jpg",
+  "url": "https://www.themoviedb.org/movie/43506"
+ },
+ "bride of frankenstein (4k restoration)|1935": {
+  "title": "Bride of Frankenstein",
+  "year": 1935,
+  "overview": "Dr. Frankenstein and his monster both turn out to be alive after being attacked by an angry mob. The now-chastened scientist attempts to escape his past, but a former mentor forces him to assist with the creation of a new creature.",
+  "runtime": 75,
+  "poster_path": "/5241zUwe7rC17MNc2QpCBKKdp1N.jpg",
+  "backdrop_path": "/hrED8MSOn4xJP9Cpk7WomUcFKGI.jpg",
+  "url": "https://www.themoviedb.org/movie/229"
+ },
+ "donnie darko|2001": {
+  "title": "Donnie Darko",
+  "year": 2001,
+  "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+  "runtime": 114,
+  "poster_path": "/j2AtZFsflxiluaNtajMTI0Avm8C.jpg",
+  "backdrop_path": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+  "url": "https://www.themoviedb.org/movie/141"
+ },
+ "horsegirls|2026": {
+  "title": "Horsegirls",
+  "year": 2026,
+  "overview": "As her mother battles an uncertain diagnosis, neurodivergent 22-year-old Margarita discovers a source of strength in an unexpected place: the sport of hobbyhorsing.",
+  "runtime": 101,
+  "poster_path": "/i1T2oEdp0gvI3MDcSIIsyfKqoR1.jpg",
+  "backdrop_path": "/nDl5kgmpJ5PTE58pd8qcvKc6IVk.jpg",
+  "url": "https://www.themoviedb.org/movie/1465818"
+ },
+ "laura (4k restoration)|1944": {
+  "title": "Laura",
+  "year": 1944,
+  "overview": "A police detective falls in love with the woman whose murder he's investigating.",
+  "runtime": 88,
+  "poster_path": "/utpUn9TdBIx6x2QX91YhYzFZxg1.jpg",
+  "backdrop_path": "/d5HjGve67GkNC9lWpzZVKSotLlT.jpg",
+  "url": "https://www.themoviedb.org/movie/1939"
+ },
+ "love in the afternoon|1957": {
+  "title": "Love in the Afternoon",
+  "year": 1957,
+  "overview": "A middle-aged playboy becomes fascinated by the daughter of a private detective who has been hired to entrap him with a client's wife.",
+  "runtime": 130,
+  "poster_path": "/jCHVviBhRQ7OkJFQfziO2N2ZJmh.jpg",
+  "backdrop_path": "/zqAg8ZvRAUdGzQqY5NZ10jcwBgm.jpg",
+  "url": "https://www.themoviedb.org/movie/18299"
+ },
+ "now, voyager (4k restoration)|1942": {
+  "title": "Now, Voyager",
+  "year": 1942,
+  "overview": "A woman suffers a nervous breakdown and from an oppressive mother before being freed by the love of a man she meets on a cruise.",
+  "runtime": 117,
+  "poster_path": "/kWtJ1C98fQB1fUDSfqb1NGBPPK8.jpg",
+  "backdrop_path": "/lAqTraujV7MQUnMZ78XD07Tv5lQ.jpg",
+  "url": "https://www.themoviedb.org/movie/32847"
+ },
+ "on the waterfront (35mm)|1954": {
+  "title": "On the Waterfront",
+  "year": 1954,
+  "overview": "A prizefighter-turned-longshoreman with a conscience goes up against labor leaders to expose corruption, extortion, and murder among the union ranks.",
+  "runtime": 108,
+  "poster_path": "/v1RtJ1qR4v9nrnfoBVBl6hjTW9.jpg",
+  "backdrop_path": "/j0qTehcyVVV1VEzrJ7YYtoFmWNw.jpg",
+  "url": "https://www.themoviedb.org/movie/654"
+ },
+ "stagecoach|1939": {
+  "title": "Stagecoach",
+  "year": 1939,
+  "overview": "A group of people traveling on a stagecoach find their journey complicated by the threat of Geronimo, and learn something about each other in the process.",
+  "runtime": 96,
+  "poster_path": "/zgMnfnwWZ3nkx4t0bUDEKtW24O8.jpg",
+  "backdrop_path": "/7SYNEG50fKODsTP6h9phYM3BueV.jpg",
+  "url": "https://www.themoviedb.org/movie/995"
+ },
+ "the band wagon (35mm)|1953": {
+  "title": "The Band Wagon",
+  "year": 1953,
+  "overview": "A Broadway artiste turns a faded film star's comeback vehicle into an artsy flop.",
+  "runtime": 112,
+  "poster_path": "/uxWFMdbgQ5TSZvUMVkHDeDCaGH8.jpg",
+  "backdrop_path": "/bud4H3I6X9b9HIcilAb33k6mNES.jpg",
+  "url": "https://www.themoviedb.org/movie/29376"
+ },
+ "the best years of our lives (4k restoration)|1946": {
+  "title": "The Best Years of Our Lives",
+  "year": 1946,
+  "overview": "It's the hope that sustains the spirit of every GI: the dream of the day when he will finally return home. For three WWII veterans, the day has arrived. But for each man, the dream is about to become a nightmare.",
+  "runtime": 171,
+  "poster_path": "/gd5EoAU4MM57sW3vlWxJ0NMM8cV.jpg",
+  "backdrop_path": "/n0og4mDtl08x9RLTWXt8zUKpqXQ.jpg",
+  "url": "https://www.themoviedb.org/movie/887"
+ },
+ "the lost weekend (4k restoration)|1945": {
+  "title": "The Lost Weekend",
+  "year": 1945,
+  "overview": "Longtime alcoholic Don Birnam has been sober for ten days and appears to be over the worst... but his craving has just become more insidious. Evading a country weekend planned by his brother and girlfriend, he begins a four-day bender that just might be his last – one way or another.",
+  "runtime": 101,
+  "poster_path": "/yL6EJxPeYIcB9TChm56lHqXKzHC.jpg",
+  "backdrop_path": "/vyINER8nv4kAJyCIq2Sr1xjOOjC.jpg",
+  "url": "https://www.themoviedb.org/movie/28580"
+ },
+ "the wizard of oz (4k restoration)|1939": {
+  "title": "The Wizard of Oz",
+  "year": 1939,
+  "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+  "runtime": 102,
+  "poster_path": "/uCC3j4pV9eOZwzDUWp2ilbcTf1f.jpg",
+  "backdrop_path": "/g1OvTd1eF346vmx8qsJnjaiooZ6.jpg",
+  "url": "https://www.themoviedb.org/movie/630"
+ },
+ "witness for the prosecution|1957": {
+  "title": "Witness for the Prosecution",
+  "year": 1957,
+  "overview": "An ailing barrister is thrust back into the courtroom in what becomes one of the most unusual and eventful murder cases of the lawyer's career when he finds himself defending a man being tried for the murder of a socialite.",
+  "runtime": 116,
+  "poster_path": "/bCj4EfuehAlgBwVd3diyWyhuuau.jpg",
+  "backdrop_path": "/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
+  "url": "https://www.themoviedb.org/movie/37257"
  }
 }
