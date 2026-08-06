@@ -6600,5 +6600,18 @@
   "poster_path": "/ii97IHefRu6wbKQygXYS0lmZ3ah.jpg",
   "backdrop_path": "/nQK3VjcISUIipwYbzZPywc93GI6.jpg",
   "url": "https://www.themoviedb.org/movie/274710"
+ },
+ "for kicks|2024": {
+  "miss": true,
+  "checked": "2026-08-06"
+ },
+ "psycho iii|1986": {
+  "title": "Psycho III",
+  "year": 1986,
+  "overview": "When Maureen Coyle, a suicidal nun who resembles Norman's former victim, Marion Crane, arrives at the motel, all bets are off and \"Mother\" is less than happy.",
+  "runtime": 93,
+  "poster_path": "/tgV4eeW0X7os7p3SYbNwDI0NYGa.jpg",
+  "backdrop_path": "/vzkuGQe1596nXK5pluip9OHwFXF.jpg",
+  "url": "https://www.themoviedb.org/movie/12662"
  }
 }
