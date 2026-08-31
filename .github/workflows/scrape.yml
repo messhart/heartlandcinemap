@@ -64,16 +64,40 @@ jobs:
           python scraper/run.py
           python scraper/enrich.py
 
+      # A scrape takes ~10 min, and main can move under us in that window (a
+      # push, or a sibling run). A bare `git push` then loses the whole scrape,
+      # so retry onto the new tip. continue-on-error keeps the deploy below
+      # running: the built site does not depend on the commit landing. The
+      # guard step at the end still fails the run so the miss is visible.
       - name: Commit refreshed data
+        id: commit
         if: github.event_name != 'push'
+        continue-on-error: true
         run: |
+          set -euo pipefail
+          DATA="public/venues.json public/showtimes.json public/films.json run_report.json"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/venues.json public/showtimes.json public/films.json run_report.json
-          git diff --cached --quiet || {
+          for attempt in 1 2 3; do
+            git add $DATA
+            if git diff --cached --quiet; then
+              echo "no data changes to commit"
+              exit 0
+            fi
             git commit -m "Data refresh (scheduled scrape)"
-            git push
-          }
+            if git push; then
+              exit 0
+            fi
+            # This scrape is strictly newer than whatever landed, so replay it
+            # verbatim onto the new tip — never merge generated files.
+            echo "push rejected; replaying data onto the new tip (attempt $attempt)"
+            scraped=$(git rev-parse HEAD)
+            git fetch origin main
+            git reset --hard origin/main
+            git checkout "$scraped" -- $DATA
+          done
+          echo "could not push refreshed data after 3 attempts"
+          exit 1
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -86,3 +110,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # The site is out the door by now; surface a swallowed commit failure so
+      # a run that deployed stale data never reads as a clean success.
+      - name: Fail if the refreshed data never landed
+        if: steps.commit.outcome == 'failure'
+        run: |
+          echo "Site deployed, but the refreshed data was not committed to main."
+          exit 1
