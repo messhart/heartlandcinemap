@@ -10,3 +10,6 @@ __pycache__/
 
 # Local tool settings
 .claude/settings.local.json
+
+# Local secrets — never publish
+2fa_codes_for_porkbun.md
