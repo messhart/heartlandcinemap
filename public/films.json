@@ -8621,5 +8621,35 @@
   "poster_path": "/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
   "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
   "url": "https://www.themoviedb.org/movie/1423191"
+ },
+ "an evening with son sukku: night fishing + dialogue|2024": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "cohortnyc film lab public screening + talkback|": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "gaudyween|": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "nine to five|1980": {
+  "title": "Nine to Five",
+  "year": 1980,
+  "overview": "Three female employees of a sexist, egotistical, lying, hypocritical bigot find a way to turn the tables on him.",
+  "runtime": 110,
+  "poster_path": "/anGHRo1tAAVoa7juvAuxldAE4lL.jpg",
+  "backdrop_path": "/ks428BV2mUhc0jplt7SeM7RQ6nq.jpg",
+  "url": "https://www.themoviedb.org/movie/19494"
+ },
+ "three kings (35mm)|1999": {
+  "title": "Three Kings",
+  "year": 1999,
+  "overview": "A group of American soldiers stationed in Iraq at the end of the Gulf War find a map they believe will take them to a huge cache of stolen Kuwaiti gold hidden near their base, and they embark on a secret mission that's destined to change everything.",
+  "runtime": 114,
+  "poster_path": "/fClJQW8xn8wHOFqoA4jUn0PZh1f.jpg",
+  "backdrop_path": "/gysZn2XnFlDDQROXdBPiku4Aujg.jpg",
+  "url": "https://www.themoviedb.org/movie/6415"
  }
 }
