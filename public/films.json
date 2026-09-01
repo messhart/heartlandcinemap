@@ -5582,7 +5582,7 @@
  },
  "the room in 35mm + big shark w/ greg sestero|2001": {
   "miss": true,
-  "checked": "2026-08-01"
+  "checked": "2026-09-01"
  },
  "the spongebob squarepants movie|2004": {
   "title": "The SpongeBob SquarePants Movie",
@@ -8192,5 +8192,181 @@
   "poster_path": "/o6pUTkoCh4r6EA2dHNFKA40OmH2.jpg",
   "backdrop_path": "/4vbL72K9uVaMLhnvmdg1So7kqex.jpg",
   "url": "https://www.themoviedb.org/movie/4495"
+ },
+ "cozy craft club - the craft|1996": {
+  "title": "The Craft",
+  "year": 1996,
+  "overview": "A Catholic school newcomer falls in with a clique of teen witches who wield their powers against all who dare to cross them -- be they teachers, rivals or meddlesome parents.",
+  "runtime": 101,
+  "poster_path": "/8bW2RdRkloYtEPhbQZN4wcdmJP4.jpg",
+  "backdrop_path": "/yAaAsbossCADVFdiqm8qAhd2gL0.jpg",
+  "url": "https://www.themoviedb.org/movie/9100"
+ },
+ "cure|1997": {
+  "title": "Cure",
+  "year": 1997,
+  "overview": "A frustrated detective deals with the case of several gruesome murders committed by people who have no recollection of what they've done.",
+  "runtime": 111,
+  "poster_path": "/xNVJr9q6AtSbjosS6Ed9YirOkSo.jpg",
+  "backdrop_path": "/xxIRKSd9LmHojUD5grvMuGypwVC.jpg",
+  "url": "https://www.themoviedb.org/movie/36095"
+ },
+ "dreams in nightmares|2024": {
+  "title": "Dreams in Nightmares",
+  "year": 2026,
+  "overview": "After an abrupt layoff, Z embarks on a trip across the Midwestern United States in search of a friend who has seemingly disappeared off the grid. Traveling with her two closest friends, these three queer black femmes find their priorities tested as shapeshifting threats in each city expose (inter)personal and ideological fractures.",
+  "runtime": 128,
+  "poster_path": "/j5dxzoXeQB9pmOnO0TjSoMDceSk.jpg",
+  "backdrop_path": "/mIzA2MOTiPP8mE4afzfxa0580V2.jpg",
+  "url": "https://www.themoviedb.org/movie/1308858"
+ },
+ "edie arnold is a loser|2026": {
+  "title": "Edie Arnold Is a Loser",
+  "year": 2026,
+  "overview": "Timid dork Edie accidentally takes the spotlight when she starts a punk band with her fellow “turds”, becoming an icon to the rest of the losers at her all-girls Catholic school while managing to piss off the hot girls, the nuns, and the horniest altar boy you’ve ever seen.",
+  "runtime": 73,
+  "poster_path": "/7AlkSpRja0uBBVSCXl328QFqwVS.jpg",
+  "backdrop_path": "/2qYDyTf4tC6dWscniDHcnWd9hpS.jpg",
+  "url": "https://www.themoviedb.org/movie/1620477"
+ },
+ "frank's drive-in double-feature|": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "good will hunting|1997": {
+  "title": "Good Will Hunting",
+  "year": 1997,
+  "overview": "Will Hunting is a headstrong, working-class genius who is failing the lessons of life. After one too many run-ins with the law, Will's last chance is a psychology professor, who might be the only man who can reach him.",
+  "runtime": 127,
+  "poster_path": "/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+  "backdrop_path": "/xj1Sv1xm4Y0ydBueGuf10Y9qM0O.jpg",
+  "url": "https://www.themoviedb.org/movie/489"
+ },
+ "horrorthon ticket event|": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "hot rod|2007": {
+  "title": "Hot Rod",
+  "year": 2007,
+  "overview": "For Rod Kimble, performing stunts is a way of life, even though he is rather accident-prone. Poor Rod cannot even get any respect from his stepfather, Frank, who beats him up in weekly sparring matches. When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- and then Rod will kick Frank's butt.",
+  "runtime": 88,
+  "poster_path": "/jRkt03dXCVKnbvcQm3ygU1cjg9Y.jpg",
+  "backdrop_path": "/R0p2aJVD7NTrCJFbDlTPKoVCCz.jpg",
+  "url": "https://www.themoviedb.org/movie/10074"
+ },
+ "lgbt history month kickoff: student film festival|2026": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "macgruber|2010": {
+  "title": "MacGruber",
+  "year": 2010,
+  "overview": "Ex-special operative MacGruber is called back into action to take down his archenemy, Dieter Von Cunth, who's in possession of a nuclear warhead and bent on destroying Washington, DC.",
+  "runtime": 90,
+  "poster_path": "/9cO8JD7aaQzI4q8lBS8MYXH8LrJ.jpg",
+  "backdrop_path": "/q3ySVO0N9tHw00heI0Wd1B9Qwih.jpg",
+  "url": "https://www.themoviedb.org/movie/37931"
+ },
+ "mildred pierce|1945": {
+  "title": "Mildred Pierce",
+  "year": 1945,
+  "overview": "A hard-working mother inches towards disaster as she divorces her husband and starts a successful restaurant business to support her spoiled daughter.",
+  "runtime": 111,
+  "poster_path": "/3bqF5bJPjeITNeC8ydbUOQZfuqP.jpg",
+  "backdrop_path": "/iWAijx2874J0QgNVXwqW24IMRai.jpg",
+  "url": "https://www.themoviedb.org/movie/3309"
+ },
+ "popstar: never stop never stopping|2016": {
+  "title": "Popstar: Never Stop Never Stopping",
+  "year": 2016,
+  "overview": "When his new album fails to sell records, pop/rap superstar Conner4real goes into a major tailspin and watches his celebrity high life begin to collapse. He'll try anything to bounce back, anything except reuniting with his old rap group The Style Boyz.",
+  "runtime": 86,
+  "poster_path": "/jBZeZZNjYBUU21zFvBnin5n62bv.jpg",
+  "backdrop_path": "/nUUKoiMSRa82cxoltjhSpVNpFXO.jpg",
+  "url": "https://www.themoviedb.org/movie/341012"
+ },
+ "rushmore|1999": {
+  "title": "Rushmore",
+  "year": 1998,
+  "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+  "runtime": 93,
+  "poster_path": "/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg",
+  "backdrop_path": "/asC4h9U7pD72bkYcqzgTB7VJYLy.jpg",
+  "url": "https://www.themoviedb.org/movie/11545"
+ },
+ "singles night: challengers|2024": {
+  "title": "Challengers",
+  "year": 2024,
+  "overview": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event — close to the lowest level of pro tournament — where he finds himself standing across the net from his former best friend and Tashi's former boyfriend.",
+  "runtime": 132,
+  "poster_path": "/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
+  "backdrop_path": "/tq8COKsI99Bivjd4CZIYVGoKcIx.jpg",
+  "url": "https://www.themoviedb.org/movie/937287"
+ },
+ "sing|2016": {
+  "title": "Sing",
+  "year": 2016,
+  "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
+  "runtime": 108,
+  "poster_path": "/rwopfpHqPCYBSgBuZwkaXXqHp14.jpg",
+  "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
+  "url": "https://www.themoviedb.org/movie/335797"
+ },
+ "the lord of the rings: the fellowship of the ring - extended edition|2001": {
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "year": 2001,
+  "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+  "runtime": 179,
+  "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+  "backdrop_path": "/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+  "url": "https://www.themoviedb.org/movie/120"
+ },
+ "the lord of the rings: the return of the king - extended edition|2004": {
+  "title": "The Return of the King",
+  "year": 1980,
+  "overview": "Two Hobbits struggle to destroy the Ring in Mount Doom while their friends desperately fight evil Lord Sauron's forces in a final battle.",
+  "runtime": 98,
+  "poster_path": "/lTwUT4NsSyUQlHV20Mx3C96JHq4.jpg",
+  "backdrop_path": "/fBzwSM5zl4xp9L3rFu1PihmY0vh.jpg",
+  "url": "https://www.themoviedb.org/movie/1361"
+ },
+ "the lord of the rings: the two towers - extended edition|2003": {
+  "title": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
+  "runtime": 201,
+  "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+  "backdrop_path": "/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
+  "url": "https://www.themoviedb.org/movie/122"
+ },
+ "the michigan theater community film club - back to school september|": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "twin peaks season 2 - episode 1|1991": {
+  "title": "Episode 1",
+  "year": 2003,
+  "overview": "Episode 1 is the registration of Renzo Martens' activities in Chechnya. He penetrates the war-zone —alone, illegal and carrying a Hi8 camera- and takes on the role of the single most important actor in war: that of the ubiquitous, yet forever undefined, television viewer for whose attention the battles are being fought. Amidst ruins and bombings, he does not ask refugees, UN employees and rebels how they feel. Those stories are well known, and serve no purpose for those who tell them. Instead, he asks them how they think he feels. The film forms a metaphor for an economy of images, roles and emotions. At the same time, there Martens stands, alone, with his camera, recording. The film is not about some external phenomenon, but about the terms and conditions of its own existence.",
+  "runtime": null,
+  "poster_path": null,
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/497784"
+ },
+ "twin peaks season 2 - episode 2 & 3|1991": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "twin peaks season 2 - episode 4 & 5|1991": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "twin peaks season 2 - episode 6 & 7|1991": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "twin peaks season 2 - episode 8 & 9|1991": {
+  "miss": true,
+  "checked": "2026-09-01"
  }
 }
