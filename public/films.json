@@ -8572,5 +8572,23 @@
  "voices embodied: prognostication|2026": {
   "miss": true,
   "checked": "2026-09-01"
+ },
+ "cult 101: boogie nights|1997": {
+  "title": "Boogie Nights",
+  "year": 1997,
+  "overview": "In 1977, an idealistic porn producer and his promising protege try to catch up with the end of an era before their never-ending party collides with cold, hard reality.",
+  "runtime": 156,
+  "poster_path": "/2hVSN9yOfoI8EUTqcVW6zCIyQ1G.jpg",
+  "backdrop_path": "/ArpTzQZHWh4UVsgUvV6S7WjTq1n.jpg",
+  "url": "https://www.themoviedb.org/movie/4995"
+ },
+ "indie 90s: welcome to the dollhouse|1996": {
+  "title": "Welcome to the Dollhouse",
+  "year": 1996,
+  "overview": "An unattractive 7th grader struggles to cope with suburban life as the middle child with inattentive parents and bullies at school.",
+  "runtime": 88,
+  "poster_path": "/fsMMOVto87pvUQyozOF9CaT9aMR.jpg",
+  "backdrop_path": "/cmD7smdQnflmpthFDjSArI2jKZF.jpg",
+  "url": "https://www.themoviedb.org/movie/11446"
  }
 }
