@@ -8590,5 +8590,36 @@
   "poster_path": "/fsMMOVto87pvUQyozOF9CaT9aMR.jpg",
   "backdrop_path": "/cmD7smdQnflmpthFDjSArI2jKZF.jpg",
   "url": "https://www.themoviedb.org/movie/11446"
+ },
+ "confessions of a nazi spy|1939": {
+  "title": "Confessions of a Nazi Spy",
+  "year": 1939,
+  "overview": "FBI agent Ed Renard investigates the pre-War espionage activities of the German-American Bund.",
+  "runtime": 104,
+  "poster_path": "/344MutCY2Xd6nxztXa1tkTR9Nml.jpg",
+  "backdrop_path": "/4FGXDyt6p8r7q2AvgW0KhGUQWk2.jpg",
+  "url": "https://www.themoviedb.org/movie/99920"
+ },
+ "ha-chan, shake your booty!|2026": {
+  "title": "Ha-Chan, Shake Your Booty!",
+  "year": 2026,
+  "overview": "Haru and Luis love competing in Tokyo’s ballroom dance scene, but after tragedy strikes, Haru withdraws into isolation. When friends coax her back to the studio, she develops an infatuation with the new instructor. She must face what comes next as sparks fly.",
+  "runtime": 122,
+  "poster_path": "/w98RWv9o05OhXYfTvauDrotRZ13.jpg",
+  "backdrop_path": "/dEu8lwu4q6k3m8xOLxGJzYoxjix.jpg",
+  "url": "https://www.themoviedb.org/movie/1596249"
+ },
+ "red river w/ karina longworth of you must remember this|1948": {
+  "miss": true,
+  "checked": "2026-09-01"
+ },
+ "resident evil|2026": {
+  "title": "Resident Evil",
+  "year": 2026,
+  "overview": "Bryan, a medical courier, unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+  "runtime": 94,
+  "poster_path": "/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg",
+  "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+  "url": "https://www.themoviedb.org/movie/1423191"
  }
 }
