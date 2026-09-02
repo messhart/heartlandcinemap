@@ -4343,7 +4343,7 @@
  },
  "remake|": {
   "miss": true,
-  "checked": "2026-07-24"
+  "checked": "2026-09-02"
  },
  "remake|2024": {
   "miss": true,
@@ -8651,5 +8651,40 @@
   "poster_path": "/fClJQW8xn8wHOFqoA4jUn0PZh1f.jpg",
   "backdrop_path": "/gysZn2XnFlDDQROXdBPiku4Aujg.jpg",
   "url": "https://www.themoviedb.org/movie/6415"
+ },
+ "gattaca|1997": {
+  "title": "Gattaca",
+  "year": 1997,
+  "overview": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an \"In-Valid\" who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
+  "runtime": 107,
+  "poster_path": "/eSKr5Fl1MEC7zpAXaLWBWSBjgJq.jpg",
+  "backdrop_path": "/hPsCR1ny6GnctJkWqeJwihTDD7T.jpg",
+  "url": "https://www.themoviedb.org/movie/782"
+ },
+ "season of the witch|1972": {
+  "miss": true,
+  "checked": "2026-09-02"
+ },
+ "shaun the sheep: the beast of mossy bottom|": {
+  "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+  "year": 2026,
+  "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "runtime": 80,
+  "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
+  "backdrop_path": "/izLG3cxbG89nK75OHyd1zvjR7n8.jpg",
+  "url": "https://www.themoviedb.org/movie/1477104"
+ },
+ "sherman’s march|": {
+  "miss": true,
+  "checked": "2026-09-02"
+ },
+ "the end of oak street|": {
+  "title": "The End of Oak Street",
+  "year": 2026,
+  "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
+  "runtime": 99,
+  "poster_path": "/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+  "backdrop_path": "/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+  "url": "https://www.themoviedb.org/movie/1101383"
  }
 }
