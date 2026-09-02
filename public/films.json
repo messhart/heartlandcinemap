@@ -8699,5 +8699,54 @@
  "the room + big shark w/ greg sestero|2001": {
   "miss": true,
   "checked": "2026-09-02"
+ },
+ "9 to 5|1980": {
+  "miss": true,
+  "checked": "2026-09-02"
+ },
+ "ghost in the machine|2026": {
+  "title": "Ghost in the Machine",
+  "year": 2026,
+  "overview": "The untold origins of artificial intelligence lie not in machines but in power, revealing the fantasies behind the hype that got us here and where we go next.",
+  "runtime": 110,
+  "poster_path": "/ahuoVKlDHO61k7HbcbvUGsOPMiq.jpg",
+  "backdrop_path": "/vFzm4rFiUDgwRANtCBj8tSDxRx2.jpg",
+  "url": "https://www.themoviedb.org/movie/1596315"
+ },
+ "la bola negra|2026": {
+  "title": "La bola negra",
+  "year": 2026,
+  "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+  "runtime": 155,
+  "poster_path": "/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg",
+  "backdrop_path": "/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+  "url": "https://www.themoviedb.org/movie/1422041"
+ },
+ "mysterious skin|2004": {
+  "title": "Mysterious Skin",
+  "year": 2005,
+  "overview": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
+  "runtime": 105,
+  "poster_path": "/wgSwDqhl6Rt3cuSCwt5sNpPna3x.jpg",
+  "backdrop_path": "/yiNHoIFUlFAByjXkTDdJOK9nw2Z.jpg",
+  "url": "https://www.themoviedb.org/movie/11171"
+ },
+ "primetime|2026": {
+  "title": "Primetime",
+  "year": 2026,
+  "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+  "runtime": 110,
+  "poster_path": "/51VDtNQFuD2I86hrT4ekytg9Dq3.jpg",
+  "backdrop_path": "/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+  "url": "https://www.themoviedb.org/movie/1375441"
+ },
+ "the last picture shows|2026": {
+  "title": "The Last Picture Shows",
+  "year": 2026,
+  "overview": "Ten states. 10,825 miles. 123 theaters. In his latest feature The Last Picture Shows, filmmaker Rustin Thompson journeys into the American West on a search for traces of what was once a center of small-town life: the movie theater. On the trip, he finds long abandoned and forgotten cinemas; movie houses that have fallen into disrepair; theaters recently closed, theaters struggling to hold on, and theaters that—thanks to their thoughtful caretakers—are not only surviving but thriving. Between the stops along the way, Rustin poetically intersperses excerpts from Peter Bogdanovich’s 1971 classic film The Last Picture Show, as well as reflections on past and present hardships facing the film exhibition industry. The Last Picture Shows reminds viewers that even in vast cinema deserts, there are oases of community and gathering that remain, where the movie house continues to be a place of wonder, contemplation, and connection.",
+  "runtime": 78,
+  "poster_path": "/kcXtytWGyvJLLwLaUZCPL6hEr6r.jpg",
+  "backdrop_path": "/1mwMs7P2kKb9AWlGNUJif7WFYuh.jpg",
+  "url": "https://www.themoviedb.org/movie/1630504"
  }
 }
