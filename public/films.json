@@ -8770,5 +8770,95 @@
  "documentaries about dabls in detroit|": {
   "miss": true,
   "checked": "2026-09-03"
+ },
+ "amanda & the alien|": {
+  "title": "Amanda & the Alien",
+  "year": 1998,
+  "overview": "Amanda, an employee at an upscale clothing store, is leading a relatively lonely and unremarkable life. All this changes when an alien that's been held a secret military installation excapes by taking over the body of one of the base employees. Amanda finds the fugitive alien and decides to help it hide from the government agents chasing it, a seemingly easy task, as the alien must change host bodies every few days. Will she be able to help her new companion make a clean getaway?",
+  "runtime": 96,
+  "poster_path": "/hAXSdJuKBYkaOv37V5FCWVO6QB4.jpg",
+  "backdrop_path": "/sRzFJ7E5iW7wsDdfVRstn9rueFW.jpg",
+  "url": "https://www.themoviedb.org/movie/140176"
+ },
+ "close-up|1990": {
+  "title": "Close-Up",
+  "year": 1990,
+  "overview": "This fiction-documentary hybrid uses a sensational real-life event—the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf—as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in which the real people from the case play themselves.",
+  "runtime": 98,
+  "poster_path": "/m9HG2N9ZKCmNN9qOHJTNyy18wn3.jpg",
+  "backdrop_path": "/3t1qZqP1e17wQshpPKSqII1OogM.jpg",
+  "url": "https://www.themoviedb.org/movie/30017"
+ },
+ "f for fake|1975": {
+  "title": "F for Fake",
+  "year": 1973,
+  "overview": "Documents the lives of infamous fakers Elmyr de Hory and Clifford Irving. De Hory, who later committed suicide to avoid more prison time, made his name by selling forged works of art by painters like Picasso and Matisse. Irving was infamous for writing a fake autobiography of Howard Hughes. Welles moves between documentary and fiction as he examines the fundamental elements of fraud and the people who commit fraud at the expense of others.",
+  "runtime": 89,
+  "poster_path": "/fVeIDxS73CrosoeVOaefQuCUGZg.jpg",
+  "backdrop_path": "/kwwuAQpPvewf4voKVMN98KcXEPM.jpg",
+  "url": "https://www.themoviedb.org/movie/43003"
+ },
+ "in the mouth of madness|1994": {
+  "title": "In the Mouth of Madness",
+  "year": 1995,
+  "overview": "An insurance investigator visits a small town while looking into the strange disappearance of a popular horror novelist. He soon finds that the impact of the author’s books is far more than inspirational.",
+  "runtime": 95,
+  "poster_path": "/msh4tEUzbnEqlHcFOUH4O0Zti8r.jpg",
+  "backdrop_path": "/uofxTi1d3IIAdRdyzKl5se5PGf1.jpg",
+  "url": "https://www.themoviedb.org/movie/2654"
+ },
+ "let the right one in|2008": {
+  "title": "Let the Right One In",
+  "year": 2008,
+  "overview": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl.",
+  "runtime": 115,
+  "poster_path": "/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg",
+  "backdrop_path": "/tu9RF8tzmT3umpWUBWYXQhxN77R.jpg",
+  "url": "https://www.themoviedb.org/movie/13310"
+ },
+ "medium cool|1969": {
+  "title": "Medium Cool",
+  "year": 1969,
+  "overview": "John Cassellis is the toughest TV news reporter around. After extensively reporting about violence and racial tensions in poor communities, he discovers that his network is helping the FBI by granting them access to his footage to find suspects.",
+  "runtime": 111,
+  "poster_path": "/uiRU2wJQh5x7q0HU3oBN0VbRMnt.jpg",
+  "backdrop_path": "/plMHzh9Mas5cfZZkmHGPQEaoN1I.jpg",
+  "url": "https://www.themoviedb.org/movie/42612"
+ },
+ "mermaids|1990": {
+  "title": "Mermaids",
+  "year": 1990,
+  "overview": "Fifteen-year-old Charlotte Flax is tired of her wacky mom moving their family to a different town any time she feels it is necessary. When they move to a small Massachusetts town and Mrs. Flax begins dating a shopkeeper, Charlotte and her 9-year-old sister, Kate, hope that they can finally settle down. But when Charlotte's attraction to an older man gets in the way, the family must learn to accept each other for who they truly are.",
+  "runtime": 110,
+  "poster_path": "/1VufMcp0euY2LpmKiVv8xnbB9Om.jpg",
+  "backdrop_path": "/d4p6VPoN70CnTV74jbW5ltlDgsh.jpg",
+  "url": "https://www.themoviedb.org/movie/4587"
+ },
+ "the dragon lives again|": {
+  "title": "The Dragon Lives Again",
+  "year": 1977,
+  "overview": "Everyone's favorite martial artist \"\"Bruce\"\" winds up fighting for his life and soul in hell against an evil Warlord intent on making him mincemeat - and he has recruited some of the 1970s most iconic B-movie characters to help dispatch the great one. But when that won't do the trick, he uses monsters, mummies and beautiful women to get the little dragon at any cost.",
+  "runtime": 96,
+  "poster_path": "/vEtx6bQv3UTk8SWTJCwX18AXBdN.jpg",
+  "backdrop_path": "/mPRC7OAQq4lQZlwQ13msQpH4th.jpg",
+  "url": "https://www.themoviedb.org/movie/84275"
+ },
+ "woman in the dunes|1964": {
+  "title": "Woman in the Dunes",
+  "year": 1964,
+  "overview": "A vacationing entomologist suffers extreme physical and psychological trauma after being taken captive by the residents of a poor seaside village and made to live with a woman whose life task is shoveling sand for them.",
+  "runtime": 147,
+  "poster_path": "/xiBr3bIT2xpbuIKo5bLK7ebP4O1.jpg",
+  "backdrop_path": "/dxfFh9pTKDaYH2B6PwcR6ohCM1L.jpg",
+  "url": "https://www.themoviedb.org/movie/16672"
+ },
+ "zombie for sale|2019": {
+  "title": "Zombie for Sale",
+  "year": 2019,
+  "overview": "When a pharmaceutical company's illegal experiments inadvertently create a zombie, the strange Park family finds it and tries to profit from it.",
+  "runtime": 112,
+  "poster_path": "/62WZ0RkSwTakEf0fPEy4ai5VXlX.jpg",
+  "backdrop_path": "/fPcXLx32DvK6yS5Ui0Py1T8TI3o.jpg",
+  "url": "https://www.themoviedb.org/movie/572151"
  }
 }
