@@ -6349,7 +6349,7 @@
  },
  "tony|": {
   "miss": true,
-  "checked": "2026-08-04"
+  "checked": "2026-09-04"
  },
  "arsenic and old lace|1944": {
   "title": "Arsenic and Old Lace",
@@ -6389,7 +6389,7 @@
  },
  "midwest fear fest|": {
   "miss": true,
-  "checked": "2026-08-04"
+  "checked": "2026-09-04"
  },
  "wild inside|": {
   "miss": true,
@@ -8860,5 +8860,18 @@
   "poster_path": "/62WZ0RkSwTakEf0fPEy4ai5VXlX.jpg",
   "backdrop_path": "/fPcXLx32DvK6yS5Ui0Py1T8TI3o.jpg",
   "url": "https://www.themoviedb.org/movie/572151"
+ },
+ "day of wrath|1943": {
+  "title": "Day of Wrath",
+  "year": 1943,
+  "overview": "In a Danish village in the early 1600s, a young woman named Anne, whose mother was thought to be a witch, develops sympathy toward an old woman, Marte, who is accused of witchcraft. The intervention of Anne's older but kindly husband, Pastor Absalon saved her mother -- but now, urged on by his overbearing mother, he refuses to help Marte. When Absalon's son returns home and is attracted to Anne, it's a matter of time before her family destiny catches up with her.",
+  "runtime": 97,
+  "poster_path": "/jEOqbGLFo8fxHHgYoZVTMVYMoQG.jpg",
+  "backdrop_path": "/8OYSiDLuSiNA8XcCC9F7MZ80lpw.jpg",
+  "url": "https://www.themoviedb.org/movie/41391"
+ },
+ "the vvitch|2015": {
+  "miss": true,
+  "checked": "2026-09-04"
  }
 }
