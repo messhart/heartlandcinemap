@@ -8873,5 +8873,14 @@
  "the vvitch|2015": {
   "miss": true,
   "checked": "2026-09-04"
+ },
+ "american doctor|": {
+  "title": "American Doctor",
+  "year": 2026,
+  "overview": "When three heroic American doctors — Palestinian, Jewish, and Zoroastrian — enter Gaza to save lives in the middle of a genocide, they find themselves caught between medicine and politics, risking everything to expose the truth.",
+  "runtime": 91,
+  "poster_path": "/sOSrlaXvItVdwU1P5Qpttcl12sd.jpg",
+  "backdrop_path": "/yzNoanH2Jfn5bj7d6reKeaAbd4S.jpg",
+  "url": "https://www.themoviedb.org/movie/1596332"
  }
 }
