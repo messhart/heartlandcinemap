@@ -9167,5 +9167,23 @@
   "poster_path": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
   "backdrop_path": "/7Ud7QIJo21odjCaev6V4md9sK16.jpg",
   "url": "https://www.themoviedb.org/movie/1447853"
+ },
+ "metropolis (1927)|1927": {
+  "title": "Metropolis",
+  "year": 1927,
+  "overview": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences.",
+  "runtime": 148,
+  "poster_path": "/kr9wXRN23zLuWJIelahas1mtnYj.jpg",
+  "backdrop_path": "/eeMoFKxjjiCi6iep2GEZtSAMYIr.jpg",
+  "url": "https://www.themoviedb.org/movie/19"
+ },
+ "the work in progress|2026": {
+  "title": "The Work in Progress",
+  "year": 2026,
+  "overview": "Follows Americans engaging in face-to-face conversations about cultural, political, economic, and generational divisions across seven states.",
+  "runtime": null,
+  "poster_path": null,
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1748754"
  }
 }
