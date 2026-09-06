@@ -6603,7 +6603,7 @@
  },
  "for kicks|2024": {
   "miss": true,
-  "checked": "2026-08-06"
+  "checked": "2026-09-06"
  },
  "psycho iii|1986": {
   "title": "Psycho III",
@@ -9189,5 +9189,14 @@
  "blue jasmine with cliff froehlich|2013": {
   "miss": true,
   "checked": "2026-09-05"
+ },
+ "wmse presents friday night freak show: house party|1990": {
+  "title": "House Party",
+  "year": 1990,
+  "overview": "Young Kid has been invited to a party at his friend Play's house. But after a fight at school, Kid's father grounds him. None the less, Kid sneaks out when his father falls asleep. But Kid doesn't know that three of the thugs at school have decided to give him a lesson in behavior.",
+  "runtime": 104,
+  "poster_path": "/hmUsEUI7RdgvTznkLCNSOHnjU4O.jpg",
+  "backdrop_path": "/vBaBRMCYiYRHHPKDl765HD42n9O.jpg",
+  "url": "https://www.themoviedb.org/movie/16094"
  }
 }
