@@ -9198,5 +9198,14 @@
   "poster_path": "/hmUsEUI7RdgvTznkLCNSOHnjU4O.jpg",
   "backdrop_path": "/vBaBRMCYiYRHHPKDl765HD42n9O.jpg",
   "url": "https://www.themoviedb.org/movie/16094"
+ },
+ "suspiria|1977": {
+  "title": "Suspiria",
+  "year": 1977,
+  "overview": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
+  "runtime": 99,
+  "poster_path": "/sEcvc9h1X3hYZdFgtiiKMm6RB3f.jpg",
+  "backdrop_path": "/9uXGLBPIJkPqmVwiyh3FI0iAe6n.jpg",
+  "url": "https://www.themoviedb.org/movie/11906"
  }
 }
