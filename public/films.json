@@ -9357,5 +9357,32 @@
   "poster_path": "/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
   "backdrop_path": "/mAOARNlQFy9mWfS4iY3s0SS1jqE.jpg",
   "url": "https://www.themoviedb.org/movie/1354301"
+ },
+ "indie 90s: cronos|1993": {
+  "title": "Cronos",
+  "year": 1993,
+  "overview": "Faced with his own mortality, an ingenious alchemist tried to perfect an invention that would provide him with the key to eternal life. It was called the Cronos device. When he died more than 400 years later, he took the secrets of this remarkable device to the grave with him. Now, an elderly antiques dealer has found the hellish machine hidden in a statue and learns about its incredible powers. The more he uses the device, the younger he becomes...but nothing comes without a price. Life after death is just the beginning as this nerve-shattering thriller unfolds and the fountain of youth turns bloody.",
+  "runtime": 94,
+  "poster_path": "/tQqIA8bDN7v1LmHjJg7Qh9BKCLa.jpg",
+  "backdrop_path": "/nR16suoZalsNzJvtkN8nxsTVwrR.jpg",
+  "url": "https://www.themoviedb.org/movie/11655"
+ },
+ "practical magic 2|": {
+  "title": "Practical Magic 2",
+  "year": 2026,
+  "overview": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+  "runtime": 110,
+  "poster_path": "/7jCV8dkRFK3DGJ4dTqlvrMTFPwZ.jpg",
+  "backdrop_path": "/nUcauJ000dFBYkgGpxyxJ5aWEH2.jpg",
+  "url": "https://www.themoviedb.org/movie/1302904"
+ },
+ "the adventures of prince achmed|1926": {
+  "title": "The Adventures of Prince Achmed",
+  "year": 1926,
+  "overview": "Taken from The Arabian Nights, a wicked sorcerer and the beautiful prince Achmed battle one against the other during a series of wondrous adventures.",
+  "runtime": 66,
+  "poster_path": "/c3OKMlt9QxpPeSfpyViqYkYFvUz.jpg",
+  "backdrop_path": "/rQp1bOwNytUfo5dntt1cuuhjv7t.jpg",
+  "url": "https://www.themoviedb.org/movie/19354"
  }
 }
