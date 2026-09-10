@@ -9485,5 +9485,88 @@
   "poster_path": "/geoYKcLBlTHfuFLyQy9GHH8M9Hh.jpg",
   "backdrop_path": "/2QWJHuCeYyFvDRY5CGJ4nlmaqYn.jpg",
   "url": "https://www.themoviedb.org/movie/1596296"
+ },
+ "cemetery man|": {
+  "title": "Cemetery Man",
+  "year": 1994,
+  "overview": "Francesco Dellamorte  is the groundskeeper at a cemetery where the dead just won’t stay dead—and it’s up to him to deal with those who come back to life with a hunger for human flesh. But Dellamorte’s job soon becomes much more complicated when he falls for an enigmatic young woman whose husband has recently died.",
+  "runtime": 104,
+  "poster_path": "/cI5AV3jCuxmoQp0N7Z16SI2b7Xk.jpg",
+  "backdrop_path": "/fHPTQ18tuwtJ3JvrCeZMZs4X58Q.jpg",
+  "url": "https://www.themoviedb.org/movie/21588"
+ },
+ "clay creation workshop|": {
+  "miss": true,
+  "checked": "2026-09-10"
+ },
+ "curtains|": {
+  "title": "Curtains",
+  "year": 1983,
+  "overview": "Six young actresses auditioning for a movie role at a remote mansion are targeted by a mysterious masked murderer.",
+  "runtime": 89,
+  "poster_path": "/jpMClX0G1Gsia1Dn1HaFGPXqjd0.jpg",
+  "backdrop_path": "/3vHADbVJiv5bB3HPuu6j9oORowT.jpg",
+  "url": "https://www.themoviedb.org/movie/67087"
+ },
+ "the boys next door|": {
+  "title": "The Boys Next Door",
+  "year": 1986,
+  "overview": "Roy and Bo leave their small town the weekend after graduation for a short road trip to LA. Soon, they find themselves lashing out and leaving a trail of bodies behind them. The violence escalates throughout.",
+  "runtime": 91,
+  "poster_path": "/zfH0EINXeLFJmwaC5YnfUIaLO4L.jpg",
+  "backdrop_path": "/nnbEmlo90sjQoswgQKR0xVfcjPH.jpg",
+  "url": "https://www.themoviedb.org/movie/22323"
+ },
+ "the child|": {
+  "miss": true,
+  "checked": "2026-09-10"
+ },
+ "the church|": {
+  "title": "The Church",
+  "year": 1989,
+  "overview": "In a Gothic cathedral built on the mass grave of a Teutonic purge, an ancient discovery by the new librarian will release an unholy maelstrom of madness, violence, and demonic vengeance.",
+  "runtime": 102,
+  "poster_path": "/i44N7Es8ei8glNwTO0Sjx9rL51k.jpg",
+  "backdrop_path": "/gB9RJwVlTb32IqrXRyNp6Okjhtp.jpg",
+  "url": "https://www.themoviedb.org/movie/40364"
+ },
+ "the city of the dead (horror hotel)|": {
+  "miss": true,
+  "checked": "2026-09-10"
+ },
+ "the forest of the wolf (ancines woods)|": {
+  "miss": true,
+  "checked": "2026-09-10"
+ },
+ "vampire circus|": {
+  "title": "Vampire Circus",
+  "year": 1972,
+  "overview": "After a spate of murders, the villagers of Schtettel kill the depraved perpetrator, Count Mitterhouse. Fifteen years later the Circus of Nights appeared in the plague-ridden village and its performers include Mitterhouse's mistress, children and cousins. They have come to Schtettel to fulfil the Count's last words, an evil, vicious curse of death and destruction on those who participated in his impaling. The children of Schtettel become the targets for a brutal and devastating revenge as the Vampire Circus rehearses for its most deadly performance.",
+  "runtime": 87,
+  "poster_path": "/sbYsGpPy1JgHjlOb1Onc9xwqr8u.jpg",
+  "backdrop_path": "/cMghYBBCHoESAWjPH53QMCodXIQ.jpg",
+  "url": "https://www.themoviedb.org/movie/29960"
+ },
+ "vhs swap|": {
+  "miss": true,
+  "checked": "2026-09-10"
+ },
+ "wolf guy|": {
+  "title": "Wolf Guy",
+  "year": 1975,
+  "overview": "Akira Inugami is the only survivor of a clan of ancient werewolves who relies on his supernatural powers to solve mysterious crimes. After a series of bloody killings perpetrated by an unseen force, Inugami uncovers a conspiracy involving a murdered cabaret singer, corrupt politicians, and a plot by the J-CIA to harvest his blood in order to steal his lycanthropic powers.",
+  "runtime": 86,
+  "poster_path": "/oNQvi7sxrDUwf3ezgXmmmpl543r.jpg",
+  "backdrop_path": "/2JZ13EBbXujjwHKxJL0K4dyu5sr.jpg",
+  "url": "https://www.themoviedb.org/movie/165282"
+ },
+ "yokai monsters: 100 monsters|": {
+  "title": "Yokai Monsters: 100 Monsters",
+  "year": 1968,
+  "overview": "A greedy developer, in league with a corrupt Shrine Magistrate, brutally tries to drive people out of a tenement building and destroy the shrine in back.  But he makes the fatal mistake of hosting a 100 Ghost Stories ceremony without the closing cleansing ritual, opening the door for the Yokai Monsters to punish the wicked.",
+  "runtime": 80,
+  "poster_path": "/zNUlTFJ3OwwNbmejRdxF6Lq9jEZ.jpg",
+  "backdrop_path": "/ylVMzhqFKZwVrC0ob11pn4U4r2p.jpg",
+  "url": "https://www.themoviedb.org/movie/91756"
  }
 }
