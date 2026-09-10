@@ -9436,5 +9436,27 @@
  "wallace & gromit: the classic shorts|": {
   "miss": true,
   "checked": "2026-09-09"
+ },
+ "die die delta pi ii: the burnt one|2026": {
+  "title": "Die Die Delta Pi II: The Burnt One",
+  "year": 2026,
+  "overview": "Thirteen years after the last Delta Pi massacre a new group of sorority sisters decide to get the Delta Pi sorority up and running again. Little do they know that a new killer has emerged taking out the sisters one by one. Will they survive? Or will this massacre be the worst one yet???",
+  "runtime": 67,
+  "poster_path": "/eipwDhU5ieuCoyg037weaMY8LL.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1709095"
+ },
+ "filmscream 2026|2026": {
+  "miss": true,
+  "checked": "2026-09-10"
+ },
+ "speed racer|2008": {
+  "title": "Speed Racer",
+  "year": 2008,
+  "overview": "Speed Racer is a young and brilliant racing driver. When corruption in the racing leagues costs his brother his life, Speed must team up with the police and the mysterious Racer X to bring an end to the corruption and criminal activities.",
+  "runtime": 135,
+  "poster_path": "/rVNpkV6ksY1hqjkun1WCTxqyK9v.jpg",
+  "backdrop_path": "/4CLeg52cRU2hBZk2O6bvsAf57sD.jpg",
+  "url": "https://www.themoviedb.org/movie/7459"
  }
 }
