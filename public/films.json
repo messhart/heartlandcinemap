@@ -9458,5 +9458,32 @@
   "poster_path": "/rVNpkV6ksY1hqjkun1WCTxqyK9v.jpg",
   "backdrop_path": "/4CLeg52cRU2hBZk2O6bvsAf57sD.jpg",
   "url": "https://www.themoviedb.org/movie/7459"
+ },
+ "barbara forever|": {
+  "title": "Barbara Forever",
+  "year": 2026,
+  "overview": "An archive-driven exploration of the life, work, and legacy of iconic, pioneering lesbian filmmaker Barbara Hammer.",
+  "runtime": 102,
+  "poster_path": "/kYjCmL8sg17zoKtm5Pb6Cn4H0nB.jpg",
+  "backdrop_path": "/mlEsvwfQoNUXC9y7vOSgVkrSL5U.jpg",
+  "url": "https://www.themoviedb.org/movie/1596326"
+ },
+ "mafalda: la película|1982": {
+  "title": "Mafalda: The Movie",
+  "year": 1982,
+  "overview": "Mafalda is an exceptional child, since her curiosity, world view and existential consciousness are broader than those of almost all human beings.",
+  "runtime": 82,
+  "poster_path": "/lI8vSACXbcHCE7q3AMNbExqXsEh.jpg",
+  "backdrop_path": "/gMx9DpExlDcbaBogKbvQZ7oiykK.jpg",
+  "url": "https://www.themoviedb.org/movie/53074"
+ },
+ "the history of concrete|": {
+  "title": "The History of Concrete",
+  "year": 2026,
+  "overview": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+  "runtime": 101,
+  "poster_path": "/geoYKcLBlTHfuFLyQy9GHH8M9Hh.jpg",
+  "backdrop_path": "/2QWJHuCeYyFvDRY5CGJ4nlmaqYn.jpg",
+  "url": "https://www.themoviedb.org/movie/1596296"
  }
 }
