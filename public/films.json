@@ -9590,5 +9590,27 @@
   "poster_path": "/2p3AFtOHFvP6OeVMqlnL1zLKOqL.jpg",
   "backdrop_path": "/ze7GsNSv418o7pzqc9fb00LWWDk.jpg",
   "url": "https://www.themoviedb.org/movie/17295"
+ },
+ "bird in hand|2026": {
+  "title": "Bird in Hand",
+  "year": 2026,
+  "overview": "Bird returns home to visit her mom in search of the perfect wedding venue after a surprise engagement to her longtime boyfriend, but much to everyone's surprise, she is actually on the hunt for something else.",
+  "runtime": 87,
+  "poster_path": "/zzzFU3dyXAwVVMI5BFwGOYP9DfO.jpg",
+  "backdrop_path": "/jcQqBxuWHEj3QLfQ6sWBBArI22l.jpg",
+  "url": "https://www.themoviedb.org/movie/1453227"
+ },
+ "lgbt history month film festival|2026": {
+  "miss": true,
+  "checked": "2026-09-11"
+ },
+ "this is not a film|2011": {
+  "title": "This Is Not a Film",
+  "year": 2011,
+  "overview": "Renowned Iranian director Jafar Panahi received a 6-year prison sentence and a 20-year ban from filmmaking and conducting interviews with foreign press due to his open support for the opposition party in Iran's 2009 election. In this film, which was shot secretly by Panahi's close friend Mojtaba Mirtahmasb and smuggled into France on a USB stick concealed inside a cake for a last-minute submission to Cannes, Panahi documents his daily life under house arrest as he awaits a decision on his appeal.",
+  "runtime": 78,
+  "poster_path": "/qRkxx6lIOUei4PxbFWH6UfWfUib.jpg",
+  "backdrop_path": "/uyvYZTJGPWlluDjI5aD72GaDqIx.jpg",
+  "url": "https://www.themoviedb.org/movie/83552"
  }
 }
