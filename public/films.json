@@ -9669,5 +9669,14 @@
  "the met: live in hd: così fan tutte (mozart)|": {
   "miss": true,
   "checked": "2026-09-13"
+ },
+ "the conjuring|2013": {
+  "title": "The Conjuring",
+  "year": 2013,
+  "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse. Forced to confront a powerful entity, the Warrens find themselves caught in the most terrifying case of their lives.",
+  "runtime": 112,
+  "poster_path": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+  "backdrop_path": "/ecKQlAEG95k62SMGhvX83oEqANK.jpg",
+  "url": "https://www.themoviedb.org/movie/138843"
  }
 }
