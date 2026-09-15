@@ -9705,5 +9705,89 @@
   "poster_path": "/9DkIKppS5D7s2dgCegKl4ApAuxa.jpg",
   "backdrop_path": "/4kBmeJFCqzCmvJ5aGFevc8ncIO7.jpg",
   "url": "https://www.themoviedb.org/movie/41035"
+ },
+ "bad apples|2025": {
+  "title": "Bad Apples",
+  "year": 2026,
+  "overview": "A struggling primary school teacher begins to make some questionable decisions after one of her students is injured.",
+  "runtime": 100,
+  "poster_path": "/60BxAjKM20ABTSYnWZcJ8ExiVNL.jpg",
+  "backdrop_path": "/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
+  "url": "https://www.themoviedb.org/movie/1198654"
+ },
+ "carrie|1976": {
+  "title": "Carrie",
+  "year": 1976,
+  "overview": "Withdrawn and sensitive teenager Carrie White faces bullying from her classmates and abuse from her fanatically pious mother. When she begins to suspect that she has supernatural powers, things take a dark and violent turn.",
+  "runtime": 98,
+  "poster_path": "/bJJ3xK4pMnfao0wfzySfC47dp8G.jpg",
+  "backdrop_path": "/zwJFfKQdfiptK2GY6N8GkZFrAxJ.jpg",
+  "url": "https://www.themoviedb.org/movie/7340"
+ },
+ "ghost in the shell 30th anniversary|1996": {
+  "miss": true,
+  "checked": "2026-09-15"
+ },
+ "if i go will they miss me|": {
+  "miss": true,
+  "checked": "2026-09-15"
+ },
+ "if i go will they miss me|2026": {
+  "title": "If I Go Will They Miss Me",
+  "year": 2026,
+  "overview": "A poetic, emotionally expansive father-son story about Black family, grace, imagination, and the hope that love can transform even the most fragile relationships into something more healing and beautiful.",
+  "runtime": 95,
+  "poster_path": "/v8Bcs5kC5EtKmFMomBv5BAB5SRi.jpg",
+  "backdrop_path": "/mvAazk3iHE2H6I8bzN56cMz1ZH7.jpg",
+  "url": "https://www.themoviedb.org/movie/1596248"
+ },
+ "leif jonker's darkness|1993": {
+  "miss": true,
+  "checked": "2026-09-15"
+ },
+ "my brother's wedding|1983": {
+  "title": "My Brother's Wedding",
+  "year": 1985,
+  "overview": "A young African-American man, living in Los Angeles without direction in his life, reluctantly agrees to be the best man for his brother, an upwardly mobile lawyer.",
+  "runtime": 81,
+  "poster_path": "/6HgIj3CHMZQI3a3wl1rOULwpFPU.jpg",
+  "backdrop_path": "/w9clWe4Ymb7Kt7SB36V7PitVBry.jpg",
+  "url": "https://www.themoviedb.org/movie/91735"
+ },
+ "obsession|": {
+  "title": "Obsession",
+  "year": 2026,
+  "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+  "runtime": 109,
+  "poster_path": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+  "backdrop_path": "/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+  "url": "https://www.themoviedb.org/movie/1339713"
+ },
+ "petite maman|2021": {
+  "title": "Petite Maman",
+  "year": 2021,
+  "overview": "After the death of her beloved grandmother, eight-year-old Nelly meets a strangely familiar girl her own age in the woods. Instantly forming a connection with this mysterious new friend, Nelly embarks on a fantastical journey of discovery which helps her come to terms with this newfound loss.",
+  "runtime": 72,
+  "poster_path": "/fMghdAE1eRk8PdpDftsA574zs0S.jpg",
+  "backdrop_path": "/yuXZXuS4RCTnCYScrRWBCNz2ywB.jpg",
+  "url": "https://www.themoviedb.org/movie/749004"
+ },
+ "shaun the sheep: the beast of mossy bottom|2026": {
+  "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+  "year": 2026,
+  "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods.",
+  "runtime": 81,
+  "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
+  "backdrop_path": "/izLG3cxbG89nK75OHyd1zvjR7n8.jpg",
+  "url": "https://www.themoviedb.org/movie/1477104"
+ },
+ "the weight|2026": {
+  "title": "The Weight",
+  "year": 2026,
+  "overview": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+  "runtime": 112,
+  "poster_path": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
+  "backdrop_path": "/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
+  "url": "https://www.themoviedb.org/movie/1433583"
  }
 }
