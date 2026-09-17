@@ -9922,5 +9922,23 @@
   "poster_path": "/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg",
   "backdrop_path": "/6zvbeKxgc80xQsZLJ4eQVZSKXO8.jpg",
   "url": "https://www.themoviedb.org/movie/1547"
+ },
+ "halloween: the curse of michael myers|1995": {
+  "title": "Halloween: The Curse of Michael Myers",
+  "year": 1995,
+  "overview": "Six years after being presumed dead in a fire, and just as the town prepares to finally celebrate Halloween again, Michael Myers returns to Haddonfield to continue his reign of terror.",
+  "runtime": 88,
+  "poster_path": "/noCnM8nEI2bEDSdKHh0RKbwBwbC.jpg",
+  "backdrop_path": "/jHtuoRdP5nGyulwYoV8izEU6p8M.jpg",
+  "url": "https://www.themoviedb.org/movie/10987"
+ },
+ "queen kelly|1929": {
+  "title": "Queen Kelly",
+  "year": 1929,
+  "overview": "A convent girl is abducted and seduced by a prince before being sent off to a brothel in East Africa.",
+  "runtime": 101,
+  "poster_path": "/eWrZfgoRqVv65jQwb562mr2q9A5.jpg",
+  "backdrop_path": "/iS4APOsILdMylXr8UL7V101mHBx.jpg",
+  "url": "https://www.themoviedb.org/movie/42638"
  }
 }
