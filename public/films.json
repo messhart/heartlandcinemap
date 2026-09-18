@@ -10021,5 +10021,31 @@
   "poster_path": "/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
   "backdrop_path": "/jiFLiatBtBALlAzV5R72gzspBad.jpg",
   "url": "https://www.themoviedb.org/movie/1437396"
+ },
+ "a place in the sun with karina longworth|1951": {
+  "miss": true,
+  "checked": "2026-09-18"
+ },
+ "little shop of horrors|": {
+  "miss": true,
+  "checked": "2026-09-18"
+ },
+ "little shop of horrors|1986": {
+  "title": "Little Shop of Horrors",
+  "year": 1986,
+  "overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker, Audrey Fulquard, and is berated by Mr. Mushnik daily. One day, Seymour finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for its supper.",
+  "runtime": 94,
+  "poster_path": "/iKkbN17OmFosaW6asCNZTTsyvpu.jpg",
+  "backdrop_path": "/z9y41Biv1isRtErpt7Ecv01ru0W.jpg",
+  "url": "https://www.themoviedb.org/movie/10776"
+ },
+ "the devils|1971": {
+  "title": "The Devils",
+  "year": 1971,
+  "overview": "In 1634 France, charismatic Father Urbain Grandier becomes the target of a sexually obsessed nun’s witchcraft accusations, which corrupt church and state officials are all too happy to exploit.​​​​​​​​​​​​​​​​",
+  "runtime": 112,
+  "poster_path": "/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
+  "backdrop_path": "/8ApwSMdd9QehKjvW3fOmKVrnZXv.jpg",
+  "url": "https://www.themoviedb.org/movie/31767"
  }
 }
