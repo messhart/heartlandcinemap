@@ -10047,5 +10047,32 @@
   "poster_path": "/y1k7eiOFc6fzm8XeTa1kNGx6JIs.jpg",
   "backdrop_path": "/8ApwSMdd9QehKjvW3fOmKVrnZXv.jpg",
   "url": "https://www.themoviedb.org/movie/31767"
+ },
+ "hocus pocus|1993": {
+  "title": "Hocus Pocus",
+  "year": 1993,
+  "overview": "After 300 years of slumber, three sister witches are accidentally resurrected in Salem on Halloween night, and it is up to three kids and their newfound feline friend to put an end to the witches' reign of terror once and for all.",
+  "runtime": 96,
+  "poster_path": "/by4D4Q9NlUjFSEUA1yrxq6ksXmk.jpg",
+  "backdrop_path": "/ncr6KR7bBF8cps6yZKiTAwClpn1.jpg",
+  "url": "https://www.themoviedb.org/movie/10439"
+ },
+ "sick & twisted tales|2026": {
+  "title": "Sick & Twisted Tales",
+  "year": 2026,
+  "overview": "A horror anthology featuring three short stories & a wraparound segment hosted by demented \"film critics\".",
+  "runtime": 76,
+  "poster_path": "/ewAbsnpqBTwuHtrsT9P9XMuFOKO.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1751536"
+ },
+ "wayne's world|1992": {
+  "title": "Wayne's World",
+  "year": 1992,
+  "overview": "The adventures of two amiably aimless metal-head friends, Wayne and Garth. From Wayne's basement, the pair broadcast a talk-show called \"Wayne's World\" on local public access television. The show comes to the attention of a sleazy network executive who wants to produce a big-budget version of \"Wayne's World\"—and he also wants Wayne's girlfriend, a rock singer named Cassandra. Wayne and Garth have to battle the executive not only to save their show, but also Cassandra.",
+  "runtime": 94,
+  "poster_path": "/fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+  "backdrop_path": "/lAvf5zzyOgTZmpRBRJFa7IVVqCK.jpg",
+  "url": "https://www.themoviedb.org/movie/8872"
  }
 }
