@@ -10127,5 +10127,32 @@
  "premiere environmental documentary film: “the coalition” with expert panel & film makers|": {
   "miss": true,
   "checked": "2026-09-20"
+ },
+ "fargo|1996": {
+  "title": "Fargo",
+  "year": 1996,
+  "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+  "runtime": 98,
+  "poster_path": "/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+  "backdrop_path": "/747dgDfL5d8esobk7h4odaOFhUq.jpg",
+  "url": "https://www.themoviedb.org/movie/275"
+ },
+ "seeds for liberation|2026": {
+  "title": "Seeds for Liberation",
+  "year": 2026,
+  "overview": "Featuring interviews with 20 prominent voices and filmed using two iPhone 16s over the spring and summer of 2025, this easily digestible educational tool for curious audiences explores Palestinian resistance and the movement’s ties to justice movements around the world.",
+  "runtime": 92,
+  "poster_path": "/by3kpqsyogBRmrYLvirPKhtCIzc.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1611214"
+ },
+ "traces of home|2025": {
+  "title": "Traces of Home – A Story from Congo",
+  "year": 2025,
+  "overview": "This short film tells the deeply personal and emotional journey of a father who made the life-altering decision to immigrate to Canada from Congo with his family. Narrated from his perspective, it dives into the challenges and obstacles he faced while fleeing his home country.",
+  "runtime": 8,
+  "poster_path": null,
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1552462"
  }
 }
