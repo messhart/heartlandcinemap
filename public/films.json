@@ -10154,5 +10154,88 @@
   "poster_path": null,
   "backdrop_path": null,
   "url": "https://www.themoviedb.org/movie/1552462"
+ },
+ "black zombie|2026": {
+  "title": "Black Zombie",
+  "year": 2026,
+  "overview": "From the flickering screens of Hollywood horror, to the haunted cane fields of colonial Haiti, Black Zombie unearths the buried origins of the zombie, reclaiming it as a symbol of survival and spiritual resistance.",
+  "runtime": 90,
+  "poster_path": "/pDYkgAg0yl3TD9Zl2OiSMP0VPvw.jpg",
+  "backdrop_path": "/rdTksM4zfncrwftf76reo0yb8lB.jpg",
+  "url": "https://www.themoviedb.org/movie/1629355"
+ },
+ "cinema femme 2026: shorts program 1|": {
+  "miss": true,
+  "checked": "2026-09-22"
+ },
+ "cinema femme 2026: shorts program 2|": {
+  "miss": true,
+  "checked": "2026-09-22"
+ },
+ "cinema femme 2026: shorts program 3|": {
+  "miss": true,
+  "checked": "2026-09-22"
+ },
+ "coded bias|2020": {
+  "title": "Coded Bias",
+  "year": 2020,
+  "overview": "Exploring the fallout of MIT Media Lab researcher Joy Buolamwini's startling discovery that facial recognition does not see dark-skinned faces accurately, and her journey to push for the first-ever legislation in the U.S. to govern against bias in the algorithms that impact us all.",
+  "runtime": 86,
+  "poster_path": "/2PknXfJbjxIkrC5RqiNEmywSPOY.jpg",
+  "backdrop_path": "/525TvWDI3alGFaZaqM3qThcbFja.jpg",
+  "url": "https://www.themoviedb.org/movie/653734"
+ },
+ "heart of the beast|2026": {
+  "title": "Heart of the Beast",
+  "year": 2026,
+  "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+  "runtime": 101,
+  "poster_path": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+  "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+  "url": "https://www.themoviedb.org/movie/1263337"
+ },
+ "indie 90s: high art|1998": {
+  "title": "High Art",
+  "year": 1998,
+  "overview": "When Syd, a young editor at an influential art magazine,  becomes involved with her neighbor, a drug-addicted lesbian photographer, both seek to exploit each other for their respective careers while slowly falling in love with each other.",
+  "runtime": 101,
+  "poster_path": "/lMXSGQIKTaM4bDkshmEHXHtfa7l.jpg",
+  "backdrop_path": "/z6Cxs29a2vX2Oq79sLCZ5BOZMJ7.jpg",
+  "url": "https://www.themoviedb.org/movie/37636"
+ },
+ "indie 90s: pulp fiction|1994": {
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+  "runtime": 154,
+  "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+  "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+  "url": "https://www.themoviedb.org/movie/680"
+ },
+ "manhattan short film festival 2026|2026": {
+  "miss": true,
+  "checked": "2026-09-22"
+ },
+ "silent movie day: faust|1926": {
+  "title": "Faust",
+  "year": 1926,
+  "overview": "God and Satan wager on the soul of a learned and prayerful alchemist as part of their eternal war over Earth.",
+  "runtime": 116,
+  "poster_path": "/rN703hMFxmkZfyEzsXvFtuFhkXE.jpg",
+  "backdrop_path": "/vBOKLF3nhdaKRiCvmdoIUTikG2X.jpg",
+  "url": "https://www.themoviedb.org/movie/10728"
+ },
+ "you had to be there how the toronto godspell ignited the comedy revolution, spread love & overalls, and created a community that changed the world (in a canadian kind of way)|": {
+  "miss": true,
+  "checked": "2026-09-22"
+ },
+ "you had to be there: how the toronto godspell ignited the comedy revolution, spread love & overalls, and created a community that changed the world (in a canadian kind of way)|2026": {
+  "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution...",
+  "year": 2026,
+  "overview": "Martin Short, Eugene Levy, Gilda Radner, Victor Garber, Paul Shaffer, and other entertainment icons got their start in a 1972 Toronto production of the musical Godspell. Featuring interviews with the surviving cast members, Lin-Manuel Miranda, Mike Myers, and more, the film recounts a pivotal moment in comedy history, in hilarious, moving, and inspiring detail. Executive produced by Judd Apatow.",
+  "runtime": 98,
+  "poster_path": "/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
+  "backdrop_path": "/mAOARNlQFy9mWfS4iY3s0SS1jqE.jpg",
+  "url": "https://www.themoviedb.org/movie/1354301"
  }
 }
