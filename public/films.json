@@ -10291,5 +10291,41 @@
   "poster_path": "/w98RWv9o05OhXYfTvauDrotRZ13.jpg",
   "backdrop_path": "/dEu8lwu4q6k3m8xOLxGJzYoxjix.jpg",
   "url": "https://www.themoviedb.org/movie/1596249"
+ },
+ "forgotten island|2026": {
+  "title": "Forgotten Island",
+  "year": 2026,
+  "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+  "runtime": 109,
+  "poster_path": "/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+  "backdrop_path": "/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
+  "url": "https://www.themoviedb.org/movie/1465063"
+ },
+ "inglourious basterds (35mm)|2009": {
+  "title": "Inglourious Basterds",
+  "year": 2009,
+  "overview": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+  "runtime": 153,
+  "poster_path": "/aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
+  "backdrop_path": "/hwNtEmmugU5Yd7hpfprNWI0DGIn.jpg",
+  "url": "https://www.themoviedb.org/movie/16869"
+ },
+ "never after dark|2026": {
+  "title": "Never After Dark",
+  "year": 2026,
+  "overview": "A traveling psychic who helps lost souls cross over encounters a powerful entity at a remote house. While investigating its origins, she uncovers dark secrets and faces a deadly threat from an unexpected source.",
+  "runtime": 104,
+  "poster_path": "/jguB76QbAx6yExiOLIPvOaxW95b.jpg",
+  "backdrop_path": "/o73vpmtXq89bfSUMcAulLVN4TKP.jpg",
+  "url": "https://www.themoviedb.org/movie/1629051"
+ },
+ "snowpiercer (35mm)|2013": {
+  "title": "Snowpiercer",
+  "year": 2013,
+  "overview": "In a future where a failed global-warming experiment kills off most life on the planet, a class system evolves aboard the Snowpiercer; a train that travels around the globe via a perpetual-motion engine.",
+  "runtime": 127,
+  "poster_path": "/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
+  "backdrop_path": "/vz45GHSnBNYRcyoZe3UCQ4HD4D4.jpg",
+  "url": "https://www.themoviedb.org/movie/110415"
  }
 }
