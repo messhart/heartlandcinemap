@@ -10327,5 +10327,41 @@
   "poster_path": "/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
   "backdrop_path": "/vz45GHSnBNYRcyoZe3UCQ4HD4D4.jpg",
   "url": "https://www.themoviedb.org/movie/110415"
+ },
+ "akira|": {
+  "title": "Akira",
+  "year": 1988,
+  "overview": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.",
+  "runtime": 124,
+  "poster_path": "/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg",
+  "backdrop_path": "/fK40VGYIm7hmKrLJ26fgPQU0qRG.jpg",
+  "url": "https://www.themoviedb.org/movie/149"
+ },
+ "coyote vs. acme|": {
+  "title": "Coyote vs. Acme",
+  "year": 2026,
+  "overview": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
+  "runtime": 103,
+  "poster_path": "/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+  "backdrop_path": "/7GOW6jod9lLurW5utokAatxg7ql.jpg",
+  "url": "https://www.themoviedb.org/movie/1204680"
+ },
+ "ha-chan shake your booty|2026": {
+  "title": "Ha-Chan, Shake Your Booty!",
+  "year": 2026,
+  "overview": "Haru and Luis love competing in Tokyo’s ballroom dance scene, but after tragedy strikes, Haru withdraws into isolation. When friends coax her back to the studio, she develops an infatuation with the new instructor. She must face what comes next as sparks fly.",
+  "runtime": 122,
+  "poster_path": "/w98RWv9o05OhXYfTvauDrotRZ13.jpg",
+  "backdrop_path": "/dEu8lwu4q6k3m8xOLxGJzYoxjix.jpg",
+  "url": "https://www.themoviedb.org/movie/1596249"
+ },
+ "paw patrol: the dino movie|": {
+  "title": "PAW Patrol: The Dino Movie",
+  "year": 2026,
+  "overview": "The Paw Patrol lands on a mysterious dinosaur island after a storm, where they meet Rex, a stranded pup. When Humdinger's reckless mining triggers a volcano, the team faces their biggest rescue mission yet to save the island.",
+  "runtime": 88,
+  "poster_path": "/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
+  "backdrop_path": "/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+  "url": "https://www.themoviedb.org/movie/1185806"
  }
 }
