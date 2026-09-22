@@ -10237,5 +10237,50 @@
   "poster_path": "/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
   "backdrop_path": "/mAOARNlQFy9mWfS4iY3s0SS1jqE.jpg",
   "url": "https://www.themoviedb.org/movie/1354301"
+ },
+ "black chariot|1971": {
+  "title": "Black Chariot",
+  "year": 1971,
+  "overview": "Young black man joins a black nationalist group, which is betrayed by a turncoat.",
+  "runtime": 90,
+  "poster_path": "/1y3ijmiRl0tjoQiISQKf73Nrxod.jpg",
+  "backdrop_path": "/qnjSiZET5FWnazzciPvmzJt3RgG.jpg",
+  "url": "https://www.themoviedb.org/movie/399415"
+ },
+ "digger|2026": {
+  "title": "Digger",
+  "year": 2026,
+  "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+  "runtime": 129,
+  "poster_path": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+  "backdrop_path": "/b7PtCwsuMw84REQq15nmQgT9UXN.jpg",
+  "url": "https://www.themoviedb.org/movie/1248832"
+ },
+ "shoot the people|2025": {
+  "title": "Shoot the People",
+  "year": 2026,
+  "overview": "A documentary capturing photographer and activist Misan Harriman’s journey documenting global protest movements that drive social change. Follow Harriman as he highlights the resilience of grassroots activists fighting for equality, civil rights, and social justice, the film showcases the intersectionality of these movements and their collective power. With historical context, interviews with activists, and explorations of digital activism, the documentary reveals how Harriman's lens brings the world's activism to light, inspiring viewers to recognize their own power in shaping a more just society.",
+  "runtime": 95,
+  "poster_path": "/9hktZMKboj27z6ePPzOkj9UGJbf.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1490899"
+ },
+ "unidentified|2026": {
+  "title": "Unidentified",
+  "year": 2026,
+  "overview": "The body of a teenage girl is found in the heart of the desert, he raised many questions about the girl's personality, the lady decides to search for the circumstances of the crime and collect information about the unknown body, and solves the mystery surrounded by the crime.",
+  "runtime": 100,
+  "poster_path": "/wN1nAE5WgSY0HauFlgty4sOAcnd.jpg",
+  "backdrop_path": "/aj86ACcXFsx6cMvxNruNJzi2j3U.jpg",
+  "url": "https://www.themoviedb.org/movie/1337438"
+ },
+ "who killed alex odeh?|2026": {
+  "title": "Who Killed Alex Odeh?",
+  "year": 2026,
+  "overview": "In October 1985, Santa Ana, California was shaken by a brazen act of political violence when Palestinian American Alex Odeh, a beloved teacher and community leader, was killed by a tripwire bomb planted in his office. Despite substantial evidence and identified suspects, the case was never solved. Who Killed Alex Odeh? reopens the mystery, tracking a renewed investigation in real time as new leads emerge, long-buried records come to light, and the forces behind a political assassination are finally confronted.",
+  "runtime": 83,
+  "poster_path": "/yO1m1fh4N7kMNxB0Nn9hrVIUJOw.jpg",
+  "backdrop_path": "/w2xj76FYLdPSwka9f7aFgmWx5EG.jpg",
+  "url": "https://www.themoviedb.org/movie/1162823"
  }
 }
