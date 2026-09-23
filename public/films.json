@@ -10363,5 +10363,44 @@
   "poster_path": "/qnin56Syy5rbG7KCaxWY7SPuy6p.jpg",
   "backdrop_path": "/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
   "url": "https://www.themoviedb.org/movie/1185806"
+ },
+ "american agitators|2024": {
+  "title": "American Agitators",
+  "year": 2024,
+  "overview": "The story of activist Fred Ross, who helped invent modern organizing. He and his son, Fred Ross, Jr. Left a legacy and a set of techniques that are still used today.",
+  "runtime": 94,
+  "poster_path": null,
+  "backdrop_path": "/t6Cc8GbSrhQseyBY1euftoX4ANL.jpg",
+  "url": "https://www.themoviedb.org/movie/1399474"
+ },
+ "house (1977) hausu|": {
+  "miss": true,
+  "checked": "2026-09-23"
+ },
+ "indyvision cinemixer 2026|": {
+  "miss": true,
+  "checked": "2026-09-23"
+ },
+ "premiere environmental documentary film: “the coalition” with expert panel & filmmakers|": {
+  "miss": true,
+  "checked": "2026-09-23"
+ },
+ "some like it hot (35mm)|1959": {
+  "title": "Some Like It Hot",
+  "year": 1959,
+  "overview": "In Prohibition-era Chicago, musicians Joe and Jerry witness a mob hit, and flee the state in an all-female band disguised as Josephine and Daphne, but further complications set in.",
+  "runtime": 123,
+  "poster_path": "/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg",
+  "backdrop_path": "/sv2VnbZmgy2rkrtkA2nz7rzH0VK.jpg",
+  "url": "https://www.themoviedb.org/movie/239"
+ },
+ "songs my brothers taught me|2015": {
+  "title": "Songs My Brothers Taught Me",
+  "year": 2015,
+  "overview": "This complex portrait of modern-day life on the Pine Ridge Indian Reservation explores the bond between a brother and his younger sister, who find themselves on separate paths to rediscovering the meaning of home.",
+  "runtime": 93,
+  "poster_path": "/2DiiYoVGtNkvvM8mc5UMIalH7OC.jpg",
+  "backdrop_path": "/cSVIQcChsIqaP7frfaiXTTH3vOM.jpg",
+  "url": "https://www.themoviedb.org/movie/308640"
  }
 }
