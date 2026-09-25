@@ -10447,5 +10447,23 @@
   "poster_path": "/eE5bbuRJluooG2MjEAsLEYyuJoa.jpg",
   "backdrop_path": "/gcXbxHjkUwLV4HrE2oJcbP7UGTA.jpg",
   "url": "https://www.themoviedb.org/movie/8740"
+ },
+ "alucarda|1977": {
+  "title": "Alucarda",
+  "year": 1977,
+  "overview": "After the death of her parents, young Justine is sent to live in a convent, where she meets and falls in love with the mysterious and macabre Alucarda. However, Alucarda has friends in low places... very low places. And a blood pact has just granted them entry to the church.",
+  "runtime": 77,
+  "poster_path": "/auZZ7zqm7qbLWBTmq4S2fO6L64m.jpg",
+  "backdrop_path": "/xOuFz7t8zFEMLmzCHxnSLLkvNST.jpg",
+  "url": "https://www.themoviedb.org/movie/40074"
+ },
+ "viy|1967": {
+  "title": "Viy",
+  "year": 1967,
+  "overview": "A seminary student on monastery holiday kills an old witch in a remote village. The hag then transforms into a beautiful young woman whose dying wish is for him to watch over her wake for three nights. With terrors occurring and his faith waning, he reads prayers on the overnight watch and tries to survive the supernatural encounters.",
+  "runtime": 76,
+  "poster_path": "/rgkp4X9C1NNobH8bq55zcMTQFCl.jpg",
+  "backdrop_path": "/sNjRnpuMVSmavDnyWUiuTn6cY7T.jpg",
+  "url": "https://www.themoviedb.org/movie/57230"
  }
 }
