@@ -10531,5 +10531,76 @@
  "union county|": {
   "miss": true,
   "checked": "2026-09-26"
+ },
+ "blow out|1981": {
+  "title": "Blow Out",
+  "year": 1981,
+  "overview": "While recording sound effects for a slasher flick, Jack Terry stumbles upon a real-life horror: a car careening off a bridge and into a river. Jack jumps into the water and fishes out Sally from the car, but the other passenger is already dead — a governor intending to run for president. As Jack does some investigating of his tapes, and starts a perilous romance with Sally, he enters a tangled web of conspiracy that might leave him dead.",
+  "runtime": 108,
+  "poster_path": "/uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+  "backdrop_path": "/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
+  "url": "https://www.themoviedb.org/movie/11644"
+ },
+ "kwaidan|1965": {
+  "title": "Kwaidan",
+  "year": 1965,
+  "overview": "Taking its title from an archaic Japanese word meaning \"ghost story,\" this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior's reflection in his teacup.",
+  "runtime": 183,
+  "poster_path": "/t9UMfViYl47SdZZatKQ1JKjjCgs.jpg",
+  "backdrop_path": "/9GAU0z2wVA8M2D2w36CaloWYYgv.jpg",
+  "url": "https://www.themoviedb.org/movie/30959"
+ },
+ "noroi: the curse|2005": {
+  "title": "Noroi: The Curse",
+  "year": 2005,
+  "overview": "A documentary filmmaker explores seemingly unrelated paranormal incidents connected by the legend of an ancient demon.",
+  "runtime": 115,
+  "poster_path": "/vA7uZSMx8VL6LIuNFPnymwkRPBV.jpg",
+  "backdrop_path": "/9gF8o7nNCWtzYiiAkvPNGw4yxsg.jpg",
+  "url": "https://www.themoviedb.org/movie/21506"
+ },
+ "persepolis|2007": {
+  "title": "Persepolis",
+  "year": 2007,
+  "overview": "In 1970s Iran, Marjane 'Marji' Satrapi watches events through her young eyes and her idealistic family of a long dream being fulfilled of the hated Shah's defeat in the Iranian Revolution of 1979. However as Marji grows up, she witnesses first hand how the new Iran, now ruled by Islamic fundamentalists, has become a repressive tyranny on its own.",
+  "runtime": 95,
+  "poster_path": "/aU8i2QAdTyRR1nYb36Gq51xXP8p.jpg",
+  "backdrop_path": "/4pfb85bv0rKkmslTp2hzAqA7RT4.jpg",
+  "url": "https://www.themoviedb.org/movie/2011"
+ },
+ "psycho|1960": {
+  "title": "Psycho",
+  "year": 1960,
+  "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+  "runtime": 109,
+  "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+  "backdrop_path": "/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+  "url": "https://www.themoviedb.org/movie/539"
+ },
+ "scooby-doo 2: monsters unleashed|2004": {
+  "title": "Scooby-Doo 2: Monsters Unleashed",
+  "year": 2004,
+  "overview": "A masked villain wreaks mayhem on the city of Coolsville with a monster machine that creates real-life versions of Mystery Inc.'s former foes like The 10,000 Volt Ghost, The Cotton Candy Glob, The Skelemen and The Pterodactyl Ghost. Fred, Daphne, Shaggy, Velma and Scooby-Doo launch an investigation into the monster outbreak that leaves Shaggy and Scooby questioning their roles in Mystery Inc. Eager to prove their detective skills, the ever-ravenous duo comes up with a secret plan to solve the mystery all by themselves. Can the gang unravel their most challenging case?",
+  "runtime": 93,
+  "poster_path": "/5BrXCJrs22bR5KR6mLHluYo6y4m.jpg",
+  "backdrop_path": "/m8y7OjvCBLmJfG6CIb5gpXFSLec.jpg",
+  "url": "https://www.themoviedb.org/movie/11024"
+ },
+ "the met: live in hd: macbeth (verdi)|": {
+  "miss": true,
+  "checked": "2026-09-27"
+ },
+ "the playboy of the western world|2026": {
+  "miss": true,
+  "checked": "2026-09-27"
+ },
+ "the witches of eastwick|1987": {
+  "title": "The Witches of Eastwick",
+  "year": 1987,
+  "overview": "Three single women in a picturesque village have their wishes granted, at a cost, when a mysterious and flamboyant man arrives in their lives.",
+  "runtime": 118,
+  "poster_path": "/p5OivnZuXfy5E3BKKFIeSidmwys.jpg",
+  "backdrop_path": "/5xgtdWDqBhc2nD5e6zlgyjeQ6XD.jpg",
+  "url": "https://www.themoviedb.org/movie/6069"
  }
 }
