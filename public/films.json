@@ -10928,5 +10928,32 @@
  "you had to be there|2025": {
   "miss": true,
   "checked": "2026-09-29"
+ },
+ "ghost in the cell|2026": {
+  "title": "Ghost in the Cell",
+  "year": 2026,
+  "overview": "In a notorious prison, an invisible force begins killing inmates brutally, compelling enemy gangs and corrupt guards to work together as they try to survive the mounting bloodshed.",
+  "runtime": 106,
+  "poster_path": "/zxcMdx0w5Zmg8yZuuiS7CJ8vOea.jpg",
+  "backdrop_path": "/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
+  "url": "https://www.themoviedb.org/movie/1393326"
+ },
+ "hitchcocktober 2026: vertigo|1958": {
+  "title": "Vertigo",
+  "year": 1958,
+  "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+  "runtime": 128,
+  "poster_path": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+  "backdrop_path": "/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
+  "url": "https://www.themoviedb.org/movie/426"
+ },
+ "the influencer project|2026": {
+  "title": "The Influencer Project",
+  "year": 2026,
+  "overview": "Influencer Chiara King travels to Copenhagen with a documentary crew promising an unfiltered look behind the glamorous business of online fame. But as the cameras and her devoted fans follow her every move, someone else is watching too. When an obsessive stalker begins closing in, the documentary mutates into something far more terrifying, blurring the line between content and evidence, follower and predator, fact and fiction.",
+  "runtime": 102,
+  "poster_path": "/3yolfJrhMf8XvfKVlBB6Zetn2wS.jpg",
+  "backdrop_path": "/q4WeLp7kmLAvHYpzQXEzlZWJMsn.jpg",
+  "url": "https://www.themoviedb.org/movie/1654086"
  }
 }
