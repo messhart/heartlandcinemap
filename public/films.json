@@ -10955,5 +10955,40 @@
   "poster_path": "/3yolfJrhMf8XvfKVlBB6Zetn2wS.jpg",
   "backdrop_path": "/q4WeLp7kmLAvHYpzQXEzlZWJMsn.jpg",
   "url": "https://www.themoviedb.org/movie/1654086"
+ },
+ "groundswell – a free screening w/ governor tom vilsack, laura turner seydel + drake university|2026": {
+  "title": "Groundswell",
+  "year": 2026,
+  "overview": "Viewers travel around the world, getting a global perspective on the three biggest (and interrelated) problems our species faces – climate change, species loss and soil loss. More importantly, viewers will learn about the multitude of methods in which regeneration is addressing and even reversing these trends on an ecosystem-by-ecosystem basis, all while storing enough carbon in the ground to help mitigate our changing climate.",
+  "runtime": 94,
+  "poster_path": "/q075M8wJIqc428cD1hmW5fgTYm5.jpg",
+  "backdrop_path": "/4l6tCJG9Z7VWHEbIgFZVg1yXpSu.jpg",
+  "url": "https://www.themoviedb.org/movie/1679036"
+ },
+ "music box of horrors - half marathon|": {
+  "miss": true,
+  "checked": "2026-09-29"
+ },
+ "the incomer|": {
+  "title": "The Incomer",
+  "year": 2026,
+  "overview": "On an Orkney isle, siblings Isla and Sandy survive by hunting seabirds, retelling the stories of their ancestors, and defending the isle from dreaded \"Incomers\". Their world is upended with the arrival of an awkward council worker who has come to uproot them from their homeland.",
+  "runtime": 102,
+  "poster_path": "/iccroKK1eUTdCnLfmp7I3YXwAKF.jpg",
+  "backdrop_path": "/gdqm7D25PTLxnIaizZbCGXdqKMD.jpg",
+  "url": "https://www.themoviedb.org/movie/1554956"
+ },
+ "the wedding|1972": {
+  "title": "The Wedding Was Beautiful, People Were Crying",
+  "year": 1972,
+  "overview": "A 1972 movie.",
+  "runtime": null,
+  "poster_path": null,
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1502890"
+ },
+ "who moves america with q&a|2026": {
+  "miss": true,
+  "checked": "2026-09-29"
  }
 }
