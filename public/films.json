@@ -10875,5 +10875,58 @@
   "poster_path": "/9LHVZevgdsdbjJdkFr6bk9EwX7q.jpg",
   "backdrop_path": "/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
   "url": "https://www.themoviedb.org/movie/1379486"
+ },
+ "behemoth!|2026": {
+  "title": "Behemoth!",
+  "year": 2026,
+  "overview": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever.",
+  "runtime": 124,
+  "poster_path": "/bcyGYWfcXr0GnXewaE5gkvYy1iQ.jpg",
+  "backdrop_path": "/gI3s8kkXsG0VHkpWjtZBKOz6sOk.jpg",
+  "url": "https://www.themoviedb.org/movie/1452168"
+ },
+ "ever after|2026": {
+  "title": "Ever After",
+  "year": 2026,
+  "overview": "A group of girlfriends arrive at a forest lodge to celebrate, but things take a horrific turn as they realize that the forest is home to bloodthirsty lunatics who perceive themselves to be characters from classic fairy tales.",
+  "runtime": 125,
+  "poster_path": "/ghL5WDgc1dvvNSEQ0dld7k6CTnt.jpg",
+  "backdrop_path": "/zFT6pxNBYVQCMrmJpdx52VUliPJ.jpg",
+  "url": "https://www.themoviedb.org/movie/1438207"
+ },
+ "key largo on 35mm|1948": {
+  "title": "Key Largo",
+  "year": 1948,
+  "overview": "A hurricane swells outside, but it's nothing compared to the storm within the hotel at Key Largo. There, sadistic mobster Johnny Rocco holes up - and holds at gunpoint hotel owner James Temple, his widowed daughter-in-law Nora, and ex-GI Frank McCloud.",
+  "runtime": 100,
+  "poster_path": "/rySfmQQZhS7RswOiJcJrww6FcHy.jpg",
+  "backdrop_path": "/m2SXRnAd0d5N6qH2cbgluRgMX4z.jpg",
+  "url": "https://www.themoviedb.org/movie/11016"
+ },
+ "moonlight|2016": {
+  "title": "Moonlight",
+  "year": 2016,
+  "overview": "The tender, heartbreaking story of a young man’s struggle to find himself, told across three defining chapters in his life as he experiences the ecstasy, pain, and beauty of falling in love, while grappling with his own sexuality.",
+  "runtime": 112,
+  "poster_path": "/qLnfEmPrDjJfPyyddLJPkXmshkp.jpg",
+  "backdrop_path": "/jm1oD3eB08LImSwL1LrzF9AJQ5b.jpg",
+  "url": "https://www.themoviedb.org/movie/376867"
+ },
+ "mouse|2026": {
+  "title": "Mouse",
+  "year": 2026,
+  "overview": "Callie and Minnie’s relationship is suddenly upended at the start of the summer before their senior year of high school. Left rudderless without her charismatic best friend, Minnie starts to form a complicated friendship with Callie’s mother.",
+  "runtime": 120,
+  "poster_path": "/iKBFfOCdeu21lxxLxWaSAXxkmJ5.jpg",
+  "backdrop_path": "/1pR6uu0e9h4tJiSuYLuiRm7id6x.jpg",
+  "url": "https://www.themoviedb.org/movie/1241052"
+ },
+ "the liberation|2026": {
+  "miss": true,
+  "checked": "2026-09-29"
+ },
+ "you had to be there|2025": {
+  "miss": true,
+  "checked": "2026-09-29"
  }
 }
