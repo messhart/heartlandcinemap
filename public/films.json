@@ -11083,5 +11083,31 @@
   "poster_path": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
   "backdrop_path": "/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
   "url": "https://www.themoviedb.org/movie/426"
+ },
+ "beetlejuice + 3 classic warner bros. cartoons|1988": {
+  "miss": true,
+  "checked": "2026-09-30"
+ },
+ "morocco|1930": {
+  "title": "Morocco",
+  "year": 1930,
+  "overview": "Mogador, Morocco. Late 1920s. A complex romance develops between a womanizing Legionnaire and a disillusioned Parisian cabaret singer.",
+  "runtime": 92,
+  "poster_path": "/jDqZsxyv35iyJWW0mANk1RhxhJp.jpg",
+  "backdrop_path": "/fyIbxqQ75Ma9jXmSr4OxXZ0UkOa.jpg",
+  "url": "https://www.themoviedb.org/movie/42641"
+ },
+ "occupational hazard: the first coral reefers|2026": {
+  "title": "Occupational Hazard: The First Coral Reefers",
+  "year": 2026,
+  "overview": "Journey through the 1970s and early ’80s with the original members of Jimmy Buffett's Coral Reefer Band as they recount their contributions to iconic albums, life on tour, and the lasting impact they had in shaping a unique and enduring genre of music.",
+  "runtime": 94,
+  "poster_path": "/et62NGHX8xV0X2GMQfq8pVLP05c.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1631540"
+ },
+ "orion with q&a|2026": {
+  "miss": true,
+  "checked": "2026-09-30"
  }
 }
