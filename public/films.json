@@ -11016,5 +11016,72 @@
   "poster_path": "/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg",
   "backdrop_path": "/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg",
   "url": "https://www.themoviedb.org/movie/1765072"
+ },
+ "dial m for murder|": {
+  "title": "Dial M for Murder",
+  "year": 1954,
+  "overview": "When her American lover visits London, a wealthy woman’s jealous husband hatches a plan to murder her and inherit her fortune.",
+  "runtime": 105,
+  "poster_path": "/2gDCAgl2iBQNuJuk6p2xtuS1ewg.jpg",
+  "backdrop_path": "/mD6EAjfIr7CLdFlCIJjh7CJeWX3.jpg",
+  "url": "https://www.themoviedb.org/movie/521"
+ },
+ "fangs (anyab)|": {
+  "miss": true,
+  "checked": "2026-09-30"
+ },
+ "north by northwest|": {
+  "title": "North by Northwest",
+  "year": 1959,
+  "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+  "runtime": 137,
+  "poster_path": "/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
+  "backdrop_path": "/OR8oloCZ3klJtB7Y0i8pSqWw5a.jpg",
+  "url": "https://www.themoviedb.org/movie/213"
+ },
+ "psycho|": {
+  "title": "Psycho",
+  "year": 1960,
+  "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+  "runtime": 109,
+  "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+  "backdrop_path": "/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+  "url": "https://www.themoviedb.org/movie/539"
+ },
+ "rear window|": {
+  "title": "Rear Window",
+  "year": 1954,
+  "overview": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+  "runtime": 113,
+  "poster_path": "/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
+  "backdrop_path": "/zGs5tZOlvc9cprdcU6kDOVNpujf.jpg",
+  "url": "https://www.themoviedb.org/movie/567"
+ },
+ "strangers on a train|": {
+  "title": "Strangers on a Train",
+  "year": 1951,
+  "overview": "A charming psychopath tries to coerce a tennis star into his theory that two strangers can commit the perfect crime by exchanging murders—each killing the other’s most-hated person.",
+  "runtime": 101,
+  "poster_path": "/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
+  "backdrop_path": "/8Tnn2UOlecCKNLKG8ZK5Mu6bK94.jpg",
+  "url": "https://www.themoviedb.org/movie/845"
+ },
+ "the birds|": {
+  "title": "The Birds",
+  "year": 1963,
+  "overview": "Thousands of birds flock into a seaside town and terrorize the residents in a series of deadly attacks.",
+  "runtime": 119,
+  "poster_path": "/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
+  "backdrop_path": "/98qofsLB8HwPsmlq0HczQTt8BcS.jpg",
+  "url": "https://www.themoviedb.org/movie/571"
+ },
+ "vertigo|": {
+  "title": "Vertigo",
+  "year": 1958,
+  "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+  "runtime": 128,
+  "poster_path": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+  "backdrop_path": "/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
+  "url": "https://www.themoviedb.org/movie/426"
  }
 }
