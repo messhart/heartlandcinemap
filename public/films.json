@@ -4315,11 +4315,11 @@
  },
  "music box bingo|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "music box movie trivia|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "necessary allies|": {
   "miss": true,
@@ -4391,7 +4391,7 @@
  },
  "tape freaks|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "teenage mutant ninja turtles|": {
   "miss": true,
@@ -4755,7 +4755,7 @@
  },
  "the fog & carnival of souls double feature|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "the sixth sense|": {
   "title": "The Sixth Sense",
@@ -4871,7 +4871,7 @@
  },
  "scream|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "star wars: episode vi - return of the jedi|": {
   "title": "Return of the Jedi",
@@ -6625,7 +6625,7 @@
  },
  "8th annual holiday mystery movie|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "a mighty wind’ presented with let|": {
   "miss": true,
@@ -6660,7 +6660,7 @@
  },
  "all my sons|2026": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "amazing grace|2018": {
   "title": "Amazing Grace",
@@ -6896,7 +6896,7 @@
  },
  "christmas organ show|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "cinema columbus 2026 opening night: origins: shorts of ohio|": {
   "miss": true,
@@ -6993,7 +6993,7 @@
  },
  "close encounters of the third kind (director's cut)|1977": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "clue|1985": {
   "title": "Clue",
@@ -7112,7 +7112,7 @@
  },
  "goblin live score with argento's tenebre|2026": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "gregory's girl|1980": {
   "title": "Gregory's Girl",
@@ -7392,7 +7392,7 @@
  },
  "my cousin vinny w/ drake university law school|1992": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "mysterious skin|": {
   "title": "Mysterious Skin",
@@ -7423,7 +7423,7 @@
  },
  "night of the creeps w/ the fright zone podcast|1986": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "norma rae – a free screening in partnership with the iowa labor history society|1979": {
   "title": "Norma Rae",
@@ -7503,7 +7503,7 @@
  },
  "primetime|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "queen(s) (2026)|": {
   "title": "Queen's Land",
@@ -7569,11 +7569,11 @@
  },
  "she creates shorts - luminous rising: voices in formation block|2026": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "shed projects presents short cuts|2026": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "sinners|2025": {
   "title": "Sinners",
@@ -7716,11 +7716,11 @@
  },
  "the color purple w/ community leader conversation|1985": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "the craft with audience interaction|1996": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "the decline of western civilization|1981": {
   "title": "The Decline of Western Civilization",
@@ -7742,7 +7742,7 @@
  },
  "the found footage fest: porcelain vhs treasures|": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "the grapes of wrath|1940": {
   "title": "The Grapes of Wrath",
@@ -7836,7 +7836,7 @@
  },
  "the rocky horror picture show with live shadow cast|1975": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "the rocky horror picture show|": {
   "title": "The Rocky Horror Picture Show",
@@ -8052,7 +8052,7 @@
  },
  "48 hour film project horror and sci-fi|2026": {
   "miss": true,
-  "checked": "2026-08-31"
+  "checked": "2026-10-01"
  },
  "976-evil|1988": {
   "title": "976-EVIL",
@@ -11109,5 +11109,145 @@
  "orion with q&a|2026": {
   "miss": true,
   "checked": "2026-09-30"
+ },
+ "blade runner: the final cut|1982": {
+  "title": "Blade Runner",
+  "year": 1982,
+  "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+  "runtime": 118,
+  "poster_path": "/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+  "backdrop_path": "/2spEHYDcyE9r9mS7AFEscfKVDzO.jpg",
+  "url": "https://www.themoviedb.org/movie/78"
+ },
+ "cloverfield|2008": {
+  "title": "Cloverfield",
+  "year": 2008,
+  "overview": "Five young New Yorkers throw their friend a going-away party the night that a monster the size of a skyscraper descends upon the city. Told from the point of view of their video camera, the film is a document of their attempt to survive the most surreal, horrifying event of their lives.",
+  "runtime": 85,
+  "poster_path": "/qIegUGJqyMMCRjkKV1s7A9MqdJ8.jpg",
+  "backdrop_path": "/6ms6RdNcQUAnjBY26aM85xC2wV0.jpg",
+  "url": "https://www.themoviedb.org/movie/7191"
+ },
+ "cozy craft club - buffy the vampire slayer|1992": {
+  "title": "Buffy the Vampire Slayer",
+  "year": 1992,
+  "overview": "Blonde, bouncy Buffy is your typical high school cheerleader. But all that changes when a strange man informs her she's been chosen by fate to kill vampires.",
+  "runtime": 85,
+  "poster_path": "/tcF3S4UdFpuoZEWovMDq5AXazNF.jpg",
+  "backdrop_path": "/qMf1MuY9u6BfBYTscEjWbIlWMrg.jpg",
+  "url": "https://www.themoviedb.org/movie/10206"
+ },
+ "crash|1996": {
+  "title": "Crash",
+  "year": 1996,
+  "overview": "A car crash victim inexplicably finds himself aroused by car accidents and becomes involved with an underground subculture of like-minded souls.",
+  "runtime": 100,
+  "poster_path": "/gpai5oUFyFGLHOCsYTvVMqlbY7A.jpg",
+  "backdrop_path": "/vQNknPEVSAui6IL6eUlDBPfUzcW.jpg",
+  "url": "https://www.themoviedb.org/movie/884"
+ },
+ "dracula|1931": {
+  "title": "Dracula",
+  "year": 1931,
+  "overview": "A British estate agent travels to Transylvania to meet with the mysterious Count Dracula, who is interested in leasing a London castle. After Dracula enslaves and drives the agent to insanity, the pair return to London together, where Dracula, a secret bloodsucker, begins preying on socialites.",
+  "runtime": 74,
+  "poster_path": "/ueVSPt7vAba0XScHWTDWS5tNxYX.jpg",
+  "backdrop_path": "/cemjdP7HrUyJAry85vRT19Hidbi.jpg",
+  "url": "https://www.themoviedb.org/movie/138"
+ },
+ "drag becomes her|1992": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "found footage shorts|": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "ghost in the machine|": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "kwaidan|1964": {
+  "title": "Kwaidan",
+  "year": 1965,
+  "overview": "Taking its title from an archaic Japanese word meaning \"ghost story,\" this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior's reflection in his teacup.",
+  "runtime": 183,
+  "poster_path": "/t9UMfViYl47SdZZatKQ1JKjjCgs.jpg",
+  "backdrop_path": "/9GAU0z2wVA8M2D2w36CaloWYYgv.jpg",
+  "url": "https://www.themoviedb.org/movie/30959"
+ },
+ "michigan theater blood drive|": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "nosferatu|1922": {
+  "title": "Nosferatu",
+  "year": 1922,
+  "overview": "The mysterious Count Orlok summons a happily married real estate agent to his castle, located up in the Transylvanian mountains, to finalise a terrifying deal.",
+  "runtime": 94,
+  "poster_path": "/zv7J85D8CC9qYagAEhPM63CIG6j.jpg",
+  "backdrop_path": "/cA9iGtvjRGJHzDBfrq48l0eyCvA.jpg",
+  "url": "https://www.themoviedb.org/movie/653"
+ },
+ "student night: obsession|2026": {
+  "title": "Obsession",
+  "year": 2026,
+  "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+  "runtime": 109,
+  "poster_path": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+  "backdrop_path": "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+  "url": "https://www.themoviedb.org/movie/1339713"
+ },
+ "the bride of frankenstein|1935": {
+  "title": "Bride of Frankenstein",
+  "year": 1935,
+  "overview": "Dr. Frankenstein and his monster both turn out to be alive after being attacked by an angry mob. The now-chastened scientist attempts to escape his past, but a former mentor forces him to assist with the creation of a new creature.",
+  "runtime": 75,
+  "poster_path": "/5241zUwe7rC17MNc2QpCBKKdp1N.jpg",
+  "backdrop_path": "/hrED8MSOn4xJP9Cpk7WomUcFKGI.jpg",
+  "url": "https://www.themoviedb.org/movie/229"
+ },
+ "the invisible man|1933": {
+  "title": "The Invisible Man",
+  "year": 1933,
+  "overview": "After experimenting on himself and becoming invisible, scientist Jack Griffin, now aggressive due to the drug's effects, seeks a way to reverse the experiment at any cost.",
+  "runtime": 71,
+  "poster_path": "/ejoVwGmEbTBrf78tqnTSO5g8iVz.jpg",
+  "backdrop_path": "/uGXid3UHMzoL2hyNfWSPDWkqbKC.jpg",
+  "url": "https://www.themoviedb.org/movie/10787"
+ },
+ "the michigan theater community film club - horror & comedy in film|": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "the mummy|1932": {
+  "title": "The Mummy",
+  "year": 1932,
+  "overview": "An ancient Egyptian priest named Imhotep is revived when a British archaeological expedition finds his mummy and one of the researchers accidentally reads an ancient life-giving spell. Imhotep escapes from the field site and searches for the reincarnation of the soul of his lover.",
+  "runtime": 73,
+  "poster_path": "/vSKpbZVvzqQcw6htiyEinbCY9vq.jpg",
+  "backdrop_path": "/oorcx2bfW12NUhLklMuf9JtFmPx.jpg",
+  "url": "https://www.themoviedb.org/movie/15849"
+ },
+ "the rocky horror picture show ft. the leather medusa's shadowcast|1975": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "the wolfman|1941": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "twin peaks season 2 - episode 21 & 22|1991": {
+  "miss": true,
+  "checked": "2026-10-01"
+ },
+ "v/h/s|2012": {
+  "title": "V/H/S",
+  "year": 2012,
+  "overview": "When a group of misfits is hired by an unknown third party to burglarize a desolate house and acquire one rare VHS tape, they discover more found footage than they had bargained for.",
+  "runtime": 116,
+  "poster_path": "/xVGfCaTwVdZt3lFqtOVhTDqmG58.jpg",
+  "backdrop_path": "/xAC9kXLxUHpdCkISgYcLzYrxIQR.jpg",
+  "url": "https://www.themoviedb.org/movie/84348"
  }
 }
