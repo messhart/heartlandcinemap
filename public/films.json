@@ -8367,7 +8367,7 @@
  },
  "twin peaks season 2 - episode 8 & 9|1991": {
   "miss": true,
-  "checked": "2026-09-01"
+  "checked": "2026-10-02"
  },
  "an evening with karimah ashadu|2022": {
   "miss": true,
@@ -8451,7 +8451,7 @@
  },
  "ken russell's the devils|1971": {
   "miss": true,
-  "checked": "2026-09-01"
+  "checked": "2026-10-02"
  },
  "master of the flying guillotine|1976": {
   "title": "Master of the Flying Guillotine",
@@ -8473,7 +8473,7 @@
  },
  "nancy andrews: phantom limbs|2025": {
   "miss": true,
-  "checked": "2026-09-01"
+  "checked": "2026-10-02"
  },
  "nanny|2022": {
   "title": "Nanny",
@@ -8632,7 +8632,7 @@
  },
  "gaudyween|": {
   "miss": true,
-  "checked": "2026-09-01"
+  "checked": "2026-10-02"
  },
  "nine to five|1980": {
   "title": "Nine to Five",
@@ -11810,5 +11810,68 @@
   "poster_path": "/uelo2oMg4fM51LAm4eEArEwOHXZ.jpg",
   "backdrop_path": "/nLb3TOTjgvvjmHnUmlkg4Rwq9jG.jpg",
   "url": "https://www.themoviedb.org/movie/2998"
+ },
+ "bound|1996": {
+  "title": "Bound",
+  "year": 1996,
+  "overview": "Corky, a tough female ex-convict working on an apartment renovation in a Chicago building, meets a couple living next door, Caesar, a paranoid mobster, and Violet, his seductive girlfriend, who is immediately attracted to her.",
+  "runtime": 105,
+  "poster_path": "/9qAy6UWVw44dGrsyKrdEMt5qIUM.jpg",
+  "backdrop_path": "/pMvTpyls1l3OEGKBvgRwKMT8a6O.jpg",
+  "url": "https://www.themoviedb.org/movie/9303"
+ },
+ "taxi driver|1976": {
+  "title": "Taxi Driver",
+  "year": 1976,
+  "overview": "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city.",
+  "runtime": 114,
+  "poster_path": "/ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+  "backdrop_path": "/9uddYYTNcLWpzUkl5iw1RUYhLhY.jpg",
+  "url": "https://www.themoviedb.org/movie/103"
+ },
+ "the general|1926": {
+  "title": "The General",
+  "year": 1926,
+  "overview": "During America’s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'—with Johnnie's lady love aboard an attached boxcar—and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
+  "runtime": 79,
+  "poster_path": "/4NmV1Wei4LxT2lpjViCAScgCZLq.jpg",
+  "backdrop_path": "/mzox4HbcV9W42MH2dB1QsdDVGo3.jpg",
+  "url": "https://www.themoviedb.org/movie/961"
+ },
+ "the gymnasts of fisherman colony|2026": {
+  "title": "The Gymnasts of Fisherman Colony",
+  "year": 2026,
+  "overview": "The birth of a gymnastics team in Pakistan provides an inspiring spark of light for a small group of girls on the margins.",
+  "runtime": 92,
+  "poster_path": "/o4hrXJseY8bsdsmpSb0lskDuKDg.jpg",
+  "backdrop_path": "/56m202IipZIKnw1r4uRrGX2S62f.jpg",
+  "url": "https://www.themoviedb.org/movie/1676498"
+ },
+ "the uninvited|1944": {
+  "title": "The Uninvited",
+  "year": 1944,
+  "overview": "A pair of siblings from London purchase a surprisingly affordable, lonely cliff-top house in Cornwall, only to discover that it actually carries a ghostly price—and soon they’re caught up in a bizarre romantic triangle from beyond the grave.",
+  "runtime": 99,
+  "poster_path": "/uwp5ahLmWliRyX3mPoLHU7BKhf5.jpg",
+  "backdrop_path": "/poCmeIQA2xL7GnGq9PMwUcJ4AgI.jpg",
+  "url": "https://www.themoviedb.org/movie/16373"
+ },
+ "traces of home|2026": {
+  "title": "Traces of Home",
+  "year": 2026,
+  "overview": "Delving into the past and not shying away from the dug-up pain, a young filmmaker speaks to her Mexican mother and Palestinian father about their trying journeys into the United States. In a society with rhetoric increasingly vilifying Mexicans and Palestinians, the filmmaker picks up her camera in a bid to address the grief at the center of the generational trauma that has underscored her relationship with her family. A meditation of loss and grief relieved, ultimately, through reconciliation.",
+  "runtime": 93,
+  "poster_path": "/dwCjMptJ44vPVMAv0C1HWfYt5vH.jpg",
+  "backdrop_path": "/l2buBeXVIA4itgryotgpwuaFm28.jpg",
+  "url": "https://www.themoviedb.org/movie/1493991"
+ },
+ "underworld beauty|1958": {
+  "title": "Underworld Beauty",
+  "year": 1958,
+  "overview": "The moment he's released from prison, the honorable gangster Miyamoto recovers the stolen diamonds he had stashed before getting pinched. When he returns to his haunt to make good by friend who took a bullet for him, he is diverted by the greedy boss Oyane and his insatiable taste for Miyamoto's precious stones.",
+  "runtime": 87,
+  "poster_path": "/mnNofYf7oDDUzF1f1XzDLe6gxQi.jpg",
+  "backdrop_path": "/gPn9AzDFkVtMsJZyMgaYgh4dGlf.jpg",
+  "url": "https://www.themoviedb.org/movie/60971"
  }
 }
