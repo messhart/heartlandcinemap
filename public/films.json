@@ -11881,5 +11881,50 @@
  "nt live: golden boy|2026": {
   "miss": true,
   "checked": "2026-10-02"
+ },
+ "as above, so below|2014": {
+  "title": "As Above, So Below",
+  "year": 2014,
+  "overview": "When a team of explorers venture into the catacombs that lie beneath the streets of Paris, they uncover the dark secret that lies within this city of the dead.",
+  "runtime": 93,
+  "poster_path": "/oJZSajKLJkoTOzSZQN2ZwRnPwHZ.jpg",
+  "backdrop_path": "/jyhI7jF05iTqBMNwXAXhWZ1Jld9.jpg",
+  "url": "https://www.themoviedb.org/movie/256274"
+ },
+ "carrie (50th anniversary)|1976": {
+  "title": "Carrie",
+  "year": 1976,
+  "overview": "Withdrawn and sensitive teenager Carrie White faces bullying from her classmates and abuse from her fanatically pious mother. When she begins to suspect that she has supernatural powers, things take a dark and violent turn.",
+  "runtime": 98,
+  "poster_path": "/bJJ3xK4pMnfao0wfzySfC47dp8G.jpg",
+  "backdrop_path": "/zwJFfKQdfiptK2GY6N8GkZFrAxJ.jpg",
+  "url": "https://www.themoviedb.org/movie/7340"
+ },
+ "the hunger games: catching fire|2013": {
+  "title": "The Hunger Games: Catching Fire",
+  "year": 2013,
+  "overview": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
+  "runtime": 146,
+  "poster_path": "/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+  "backdrop_path": "/eHaazLxM5LRMh0ySkVy7SK6wUWt.jpg",
+  "url": "https://www.themoviedb.org/movie/101299"
+ },
+ "the little shop of horrors (1960)|1960": {
+  "title": "The Little Shop of Horrors",
+  "year": 1960,
+  "overview": "Seymour works in a skid row florist shop and is in love with his beautiful co-worker, Audrey. He creates a new plant that not only talks but cannot survive without human flesh and blood.",
+  "runtime": 73,
+  "poster_path": "/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg",
+  "backdrop_path": "/sGz7JApiDtClRFxffIw3WgRK8y2.jpg",
+  "url": "https://www.themoviedb.org/movie/24452"
+ },
+ "you can see everything|2026": {
+  "title": "You Can See Everything",
+  "year": 2026,
+  "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+  "runtime": 174,
+  "poster_path": "/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg",
+  "backdrop_path": "/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg",
+  "url": "https://www.themoviedb.org/movie/1765072"
  }
 }
