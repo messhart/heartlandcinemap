@@ -11957,5 +11957,59 @@
   "poster_path": "/rMMB3v6jYHjsvXRNJYESacoTD7j.jpg",
   "backdrop_path": "/2VN9umruwVZsT1Pr1NMCV71HpUu.jpg",
   "url": "https://www.themoviedb.org/movie/9495"
+ },
+ "american psycho|2000": {
+  "title": "American Psycho",
+  "year": 2000,
+  "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+  "runtime": 102,
+  "poster_path": "/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+  "backdrop_path": "/5oaMV2q0qzxkIW2ukU3lldLu5q2.jpg",
+  "url": "https://www.themoviedb.org/movie/1359"
+ },
+ "frida kahlo|2020": {
+  "title": "Frida Kahlo",
+  "year": 2020,
+  "overview": "She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film takes us on a journey through the life of one of the most prevalent female icons: Frida Kahlo. Displaying a treasure trove of colour and a feast of vibrancy on screen, this personal and intimate film offers privileged access to her works and highlights the source of her feverish creativity, her resilience and her unmatched lust for life, men, women, politics and her cultural heritage.",
+  "runtime": 90,
+  "poster_path": "/fzHHWd3dB2Dns936AWkEu7cJAUQ.jpg",
+  "backdrop_path": "/YHW4wQaUdtHjnvhZH4uQtsjfqt.jpg",
+  "url": "https://www.themoviedb.org/movie/607710"
+ },
+ "fright club live: clown|2014": {
+  "title": "Clown",
+  "year": 2014,
+  "overview": "A loving father finds a clown suit for his son's birthday party, only to realize the suit is part of an evil curse that turns its wearer into a killer.",
+  "runtime": 99,
+  "poster_path": "/gp5QyaU49utfWVVL698BzlN2vMh.jpg",
+  "backdrop_path": "/wCCvyjGuLpA67UsR3VtdTFNvCuU.jpg",
+  "url": "https://www.themoviedb.org/movie/112454"
+ },
+ "hitchcocktober 2026: the birds|1963": {
+  "title": "The Birds",
+  "year": 1963,
+  "overview": "Thousands of birds flock into a seaside town and terrorize the residents in a series of deadly attacks.",
+  "runtime": 119,
+  "poster_path": "/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
+  "backdrop_path": "/98qofsLB8HwPsmlq0HczQTt8BcS.jpg",
+  "url": "https://www.themoviedb.org/movie/571"
+ },
+ "other mommy|2026": {
+  "title": "Other Mommy",
+  "year": 2026,
+  "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+  "runtime": 93,
+  "poster_path": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+  "backdrop_path": "/smZ8BT4Vzw4iCEppTLCnN8jNYtn.jpg",
+  "url": "https://www.themoviedb.org/movie/1400837"
+ },
+ "the north|2025": {
+  "title": "The North",
+  "year": 2025,
+  "overview": "A decade after they were best friends and roommates, Chris and Lluis set out on a 600 kilometer hike through the Scottish Highlands to reconnect with each other, nature and parts of themselves they lost.",
+  "runtime": 132,
+  "poster_path": "/9VM5eHTgwTYk9ElQMRm9qMepwbT.jpg",
+  "backdrop_path": "/fWiaSsn1zPmZCZUxbBIVMl99kkU.jpg",
+  "url": "https://www.themoviedb.org/movie/1434113"
  }
 }
