@@ -12132,5 +12132,45 @@
  "castration movie chapter iii. junior ghosts—premorphic drift; a fragmentary passage|2026": {
   "miss": true,
   "checked": "2026-10-06"
+ },
+ "a chronicle of amorous accidents|1986": {
+  "miss": true,
+  "checked": "2026-10-06"
+ },
+ "first they came for my college|": {
+  "title": "First They Came for My College",
+  "year": 2026,
+  "overview": "When the Governor of Florida transforms a beloved public honors college in a political coup, students and professors confront a new reality: their campus is ground zero in a growing nation-wide assault on academic freedom.",
+  "runtime": 105,
+  "poster_path": "/vw7kbBasPpc3fGwuDceZNAvznsG.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1629360"
+ },
+ "shaun of the dead|2004": {
+  "title": "Shaun of the Dead",
+  "year": 2004,
+  "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
+  "runtime": 99,
+  "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
+  "backdrop_path": "/wb34q3VgzHgL8frVMywrN3wXmqx.jpg",
+  "url": "https://www.themoviedb.org/movie/747"
+ },
+ "the maids of wilko|1979": {
+  "title": "The Maids of Wilko",
+  "year": 1979,
+  "overview": "Set in the late '20s. A thirtyish young man, who heads a small factory, faints at the funeral of a close friend. He decides to go home to his aunt and uncle for a while, but gets involved with a family of five women who had been in love with him at one time though he had apparently loved only one, who, unknown to him, has died since his departure. The women are mainly disillusioned with life or estranged from husbands while the youngest has a crush on him.",
+  "runtime": 116,
+  "poster_path": "/3C5lc2b4jhoNciDiK80v5gX6wkv.jpg",
+  "backdrop_path": "/d6P2YYCEYbzc1xr5LW9FhalctTd.jpg",
+  "url": "https://www.themoviedb.org/movie/117483"
+ },
+ "you had to be there: how the toronto godspell ignited the comedy revolution...|2026": {
+  "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution...",
+  "year": 2026,
+  "overview": "Martin Short, Eugene Levy, Gilda Radner, Victor Garber, Paul Shaffer, and other entertainment icons got their start in a 1972 Toronto production of the musical Godspell. Featuring interviews with the surviving cast members, Lin-Manuel Miranda, Mike Myers, and more, the film recounts a pivotal moment in comedy history, in hilarious, moving, and inspiring detail.",
+  "runtime": 98,
+  "poster_path": "/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
+  "backdrop_path": "/mAOARNlQFy9mWfS4iY3s0SS1jqE.jpg",
+  "url": "https://www.themoviedb.org/movie/1354301"
  }
 }
