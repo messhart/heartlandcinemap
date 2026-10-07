@@ -12180,5 +12180,14 @@
  "forgotten island|": {
   "miss": true,
   "checked": "2026-10-07"
+ },
+ "deepfaking sam altman|2024": {
+  "title": "Deepfaking Sam Altman",
+  "year": 2026,
+  "overview": "Director Adam Bhala Lough sets out to better understand the technology and people at the center of the AI boom. His quest sends him on a path towards the father of AI, OpenAI CEO, Sam Altman. When he isn’t able to sit down with Altman himself, Adam travels to India to create an AI version of him to interview instead.",
+  "runtime": 90,
+  "poster_path": "/hSLQx7HPhAgWnhnkW3JCUDz3Jip.jpg",
+  "backdrop_path": "/bbSj7itVDBjdpkO21iN1htDN2tQ.jpg",
+  "url": "https://www.themoviedb.org/movie/1422639"
  }
 }
