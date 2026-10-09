@@ -12470,5 +12470,50 @@
   "poster_path": "/hJ8y5VsbjbzDCoXJ6LDwn8JcFkP.jpg",
   "backdrop_path": "/zN7NIIH7UA17OyPXcBM7tpRvxI0.jpg",
   "url": "https://www.themoviedb.org/movie/1070319"
+ },
+ "a hidden life|2019": {
+  "title": "A Hidden Life",
+  "year": 2019,
+  "overview": "Austrian farmer Franz Jägerstätter faces the threat of execution for refusing to fight for the Nazis during World War II.",
+  "runtime": 173,
+  "poster_path": "/taUkn5MsZIq5kpTABsF2563j5zp.jpg",
+  "backdrop_path": "/zxY1yP9FjJpV7T3hxqBBI5WNydx.jpg",
+  "url": "https://www.themoviedb.org/movie/403300"
+ },
+ "orfeo|2025": {
+  "title": "Orfeo",
+  "year": 2025,
+  "overview": "Since he was a child, Orpheus has imagined stories about an abandoned villa across the street from his house. A solitary and visionary pianist, during an evening at the Polypus — the club where he plays — he meets Eura’s gaze. An unconditional love blossoms between them, but she’s concealing a secret. Then she disappears. One evening, Orpheus sees her enter a small door on Via Saterna, in front of the villa. He follows her. Before the threshold, he encounters the Green Man, an enigmatic figure who seems to know the mysteries of that passageway. Once through the door, Orpheus enters a visionary afterlife...",
+  "runtime": 74,
+  "poster_path": "/is8ESjWqjdlGXV2VzVXUezVESYe.jpg",
+  "backdrop_path": "/yDyMFnUSnHlQ7B1t0dVag07txpl.jpg",
+  "url": "https://www.themoviedb.org/movie/1517117"
+ },
+ "paper tiger|2026": {
+  "title": "Paper Tiger",
+  "year": 2026,
+  "overview": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
+  "runtime": 115,
+  "poster_path": "/zVYm9mNSyr9EYhUUI72DOGgYRZH.jpg",
+  "backdrop_path": "/AkOEM05vSzIUqx3cRP0OyGJ1PZH.jpg",
+  "url": "https://www.themoviedb.org/movie/1381273"
+ },
+ "red dawn|1984": {
+  "title": "Red Dawn",
+  "year": 1984,
+  "overview": "It is the dawn of World War III. In mid-western America, a group of teenagers band together to defend their town—and their country—from invading Soviet forces.",
+  "runtime": 114,
+  "poster_path": "/a2GkHcioc2QEFJbQk1NTB85u3vD.jpg",
+  "backdrop_path": "/9fOfsVHZHig6MHPHczv0zMY6cKc.jpg",
+  "url": "https://www.themoviedb.org/movie/1880"
+ },
+ "wargames|1983": {
+  "title": "WarGames",
+  "year": 1983,
+  "overview": "High school student David Lightman has a talent for hacking. But while trying to hack into a computer system to play unreleased video games, he unwittingly taps into the Department of Defense's war computer and initiates a confrontation of global proportions. Together with his friend and a wizardly computer genius, David must race against time to outwit his opponent and prevent a nuclear Armageddon.",
+  "runtime": 114,
+  "poster_path": "/zZ1rN4LoPxKNfAp67Xl300WxVeD.jpg",
+  "backdrop_path": "/qtamfYGFfDLfGRcucx1zNwohRts.jpg",
+  "url": "https://www.themoviedb.org/movie/860"
  }
 }
