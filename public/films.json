@@ -12528,5 +12528,54 @@
   "poster_path": "/4Hi7yjiQjokEDStT1MOj5rPgRfW.jpg",
   "backdrop_path": "/fNXUCk54vGcoKr34olN14ohUSFY.jpg",
   "url": "https://www.themoviedb.org/movie/1026227"
+ },
+ "a fish called wanda|1988": {
+  "title": "A Fish Called Wanda",
+  "year": 1988,
+  "overview": "While a diamond advocate attempts to steal a collection of diamonds, troubles arise when he realises he’s not the only one after the collection.",
+  "runtime": 109,
+  "poster_path": "/hkSGFNVfEEUXFCxRZDITFHVhUlu.jpg",
+  "backdrop_path": "/nNLOEK9HGhhZIOgdVUO9F7ndTIw.jpg",
+  "url": "https://www.themoviedb.org/movie/623"
+ },
+ "a talent for murder|2026": {
+  "title": "A Talent for Murder",
+  "year": 2026,
+  "overview": "A young man travels from New York to Switzerland to try to persuade acclaimed thriller writer Patricia Highsmith to write one final installment of her Tom Ripley series, with his efforts gradually turning more sinister.",
+  "runtime": 106,
+  "poster_path": "/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
+  "backdrop_path": "/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+  "url": "https://www.themoviedb.org/movie/1084409"
+ },
+ "addams family values|1993": {
+  "title": "Addams Family Values",
+  "year": 1993,
+  "overview": "Siblings Wednesday and Pugsley Addams will stop at nothing to get rid of Pubert, the new baby boy adored by parents Gomez and Morticia. Things go from bad to worse when the new \"black widow\" nanny, Debbie Jellinsky, launches her plan to add Fester to her collection of dead husbands.",
+  "runtime": 94,
+  "poster_path": "/sdxT2VjVSx9DRicwnuECUdBHeE7.jpg",
+  "backdrop_path": "/sZhTfYouKM1iV3rVbgIVEQFQogA.jpg",
+  "url": "https://www.themoviedb.org/movie/2758"
+ },
+ "diabolique|1955": {
+  "title": "Diabolique",
+  "year": 1955,
+  "overview": "The cruel and abusive headmaster of a boarding school, Michel Delassalle, is murdered by an unlikely duo -- his meek wife and the mistress he brazenly flaunts. The women become increasingly unhinged by a series of odd occurrences after Delassalle's corpse mysteriously disappears.",
+  "runtime": 118,
+  "poster_path": "/jE8ygUYBUGyUcM4sR6iinPqYeDK.jpg",
+  "backdrop_path": "/rcEUuRtr0dFL078bNeXL8pQqrMK.jpg",
+  "url": "https://www.themoviedb.org/movie/827"
+ },
+ "film screams double feature society & phantom of the paradise|": {
+  "miss": true,
+  "checked": "2026-10-11"
+ },
+ "kanał|1957": {
+  "title": "Kanal",
+  "year": 1957,
+  "overview": "In the last few days of the Warsaw Uprising during World War II, a modest group of Resistance members remains. The band must take refuge in the sewers under the orders of leader Zadra, but it's only a matter of time before they will have to emerge. However, when they try, they are met only with intense hostility from the Nazis. Despite their attempts stay resolute through immense mental strain, it becomes increasingly apparent that they may be doomed.",
+  "runtime": 96,
+  "poster_path": "/mUxZNNmvX3MwIJ9LTcuw76ZdtN6.jpg",
+  "backdrop_path": "/kfuJtNiY3aevZHzSMA007pbVWqH.jpg",
+  "url": "https://www.themoviedb.org/movie/29933"
  }
 }
