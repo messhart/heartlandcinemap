@@ -12577,5 +12577,23 @@
   "poster_path": "/mUxZNNmvX3MwIJ9LTcuw76ZdtN6.jpg",
   "backdrop_path": "/kfuJtNiY3aevZHzSMA007pbVWqH.jpg",
   "url": "https://www.themoviedb.org/movie/29933"
+ },
+ "inherit the wind|1960": {
+  "title": "Inherit the Wind",
+  "year": 1960,
+  "overview": "Schoolteacher Bertram Cates is arrested for teaching his students Darwin's theory of evolution. The case receives national attention and one of the newspaper reporters, E.K. Hornbeck, arranges to bring in renowned defense attorney and atheist Henry Drummond to defend Cates. The prosecutor, Matthew Brady is a former presidential candidate, famous evangelist, and old adversary of Drummond.",
+  "runtime": 128,
+  "poster_path": "/7oaHcF0gCOt2lKaT2zajhajP0Zo.jpg",
+  "backdrop_path": "/es4sV6krplqscHmhn9TFSqkl8ee.jpg",
+  "url": "https://www.themoviedb.org/movie/1908"
+ },
+ "national theatre live: the playboy of the western world|2026": {
+  "title": "National Theatre Live: The Playboy of the Western World",
+  "year": 2026,
+  "overview": "Pegeen Flaherty’s life is turned upside down when a young man walks into her pub claiming that he’s killed his father. Instead of being shunned, the killer becomes a local hero and begins to win hearts, that is until a second man unexpectedly arrives on the scene...",
+  "runtime": 157,
+  "poster_path": "/hFA2KlHAExXZFs7sZ7YtxtblDQC.jpg",
+  "backdrop_path": "/aycPE77PLSClLBOF5XjEz2Rgj13.jpg",
+  "url": "https://www.themoviedb.org/movie/1598661"
  }
 }
