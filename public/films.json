@@ -12595,5 +12595,27 @@
   "poster_path": "/hFA2KlHAExXZFs7sZ7YtxtblDQC.jpg",
   "backdrop_path": "/aycPE77PLSClLBOF5XjEz2Rgj13.jpg",
   "url": "https://www.themoviedb.org/movie/1598661"
+ },
+ "being heumann - special preview screening with the harkin institute|2026": {
+  "title": "Being Heumann",
+  "year": 2026,
+  "overview": "Scrappy, defiant, and done being treated like a burden, Judy Heumann turns her outrage into a revolution. In 1977, she and more than 100 disability rights protestors send a very loud message: The system is broken—not us.",
+  "runtime": 127,
+  "poster_path": "/sp5lI7OwRRCjr0sPUxccyv1ZsGG.jpg",
+  "backdrop_path": "/5A0Yr74Rlikxu2PLFaQ0RXaa8Nr.jpg",
+  "url": "https://www.themoviedb.org/movie/1050981"
+ },
+ "kpop demon hunters|2025": {
+  "title": "KPop Demon Hunters",
+  "year": 2025,
+  "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+  "runtime": 96,
+  "poster_path": "/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+  "backdrop_path": "/w3Bi0wygeFQctn6AqFTwhGNXRwL.jpg",
+  "url": "https://www.themoviedb.org/movie/803796"
+ },
+ "the scout|2025": {
+  "miss": true,
+  "checked": "2026-10-12"
  }
 }
