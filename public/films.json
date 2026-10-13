@@ -12617,5 +12617,36 @@
  "the scout|2025": {
   "miss": true,
   "checked": "2026-10-12"
+ },
+ "a place at the table|2012": {
+  "title": "A Place at the Table",
+  "year": 2012,
+  "overview": "Using personal stories, this powerful documentary illuminates the plight of the 49 million Americans struggling with food insecurity. A single mother, a small-town policeman and a farmer are among those for whom putting food on the table is a daily battle.",
+  "runtime": 84,
+  "poster_path": "/ptli8HtDrapZdVdBnYSN8zxJtw0.jpg",
+  "backdrop_path": "/hdFefzO4RPq4txKEbFU7EulePsS.jpg",
+  "url": "https://www.themoviedb.org/movie/84198"
+ },
+ "back to the future|": {
+  "title": "Back to the Future",
+  "year": 1985,
+  "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+  "runtime": 116,
+  "poster_path": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+  "backdrop_path": "/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
+  "url": "https://www.themoviedb.org/movie/105"
+ },
+ "the apartment (35mm)|1960": {
+  "title": "The Apartment",
+  "year": 1960,
+  "overview": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
+  "runtime": 126,
+  "poster_path": "/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
+  "backdrop_path": "/vRTKNKNWLZ22fAgPa5kY8wT2b1F.jpg",
+  "url": "https://www.themoviedb.org/movie/284"
+ },
+ "wildwood|": {
+  "miss": true,
+  "checked": "2026-10-13"
  }
 }
