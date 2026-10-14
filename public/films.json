@@ -12648,5 +12648,27 @@
  "wildwood|": {
   "miss": true,
   "checked": "2026-10-13"
+ },
+ "cameron winter at carnegie hall (35mm)|2026": {
+  "title": "Cameron Winter at Carnegie Hall",
+  "year": 2026,
+  "overview": "A concert film documenting Cameron Winter's sold-out performance at Carnegie Hall.",
+  "runtime": 75,
+  "poster_path": "/sQt2KQWkpGb79UKlCJNJ2BKobjo.jpg",
+  "backdrop_path": "/7wwJh55u7y5YoUJaABy5o47d14z.jpg",
+  "url": "https://www.themoviedb.org/movie/1597242"
+ },
+ "fjord|": {
+  "miss": true,
+  "checked": "2026-10-14"
+ },
+ "wicker|": {
+  "title": "Wicker",
+  "year": 2026,
+  "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
+  "runtime": 105,
+  "poster_path": "/eOYkNDalgt1v6UGjw3AoFR5qo9D.jpg",
+  "backdrop_path": "/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+  "url": "https://www.themoviedb.org/movie/1195803"
  }
 }
