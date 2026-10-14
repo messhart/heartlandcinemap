@@ -12674,5 +12674,54 @@
  "a fat wreck + changes: the story of sugar|": {
   "miss": true,
   "checked": "2026-10-14"
+ },
+ "cannibal holocaust|1980": {
+  "title": "Cannibal Holocaust",
+  "year": 1980,
+  "overview": "A New York University professor returns from a rescue mission to the Amazon rainforest with the footage shot by a lost team of documentarians who were making a film about the area's local cannibal tribes.",
+  "runtime": 96,
+  "poster_path": "/otxZzMh53TsN7yYFqSZ3rwH1yMd.jpg",
+  "backdrop_path": "/fhPSg2a8tuGfTv3vohoOgRLFhQG.jpg",
+  "url": "https://www.themoviedb.org/movie/8689"
+ },
+ "cry baby|1990": {
+  "title": "Cry-Baby",
+  "year": 1990,
+  "overview": "A prim and proper schoolgirl goes against her society grandmother's wishes when she dates a motorcycle-riding juvenile delinquent.",
+  "runtime": 85,
+  "poster_path": "/o3zl5Nd1L5OVv5HTVcMBF23OSy2.jpg",
+  "backdrop_path": "/2PQTdo555CTsSfgPWCHv7sxmDxR.jpg",
+  "url": "https://www.themoviedb.org/movie/9768"
+ },
+ "nff26: liv's last ride with hot dirty blood!|": {
+  "miss": true,
+  "checked": "2026-10-14"
+ },
+ "south park: bigger, longer & uncut|1999": {
+  "title": "South Park: Bigger, Longer & Uncut",
+  "year": 1999,
+  "overview": "The third graders of South Park sneak into an R-rated film by ultra-vulgar Canadian television personalities Terrance and Phillip, and emerge with expanded vocabularies that leave their parents and teachers scandalized. When outraged Americans try to censor the film, the controversy spirals into a call to wage war on Canada and Terrance and Phillip end up on death row, with the kids their only hope of rescue.",
+  "runtime": 81,
+  "poster_path": "/tS0PedvA2mFO9VCHYwQpaU1K36U.jpg",
+  "backdrop_path": "/2q3B90h2hZ6xJTvna9CIFDNaIr4.jpg",
+  "url": "https://www.themoviedb.org/movie/9473"
+ },
+ "the secret of roan inish|1994": {
+  "title": "The Secret of Roan Inish",
+  "year": 1994,
+  "overview": "Ten-year-old Fiona is sent to live with her grandparents in a small fishing village in Donegal, Ireland. She soon learns the local legend that an ancestor of hers married a Selkie – a seal who can turn into a human. Years earlier, her baby brother was washed out to sea and never seen again, so when Fiona spies a naked little boy on the abandoned Isle of Roan Inish, she is compelled to investigate.",
+  "runtime": 103,
+  "poster_path": "/2FFcEEMMrnXh3CFz3aON92sLkXP.jpg",
+  "backdrop_path": "/4kdjUgayHYUgsQlr2TsMzDHC2At.jpg",
+  "url": "https://www.themoviedb.org/movie/14334"
+ },
+ "to all the books|2025": {
+  "title": "To All the Books",
+  "year": 2025,
+  "overview": "Part rock star, part literary icon, Josh Malerman is a creative force of nature. From penning the global sensation “Bird Box” (later adapted into the smash-hit Netflix movie starring Sandra Bullock) to writing the theme song for the Emmy-winning series “Shameless” and touring the world with his band, his life is as unpredictable and thrilling as one of his novels. But behind every writer’s success is the haunting presence of the blank page.  TO ALL THE BOOKS invites you to ride shotgun with Malerman as he wrestles with the creative process of his next novel, offering a rare, behind-the-scenes look at the highs, lows, and beautiful chaos of artistic life. Brimming with raw honesty and unfiltered passion, this fly-on-the-wall documentary is a must-see for readers, writers, and dreamers alike.",
+  "runtime": 91,
+  "poster_path": "/jY29i4EQp7OIHxENnAFrG1DA2AA.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1528113"
  }
 }
