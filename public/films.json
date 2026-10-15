@@ -12745,5 +12745,40 @@
   "poster_path": "/ryZ3DdZPvXVCv9qRCtVRfmNbYAH.jpg",
   "backdrop_path": "/5040XNTvwARvLq1KtfCgJXBj3LC.jpg",
   "url": "https://www.themoviedb.org/movie/25623"
+ },
+ "10 things i hate about you|1999": {
+  "title": "10 Things I Hate About You",
+  "year": 1999,
+  "overview": "On the first day at his new school, Cameron instantly falls for Bianca, the gorgeous girl of his dreams. The only problem is that Bianca is forbidden to date until her ill-tempered, completely un-dateable older sister Kat goes out, too. In an attempt to solve his problem, Cameron singles out the only guy who could possibly be a match for Kat: a mysterious bad boy with a nasty reputation of his own.",
+  "runtime": 97,
+  "poster_path": "/ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+  "backdrop_path": "/yvPbncYhMu9FfTjDhq0N5lgnVkO.jpg",
+  "url": "https://www.themoviedb.org/movie/4951"
+ },
+ "alice in the cities|1974": {
+  "title": "Alice in the Cities",
+  "year": 1974,
+  "overview": "German journalist Philip Winter has a case of writer’s block when trying to write an article about the United States. He decides to return to Germany, and while trying to book a flight, encounters a German woman and her nine year old daughter Alice doing the same. The three become friends (almost out of necessity) and while the mother asks Winter to mind Alice temporarily, it quickly becomes apparent that Alice will be his responsibility for longer than he expected.",
+  "runtime": 110,
+  "poster_path": "/lw22wORmENkTZHGXI6bKmAIHxjO.jpg",
+  "backdrop_path": "/gDibTI8sDBhFnczL3VqHhlnfq78.jpg",
+  "url": "https://www.themoviedb.org/movie/2204"
+ },
+ "an evening with lilli carré|2025": {
+  "miss": true,
+  "checked": "2026-10-15"
+ },
+ "des moines underground film festival|2026": {
+  "miss": true,
+  "checked": "2026-10-15"
+ },
+ "sawyer avenue, sunday afternoon|2026": {
+  "title": "Sawyer Avenue, Sunday Afternoon",
+  "year": 2026,
+  "overview": "October 12, 2025: masked and unidentified agents from US Immigration and Customs Enforcement (ICE) seize a man without a warrant on a residential street in Chicago. After the Oscar-nominated Incident (VdR 2023), Bill Morrison uses footage from phones and body cameras to dissect and reconstruct a neighbourhood’s struggle against impunity within a brutal administration.",
+  "runtime": 17,
+  "poster_path": "/bCv53mBbn16Kq8t2sNxPkFqbyKh.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1657862"
  }
 }
