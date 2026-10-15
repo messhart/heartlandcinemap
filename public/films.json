@@ -12723,5 +12723,18 @@
   "poster_path": "/jY29i4EQp7OIHxENnAFrG1DA2AA.jpg",
   "backdrop_path": null,
   "url": "https://www.themoviedb.org/movie/1528113"
+ },
+ "2026 48 hour film project|2026": {
+  "miss": true,
+  "checked": "2026-10-15"
+ },
+ "jerry's last mission|2021": {
+  "title": "Jerry's Last Mission",
+  "year": 2021,
+  "overview": "Fighter pilot Jerry Yellin flew the last combat mission of World War II and returned home to a dark life of survivor's guilt and daily thoughts of suicide. Married with four sons, Yellin was forced to face his enemy once again when his youngest son moved to Japan and married the daughter of a Kamikaze pilot.",
+  "runtime": 56,
+  "poster_path": "/k5VeT7VaDPreJja5Bg210lH1a0B.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1172701"
  }
 }
