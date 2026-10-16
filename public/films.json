@@ -12789,5 +12789,32 @@
   "poster_path": "/cjr2B9MMg6nF790QTy8p6G9bsk8.jpg",
   "backdrop_path": "/jmANrjxSA54qfB2qf1BFyncRARb.jpg",
   "url": "https://www.themoviedb.org/movie/1396088"
+ },
+ "a place in the sun|1951": {
+  "title": "A Place in the Sun",
+  "year": 1951,
+  "overview": "A young social climber wins the heart of a beautiful heiress but his former girlfriend's pregnancy stands in the way of his ambition.",
+  "runtime": 122,
+  "poster_path": "/tkaFbPy8kEQ06xggPqhdiGJuVA4.jpg",
+  "backdrop_path": "/49LzDsuSefYnEOaNjsoYLMUDn0r.jpg",
+  "url": "https://www.themoviedb.org/movie/25673"
+ },
+ "possible love|": {
+  "title": "Possible Love",
+  "year": 2026,
+  "overview": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
+  "runtime": 165,
+  "poster_path": "/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg",
+  "backdrop_path": "/kPbyLj2OyjojqvR1jfK1VvXzabg.jpg",
+  "url": "https://www.themoviedb.org/movie/1483525"
+ },
+ "wild horse nine|": {
+  "title": "Wild Horse Nine",
+  "year": 2026,
+  "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+  "runtime": 117,
+  "poster_path": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+  "backdrop_path": "/b17UWf3LqHgKolQkXckne32qv0.jpg",
+  "url": "https://www.themoviedb.org/movie/891621"
  }
 }
