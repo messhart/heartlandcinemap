@@ -9912,7 +9912,7 @@
  },
  "ken russell’s the devils|1970": {
   "miss": true,
-  "checked": "2026-09-16"
+  "checked": "2026-10-17"
  },
  "the lost boys (35mm)|1987": {
   "title": "The Lost Boys",
@@ -12816,5 +12816,9 @@
   "poster_path": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
   "backdrop_path": "/b17UWf3LqHgKolQkXckne32qv0.jpg",
   "url": "https://www.themoviedb.org/movie/891621"
+ },
+ "a tale of autumn|1998": {
+  "miss": true,
+  "checked": "2026-10-17"
  }
 }
