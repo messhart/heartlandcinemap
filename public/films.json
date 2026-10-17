@@ -12820,5 +12820,14 @@
  "a tale of autumn|1998": {
   "miss": true,
   "checked": "2026-10-17"
+ },
+ "crawlers|2026": {
+  "title": "Crawlers",
+  "year": 2026,
+  "overview": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+  "runtime": 80,
+  "poster_path": "/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+  "backdrop_path": "/wqEFo8ZPOO0zefg08XWQbyRoBgO.jpg",
+  "url": "https://www.themoviedb.org/movie/1376400"
  }
 }
