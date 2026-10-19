@@ -12865,5 +12865,14 @@
   "poster_path": "/mPYBjVkeHakkPGY7WaKyyNU4RWm.jpg",
   "backdrop_path": "/hehaK1jIuTOvRPGPccVivZcZ2Cb.jpg",
   "url": "https://www.themoviedb.org/movie/10166"
+ },
+ "creepshow|1982": {
+  "title": "Creepshow",
+  "year": 1982,
+  "overview": "Five grisly tales from a 1950s-style comic, including a murdered father rising from beyond, a bizarre meteor, a vengeful husband, a mysterious crate's occupant, and a plague of cockroaches.",
+  "runtime": 120,
+  "poster_path": "/4SoyTCEpsgLjX6yAyMsx3AsAyRQ.jpg",
+  "backdrop_path": "/8aqTmCHLkktH7RZNALeaOMneHSl.jpg",
+  "url": "https://www.themoviedb.org/movie/16281"
  }
 }
