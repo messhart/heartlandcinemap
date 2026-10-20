@@ -12922,5 +12922,40 @@
   "poster_path": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
   "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
   "url": "https://www.themoviedb.org/movie/791523"
+ },
+ "closure|2026": {
+  "title": "Closure",
+  "year": 2026,
+  "overview": "After his teenage son goes missing, Daniel scours the depths of the Vistula River, torn between the dread of a fatal leap and the hope that his son may still be alive.",
+  "runtime": 105,
+  "poster_path": "/6K19w1M8ga9ur7yHs6PkdSqoPUz.jpg",
+  "backdrop_path": "/gFI1HmPtsDXEUGydyPpF4yE7xkc.jpg",
+  "url": "https://www.themoviedb.org/movie/1596319"
+ },
+ "hitchcocktober 2026: dial m for murder in 3d|1954": {
+  "miss": true,
+  "checked": "2026-10-20"
+ },
+ "silents synced: nosferatu with music from radiohead|1922": {
+  "miss": true,
+  "checked": "2026-10-20"
+ },
+ "tenzing|2026": {
+  "title": "Tenzing",
+  "year": 2026,
+  "overview": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
+  "runtime": 126,
+  "poster_path": "/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
+  "backdrop_path": "/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+  "url": "https://www.themoviedb.org/movie/1288069"
+ },
+ "the maltese falcon|1941": {
+  "title": "The Maltese Falcon",
+  "year": 1941,
+  "overview": "A private detective takes on a case that involves him with three eccentric criminals, a beautiful liar, and their quest for a priceless statuette.",
+  "runtime": 100,
+  "poster_path": "/bf4o6Uzw5wqLjdKwRuiDrN1xyvl.jpg",
+  "backdrop_path": "/5lMm0MmAviP6DF45nxBVOT9LCwK.jpg",
+  "url": "https://www.themoviedb.org/movie/963"
  }
 }
