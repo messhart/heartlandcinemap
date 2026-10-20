@@ -12882,5 +12882,45 @@
  "the michigan theater community film club|": {
   "miss": true,
   "checked": "2026-10-19"
+ },
+ "bombshell with simply living|2026": {
+  "miss": true,
+  "checked": "2026-10-20"
+ },
+ "resident evil|": {
+  "title": "Resident Evil",
+  "year": 2002,
+  "overview": "When a virus leaks from a top-secret facility, turning all resident researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak.",
+  "runtime": 100,
+  "poster_path": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+  "backdrop_path": "/8J7J7CBmapmcMaxsn9KMiaHzOU2.jpg",
+  "url": "https://www.themoviedb.org/movie/1576"
+ },
+ "wicker|2026": {
+  "title": "Wicker",
+  "year": 2026,
+  "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
+  "runtime": 105,
+  "poster_path": "/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
+  "backdrop_path": "/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+  "url": "https://www.themoviedb.org/movie/1195803"
+ },
+ "wild horse nine|2026": {
+  "title": "Wild Horse Nine",
+  "year": 2026,
+  "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+  "runtime": 117,
+  "poster_path": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+  "backdrop_path": "/b17UWf3LqHgKolQkXckne32qv0.jpg",
+  "url": "https://www.themoviedb.org/movie/891621"
+ },
+ "wildwood|2026": {
+  "title": "Wildwood",
+  "year": 2026,
+  "overview": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
+  "runtime": 132,
+  "poster_path": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+  "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+  "url": "https://www.themoviedb.org/movie/791523"
  }
 }
