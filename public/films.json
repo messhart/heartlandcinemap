@@ -13006,5 +13006,18 @@
  "v-world the matrix|": {
   "miss": true,
   "checked": "2026-10-21"
+ },
+ "audition (at the cedar lee theatre)|1999": {
+  "miss": true,
+  "checked": "2026-10-21"
+ },
+ "once upon a time in harlem|": {
+  "title": "Once Upon a Time in Harlem",
+  "year": 2026,
+  "overview": "A decade after his death, genre-defying filmmaker William Greaves has one last trick up his sleeve with what he considered the most important event he captured on film: a 1972 party he engineered with the living luminaries of the Harlem Renaissance.",
+  "runtime": 100,
+  "poster_path": "/9eukk5gby8NZCwraiC7mloZmasP.jpg",
+  "backdrop_path": "/wk9dLaji3CXpl5FxIYBXR5ojcY6.jpg",
+  "url": "https://www.themoviedb.org/movie/1596300"
  }
 }
