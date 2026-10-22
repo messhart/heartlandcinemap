@@ -13023,5 +13023,14 @@
  "64th ann arbor film festival touring program 1|2026": {
   "miss": true,
   "checked": "2026-10-22"
+ },
+ "missing reels: seance on a wet afternoon|1964": {
+  "title": "Seance on a Wet Afternoon",
+  "year": 1964,
+  "overview": "Working-class British housewife Myra Savage reinvents herself as a medium, holding seances in the sitting room of her home with the hidden assistance of her under-employed, asthmatic husband, Billy. In an attempt to enhance her credibility as a psychic, Myra hatches an elaborate, ill-conceived plot to kidnap a wealthy couple's young daughter so that she can then help the police \"find\" the missing girl.",
+  "runtime": 116,
+  "poster_path": "/dHu7nuNwXTXoPdpNOEPKhHfCBk5.jpg",
+  "backdrop_path": "/bGXaffbdbYqwV4mkVUA4y6F6qdf.jpg",
+  "url": "https://www.themoviedb.org/movie/3092"
  }
 }
