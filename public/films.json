@@ -13326,5 +13326,14 @@
  "whiskey tango filmscene|": {
   "miss": true,
   "checked": "2026-10-22"
+ },
+ "paprika|2006": {
+  "title": "Paprika",
+  "year": 2006,
+  "overview": "Dr. Atsuko Chiba is a research psychologist who uses a device called the DC Mini to enter her patients' dreams, wherein she adopts the alter-ego \"Paprika\". When the device is stolen, she must stop rogue elements from merging the dream and waking worlds.",
+  "runtime": 90,
+  "poster_path": "/nHJljo2Pi7XimYEgV9hvRchQWmg.jpg",
+  "backdrop_path": "/3fgcEjBNrhstYgPlG1c8WT7UpIN.jpg",
+  "url": "https://www.themoviedb.org/movie/4977"
  }
 }
