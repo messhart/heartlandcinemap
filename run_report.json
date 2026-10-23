@@ -1,30 +1,30 @@
 {
-  "run_at": "2026-10-23T19:17:18+00:00",
+  "run_at": "2026-10-23T23:52:15+00:00",
   "dropped_records": 0,
   "venues": [
     {
       "venue_id": "varsity-cinema-des-moines",
       "status": "ok",
-      "showtimes": 47,
-      "duration_s": 2.8,
+      "showtimes": 45,
+      "duration_s": 2.3,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "filmscene-iowa-city",
       "status": "ok",
       "showtimes": 218,
-      "duration_s": 70.2,
+      "duration_s": 70.1,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "music-box-chicago",
       "status": "ok",
-      "showtimes": 134,
-      "duration_s": 127.4,
+      "showtimes": 136,
+      "duration_s": 130.3,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "gene-siskel-film-center-chicago",
@@ -32,15 +32,15 @@
       "showtimes": 66,
       "duration_s": 20.7,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "kan-kan-indianapolis",
       "status": "ok",
       "showtimes": 0,
-      "duration_s": 5.2,
+      "duration_s": 4.9,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "cinema-center-fort-wayne",
@@ -48,71 +48,71 @@
       "showtimes": 15,
       "duration_s": 4.0,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "michigan-theater-ann-arbor",
       "status": "ok",
       "showtimes": 18,
-      "duration_s": 7.5,
+      "duration_s": 6.2,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "state-theatre-ann-arbor",
       "status": "ok",
       "showtimes": 34,
-      "duration_s": 6.8,
+      "duration_s": 6.1,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "redford-theatre-detroit",
       "status": "ok",
       "showtimes": 25,
-      "duration_s": 0.4,
+      "duration_s": 0.3,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "trylon-minneapolis",
       "status": "ok",
       "showtimes": 66,
-      "duration_s": 20.4,
+      "duration_s": 20.2,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "riverview-theater-minneapolis",
       "status": "ok",
-      "showtimes": 36,
-      "duration_s": 0.7,
+      "showtimes": 34,
+      "duration_s": 0.8,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "heights-theater-columbia-heights",
       "status": "error",
       "showtimes": 0,
-      "duration_s": 1.1,
+      "duration_s": 1.4,
       "error": "ValueError: no .film blocks on the Veezi sessions page",
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "hi-pointe-theatre-st-louis",
       "status": "ok",
-      "showtimes": 73,
-      "duration_s": 3.0,
+      "showtimes": 72,
+      "duration_s": 2.7,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "film-streams-ruth-sokolof-omaha",
       "status": "ok",
       "showtimes": 86,
-      "duration_s": 39.8,
+      "duration_s": 27.7,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "film-streams-dundee-omaha",
@@ -120,15 +120,15 @@
       "showtimes": 77,
       "duration_s": 20.2,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "gateway-film-center-columbus",
       "status": "ok",
-      "showtimes": 132,
-      "duration_s": 5.0,
+      "showtimes": 118,
+      "duration_s": 4.0,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "the-neon-dayton",
@@ -136,23 +136,23 @@
       "showtimes": 0,
       "duration_s": 0.0,
       "error": "no adapter for 'unknown'",
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "cia-cinematheque-cleveland",
       "status": "ok",
-      "showtimes": 87,
-      "duration_s": 5.4,
+      "showtimes": 86,
+      "duration_s": 3.1,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "oriental-theatre-milwaukee",
       "status": "ok",
       "showtimes": 64,
-      "duration_s": 4.0,
+      "duration_s": 3.9,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     },
     {
       "venue_id": "downer-theatre-milwaukee",
@@ -160,7 +160,7 @@
       "showtimes": 28,
       "duration_s": 4.0,
       "error": null,
-      "scraped_at": "2026-10-23T19:17:18+00:00"
+      "scraped_at": "2026-10-23T23:52:15+00:00"
     }
   ]
 }

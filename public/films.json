@@ -13335,5 +13335,14 @@
   "poster_path": "/nHJljo2Pi7XimYEgV9hvRchQWmg.jpg",
   "backdrop_path": "/3fgcEjBNrhstYgPlG1c8WT7UpIN.jpg",
   "url": "https://www.themoviedb.org/movie/4977"
+ },
+ "the addams family|1991": {
+  "title": "The Addams Family",
+  "year": 1991,
+  "overview": "When a man claiming to be long-lost Uncle Fester reappears after 25 years lost, the family plans a celebration to wake the dead. But the kids barely have time to warm up the electric chair before Morticia begins to suspect Fester is fraud when he can't recall any of the details of Fester's life.",
+  "runtime": 100,
+  "poster_path": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
+  "backdrop_path": "/7OxGhxUYAdtuike29VMzEFxJx7y.jpg",
+  "url": "https://www.themoviedb.org/movie/2907"
  }
 }
