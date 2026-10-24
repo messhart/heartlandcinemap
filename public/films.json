@@ -13344,5 +13344,27 @@
   "poster_path": "/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
   "backdrop_path": "/7OxGhxUYAdtuike29VMzEFxJx7y.jpg",
   "url": "https://www.themoviedb.org/movie/2907"
+ },
+ "caligula: the ultimate cut|1979": {
+  "title": "Caligula",
+  "year": 1979,
+  "overview": "After the death of the paranoid emperor Tiberius, Caligula, his heir, seizes power and plunges the empire into a bloody spiral of madness and depravity.",
+  "runtime": 156,
+  "poster_path": "/vNXAY6r9Pb6WkMCGmNeW2PlznLQ.jpg",
+  "backdrop_path": "/cT6xO3YjzfZKYGhZ8S7plNlA27F.jpg",
+  "url": "https://www.themoviedb.org/movie/9453"
+ },
+ "cult film collective secret cinema|": {
+  "miss": true,
+  "checked": "2026-10-24"
+ },
+ "playtime|1967": {
+  "title": "PlayTime",
+  "year": 1967,
+  "overview": "Clumsy Monsieur Hulot finds himself perplexed by the intimidating complexity of a gadget-filled Paris. He attempts to meet with a business contact but soon becomes lost. His roundabout journey parallels that of an American tourist, and as they weave through the inventive urban environment, they intermittently meet, developing an interest in one another. They eventually get together at a chaotic restaurant, along with several other quirky characters.",
+  "runtime": 115,
+  "poster_path": "/kQOrS0DLUXYsqPMedM2G6NJcJBq.jpg",
+  "backdrop_path": "/pKX8G6IN8ZCRvKeHh6ctqoHZl0K.jpg",
+  "url": "https://www.themoviedb.org/movie/10227"
  }
 }
