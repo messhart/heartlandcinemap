@@ -13370,5 +13370,14 @@
  "joe bob’s indoor drive-in geek out: cult of the rock star night|": {
   "miss": true,
   "checked": "2026-10-24"
+ },
+ "avengers: doomsday|": {
+  "title": "Avengers: Doomsday",
+  "year": 2026,
+  "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+  "runtime": 165,
+  "poster_path": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
+  "backdrop_path": "/xaA2vNo563CwmchBWztkAYRf86Y.jpg",
+  "url": "https://www.themoviedb.org/movie/1003596"
  }
 }
