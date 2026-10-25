@@ -13379,5 +13379,45 @@
   "poster_path": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
   "backdrop_path": "/xaA2vNo563CwmchBWztkAYRf86Y.jpg",
   "url": "https://www.themoviedb.org/movie/1003596"
+ },
+ "les liaisons dangereuses|2026": {
+  "miss": true,
+  "checked": "2026-10-25"
+ },
+ "night of the juggler|1980": {
+  "title": "Night of the Juggler",
+  "year": 1980,
+  "overview": "When a twisted psychotic kidnaps a young girl, mistaking her for the daughter of a wealthy developer, her father, a hardened ex-cop, doggedly hunts them through New York's seamy streets.",
+  "runtime": 101,
+  "poster_path": "/fv9LeLgbzR08UHjGyfbsEKf5JkO.jpg",
+  "backdrop_path": "/vGKXERtAAOvfaumOUqbfivFQj8G.jpg",
+  "url": "https://www.themoviedb.org/movie/44686"
+ },
+ "not another teen movie|2001": {
+  "title": "Not Another Teen Movie",
+  "year": 2001,
+  "overview": "On a bet, a gridiron hero at John Hughes High School sets out to turn a bespectacled plain Jane into a beautiful and popular prom queen in this outrageous send-up of the teen movies of the 1980s and '90s.",
+  "runtime": 89,
+  "poster_path": "/9ZaGxvj1mqdKVLpSloq4mzS7SK6.jpg",
+  "backdrop_path": "/lyf1jjoMD1Pe7KD6KKEqL4Owgeb.jpg",
+  "url": "https://www.themoviedb.org/movie/11397"
+ },
+ "the birdcage|1996": {
+  "title": "The Birdcage",
+  "year": 1996,
+  "overview": "A gay cabaret owner and his drag queen partner agree to put up a false heterosexual front so that their son can introduce them to his fiancée's conservative parents.",
+  "runtime": 119,
+  "poster_path": "/4IpC35BoA5aRO0Q1DpFGJ8iKKYq.jpg",
+  "backdrop_path": "/yNOtXSNep1BLnfZ0yhLejm1TULi.jpg",
+  "url": "https://www.themoviedb.org/movie/11000"
+ },
+ "the love witch|2016": {
+  "title": "The Love Witch",
+  "year": 2016,
+  "overview": "A modern-day witch uses spells and magic to get men to fall in love with her, with deadly consequences.",
+  "runtime": 121,
+  "poster_path": "/q6mZjCwGn9KCTrStTRM88pui0is.jpg",
+  "backdrop_path": "/zPzJ3DAUjpJoiBm4jODt50QEEr3.jpg",
+  "url": "https://www.themoviedb.org/movie/374052"
  }
 }
