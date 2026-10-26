@@ -13419,5 +13419,32 @@
   "poster_path": "/q6mZjCwGn9KCTrStTRM88pui0is.jpg",
   "backdrop_path": "/zPzJ3DAUjpJoiBm4jODt50QEEr3.jpg",
   "url": "https://www.themoviedb.org/movie/374052"
+ },
+ "citizen ruth|1996": {
+  "title": "Citizen Ruth",
+  "year": 1996,
+  "overview": "\"Citizen Ruth\" is the story of Ruth Stoops, a woman who nobody even noticed -- until she got pregnant. Now, everyone wants a piece of her. The film is a comedy about one woman caught in the ultimate tug-of-war: a clash of wild, noisy, ridiculous people that rapidly dissolves into a media circus.",
+  "runtime": 104,
+  "poster_path": "/ncDIFOY7Mcan2gunAivLjIx3Kj1.jpg",
+  "backdrop_path": "/1PW1QmsdOH7kO95wdoI2YQmTxcC.jpg",
+  "url": "https://www.themoviedb.org/movie/13891"
+ },
+ "clue|": {
+  "title": "Clue",
+  "year": 1985,
+  "overview": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.",
+  "runtime": 94,
+  "poster_path": "/aRxbYOYHS8T73nzR8hsLousoplR.jpg",
+  "backdrop_path": "/rsclb1vtH6IkxmVBuCC37biEBT.jpg",
+  "url": "https://www.themoviedb.org/movie/15196"
+ },
+ "tár|2022": {
+  "title": "TÁR",
+  "year": 2022,
+  "overview": "As celebrated conductor Lydia Tár starts rehearsals for a career-defining symphony, the consequences of her past choices begin to echo in the present.",
+  "runtime": 158,
+  "poster_path": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
+  "backdrop_path": "/84XcRwKHAw4VXdKOYTSW5ARxFEt.jpg",
+  "url": "https://www.themoviedb.org/movie/817758"
  }
 }
