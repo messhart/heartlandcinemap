@@ -10526,7 +10526,7 @@
  },
  "american theater|": {
   "miss": true,
-  "checked": "2026-09-26"
+  "checked": "2026-10-27"
  },
  "union county|": {
   "miss": true,
@@ -13446,5 +13446,58 @@
   "poster_path": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
   "backdrop_path": "/84XcRwKHAw4VXdKOYTSW5ARxFEt.jpg",
   "url": "https://www.themoviedb.org/movie/817758"
+ },
+ "'the lodger' - live score with the great necks guitar trio and cellist michael shein|1926": {
+  "miss": true,
+  "checked": "2026-10-27"
+ },
+ "breeder|2026": {
+  "title": "Breeder",
+  "year": 2026,
+  "overview": "An eccentric poodle breeder lures a broke college student to her remote ranch with a promise of research funding. But, as he soon learns, there’s a catch.",
+  "runtime": 97,
+  "poster_path": "/alsb3UC17kxIcytLWvwkmL0STgU.jpg",
+  "backdrop_path": "/l5gJE9xW1FFtub3gUezh1PjBbY5.jpg",
+  "url": "https://www.themoviedb.org/movie/1496696"
+ },
+ "dr. no|1962": {
+  "title": "Dr. No",
+  "year": 1962,
+  "overview": "Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters.",
+  "runtime": 110,
+  "poster_path": "/9zCOLJmLNst0sCPZlkW1IRoH65E.jpg",
+  "backdrop_path": "/srgq7bzZsuDw7NoGXdazRXp7Hl6.jpg",
+  "url": "https://www.themoviedb.org/movie/646"
+ },
+ "film club screening : aaff traveling library tour|2026": {
+  "miss": true,
+  "checked": "2026-10-27"
+ },
+ "strangers on a train|1951": {
+  "title": "Strangers on a Train",
+  "year": 1951,
+  "overview": "A charming psychopath tries to coerce a tennis star into his theory that two strangers can commit the perfect crime by exchanging murders—each killing the other’s most-hated person.",
+  "runtime": 101,
+  "poster_path": "/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
+  "backdrop_path": "/8Tnn2UOlecCKNLKG8ZK5Mu6bK94.jpg",
+  "url": "https://www.themoviedb.org/movie/845"
+ },
+ "the breaking point|1950": {
+  "title": "The Breaking Point",
+  "year": 1950,
+  "overview": "A fisherman with money problems hires out his boat to transport criminals.",
+  "runtime": 97,
+  "poster_path": "/gmScaZfpgF9KkZ7TKFo0Fn4d7Yy.jpg",
+  "backdrop_path": "/vd80mHDkPvFKEWrQlpAQYpZuqPk.jpg",
+  "url": "https://www.themoviedb.org/movie/37954"
+ },
+ "the sea wolf|1941": {
+  "title": "The Sea Wolf",
+  "year": 1941,
+  "overview": "Shipwrecked fugitives try to escape a brutal sea captain who's losing his mind.",
+  "runtime": 100,
+  "poster_path": "/hgpzaiHupKqvozTcXuqF5Ew5QVF.jpg",
+  "backdrop_path": "/dD1zeP5cn46ba06AMxFu8DIboml.jpg",
+  "url": "https://www.themoviedb.org/movie/33931"
  }
 }
