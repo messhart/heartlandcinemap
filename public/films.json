@@ -13606,5 +13606,59 @@
  "trylon club exclusive screening|1975": {
   "miss": true,
   "checked": "2026-10-28"
+ },
+ "ciller corn|2026": {
+  "title": "Ciller Corn",
+  "year": 2026,
+  "overview": "Carson is ready to leave the family farm and start a new life with his girlfriend in the city. But an experimental “Nonsanto” chemical has begun poisoning the fields and animals, causing financial strains on his father’s operation. If he leaves, the farm will go under. His father, Dale, conspires with his business partner to keep Carson home. But the poison altering their land infects Carson and slowly transforms him into something inhuman...",
+  "runtime": null,
+  "poster_path": "/bLPZ6NRzynE1FEd4xyusIOJ3N9P.jpg",
+  "backdrop_path": "/e85UCl00iZwIf2RDV5RUnu6EU1L.jpg",
+  "url": "https://www.themoviedb.org/movie/1533172"
+ },
+ "everything for sale|1969": {
+  "title": "Everything for Sale",
+  "year": 1969,
+  "overview": "Wajda's homage to Zbigniew Cybulski, the \"Polish James Dean\" who starred in the director's ASHES AND DIAMONDS and died young. The movie follows the tribulations of a director attempting to make a movie with a Cybulski-like star who never shows up.",
+  "runtime": 105,
+  "poster_path": "/oPTIKRNJ2rexJS93AjIdBbr2lcA.jpg",
+  "backdrop_path": "/c9B2ZkMPrI7TVjHLeTyg8czs6yR.jpg",
+  "url": "https://www.themoviedb.org/movie/94527"
+ },
+ "hunting flies|1969": {
+  "title": "Hunting Flies",
+  "year": 1969,
+  "overview": "Włodek is a middle-aged man stuck in a dead-end job at the local library who lives with his harridan wife and critical in-laws in a small apartment. When Włodek draws the interest of a library patron, the beautiful young woman encourages him to strive for better things in his life and professional career. Together, the two take off for a three-day affair, but surprises could await Włodek upon his return home.",
+  "runtime": 104,
+  "poster_path": "/pBKUvoARZ8es3WXgM81PDo0tdDt.jpg",
+  "backdrop_path": "/bGreAeXgzRSqNnbclynL6spZorB.jpg",
+  "url": "https://www.themoviedb.org/movie/198669"
+ },
+ "kanal|1957": {
+  "title": "Kanal",
+  "year": 1957,
+  "overview": "In the last few days of the Warsaw Uprising during World War II, a modest group of Resistance members remains. The band must take refuge in the sewers under the orders of leader Zadra, but it's only a matter of time before they will have to emerge. However, when they try, they are met only with intense hostility from the Nazis. Despite their attempts stay resolute through immense mental strain, it becomes increasingly apparent that they may be doomed.",
+  "runtime": 96,
+  "poster_path": "/mUxZNNmvX3MwIJ9LTcuw76ZdtN6.jpg",
+  "backdrop_path": "/kfuJtNiY3aevZHzSMA007pbVWqH.jpg",
+  "url": "https://www.themoviedb.org/movie/29933"
+ },
+ "musk|2026": {
+  "title": "Musk",
+  "year": 2026,
+  "overview": "An incisive look behind the legend of Elon Musk, the world’s most heralded 'inventor-entrepreneur' who has enormous influence on the world in which we all live.",
+  "runtime": 235,
+  "poster_path": "/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg",
+  "backdrop_path": "/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
+  "url": "https://www.themoviedb.org/movie/1096228"
+ },
+ "spirit tasting|2026": {
+  "title": "Spirit Tasting",
+  "year": 2026,
+  "overview": "On New Year's Eve, three former punks toast their late bandmate at a distillery. When a strange sommelier invites them to a top-shelf tasting, the trio discover there's only one catch: every bottle requires a 'wish'. But as each of their desires twist into doom, these old friends discover that every pour at the Red Bat Distillery comes at a deadly price.",
+  "runtime": null,
+  "poster_path": null,
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1808238"
  }
 }
