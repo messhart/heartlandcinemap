@@ -13584,5 +13584,27 @@
   "poster_path": "/uLUFI5sJIfWrBUWB2Y1dEuyvvVy.jpg",
   "backdrop_path": "/6xJ2odkMFmO2LptVUBR8t8wBldQ.jpg",
   "url": "https://www.themoviedb.org/movie/483"
+ },
+ "detour|1945": {
+  "title": "Detour",
+  "year": 1945,
+  "overview": "The life of Al Roberts, a pianist in a New York nightclub, turns into a nightmare when he decides to hitchhike to Los Angeles to visit his girlfriend.",
+  "runtime": 68,
+  "poster_path": "/gJb9HRAs1V4bA0VKsWpT6mhv2RT.jpg",
+  "backdrop_path": "/uGOKN4VeCsf249zypWfaAzfTxAB.jpg",
+  "url": "https://www.themoviedb.org/movie/20367"
+ },
+ "for all mankind|1989": {
+  "title": "For All Mankind",
+  "year": 1989,
+  "overview": "A testament to NASA's Apollo program of the 1960s and '70s. Composed of actual NASA footage of the missions and astronaut interviews, the documentary offers the viewpoint of the individuals who braved the remarkable journey to the moon and back.",
+  "runtime": 80,
+  "poster_path": "/7k8ylisWiEGxdRSlAf6v4PWiAjH.jpg",
+  "backdrop_path": "/jQzQm6YPBab5ucysHaGnGzfXKCh.jpg",
+  "url": "https://www.themoviedb.org/movie/20423"
+ },
+ "trylon club exclusive screening|1975": {
+  "miss": true,
+  "checked": "2026-10-28"
  }
 }
