@@ -10592,7 +10592,7 @@
  },
  "the playboy of the western world|2026": {
   "miss": true,
-  "checked": "2026-09-27"
+  "checked": "2026-10-28"
  },
  "the witches of eastwick|1987": {
   "title": "The Witches of Eastwick",
@@ -13562,5 +13562,27 @@
   "poster_path": "/dS2EUbnMyfv1bWsGa6GBgzwp5cF.jpg",
   "backdrop_path": "/9o9ITSmTuI3Lof4ayV1dQUEez4k.jpg",
   "url": "https://www.themoviedb.org/movie/1642568"
+ },
+ "film screams double feature phantom of the paradise & society|": {
+  "miss": true,
+  "checked": "2026-10-28"
+ },
+ "heart of the beast|": {
+  "title": "Heart of the Beast",
+  "year": 2026,
+  "overview": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+  "runtime": 101,
+  "poster_path": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+  "backdrop_path": "/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+  "url": "https://www.themoviedb.org/movie/1263337"
+ },
+ "wild at heart - 4k restoration|1990": {
+  "title": "Wild at Heart",
+  "year": 1990,
+  "overview": "Young lovers Sailor and Lula hit the road to start a new life together away from the wrath of Lula’s deranged, disapproving mother, who has hired a team of hitmen to cut the lovers’ surreal honeymoon short.",
+  "runtime": 125,
+  "poster_path": "/uLUFI5sJIfWrBUWB2Y1dEuyvvVy.jpg",
+  "backdrop_path": "/6xJ2odkMFmO2LptVUBR8t8wBldQ.jpg",
+  "url": "https://www.themoviedb.org/movie/483"
  }
 }
