@@ -13672,5 +13672,14 @@
  "35th annual st. louis international film festival|": {
   "miss": true,
   "checked": "2026-10-29"
+ },
+ "the host|2006": {
+  "title": "The Host",
+  "year": 2006,
+  "overview": "A teenage girl is captured by a giant mutated squid-like creature that appears from Seoul's Han River after toxic waste was dumped in it, prompting her family into a frantic search for her.",
+  "runtime": 120,
+  "poster_path": "/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
+  "backdrop_path": "/m0wczZyNfWpu5q9wNuhFUGGiLxG.jpg",
+  "url": "https://www.themoviedb.org/movie/1255"
  }
 }
