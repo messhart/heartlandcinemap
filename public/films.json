@@ -13703,5 +13703,14 @@
  "stories of community 2026 roundup|2026": {
   "miss": true,
   "checked": "2026-10-30"
+ },
+ "american dream|1990": {
+  "title": "American Dream",
+  "year": 1990,
+  "overview": "When workers at the Hormel meatpacking plant in Austin, Minnesota are asked to take a substantial pay cut in a highly profitable year, the local labor union decides to go on strike and fight for a wage they believe is fair. But as the work stoppage drags on and the strikers face losing everything, friends become enemies, families are divided and the very future of this typical mid American town is threatened.",
+  "runtime": 98,
+  "poster_path": "/da6DPUrYsi3K2HzwalUpphtOHec.jpg",
+  "backdrop_path": "/ee1XnlSE5YmmC0OMoCGhDNSEP4M.jpg",
+  "url": "https://www.themoviedb.org/movie/41326"
  }
 }
