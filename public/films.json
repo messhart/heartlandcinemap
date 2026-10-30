@@ -13681,5 +13681,27 @@
   "poster_path": "/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
   "backdrop_path": "/m0wczZyNfWpu5q9wNuhFUGGiLxG.jpg",
   "url": "https://www.themoviedb.org/movie/1255"
+ },
+ "low lies the land|2026": {
+  "title": "Low Lies the Land",
+  "year": 2026,
+  "overview": "Set in the breathtaking landscapes of Piemonte in Northern Italy, the lives of three winemaking families face an uncertain future.",
+  "runtime": 92,
+  "poster_path": "/bOcCgozIJyO6Hi71R6dLCTDQyPs.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1747726"
+ },
+ "manhood|2026": {
+  "title": "Manhood",
+  "year": 2026,
+  "overview": "“Manhood” follows Dallas entrepreneur Bill Moore as he attempts to make penis enlargement as commonplace as Botox. Along the way, an OnlyFans star and a father of five put their bodies — and their insecurities — on the line. Blending dark humor with unexpected empathy, “Manhood” examines shame, addiction, and the fragile myths of American masculinity.",
+  "runtime": 91,
+  "poster_path": "/promUBwB50H3mIc9jyvLHNTh1HS.jpg",
+  "backdrop_path": "/2kF0v68flymezqKFwE3ElK0vFWw.jpg",
+  "url": "https://www.themoviedb.org/movie/1476706"
+ },
+ "stories of community 2026 roundup|2026": {
+  "miss": true,
+  "checked": "2026-10-30"
  }
 }
