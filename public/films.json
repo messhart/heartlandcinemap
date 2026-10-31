@@ -13712,5 +13712,23 @@
   "poster_path": "/da6DPUrYsi3K2HzwalUpphtOHec.jpg",
   "backdrop_path": "/ee1XnlSE5YmmC0OMoCGhDNSEP4M.jpg",
   "url": "https://www.themoviedb.org/movie/41326"
+ },
+ "der fan - the fan|1982": {
+  "title": "The Fan",
+  "year": 1982,
+  "overview": "The hero-worship that Simone has for a pop singer is built to a crescendo until she passes out when she finally sees him up-close in a crowd of fans. She is later shocked when he lets her know that he does not love her.",
+  "runtime": 92,
+  "poster_path": "/igLYepYwgDtA4jqUN3LWsnRddv4.jpg",
+  "backdrop_path": "/8MTk7ErYPf7huu4Caxg3GdEucMF.jpg",
+  "url": "https://www.themoviedb.org/movie/105184"
+ },
+ "ticket of no return|1979": {
+  "title": "Ticket of No Return",
+  "year": 1979,
+  "overview": "A sartorially resplendent woman of few words arrives in Berlin with plans to live out the rest of her days as a drunkard.",
+  "runtime": 107,
+  "poster_path": "/fUaKxViJa9Uvy0EKBGpJtN3SMN1.jpg",
+  "backdrop_path": "/9WLbFrrI3XVsVdK2jZEce0HBRfb.jpg",
+  "url": "https://www.themoviedb.org/movie/106219"
  }
 }
