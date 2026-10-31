@@ -13730,5 +13730,14 @@
   "poster_path": "/fUaKxViJa9Uvy0EKBGpJtN3SMN1.jpg",
   "backdrop_path": "/9WLbFrrI3XVsVdK2jZEce0HBRfb.jpg",
   "url": "https://www.themoviedb.org/movie/106219"
+ },
+ "kings of the beach|2026": {
+  "title": "Kings of the Beach",
+  "year": 2026,
+  "overview": "A documentary about the epic rise (and subsequent fall) of beach volleyball, featuring many of the boldfaced names from Southern California who helped popularize it.",
+  "runtime": null,
+  "poster_path": null,
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1805527"
  }
 }
