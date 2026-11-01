@@ -4391,7 +4391,7 @@
  },
  "tape freaks|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "teenage mutant ninja turtles|": {
   "miss": true,
@@ -11274,7 +11274,7 @@
  },
  "hausu|1977": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "the docks of new york|1928": {
   "title": "The Docks of New York",
@@ -13874,5 +13874,104 @@
   "poster_path": "/iZQs2vUeCzvS1KfZJ6uYNCGJBBV.jpg",
   "backdrop_path": "/7TlGXrB4WQ3wbpOCUQnBXseCuOl.jpg",
   "url": "https://www.themoviedb.org/movie/144"
+ },
+ "barry lyndon|1975": {
+  "title": "Barry Lyndon",
+  "year": 1975,
+  "overview": "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.",
+  "runtime": 188,
+  "poster_path": "/A0byHUHMwZ7dtBQtfZ44QIgDbjo.jpg",
+  "backdrop_path": "/ef6SvWbSfCFlKodJZqpIaTvsRRP.jpg",
+  "url": "https://www.themoviedb.org/movie/3175"
+ },
+ "castration movie anthology ii. the best of both worlds|2025": {
+  "title": "Castration Movie Anthology ii. The Best of Both Worlds",
+  "year": 2025,
+  "overview": "In New York, Circle tries to leave a trans separatist cult.",
+  "runtime": 300,
+  "poster_path": "/rtxXBBBr7sjW9KQz02dSjDfaV0m.jpg",
+  "backdrop_path": "/1PI63GDOAWSJ0U8Y66PZplVhxEh.jpg",
+  "url": "https://www.themoviedb.org/movie/1491336"
+ },
+ "castration movie ⅗ year of the hyaena|2026": {
+  "title": "Castration Movie ⅗ Year of the Hyaena",
+  "year": 2026,
+  "overview": "Michaela tries her best to be a good person.",
+  "runtime": 300,
+  "poster_path": "/eK37SoEOj1P2RRSBifoHPueUcuh.jpg",
+  "backdrop_path": "/1NSoxqalrdfWvsD48rgCSLdstJH.jpg",
+  "url": "https://www.themoviedb.org/movie/1528721"
+ },
+ "dune: part three|2026": {
+  "title": "Dune: Part Three",
+  "year": 2026,
+  "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+  "runtime": 150,
+  "poster_path": "/glt0v4I89rMWstDNCaFXc5SNyO1.jpg",
+  "backdrop_path": "/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
+  "url": "https://www.themoviedb.org/movie/1170608"
+ },
+ "eyes wide shut|1999": {
+  "title": "Eyes Wide Shut",
+  "year": 1999,
+  "overview": "After Dr. Bill Harford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
+  "runtime": 159,
+  "poster_path": "/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg",
+  "backdrop_path": "/aC6wW62V6b0csr5iUnbOjYAqfhg.jpg",
+  "url": "https://www.themoviedb.org/movie/345"
+ },
+ "it's a wonderful life|1946": {
+  "title": "It's a Wonderful Life",
+  "year": 1946,
+  "overview": "George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.",
+  "runtime": 131,
+  "poster_path": "/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
+  "backdrop_path": "/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+  "url": "https://www.themoviedb.org/movie/1585"
+ },
+ "landscape after battle|1970": {
+  "title": "Landscape After Battle",
+  "year": 1970,
+  "overview": "Film opens with the mad rush of haphazard freedom as the concentration camps are liberated. Men are trying to grab food, change clothes, bury their tormentors they find alive. Then they are herded into other camps as the Allies try to devise policy to control the situation. A young poet who cannot quite find himself in this new situation, meets a headstrong Jewish young girl who wants him to run off with her, to the West. He cannot cope with her growing demands for affection, while still harboring the hatred for the Germans and disdain for his fellow men who quickly revert to petty enmities.",
+  "runtime": 109,
+  "poster_path": "/lFsScY7HSj3PRsflDextkvrtxcq.jpg",
+  "backdrop_path": "/fxXkKpMVPSJSdciQStPEEdC0nnj.jpg",
+  "url": "https://www.themoviedb.org/movie/149136"
+ },
+ "life of pi|2012": {
+  "title": "Life of Pi",
+  "year": 2012,
+  "overview": "The story of an Indian boy named Pi, a zookeeper's son who finds himself in the company of a hyena, zebra, orangutan, and a Bengal tiger after a shipwreck sets them adrift in the Pacific Ocean.",
+  "runtime": 127,
+  "poster_path": "/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
+  "backdrop_path": "/21YsCNMub5455NQCn3jh9SmRFyG.jpg",
+  "url": "https://www.themoviedb.org/movie/87827"
+ },
+ "rex: a dinosaur's story|1993": {
+  "title": "Rex: A Dinosaur's Story",
+  "year": 1993,
+  "overview": "A young girl befriends an infant T-rex after her paleontologist father nurtures a lair of lost dinosaur eggs.",
+  "runtime": 106,
+  "poster_path": "/f7EsJ9YCIslx2pf4AGOGe8GfqgJ.jpg",
+  "backdrop_path": "/AsuFYXE29KwC9csN6BicWRK0xDa.jpg",
+  "url": "https://www.themoviedb.org/movie/627110"
+ },
+ "the princess and the frog|2009": {
+  "title": "The Princess and the Frog",
+  "year": 2009,
+  "overview": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
+  "runtime": 98,
+  "poster_path": "/yprv5PbnEksoVj2v6XEnDBg9joR.jpg",
+  "backdrop_path": "/y5tad0a4yRbxYgOHGllEIEeCCKt.jpg",
+  "url": "https://www.themoviedb.org/movie/10198"
+ },
+ "white christmas|1954": {
+  "title": "White Christmas",
+  "year": 1954,
+  "overview": "Two talented song-and-dance men team up after the war to become one of the hottest acts in show business. In time they befriend and become romantically involved with the beautiful Haynes sisters who comprise a sister act.",
+  "runtime": 120,
+  "poster_path": "/A5kBQsHKbIptxJyELEpHQJROCRj.jpg",
+  "backdrop_path": "/uChOlEWqFwxwJ3eZP9eQj2yqczd.jpg",
+  "url": "https://www.themoviedb.org/movie/13368"
  }
 }
