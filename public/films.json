@@ -4315,11 +4315,11 @@
  },
  "music box bingo|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "music box movie trivia|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "necessary allies|": {
   "miss": true,
@@ -6625,7 +6625,7 @@
  },
  "8th annual holiday mystery movie|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "a mighty wind’ presented with let|": {
   "miss": true,
@@ -6896,7 +6896,7 @@
  },
  "christmas organ show|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "cinema columbus 2026 opening night: origins: shorts of ohio|": {
   "miss": true,
@@ -7742,7 +7742,7 @@
  },
  "the found footage fest: porcelain vhs treasures|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-01"
  },
  "the grapes of wrath|1940": {
   "title": "The Grapes of Wrath",
@@ -13739,5 +13739,140 @@
   "poster_path": null,
   "backdrop_path": null,
   "url": "https://www.themoviedb.org/movie/1805527"
+ },
+ "an evening with peter billingsley: a christmas story|1983": {
+  "title": "A Christmas Story",
+  "year": 1983,
+  "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+  "runtime": 93,
+  "poster_path": "/34nSHYqmb7222tiqiuKqKJmZiQa.jpg",
+  "backdrop_path": "/feCcRTZNGUop3LnWBLTToYhd03S.jpg",
+  "url": "https://www.themoviedb.org/movie/850"
+ },
+ "blue friday at the michigan theater|": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "cicha wędrówka/silent drift|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "cozy craft club - the princess bride|1987": {
+  "title": "The Princess Bride",
+  "year": 1987,
+  "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+  "runtime": 99,
+  "poster_path": "/2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+  "backdrop_path": "/onACwa3TjpeaY7EVHSZZbeNkd2q.jpg",
+  "url": "https://www.themoviedb.org/movie/2493"
+ },
+ "dom dobry/home sweet home|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "godej do mie/talk to me|2026": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "home alone 2|1992": {
+  "title": "Home Alone 2: Lost in New York",
+  "year": 1992,
+  "overview": "Instead of flying to Florida with his folks, Kevin ends up alone in New York, where he gets a hotel room with his dad's credit card—despite problems from a clerk and meddling bellboy. But when Kevin runs into his old nemeses, the Wet Bandits, he's determined to foil their plans to rob a toy store on Christmas Eve.",
+  "runtime": 120,
+  "poster_path": "/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg",
+  "backdrop_path": "/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+  "url": "https://www.themoviedb.org/movie/772"
+ },
+ "jagody/blueberries|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "lalka/the doll|2026": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "ministranci/the altar boys|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "miracle on 34th street|1947": {
+  "title": "Miracle on 34th Street",
+  "year": 1947,
+  "overview": "Kris Kringle, seemingly the embodiment of Santa Claus, is asked to portray the jolly old fellow at Macy's following his performance in the Thanksgiving Day parade. His portrayal is so complete that many begin to question if he truly is Santa Claus, while others question his sanity.",
+  "runtime": 96,
+  "poster_path": "/vehuIm3y6BeMI7mYjxzaA1H8M0k.jpg",
+  "backdrop_path": "/rSnMQ82mFlpBLRt2UvohO6sgemd.jpg",
+  "url": "https://www.themoviedb.org/movie/11881"
+ },
+ "mystery member matinee|": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "return to reason: four films by man ray|1923": {
+  "title": "Return to Reason",
+  "year": 1923,
+  "overview": "Experimental film, white specks and shapes gyrating over a black background, the light-striped torso of Kiki of Montparnasse (Alice Prin), a gyrating eggcrate. One of the first Dadaist films.",
+  "runtime": 3,
+  "poster_path": "/8ioFoJSHZKXirDm5DknoaQybNrE.jpg",
+  "backdrop_path": "/5M5BMLPQhxPqA1iAAs51btKU2R4.jpg",
+  "url": "https://www.themoviedb.org/movie/138752"
+ },
+ "short films program|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "sir thaddeus|1999": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "smok diplodok/the green dinosaur|2024": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "taty nie ma/dad’s not home|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "ten times better/about face|2025": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "the short films of david lynch|1966": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "the true story of tamara de lempicka & the art of survival|2024": {
+  "title": "The True Story of Tamara de Lempicka and the Art of Survival",
+  "year": 2024,
+  "overview": "A visually stunning and sweeping feature documentary that traces the life and survival of the renowned painter through her powerful paintings – from her rise to international stardom in 1920s Paris, to her move to the United States in 1940, fleeing the rise of fascism, and her revival in the current art market. Tamara de Lempicka was the preeminent Art Deco painter, known for her high-gloss sensual nudes and portraits of high society during the Jazz Age. She was marginalized and gained notoriety for her romantic liaisons with her models and her indulgent, decadent lifestyle, but she was so much more.",
+  "runtime": 96,
+  "poster_path": "/w6YzVxKIb9KdGwtmGSkWWE1imcK.jpg",
+  "backdrop_path": "/1uTOmAAPyWMO1oboQlSiT4dhTxo.jpg",
+  "url": "https://www.themoviedb.org/movie/1355797"
+ },
+ "tree town trans film festival|": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "warner bros cartoon shorts|": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "warren miller’s days off|2026": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "white christmas sing-along|1954": {
+  "miss": true,
+  "checked": "2026-11-01"
+ },
+ "wings of desire|1989": {
+  "title": "Wings of Desire",
+  "year": 1987,
+  "overview": "Two angels, Damiel and Cassiel, glide through the streets of Berlin, observing the bustling population, providing invisible rays of hope to the distressed but never interacting with them. When Damiel falls in love with lonely trapeze artist Marion, the angel longs to experience life in the physical world, and finds — with some words of wisdom from actor Peter Falk — that it might be possible for him to take human form.",
+  "runtime": 128,
+  "poster_path": "/iZQs2vUeCzvS1KfZJ6uYNCGJBBV.jpg",
+  "backdrop_path": "/7TlGXrB4WQ3wbpOCUQnBXseCuOl.jpg",
+  "url": "https://www.themoviedb.org/movie/144"
  }
 }
