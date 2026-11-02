@@ -14247,5 +14247,41 @@
   "poster_path": "/iZQs2vUeCzvS1KfZJ6uYNCGJBBV.jpg",
   "backdrop_path": "/7TlGXrB4WQ3wbpOCUQnBXseCuOl.jpg",
   "url": "https://www.themoviedb.org/movie/144"
+ },
+ "eve's bayou - director's cut|1997": {
+  "title": "Eve's Bayou",
+  "year": 1997,
+  "overview": "Summer heats up in rural Louisiana beside Eve’s Bayou, 1962, as the Batiste family tries to survive the secrets they’ve kept and the betrayals they’ve endured.",
+  "runtime": 108,
+  "poster_path": "/33yTPcGSv7eo3FVlb7XKACHl1M8.jpg",
+  "backdrop_path": "/dzoLlCiMhraAfCjQuudyVLcl8Le.jpg",
+  "url": "https://www.themoviedb.org/movie/45153"
+ },
+ "talk to me|2007": {
+  "title": "Talk to Me",
+  "year": 2007,
+  "overview": "The story of Washington D.C. radio personality Ralph \"Petey\" Greene, an ex-con who became a popular talk show host and community activist in the 1960s.",
+  "runtime": 118,
+  "poster_path": "/pT5BkLuOXhUXB2W1mOhQFVj3yB5.jpg",
+  "backdrop_path": "/7v7NGRbRcih7vItQluyjBOGQsz7.jpg",
+  "url": "https://www.themoviedb.org/movie/6535"
+ },
+ "the rider|2018": {
+  "title": "The Rider",
+  "year": 2018,
+  "overview": "Once a rising star of the rodeo circuit, and a gifted horse trainer, young cowboy Brady is warned that his riding days are over after a horse crushed his skull at a rodeo. In an attempt to regain control of his own fate, Brady undertakes a search for a new identity and what it means to be a man in the heartland of the United States.",
+  "runtime": 103,
+  "poster_path": "/cFsrA0Is5xode2INrPj1VJcQ18n.jpg",
+  "backdrop_path": "/oaAyNmnqbB8Ad3O2t9iymZ2gEJa.jpg",
+  "url": "https://www.themoviedb.org/movie/453278"
+ },
+ "turner & constable|2026": {
+  "title": "Turner & Constable",
+  "year": 2026,
+  "overview": "Celebrating the 250th anniversary of their births, this unmissable new documentary explores Turner and Constable’s intertwined lives and legacies alongside the groundbreaking Tate exhibition.  Two of Britain’s greatest painters, J.M.W. Turner and John Constable were also the greatest of rivals. Born within a year of each other, both used landscape painting to reflect the changing world around them. Tate Britain is bringing these two greats together for a groundbreaking exhibition, in London from November 2025 to April 2026, and Exhibition on Screen once again has exclusive and privileged access to bring their extraordinary art and remarkable stories to the big screen in February so that you can enjoy both film and exhibition together. Discover unexpected sides to both artists with intimate views of sketchbooks and personal items and insights from leading experts.",
+  "runtime": 91,
+  "poster_path": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1547768"
  }
 }
