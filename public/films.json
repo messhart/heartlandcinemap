@@ -14283,5 +14283,18 @@
   "poster_path": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
   "backdrop_path": null,
   "url": "https://www.themoviedb.org/movie/1547768"
+ },
+ "die kleine bushaltestelle (gerüstbau)|2012": {
+  "miss": true,
+  "checked": "2026-11-02"
+ },
+ "winters, nebraska|": {
+  "title": "Winters, Nebraska",
+  "year": null,
+  "overview": "Following a devastating loss, Jack returns home to the quiet homestead he fled years prior to care for his grandmother and repair the frayed relationships he left behind.",
+  "runtime": 93,
+  "poster_path": "/pECDCmC1Y36ahuukb7A2zUXVRvi.jpg",
+  "backdrop_path": "/8ah8GOc7FrHJqgKqZteMsSLzpza.jpg",
+  "url": "https://www.themoviedb.org/movie/1715296"
  }
 }
