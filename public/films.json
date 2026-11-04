@@ -11947,7 +11947,7 @@
  },
  "the kid + a dog's life|1918": {
   "miss": true,
-  "checked": "2026-10-04"
+  "checked": "2026-11-04"
  },
  "wmse presents friday night freak show: the crow|1994": {
   "title": "The Crow",
@@ -14314,5 +14314,27 @@
   "poster_path": "/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
   "backdrop_path": "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
   "url": "https://www.themoviedb.org/movie/1300968"
+ },
+ "cseees film screening: atlas of the universe|2026": {
+  "title": "Atlas of the Universe",
+  "year": 2026,
+  "overview": "After mistakenly buying two right-footed shoes, a ten-year-old boy sets off across the countryside to find the missing left one. An unexpected journey of courage, friendship and self-discovery.",
+  "runtime": 85,
+  "poster_path": "/hdOTtLw94VEOuy4S0ZkCGJXHysF.jpg",
+  "backdrop_path": "/pSLyeW8J1rsis95VOLgo1AAXzle.jpg",
+  "url": "https://www.themoviedb.org/movie/1472684"
+ },
+ "jimmy|": {
+  "miss": true,
+  "checked": "2026-11-04"
+ },
+ "sense and sensibility|": {
+  "title": "Sense and Sensibility",
+  "year": 1995,
+  "overview": "The Dashwood sisters, sensible Elinor and passionate Marianne, learn that their prospects of marriage seem doomed by their family's sudden loss of fortune. After Henry Dashwood dies unexpectedly, his estate must pass on by law to his son. These circumstances leave Mr. Dashwood's wife and daughters without a home and with barely enough money to live on. As Elinor and Marianne struggle to find romantic fulfillment in a society obsessed with financial and social status, they must learn to mix sense with sensibility in their dealings with both money and men.",
+  "runtime": 136,
+  "poster_path": "/cBK2yL3HqhFvIVd7lLtazWlRZPR.jpg",
+  "backdrop_path": "/cFnyfWHL6HjOOVal6lp8e5gqibK.jpg",
+  "url": "https://www.themoviedb.org/movie/4584"
  }
 }
