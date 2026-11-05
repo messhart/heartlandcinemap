@@ -14363,5 +14363,36 @@
   "poster_path": "/hYfGOJlr1WTJU1IRA5Sb7a14Xba.jpg",
   "backdrop_path": "/cuFQW97i7EycBYSIcZqAktJs5uj.jpg",
   "url": "https://www.themoviedb.org/movie/1723978"
+ },
+ "jason goes to hell: the final friday|1993": {
+  "title": "Jason Goes to Hell: The Final Friday",
+  "year": 1993,
+  "overview": "Jason Voorhees is tracked down and blown to bits by a special FBI task force, reborn with the bone-chilling ability to assume the identity of anyone he touches.",
+  "runtime": 88,
+  "poster_path": "/Aacq05foqiWdXqetFv02HBvMoJy.jpg",
+  "backdrop_path": "/wqRyyOZcMaUxTnKsxDexPp4IAZ5.jpg",
+  "url": "https://www.themoviedb.org/movie/10285"
+ },
+ "l.a. confidential|1997": {
+  "title": "L.A. Confidential",
+  "year": 1997,
+  "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+  "runtime": 138,
+  "poster_path": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+  "backdrop_path": "/hUn13Hom8OWMYpR1ay0diwswwdP.jpg",
+  "url": "https://www.themoviedb.org/movie/2118"
+ },
+ "the eye opener 2026|2026": {
+  "miss": true,
+  "checked": "2026-11-05"
+ },
+ "the lady from shanghai|1947": {
+  "title": "The Lady from Shanghai",
+  "year": 1947,
+  "overview": "A romantic drifter gets caught between a corrupt tycoon and his voluptuous wife.",
+  "runtime": 87,
+  "poster_path": "/whqdqWavNMSoeXTx1X3DauO1LG6.jpg",
+  "backdrop_path": "/ehgX2eTBOgqB1Py3vSTKf3LXbEv.jpg",
+  "url": "https://www.themoviedb.org/movie/3766"
  }
 }
