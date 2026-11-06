@@ -12131,7 +12131,7 @@
  },
  "castration movie chapter iii. junior ghosts—premorphic drift; a fragmentary passage|2026": {
   "miss": true,
-  "checked": "2026-10-06"
+  "checked": "2026-11-06"
  },
  "a chronicle of amorous accidents|1986": {
   "miss": true,
@@ -14402,5 +14402,23 @@
  "the michigan theater community film club - holiday nostalgia|": {
   "miss": true,
   "checked": "2026-11-05"
+ },
+ "down by the riverside|2023": {
+  "title": "Down By The Riverside",
+  "year": 2023,
+  "overview": "“If there’s hope for the human race, there’s hope for the Hudson.” —Pete Seeger  In the summer of 1969, legendary folk singer Pete Seeger launched the Clearwater, a 19th-century-style sloop with a singing crew of musicians and activists. His intention was to raise awareness of pollution in the Hudson River and to petition legislation that addressed the then-burgeoning climate crisis. Over 50 years later, the Clearwater remains an interactive environmental classroom—or, in its builder’s words, “a carnival, museum, and showboat all wrapped into one.” Featuring rare interviews with Seeger himself, Down by the Riverside is a beautiful, stirring tribute to the communities of people who continue to restore and preserve this elegant symbol of the Hudson Valley. As a local story of local heroism, this documentary is an inspiring reminder of all that can be accomplished when ordinary people work on behalf of their history and environment. —Ben Rendich",
+  "runtime": 85,
+  "poster_path": "/rZ2f64sQi0AAZtGnECzF7TL7jte.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/1184797"
+ },
+ "reds|1981": {
+  "title": "Reds",
+  "year": 1981,
+  "overview": "An account of the revolutionary years of the legendary American journalist John Reed, who shared his adventurous professional life with his radical commitment to the socialist revolution in Russia, his dream of spreading its principles among the members of the American working class, and his troubled romantic relationship with the writer Louise Bryant.",
+  "runtime": 195,
+  "poster_path": "/AeiKdVVM93fwfQG1m3N0cgVZgHl.jpg",
+  "backdrop_path": "/cDdB8JBflT4vBYlftoopSdTf4Wz.jpg",
+  "url": "https://www.themoviedb.org/movie/18254"
  }
 }
