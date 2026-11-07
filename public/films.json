@@ -14447,5 +14447,23 @@
   "poster_path": "/vhdLrQ3P2JxlxsTREUsr2nbtnjS.jpg",
   "backdrop_path": "/rnn6sGMGPpM8VfVmCMFxsjKvz7q.jpg",
   "url": "https://www.themoviedb.org/movie/9279"
+ },
+ "i play rocky|2026": {
+  "title": "I Play Rocky",
+  "year": 2026,
+  "overview": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
+  "runtime": 128,
+  "poster_path": "/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+  "backdrop_path": "/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+  "url": "https://www.themoviedb.org/movie/1286656"
+ },
+ "the hunchback of notre dame (1939)|1939": {
+  "title": "The Hunchback of Notre Dame",
+  "year": 1939,
+  "overview": "Paris, France, 1482. Frollo, Chief Justice of benevolent King Louis XI, gets infatuated by the beauty of Esmeralda, a young Romani girl. The hunchback Quasimodo, Frollo's protege and bell-ringer of Notre Dame, lives in peace among the bells in the heights of the immense cathedral until he is involved by the twisted magistrate in his malicious plans to free himself from Esmeralda's alleged spell, which he believes to be the devil's work.",
+  "runtime": 117,
+  "poster_path": "/m6fsyHeqSQs4tktk9q3awgo7IzF.jpg",
+  "backdrop_path": "/mt1RJGw7LvAoIGflIqYG87u84Xq.jpg",
+  "url": "https://www.themoviedb.org/movie/31685"
  }
 }
