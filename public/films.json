@@ -14465,5 +14465,41 @@
   "poster_path": "/m6fsyHeqSQs4tktk9q3awgo7IzF.jpg",
   "backdrop_path": "/mt1RJGw7LvAoIGflIqYG87u84Xq.jpg",
   "url": "https://www.themoviedb.org/movie/31685"
+ },
+ "dragon inn|1967": {
+  "title": "Dragon Inn",
+  "year": 1967,
+  "overview": "China, year 1457. The Minister of Defense is executed, and his children are sentenced to exile by order of the tyrannical Tsao. Fearful of future revenge from the young people, Tsao sends cruel soldiers to murder them, but a brave group of swordsmen can change the course of the battle at the Dragon Inn.",
+  "runtime": 111,
+  "poster_path": "/x1EVgOjZ4gfnRTFSZIsr1UoAx0W.jpg",
+  "backdrop_path": "/crnXlbyWywNnLLZXJ7vRjyTHspl.jpg",
+  "url": "https://www.themoviedb.org/movie/104237"
+ },
+ "national theatre live: hamlet|2025": {
+  "title": "National Theatre Live: Hamlet",
+  "year": 2026,
+  "overview": "Something is rotten in the state of Denmark. Are you watching closely? Trapped between duty and doubt, surrounded by power and privilege, young Prince Hamlet dares to ask the ultimate question—you know the one. Olivier Award-winner Hiran Abeysekera (Life of Pi) is Hamlet in this fearless, contemporary take on Shakespeare's famous tragedy. National Theatre Deputy Artistic Director, Robert Hastie (Standing at the Sky's Edge, Operation Mincemeat) directs this sharp, stylish and darkly funny reimagining.",
+  "runtime": 160,
+  "poster_path": "/dBjvFG5F4CZlu6fbUkD0qV0hxPj.jpg",
+  "backdrop_path": "/eid7AFjPqVcqsUEkKuOzMsTjwQ5.jpg",
+  "url": "https://www.themoviedb.org/movie/1507580"
+ },
+ "the last unicorn|1982": {
+  "title": "The Last Unicorn",
+  "year": 1982,
+  "overview": "A unicorn learns from a riddle-speaking butterfly that she is supposedly the last of her kind, all the others having been herded away by the monstrous Red Bull. The unicorn sets out to discover the truth behind the butterfly's words. She is eventually joined on her quest by Schmendrick, a second-rate magician, and Molly Grue, a middle-aged woman who dreamed all her life of seeing a unicorn. Their journey leads them far from home, all the way to the castle of King Haggard.",
+  "runtime": 93,
+  "poster_path": "/MRHFtXTjxC74MGCzHACcuqvHiw.jpg",
+  "backdrop_path": "/fwxOQkzYtRVKs3kzcyukdbsyIuh.jpg",
+  "url": "https://www.themoviedb.org/movie/10150"
+ },
+ "wmse presents friday night freak show: all the president's men|1976": {
+  "title": "All the President's Men",
+  "year": 1976,
+  "overview": "During the 1972 elections, two reporters' investigation sheds light on the controversial Watergate scandal that compels President Nixon to resign from his post.",
+  "runtime": 138,
+  "poster_path": "/pCe6lfLxt1B58zPD4lgQrlnDS2j.jpg",
+  "backdrop_path": "/p2U4wScUValTXnvikXy7kfQNDsH.jpg",
+  "url": "https://www.themoviedb.org/movie/891"
  }
 }
