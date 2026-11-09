@@ -14505,5 +14505,14 @@
  "the desk set|1957": {
   "miss": true,
   "checked": "2026-11-09"
+ },
+ "to kill a mockingbird|1962": {
+  "title": "To Kill a Mockingbird",
+  "year": 1962,
+  "overview": "Scout Finch, 6, and her older brother Jem live in sleepy Maycomb, Alabama, spending much of their time with their friend Dill and spying on their reclusive and mysterious neighbor, Boo Radley. When Atticus, their widowed father and a respected lawyer, defends a black man named Tom Robinson against fabricated rape charges, the trial and tangent events expose the children to evils of racism and stereotyping.",
+  "runtime": 129,
+  "poster_path": "/gZycFUMLx2110dzK3nBNai7gfpM.jpg",
+  "backdrop_path": "/wYRpVySPCC7wA28p54yAaoMT478.jpg",
+  "url": "https://www.themoviedb.org/movie/595"
  }
 }
