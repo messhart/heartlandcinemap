@@ -14514,5 +14514,27 @@
   "poster_path": "/gZycFUMLx2110dzK3nBNai7gfpM.jpg",
   "backdrop_path": "/wYRpVySPCC7wA28p54yAaoMT478.jpg",
   "url": "https://www.themoviedb.org/movie/595"
+ },
+ "fast|2026": {
+  "title": "Fast",
+  "year": 2026,
+  "overview": "For Sterling, a sort of present-day Alice, the graveyard Lotus she redeems becomes a totem, a saturated phenomenon permitting her to move freely in time on a phantom road. It is a sort of Ford but never a DeLorean. A Southern woman with a fair deal of historical baggage and deep secrets, Sterling journeys back to her rural home, the Lotus takes her through the shadow of the valley into the adjoining worlds of the living and the dead. Desiring to become an F1 driver, Sterling must go fast/hard, against/through all tunnels imagined or concrete.",
+  "runtime": 96,
+  "poster_path": "/9GA7gpSrT1tqZ9KvE9GvqM8EGQG.jpg",
+  "backdrop_path": "/xx95hF58mStvtFfTBmkOnTF7tzo.jpg",
+  "url": "https://www.themoviedb.org/movie/1694936"
+ },
+ "hundreds of beavers - a northwoods christmas|2024": {
+  "title": "Hundreds of Beavers",
+  "year": 2024,
+  "overview": "In the 19th century, a drunken applejack salesman must go from zero to hero and become North America's greatest fur trapper by defeating hundreds of beavers.",
+  "runtime": 108,
+  "poster_path": "/jBg64OA2QEWL0zaOFMoAGipeGjJ.jpg",
+  "backdrop_path": "/krN2V7leYVBp6dOLzP11sM44eNb.jpg",
+  "url": "https://www.themoviedb.org/movie/1019939"
+ },
+ "the short films of yuri norstein|": {
+  "miss": true,
+  "checked": "2026-11-09"
  }
 }
