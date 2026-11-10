@@ -14536,5 +14536,32 @@
  "the short films of yuri norstein|": {
   "miss": true,
   "checked": "2026-11-09"
+ },
+ "drinking and driving|2026": {
+  "title": "Drinking and Driving",
+  "year": 2026,
+  "overview": "Early twenties Iris and Palmer never left their hometown. They work at the same restaurant, share the same bed, and both have a habit of drinking and driving. They run into Levi, a guy they used to know. They spend time with him and his cousin, Phoenix, in cars, backyards, and other people’s bedrooms. When Levi shares a dream he had with Iris things change between the four of them. The reality of the summer becomes faded, the parties die. The four end in a field of unified confusion.",
+  "runtime": 105,
+  "poster_path": "/yHsuEK8MdSRO1MMbJvllYgI8idI.jpg",
+  "backdrop_path": "/8RpHcEaNlDVKYpQUkLGQYJncfto.jpg",
+  "url": "https://www.themoviedb.org/movie/1423316"
+ },
+ "the magic faraway tree|": {
+  "title": "The Magic Faraway Tree",
+  "year": 2026,
+  "overview": "A modern family relocates to the countryside where the children discover a magical tree with eccentric residents. They're transported to fantastical lands, rekindling their family bond through adventures.",
+  "runtime": 110,
+  "poster_path": "/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+  "backdrop_path": "/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
+  "url": "https://www.themoviedb.org/movie/1140521"
+ },
+ "the only living pickpocket in new york|": {
+  "title": "The Only Living Pickpocket in New York",
+  "year": 2026,
+  "overview": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry struggles to make ends meet as he cares for his disabled wife, Rosie. When he unwittingly purloins and fences a valuable USB stick, Harry finds himself in a race against time to return the loot or face the rage of a vengeful crime family.",
+  "runtime": 88,
+  "poster_path": "/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
+  "backdrop_path": "/oahXjJ0UxnkJthITntGMrXVXQsJ.jpg",
+  "url": "https://www.themoviedb.org/movie/1458099"
  }
 }
