@@ -11486,7 +11486,7 @@
  },
  "fatherland|": {
   "miss": true,
-  "checked": "2026-10-01"
+  "checked": "2026-11-11"
  },
  "faust with live score by ten thousand lakes|1926": {
   "miss": true,
@@ -14563,5 +14563,61 @@
   "poster_path": "/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
   "backdrop_path": "/oahXjJ0UxnkJthITntGMrXVXQsJ.jpg",
   "url": "https://www.themoviedb.org/movie/1458099"
+ },
+ "bernstein's wall|2021": {
+  "miss": true,
+  "checked": "2026-11-11"
+ },
+ "bijou open screen fall 2026|2026": {
+  "miss": true,
+  "checked": "2026-11-11"
+ },
+ "bound for glory|": {
+  "miss": true,
+  "checked": "2026-11-11"
+ },
+ "club kid|": {
+  "title": "Club Kid",
+  "year": 2026,
+  "overview": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+  "runtime": 122,
+  "poster_path": "/o1qMU0ZB5XDX8IXJFFu3AkhOqjh.jpg",
+  "backdrop_path": "/AjrgF2JZb8WAeIFTvUjJK6VA2CG.jpg",
+  "url": "https://www.themoviedb.org/movie/1585239"
+ },
+ "fright club live: possessor uncut|2020": {
+  "miss": true,
+  "checked": "2026-11-11"
+ },
+ "hundreds of beavers|2023": {
+  "title": "Hundreds of Beavers",
+  "year": 2024,
+  "overview": "In the 19th century, a drunken applejack salesman must go from zero to hero and become North America's greatest fur trapper by defeating hundreds of beavers.",
+  "runtime": 108,
+  "poster_path": "/jBg64OA2QEWL0zaOFMoAGipeGjJ.jpg",
+  "backdrop_path": "/krN2V7leYVBp6dOLzP11sM44eNb.jpg",
+  "url": "https://www.themoviedb.org/movie/1019939"
+ },
+ "i play rocky|": {
+  "title": "I Play Rocky",
+  "year": 2026,
+  "overview": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
+  "runtime": 128,
+  "poster_path": "/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+  "backdrop_path": "/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+  "url": "https://www.themoviedb.org/movie/1286656"
+ },
+ "paper tiger|": {
+  "miss": true,
+  "checked": "2026-11-11"
+ },
+ "space cadet|2026": {
+  "title": "Space Cadet",
+  "year": 2026,
+  "overview": "A young astronaut and her guardian robot explore grief, loss and love across generations.",
+  "runtime": 86,
+  "poster_path": "/eTxfcOXIZs8mSaL7dqdmpnVmB5l.jpg",
+  "backdrop_path": "/xprL040VY3rZYxuanOpJB0gNVx1.jpg",
+  "url": "https://www.themoviedb.org/movie/1404169"
  }
 }
