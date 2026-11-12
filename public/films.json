@@ -14650,5 +14650,31 @@
   "poster_path": "/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
   "backdrop_path": "/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
   "url": "https://www.themoviedb.org/movie/5255"
+ },
+ "gun crazy|1950": {
+  "title": "Gun Crazy",
+  "year": 1950,
+  "overview": "Bart Tare, an ex-Army man who has a lifelong fixation with guns, meets a kindred spirit in sharpshooter Annie Starr and goes to work at a carnival alongside her. After upsetting the carnival owner who lusts after Starr, they both get fired. Soon, at Starr's behest, the couple embarks on a crime spree for cash.",
+  "runtime": 87,
+  "poster_path": "/kC1IIitCJTZLwZyuQnKw4zaOaXc.jpg",
+  "backdrop_path": "/eR9S6iMbk4ycV7DcqvVxFp8lNFV.jpg",
+  "url": "https://www.themoviedb.org/movie/18671"
+ },
+ "prince 3121 las vegas live|": {
+  "miss": true,
+  "checked": "2026-11-12"
+ },
+ "rare exports: a christmas tale|2010": {
+  "title": "Rare Exports: A Christmas Tale",
+  "year": 2010,
+  "overview": "Young Pietari lives with his reindeer-herding father in arctic Finland. On the eve of Christmas, a nearby excavation makes a frightening discovery and an evil Santa Claus is unleashed…",
+  "runtime": 83,
+  "poster_path": "/jzaweEESl54ejxo3EE5uNL8lgTn.jpg",
+  "backdrop_path": "/igFwEFRiEr0CzkQUNTcGYLxTpOi.jpg",
+  "url": "https://www.themoviedb.org/movie/48395"
+ },
+ "the trylon holiday special|": {
+  "miss": true,
+  "checked": "2026-11-12"
  }
 }
