@@ -14676,5 +14676,23 @@
  "the trylon holiday special|": {
   "miss": true,
   "checked": "2026-11-12"
+ },
+ "nuisance bear|2026": {
+  "title": "Nuisance Bear",
+  "year": 2026,
+  "overview": "A polar bear is forced to navigate a human world of tourists, wildlife officers, and hunters as its ancient migration collides with modern life. When a sacred predator is branded a nuisance, it becomes unclear who truly belongs in this shared landscape.",
+  "runtime": 89,
+  "poster_path": "/An1QdmHWNxX2V03kq3akOCid69r.jpg",
+  "backdrop_path": "/hqDiQteXWMoyezEmbPy0nRYdUST.jpg",
+  "url": "https://www.themoviedb.org/movie/1595210"
+ },
+ "one, two, three (35mm)|1961": {
+  "title": "One, Two, Three",
+  "year": 1961,
+  "overview": "In Cold War-era West Berlin, American Coca-Cola executive C.R. 'Mac' MacNamara is tasked with playing babysitter to his boss' spoiled 17-year-old daughter Scarlett, who proves more difficult than anticipated when she reveals that she is pregnant by a Communist.",
+  "runtime": 109,
+  "poster_path": "/yWQE227ub1frfnjP5HZy0wLF0wu.jpg",
+  "backdrop_path": "/4safDVSZx7a4I1TQoSyz6E1agzM.jpg",
+  "url": "https://www.themoviedb.org/movie/430"
  }
 }
