@@ -14717,5 +14717,23 @@
   "poster_path": "/pRagfd10PPWryFRSzLPIivfAXHJ.jpg",
   "backdrop_path": "/dXlO2Ri2RvVYWRtBsr6GsIVkleX.jpg",
   "url": "https://www.themoviedb.org/movie/9040"
+ },
+ "birds of war|2026": {
+  "title": "Birds of War",
+  "year": 2026,
+  "overview": "The love story of a London-based Lebanese journalist and a Syrian activist and cameraman as told through 13 years of personal archives across revolutions, war, and exile.",
+  "runtime": 85,
+  "poster_path": "/c7GFI0u7Fu8s3vbW0RZRDiWFm2n.jpg",
+  "backdrop_path": "/rFZeRKEsifIbQFb7fS24fRCrfdw.jpg",
+  "url": "https://www.themoviedb.org/movie/1596322"
+ },
+ "winter light|1963": {
+  "title": "Winter Light",
+  "year": 1963,
+  "overview": "A Swedish pastor fails a loving woman, a suicidal fisherman and God.",
+  "runtime": 80,
+  "poster_path": "/hyHVYbvrDQottG45HBd3Z02oCDt.jpg",
+  "backdrop_path": "/tis6nrWakUsuG6Jwdm4yESfTU0o.jpg",
+  "url": "https://www.themoviedb.org/movie/29455"
  }
 }
