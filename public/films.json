@@ -12646,8 +12646,13 @@
   "url": "https://www.themoviedb.org/movie/284"
  },
  "wildwood|": {
-  "miss": true,
-  "checked": "2026-10-13"
+  "title": "Wildwood",
+  "year": 2026,
+  "overview": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
+  "runtime": 132,
+  "poster_path": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+  "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+  "url": "https://www.themoviedb.org/movie/791523"
  },
  "cameron winter at carnegie hall (35mm)|2026": {
   "title": "Cameron Winter at Carnegie Hall",
@@ -14694,5 +14699,23 @@
   "poster_path": "/yWQE227ub1frfnjP5HZy0wLF0wu.jpg",
   "backdrop_path": "/4safDVSZx7a4I1TQoSyz6E1agzM.jpg",
   "url": "https://www.themoviedb.org/movie/430"
+ },
+ "elsinore|2026": {
+  "title": "Elsinore",
+  "year": 2026,
+  "overview": "The deeply emotional and inspirational true story of Ian Charleson, a gifted actor whose greatest challenge becomes his greatest triumph. Facing his own mortality with unflinching honesty, wit, and grace, Charleson delivers a courageous performance that becomes a source of healing and inspiration for those around him.",
+  "runtime": 111,
+  "poster_path": "/kohUtEueIVyDXC30MaOdi36aAwn.jpg",
+  "backdrop_path": "/AlUUcnCiPbZUcAKoiS7GyXN7y6Z.jpg",
+  "url": "https://www.themoviedb.org/movie/1599230"
+ },
+ "serpico|1973": {
+  "title": "Serpico",
+  "year": 1973,
+  "overview": "New York cop Frank Serpico blows the whistle on the rampant corruption in the force only to have his comrades turn against him.",
+  "runtime": 129,
+  "poster_path": "/pRagfd10PPWryFRSzLPIivfAXHJ.jpg",
+  "backdrop_path": "/dXlO2Ri2RvVYWRtBsr6GsIVkleX.jpg",
+  "url": "https://www.themoviedb.org/movie/9040"
  }
 }
