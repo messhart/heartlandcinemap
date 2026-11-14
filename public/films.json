@@ -14735,5 +14735,32 @@
   "poster_path": "/hyHVYbvrDQottG45HBd3Z02oCDt.jpg",
   "backdrop_path": "/tis6nrWakUsuG6Jwdm4yESfTU0o.jpg",
   "url": "https://www.themoviedb.org/movie/29455"
+ },
+ "maniac (1980)|1980": {
+  "title": "Maniac",
+  "year": 1980,
+  "overview": "A psychotic man, troubled by his childhood abuse, kills and mutilates young women and local models on the streets of New York City.",
+  "runtime": 88,
+  "poster_path": "/cW67gScjmRn3uyFvldNcShBxJuC.jpg",
+  "backdrop_path": "/f1csUYDRIdlqV8P77qsTAqNJQDh.jpg",
+  "url": "https://www.themoviedb.org/movie/27346"
+ },
+ "maniac (2012)|2012": {
+  "title": "Maniac",
+  "year": 2012,
+  "overview": "As he helps a young artist with her upcoming exhibition, the owner of a mannequin shop's deadly, suppressed desires come to the surface.",
+  "runtime": 89,
+  "poster_path": "/nbDkRvhmbYnHDXkoq0sF0PLeo8j.jpg",
+  "backdrop_path": "/6x9MC5ELoeJl7Wzl32ZlfsaDViK.jpg",
+  "url": "https://www.themoviedb.org/movie/103620"
+ },
+ "the long kiss goodnight|1996": {
+  "title": "The Long Kiss Goodnight",
+  "year": 1996,
+  "overview": "Samantha Caine is a small-town schoolteacher and mom with no memory of her life before washing up on a beach eight years ago. After a car accident and a violent home invasion trigger flashes of her past, she discovers she used to be a deadly CIA assassin. Teaming up with a wisecracking private investigator, Samantha must return to her old ways to take down the people who tried to erase her.",
+  "runtime": 121,
+  "poster_path": "/yREdXX5lMFUKhTvb0ofI7mzUHlR.jpg",
+  "backdrop_path": "/s4s38yygyyeVacxQimu0jbuPjYk.jpg",
+  "url": "https://www.themoviedb.org/movie/11412"
  }
 }
