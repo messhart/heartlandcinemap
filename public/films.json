@@ -14793,5 +14793,90 @@
  "the met: live in hd: samson et dalila (saint-saëns)|": {
   "miss": true,
   "checked": "2026-11-15"
+ },
+ "a christmas story|1983": {
+  "title": "A Christmas Story",
+  "year": 1983,
+  "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+  "runtime": 93,
+  "poster_path": "/34nSHYqmb7222tiqiuKqKJmZiQa.jpg",
+  "backdrop_path": "/feCcRTZNGUop3LnWBLTToYhd03S.jpg",
+  "url": "https://www.themoviedb.org/movie/850"
+ },
+ "carol|2015": {
+  "title": "Carol",
+  "year": 2015,
+  "overview": "In 1950s New York, a department-store clerk who dreams of a better life falls for an older, married woman.",
+  "runtime": 118,
+  "poster_path": "/cJeled7EyPdur6TnCA5GYg0UVna.jpg",
+  "backdrop_path": "/2giW19Qb8Lmyd5XCyVU2avABvhZ.jpg",
+  "url": "https://www.themoviedb.org/movie/258480"
+ },
+ "elf|2003": {
+  "title": "Elf",
+  "year": 2003,
+  "overview": "When young Buddy falls into Santa's gift sack on Christmas Eve, he's transported back to the North Pole and raised as a toy-making elf by Santa's helpers. But as he grows into adulthood, he can't shake the nagging feeling that he doesn't belong. Buddy vows to visit Manhattan and find his real dad, a workaholic.",
+  "runtime": 97,
+  "poster_path": "/oOleziEempUPu96jkGs0Pj6tKxj.jpg",
+  "backdrop_path": "/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
+  "url": "https://www.themoviedb.org/movie/10719"
+ },
+ "gremlins|1984": {
+  "title": "Gremlins",
+  "year": 1984,
+  "overview": "After receiving an exotic small animal as a Christmas gift, a young man inadvertently breaks three important rules concerning his new pet, which unleashes a horde of malevolently mischievous creatures on a small town.",
+  "runtime": 106,
+  "poster_path": "/6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg",
+  "backdrop_path": "/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
+  "url": "https://www.themoviedb.org/movie/927"
+ },
+ "home alone|1990": {
+  "title": "Home Alone",
+  "year": 1990,
+  "overview": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. When thieves try to break into his home, he puts up a fight like no other.",
+  "runtime": 103,
+  "poster_path": "/onTSipZ8R3bliBdKfPtsDuHTdlL.jpg",
+  "backdrop_path": "/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+  "url": "https://www.themoviedb.org/movie/771"
+ },
+ "it’s a wonderful life 80th anniversary!|1946": {
+  "miss": true,
+  "checked": "2026-11-15"
+ },
+ "krampus|2015": {
+  "title": "Krampus",
+  "year": 2015,
+  "overview": "When his dysfunctional family clashes over the holidays, young Max is disillusioned and turns his back on Christmas.  Little does he know, this lack of festive spirit has unleashed the wrath of Krampus: a demonic force of ancient evil intent on punishing non-believers.",
+  "runtime": 98,
+  "poster_path": "/sAolMRD9rFSTU7tssfFuLEJJa7w.jpg",
+  "backdrop_path": "/h3X1YZXNeklLNKRVOS6DHGRosog.jpg",
+  "url": "https://www.themoviedb.org/movie/287903"
+ },
+ "la bola negra (35mm)|2026": {
+  "title": "La Bola Negra",
+  "year": 2026,
+  "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+  "runtime": 159,
+  "poster_path": "/7HwFQTMghL6HOvzEnXYUvyuZXeh.jpg",
+  "backdrop_path": "/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+  "url": "https://www.themoviedb.org/movie/1422041"
+ },
+ "national lampoon's christmas vacation|1989": {
+  "title": "National Lampoon's Christmas Vacation",
+  "year": 1989,
+  "overview": "It's Christmastime, and the Griswolds are preparing for a family seasonal celebration. But things never run smoothly for Clark, his wife Ellen, and their two kids. Clark's continual bad luck is worsened by his obnoxious family guests, but he manages to keep going, knowing that his Christmas bonus is due soon.",
+  "runtime": 97,
+  "poster_path": "/oat42hUw8XzKYUmfy0YLAxYd484.jpg",
+  "backdrop_path": "/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+  "url": "https://www.themoviedb.org/movie/5825"
+ },
+ "we're no angels|1955": {
+  "title": "We're No Angels",
+  "year": 1955,
+  "overview": "Three convicts escape from prison on Devil's Island just before Christmas and arrive at a nearby French colonial town. They go to the store of the Ducotels, the only store that gives supplies on credit. They initially intend to take advantage of them but have a change of heart after they find the family is in financial troubles.",
+  "runtime": 106,
+  "poster_path": "/UsrZkcoj95K8ZVf7FMnTiZ5P4C.jpg",
+  "backdrop_path": "/jAvAhgVnCo45vc6IQPsp803Oaks.jpg",
+  "url": "https://www.themoviedb.org/movie/5996"
  }
 }
