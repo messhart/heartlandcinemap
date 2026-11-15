@@ -14762,5 +14762,36 @@
   "poster_path": "/yREdXX5lMFUKhTvb0ofI7mzUHlR.jpg",
   "backdrop_path": "/s4s38yygyyeVacxQimu0jbuPjYk.jpg",
   "url": "https://www.themoviedb.org/movie/11412"
+ },
+ "best in show|2000": {
+  "title": "Best in Show",
+  "year": 2000,
+  "overview": "The tension is palpable, the excitement is mounting and the heady scent of competition is in the air as hundreds of eager contestants from across America prepare to take part in what is undoubtedly one of the greatest events of their lives -- the Mayflower Dog Show. The canine contestants and their owners are as wondrously diverse as the great country that has bred them.",
+  "runtime": 91,
+  "poster_path": "/qkYBCMN26SxkQww4gLxUXQm5vr4.jpg",
+  "backdrop_path": "/itVxHnmzMJbfHhX3rbzCuyI9mfB.jpg",
+  "url": "https://www.themoviedb.org/movie/13785"
+ },
+ "rumble: the indians who rocked the world|2017": {
+  "title": "Rumble: The Indians Who Rocked the World",
+  "year": 2017,
+  "overview": "Documentary about the role of Native Americans in popular music history, a little-known story built around the incredible lives and careers of the some of the greatest music legends.",
+  "runtime": 103,
+  "poster_path": "/2MxFkNdVzTQPI7GyFtu5vrlzffT.jpg",
+  "backdrop_path": "/8SeEu9mEIRdEsw0e26IE90ydbYy.jpg",
+  "url": "https://www.themoviedb.org/movie/433091"
+ },
+ "the fate of lee khan|1973": {
+  "title": "The Fate of Lee Khan",
+  "year": 1973,
+  "overview": "Lee Khan, a high official under Mongolian Emperor Yuan of the Yuan dynasty procures the battle map of the Chinese rebel Chu Yuan-Chang's army. Rebel spies, aided by treachery within Khan's ranks, strive to corner him in an inn.",
+  "runtime": 105,
+  "poster_path": "/pmkWFtV607TFE106d1GNp8qlPBn.jpg",
+  "backdrop_path": "/lXdaiDWO5Qj7SscDR1zEt00oJij.jpg",
+  "url": "https://www.themoviedb.org/movie/192871"
+ },
+ "the met: live in hd: samson et dalila (saint-saëns)|": {
+  "miss": true,
+  "checked": "2026-11-15"
  }
 }
