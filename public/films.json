@@ -14878,5 +14878,23 @@
   "poster_path": "/UsrZkcoj95K8ZVf7FMnTiZ5P4C.jpg",
   "backdrop_path": "/jAvAhgVnCo45vc6IQPsp803Oaks.jpg",
   "url": "https://www.themoviedb.org/movie/5996"
+ },
+ "ikiru|1952": {
+  "title": "Ikiru",
+  "year": 1952,
+  "overview": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
+  "runtime": 143,
+  "poster_path": "/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg",
+  "backdrop_path": "/fS4xXq5lVwu1V95qB4murKZgPFo.jpg",
+  "url": "https://www.themoviedb.org/movie/3782"
+ },
+ "kiss me deadly|1955": {
+  "title": "Kiss Me Deadly",
+  "year": 1955,
+  "overview": "One evening, Hammer gives a ride to Christina, an attractive hitchhiker on a lonely country road, who has escaped from the nearby lunatic asylum. Thugs waylay them and force his car to crash. When Hammer returns to semi-consciousness, he hears Christina being tortured until she dies. Hammer, both for vengeance and in hopes that \"something big\" is behind it all, decides to pursue the case.",
+  "runtime": 106,
+  "poster_path": "/z7me91nrpWLHY1mZOB2v20cK0zY.jpg",
+  "backdrop_path": "/znL0K0hPJndT7IAddNWBfAEYSRC.jpg",
+  "url": "https://www.themoviedb.org/movie/18030"
  }
 }
