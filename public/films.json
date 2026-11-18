@@ -15013,5 +15013,31 @@
   "poster_path": "/z1mU4g9poAgoDQRNLcfNdj3iiMs.jpg",
   "backdrop_path": "/nFt2ZMXzo9WiNCZ8cfGxaeBVEII.jpg",
   "url": "https://www.themoviedb.org/movie/21539"
+ },
+ "elf sing and cheer along|2003": {
+  "miss": true,
+  "checked": "2026-11-18"
+ },
+ "how the grinch stole christmas|2000": {
+  "title": "How the Grinch Stole Christmas",
+  "year": 2000,
+  "overview": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
+  "runtime": 105,
+  "poster_path": "/1WZbbPApEivA421gCOluuzMMKCk.jpg",
+  "backdrop_path": "/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+  "url": "https://www.themoviedb.org/movie/8871"
+ },
+ "king of hearts (nifty fifty)|1966": {
+  "miss": true,
+  "checked": "2026-11-18"
+ },
+ "no impact man|2009": {
+  "title": "No Impact Man",
+  "year": 2009,
+  "overview": "Follow the Manhattan-based Beavan family as they abandon their high consumption 5th Avenue lifestyle and try to live a year while making no net environmental impact.",
+  "runtime": 93,
+  "poster_path": "/dYnXmhbViEOsZlMED0UvHhdJws.jpg",
+  "backdrop_path": null,
+  "url": "https://www.themoviedb.org/movie/30873"
  }
 }
