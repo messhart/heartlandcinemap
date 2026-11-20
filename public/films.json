@@ -15286,5 +15286,36 @@
   "poster_path": "/wljuL5ocaeMoycYsWrQYZDhYhpG.jpg",
   "backdrop_path": null,
   "url": "https://www.themoviedb.org/movie/1776667"
+ },
+ "holy motors|2012": {
+  "title": "Holy Motors",
+  "year": 2012,
+  "overview": "We follow 24 hours in the life of a being moving from life to life like a cold and solitary assassin moving from hit to hit. In each of these interwoven lives, the being possesses an entirely distinct identity: sometimes a man, sometimes a woman, sometimes youthful, sometimes old. By turns murderer, beggar, company chairman, monstrous creature, worker, family man.",
+  "runtime": 115,
+  "poster_path": "/4ZuTrrDQhCS9f6KzIX6HfsjjyMd.jpg",
+  "backdrop_path": "/dCuwNZp2DLOWr8qV0GDBHINhVZM.jpg",
+  "url": "https://www.themoviedb.org/movie/103328"
+ },
+ "mike's murder|1984": {
+  "title": "Mike's Murder",
+  "year": 1984,
+  "overview": "Betty has a crush on her tennis instructor Mike. He promises to call her for a date, but never does – she doesn’t know he sells drugs on the side. After botching a deal on someone else’s turf, Mike has to disappear for a while. He contacts Betty – then he’s killed before they can meet. Betty tries to find out what happened, leading her straight into a hornet's nest of vice.",
+  "runtime": 109,
+  "poster_path": "/cOL77kZUxKqYmvc17WRAAm4Nk7q.jpg",
+  "backdrop_path": "/alwWizIBV1t2hm8hPVaJZcQhc4M.jpg",
+  "url": "https://www.themoviedb.org/movie/31043"
+ },
+ "nirvanna the band the show the movie… the commentary track!|2026": {
+  "miss": true,
+  "checked": "2026-11-20"
+ },
+ "slap shot|1977": {
+  "title": "Slap Shot",
+  "year": 1977,
+  "overview": "To build up attendance at their games, the management of a struggling minor-league hockey team signs up the Hanson Brothers, three hard-charging players whose job is to demolish the opposition.",
+  "runtime": 123,
+  "poster_path": "/k5dvEA7ajd90mf3KrF6m6LnYXOv.jpg",
+  "backdrop_path": "/kAMgr9znXqu07SQjdbT1vwUeqYD.jpg",
+  "url": "https://www.themoviedb.org/movie/11590"
  }
 }
