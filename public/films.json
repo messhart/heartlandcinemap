@@ -13374,7 +13374,7 @@
  },
  "joe bob’s indoor drive-in geek out: cult of the rock star night|": {
   "miss": true,
-  "checked": "2026-10-24"
+  "checked": "2026-11-24"
  },
  "avengers: doomsday|": {
   "title": "Avengers: Doomsday",
@@ -15455,5 +15455,59 @@
   "poster_path": "/msGYzyWwtjAaA3DScdgmvJ5MReG.jpg",
   "backdrop_path": "/gkXL5ka6ciU4A4KYSvLIAXtvh7k.jpg",
   "url": "https://www.themoviedb.org/movie/10242"
+ },
+ "blood feast|1963": {
+  "title": "Blood Feast",
+  "year": 1963,
+  "overview": "In the sleepy suburbs of Miami, seemingly normal Egyptian immigrant Fuad Ramses runs a successful catering business. He also murders young women and plans to use their body parts to revive the goddess Ishtar. The insane Ramses hypnotizes a socialite in order to land a job catering a party for her debutante daughter, Suzette Fremont, and turns the event into an evening of gruesome deaths, bloody dismemberment and ritual sacrifice.",
+  "runtime": 67,
+  "poster_path": "/u6mWxgOrNAF3AaevaGEE4NqCwcQ.jpg",
+  "backdrop_path": "/v4FFIrHYG9mHdm40PEF1hezirga.jpg",
+  "url": "https://www.themoviedb.org/movie/28172"
+ },
+ "harlan county, u.s.a.|1976": {
+  "title": "Harlan County U.S.A.",
+  "year": 1976,
+  "overview": "A heartbreaking record of the thirteen-month struggle between a community fighting to survive and a corporation dedicated to the bottom line.",
+  "runtime": 104,
+  "poster_path": "/jTf1G715ZxjQvfuGkapHjP9SUZu.jpg",
+  "backdrop_path": "/pVspyFNl8uE8jAoY3C973XkjTgB.jpg",
+  "url": "https://www.themoviedb.org/movie/33324"
+ },
+ "holiday classics 2026: christmas in connecticut|1945": {
+  "title": "Christmas in Connecticut",
+  "year": 1945,
+  "overview": "While recovering in a hospital, war hero Jefferson Jones grows familiar with the \"Diary of a Housewife\" column written by Elizabeth Lane. Jeff's nurse arranges with Elizabeth's publisher, Alexander Yardley, for Jeff to spend the holiday at Elizabeth's bucolic Connecticut farm with her husband and child. But the column is a sham, so Elizabeth and her editor, Dudley Beecham, in fear of losing their jobs, hasten to set up the single, childless and entirely  nondomestic Elizabeth on a country farm.",
+  "runtime": 102,
+  "poster_path": "/oH1hM9wOZZflPZ5smKqWXvLXcyX.jpg",
+  "backdrop_path": "/2TBfuHBQtPjWf3DxJ4Lj8S6xbDJ.jpg",
+  "url": "https://www.themoviedb.org/movie/13669"
+ },
+ "josephine|2026": {
+  "title": "Josephine",
+  "year": 2026,
+  "overview": "After eight-year-old Josephine accidentally witnesses a brutal assault, she begins acting out violently to protect herself. This emotional trauma leads to conflicts between her parents as they search for justice and a way to feel safe again.",
+  "runtime": 120,
+  "poster_path": "/6pUSCeInGp4Ut3rqgPNWUrmKBUi.jpg",
+  "backdrop_path": "/mFC8CT6L6PaoPc3s8WpvALPNLRD.jpg",
+  "url": "https://www.themoviedb.org/movie/1299329"
+ },
+ "the day she returns|2026": {
+  "title": "The Day She Returns",
+  "year": 2026,
+  "overview": "​Having stepped back from acting after marriage and a subsequent divorce, actress Bae Jeongsu returns to the profession with a role in an independent film. As the film’s release approaches, she takes part in a series of press interviews, only to discover later, when asked to revisit those moments in her acting class, that she cannot clearly recall what was said.",
+  "runtime": 85,
+  "poster_path": "/jd0yZjGapIykrzkXVUkB3kAMYvI.jpg",
+  "backdrop_path": "/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg",
+  "url": "https://www.themoviedb.org/movie/1498915"
+ },
+ "werwulf|2026": {
+  "title": "Werwulf",
+  "year": 2026,
+  "overview": "A harrowing tale of devotion, damnation and the devil within.",
+  "runtime": 120,
+  "poster_path": "/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
+  "backdrop_path": "/jmW9NkzbpI9vhyxJU2x644Nj7VU.jpg",
+  "url": "https://www.themoviedb.org/movie/1421903"
  }
 }
