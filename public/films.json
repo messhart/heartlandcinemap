@@ -15754,5 +15754,18 @@
  "hairspray with short north stage|1988": {
   "miss": true,
   "checked": "2026-11-25"
+ },
+ "harvey|1950": {
+  "title": "Harvey",
+  "year": 1950,
+  "overview": "The story of Elwood P. Dowd who makes friends with a spirit taking the form of a human-sized rabbit named Harvey that only he sees (and a few privileged others on occasion also.) After his sister tries to commit him to a mental institution, a comedy of errors ensues. Elwood and Harvey become the catalysts for a family mending its wounds and for romance blossoming in unexpected places.",
+  "runtime": 104,
+  "poster_path": "/dgd82hYmpiXDM1G867HqNaWe8wj.jpg",
+  "backdrop_path": "/Ah7uiN6ws2QcBZhLdDfkiSJIX35.jpg",
+  "url": "https://www.themoviedb.org/movie/11787"
+ },
+ "the day of the beast & the occupant of the room|1995": {
+  "miss": true,
+  "checked": "2026-11-26"
  }
 }
