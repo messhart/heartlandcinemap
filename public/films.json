@@ -13454,7 +13454,7 @@
  },
  "'the lodger' - live score with the great necks guitar trio and cellist michael shein|1926": {
   "miss": true,
-  "checked": "2026-10-27"
+  "checked": "2026-11-27"
  },
  "breeder|2026": {
   "title": "Breeder",
@@ -15767,5 +15767,14 @@
  "the day of the beast & the occupant of the room|1995": {
   "miss": true,
   "checked": "2026-11-26"
+ },
+ "dune: part three|": {
+  "title": "Dune: Part Three",
+  "year": 2026,
+  "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+  "runtime": 150,
+  "poster_path": "/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+  "backdrop_path": "/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
+  "url": "https://www.themoviedb.org/movie/1170608"
  }
 }
